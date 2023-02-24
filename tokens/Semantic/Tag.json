@@ -1,0 +1,30 @@
+{
+  "semantic": {
+    "Tag": {
+      "UI": {
+        "BgColor": {
+          "value": "{colors.Ui.Success}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{colors.Ui.White}",
+          "type": "color"
+        }
+      },
+      "Typography": {
+        "value": {
+          "fontFamily": "{fontFamilies.Roboto}",
+          "fontWeight": "{fontWeights.Bold}",
+          "fontSize": "{fontSize.10}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}"
+        },
+        "type": "typography"
+      },
+      "BorderRadius": {
+        "value": "{borderRadius.24}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

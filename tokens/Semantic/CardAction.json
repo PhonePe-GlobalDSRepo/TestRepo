@@ -1,0 +1,28 @@
+{
+  "semantic": {
+    "CardAction": {
+      "BorderWidth": {
+        "value": "{borderWidth.1}",
+        "type": "borderWidth"
+      },
+      "UI": {
+        "BorderColor": {
+          "value": "{colors.Ui.Purple}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{colors.Ui.Purple}",
+          "type": "color"
+        },
+        "DiscountTextColor": {
+          "value": "{colors.Ui.Success}",
+          "type": "color"
+        },
+        "OriginalAmountTextColor": {
+          "value": "{colors.Ui.GraniteGrey}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

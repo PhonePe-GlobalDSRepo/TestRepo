@@ -1,0 +1,16 @@
+{
+  "tokenSetOrder": [
+    "Core",
+    "Semantic/Avatar",
+    "Semantic/AnchorLink",
+    "Semantic/Button",
+    "Semantic/Card",
+    "Semantic/Label",
+    "Semantic/Tag",
+    "Semantic/CardAction",
+    "Semantic/Icon",
+    "Token Set/Lego/Light",
+    "Token Set/ONDC/Light",
+    "Token Set/APE/Light"
+  ]
+}

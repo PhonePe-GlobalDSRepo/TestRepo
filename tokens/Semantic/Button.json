@@ -1,0 +1,20 @@
+{
+  "semantic": {
+    "Button": {
+      "UI": {
+        "BgColor": {
+          "value": "{colors.Ui.Purple}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{colors.Ui.White}",
+          "type": "color"
+        }
+      },
+      "BorderRadius": {
+        "value": "{borderRadius.24}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

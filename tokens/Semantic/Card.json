@@ -1,0 +1,14 @@
+{
+  "semantic": {
+    "Card": {
+      "Ui": {
+        "value": "{colors.Ui.White}",
+        "type": "color"
+      },
+      "BorderRadius": {
+        "value": "{borderRadius.12}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

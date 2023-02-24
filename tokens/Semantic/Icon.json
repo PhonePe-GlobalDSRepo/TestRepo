@@ -1,0 +1,14 @@
+{
+  "semantic": {
+    "Icon": {
+      "Ui": {
+        "value": "{colors.Ui.SpanishGray}",
+        "type": "color"
+      },
+      "Size": {
+        "value": "{size.24}",
+        "type": "sizing"
+      }
+    }
+  }
+}

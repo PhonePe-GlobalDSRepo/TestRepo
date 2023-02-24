@@ -1,0 +1,20 @@
+{
+  "semantic": {
+    "Label": {
+      "Ui": {
+        "value": "{colors.Ui.GraniteGrey}",
+        "type": "color"
+      },
+      "Typography": {
+        "value": {
+          "fontFamily": "{fontFamilies.Roboto}",
+          "fontWeight": "{fontWeights.Regular}",
+          "lineHeight": "{lineHeights.12}",
+          "fontSize": "{fontSize.12}",
+          "letterSpacing": "{letterSpacing.0}"
+        },
+        "type": "typography"
+      }
+    }
+  }
+}
