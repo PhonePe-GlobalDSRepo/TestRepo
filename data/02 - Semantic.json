@@ -1,0 +1,10 @@
+{
+  "semantic": {
+    "Color": {
+      "Primary": {
+        "value": "{color.Purple.500}",
+        "type": "color"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "semantic": {
+    "Button": {
+      "CTA": {
+        "Bg": {
+          "value": "{color.Purple.900}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{color.Purple.100}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

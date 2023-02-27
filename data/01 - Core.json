@@ -1,0 +1,42 @@
+{
+  "color": {
+    "Purple": {
+      "100": {
+        "value": "#dfd3ec",
+        "type": "color"
+      },
+      "200": {
+        "value": "#bfa8d9",
+        "type": "color"
+      },
+      "300": {
+        "value": "#9f7cc5",
+        "type": "color"
+      },
+      "400": {
+        "value": "#7f51b2",
+        "type": "color"
+      },
+      "500": {
+        "value": "#5f259f",
+        "type": "color"
+      },
+      "600": {
+        "value": "#4c1e7f",
+        "type": "color"
+      },
+      "700": {
+        "value": "#39165f",
+        "type": "color"
+      },
+      "800": {
+        "value": "#260f40",
+        "type": "color"
+      },
+      "900": {
+        "value": "#130720",
+        "type": "color"
+      }
+    }
+  }
+}
