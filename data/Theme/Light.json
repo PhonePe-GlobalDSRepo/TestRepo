@@ -1,6 +1,24 @@
 {
-  "button": {
-    "CTA": {
+  "semantic": {
+    "Button": {
+      "CTA": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.BackgroundColor.Brand}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.TextColor.Lite}",
+          "type": "color"
+        }
+      },
+      "AnchorLink": {
+        "TextColor": {
+          "value": "{semantic.Color.TextColor.Brand}",
+          "type": "color"
+        }
+      }
+    },
+    "TitleBar": {
       "BackgroundColor": {
         "value": "{semantic.Color.BackgroundColor.Brand}",
         "type": "color"
@@ -8,99 +26,83 @@
       "TextColor": {
         "value": "{semantic.Color.TextColor.Lite}",
         "type": "color"
-      }
-    },
-    "AnchorLink": {
-      "TextColor": {
-        "value": "{semantic.Color.TextColor.Brand}",
+      },
+      "IconColor": {
+        "value": "{semantic.Color.IconColor.Lite}",
         "type": "color"
       }
-    }
-  },
-  "titleBar": {
-    "BackgroundColor": {
-      "value": "{semantic.Color.BackgroundColor.Brand}",
-      "type": "color"
     },
-    "TextColor": {
-      "value": "{semantic.Color.TextColor.Lite}",
-      "type": "color"
+    "StatusBar": {
+      "BackgroundColor": {
+        "value": "{semantic.Color.BackgroundColor.Brand}",
+        "type": "color"
+      },
+      "TextColor": {
+        "value": "{semantic.Color.TextColor.Lite}",
+        "type": "color"
+      },
+      "IconColor": {
+        "value": "{semantic.Color.IconColor.Lite}",
+        "type": "color"
+      }
     },
-    "IconColor": {
-      "value": "{semantic.Color.IconColor.Lite}",
-      "type": "color"
-    }
-  },
-  "statusBar": {
-    "BackgroundColor": {
-      "value": "{semantic.Color.BackgroundColor.Brand}",
-      "type": "color"
+    "Tag": {
+      "BackgroundColor": {
+        "value": "{semantic.Color.BackgroundColor.Tag}",
+        "type": "color"
+      },
+      "TextColor": {
+        "value": "{semantic.Color.TextColor.Lite}",
+        "type": "color"
+      }
     },
-    "TextColor": {
-      "value": "{semantic.Color.TextColor.Lite}",
-      "type": "color"
+    "Icons": {
+      "Primary": {
+        "value": "{semantic.Color.IconColor.Primary}",
+        "type": "color"
+      },
+      "Lite": {
+        "value": "{semantic.Color.IconColor.Lite}",
+        "type": "color"
+      }
     },
-    "IconColor": {
-      "value": "{semantic.Color.IconColor.Lite}",
-      "type": "color"
-    }
-  },
-  "tag": {
-    "BackgroundColor": {
-      "value": "{semantic.Color.BackgroundColor.Tag}",
-      "type": "color"
+    "Separator": {
+      "Color": {
+        "value": "{semantic.Color.SeparatorColor.Light}",
+        "type": "color"
+      }
     },
-    "TextColor": {
-      "value": "{semantic.Color.TextColor.Lite}",
-      "type": "color"
-    }
-  },
-  "icons": {
-    "Primary": {
-      "value": "{semantic.Color.IconColor.Primary}",
-      "type": "color"
+    "Card": {
+      "BackgroundColor": {
+        "value": "{semantic.Color.BackgroundColor.Card}",
+        "type": "color"
+      }
     },
-    "Lite": {
-      "value": "{semantic.Color.IconColor.Lite}",
-      "type": "color"
-    }
-  },
-  "separator": {
-    "Color": {
-      "value": "{semantic.Color.SeparatorColor.Light}",
-      "type": "color"
-    }
-  },
-  "card": {
-    "BackgroundColor": {
-      "value": "{semantic.Color.BackgroundColor.Card}",
-      "type": "color"
-    }
-  },
-  "background": {
-    "AppBackgroundColor": {
-      "value": "{semantic.Color.BackgroundColor.AppBackground}",
-      "type": "color"
-    }
-  },
-  "text": {
-    "Primary": {
-      "value": "{semantic.Color.TextColor.Primary}",
-      "type": "color"
+    "Background": {
+      "AppBackgroundColor": {
+        "value": "{semantic.Color.BackgroundColor.AppBackground}",
+        "type": "color"
+      }
     },
-    "Secondary": {
-      "value": "{semantic.Color.TextColor.Secondary}",
-      "type": "color"
+    "Text": {
+      "Primary": {
+        "value": "{semantic.Color.TextColor.Primary}",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "{semantic.Color.TextColor.Secondary}",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "{semantic.Color.TextColor.Tertiary}",
+        "type": "color"
+      }
     },
-    "Tertiary": {
-      "value": "{semantic.Color.TextColor.Tertiary}",
-      "type": "color"
-    }
-  },
-  "offerCallout": {
-    "BackgroundColor": {
-      "value": "{semantic.Color.BackgroundColor.OfferCallout}",
-      "type": "color"
+    "OfferCallout": {
+      "BackgroundColor": {
+        "value": "{semantic.Color.BackgroundColor.OfferCallout}",
+        "type": "color"
+      }
     }
   }
 }

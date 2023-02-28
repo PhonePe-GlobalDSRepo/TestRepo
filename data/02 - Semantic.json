@@ -167,46 +167,46 @@
           "type": "typography"
         }
       }
-    }
-  },
-  "size": {
-    "Icon": {
-      "Large": {
-        "value": "{size.24}",
-        "type": "sizing"
+    },
+    "Size": {
+      "Icon": {
+        "Large": {
+          "value": "{size.24}",
+          "type": "sizing"
+        },
+        "Small": {
+          "value": "{size.16}",
+          "type": "sizing"
+        }
       },
-      "Small": {
-        "value": "{size.16}",
-        "type": "sizing"
+      "Avatar": {
+        "Large": {
+          "value": "{size.40}",
+          "type": "sizing"
+        },
+        "Small": {
+          "value": "{size.24}",
+          "type": "sizing"
+        }
       }
     },
-    "Avatar": {
-      "Large": {
-        "value": "{size.40}",
-        "type": "sizing"
-      },
+    "Spacing": {
       "Small": {
-        "value": "{size.24}",
-        "type": "sizing"
+        "value": "{spacing.2}",
+        "type": "spacing"
+      },
+      "Medium": {
+        "value": "{spacing.4}",
+        "type": "spacing"
+      },
+      "Large": {
+        "value": "{spacing.8}",
+        "type": "spacing"
+      },
+      "ExtraLarge": {
+        "value": "{spacing.16}",
+        "type": "spacing"
       }
-    }
-  },
-  "spacing": {
-    "Small": {
-      "value": "{spacing.2}",
-      "type": "spacing"
-    },
-    "Medium": {
-      "value": "{spacing.4}",
-      "type": "spacing"
-    },
-    "Large": {
-      "value": "{spacing.8}",
-      "type": "spacing"
-    },
-    "ExtraLarge": {
-      "value": "{spacing.16}",
-      "type": "spacing"
     }
   }
 }
