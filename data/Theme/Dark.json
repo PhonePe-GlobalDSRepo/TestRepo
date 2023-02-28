@@ -2,7 +2,7 @@
   "button": {
     "CTA": {
       "BackgroundColor": {
-        "value": "{semantic.Color.BackgroundColor.Brand}",
+        "value": "{semantic.Color.BackgroundColor.BrandLite}",
         "type": "color"
       },
       "TextColor": {
@@ -12,14 +12,14 @@
     },
     "AnchorLink": {
       "TextColor": {
-        "value": "{semantic.Color.TextColor.Brand}",
+        "value": "{semantic.Color.TextColor.BrandLite}",
         "type": "color"
       }
     }
   },
   "titleBar": {
     "BackgroundColor": {
-      "value": "{semantic.Color.BackgroundColor.Brand}",
+      "value": "{semantic.Color.BackgroundColor.BrandDark}",
       "type": "color"
     },
     "TextColor": {
@@ -33,7 +33,7 @@
   },
   "statusBar": {
     "BackgroundColor": {
-      "value": "{semantic.Color.BackgroundColor.Brand}",
+      "value": "{semantic.Color.BackgroundColor.BrandDark}",
       "type": "color"
     },
     "TextColor": {

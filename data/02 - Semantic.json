@@ -21,6 +21,10 @@
         "Lite": {
           "value": "{color.Neutral.White}",
           "type": "color"
+        },
+        "BrandLite": {
+          "value": "{color.LightPurple.500}",
+          "type": "color"
         }
       },
       "IconColor": {
@@ -52,6 +56,14 @@
         },
         "Brand": {
           "value": "{color.Purple.500}",
+          "type": "color"
+        },
+        "BrandLite": {
+          "value": "{color.LightPurple.500}",
+          "type": "color"
+        },
+        "BrandDark": {
+          "value": "{color.Purple.700}",
           "type": "color"
         }
       }
