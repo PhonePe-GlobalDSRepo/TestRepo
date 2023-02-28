@@ -70,6 +70,16 @@
           "value": "{color.Purple.700}",
           "type": "color"
         }
+      },
+      "SeparatorColor": {
+        "Light": {
+          "value": "{color.Grey.300}",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "{color.LightPurple.100}",
+          "type": "color"
+        }
       }
     },
     "BorderRadius": {

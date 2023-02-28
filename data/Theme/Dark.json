@@ -64,5 +64,11 @@
       "value": "{semantic.Color.IconColor.Lite}",
       "type": "color"
     }
+  },
+  "separator": {
+    "Color": {
+      "value": "{semantic.Color.SeparatorColor.Dark}",
+      "type": "color"
+    }
   }
 }
