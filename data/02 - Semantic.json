@@ -35,6 +35,10 @@
         "Lite": {
           "value": "{color.Neutral.White}",
           "type": "color"
+        },
+        "PrimaryDark": {
+          "value": "{color.LightPurple.100}",
+          "type": "color"
         }
       },
       "BackgroundColor": {

@@ -57,7 +57,7 @@
   },
   "icons": {
     "Primary": {
-      "value": "{semantic.Color.IconColor.Primary}",
+      "value": "{semantic.Color.IconColor.PrimaryDark}",
       "type": "color"
     },
     "Lite": {
