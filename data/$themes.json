@@ -5,7 +5,8 @@
     "selectedTokenSets": {
       "01 - Core": "source",
       "02 - Semantic": "source",
-      "Theme/Light": "enabled"
+      "Theme/Light": "enabled",
+      "Theme/Dark": "disabled"
     },
     "$figmaStyleReferences": {}
   },

@@ -1,16 +1,58 @@
 {
-  "semantic": {
-    "Button": {
-      "CTA": {
-        "Bg": {
-          "value": "{color.Purple.900}",
-          "type": "color"
-        },
-        "TextColor": {
-          "value": "{color.Purple.100}",
-          "type": "color"
-        }
+  "button": {
+    "CTA": {
+      "BackgroundColor": {
+        "value": "{semantic.Color.BackgroundColor.Brand}",
+        "type": "color"
+      },
+      "TextColor": {
+        "value": "{semantic.Color.TextColor.Lite}",
+        "type": "color"
       }
+    },
+    "AnchorLink": {
+      "TextColor": {
+        "value": "{semantic.Color.TextColor.Brand}",
+        "type": "color"
+      }
+    }
+  },
+  "titleBar": {
+    "BackgroundColor": {
+      "value": "{semantic.Color.BackgroundColor.Brand}",
+      "type": "color"
+    },
+    "TextColor": {
+      "value": "{semantic.Color.TextColor.Lite}",
+      "type": "color"
+    },
+    "IconColor": {
+      "value": "{semantic.Color.IconColor.Lite}",
+      "type": "color"
+    }
+  },
+  "statusBar": {
+    "BackgroundColor": {
+      "value": "{semantic.Color.BackgroundColor.Brand}",
+      "type": "color"
+    },
+    "TextColor": {
+      "value": "{semantic.Color.TextColor.Lite}",
+      "type": "color"
+    },
+    "IconColor": {
+      "value": "{semantic.Color.IconColor.Lite}",
+      "type": "color"
+    }
+  },
+  "tag": {
+    "BackgroundColor": {
+      "value": "{semantic.Color.BackgroundColor.Tag}",
+      "type": "color"
+    },
+    "TextColor": {
+      "value": "{semantic.Color.TextColor.Lite}",
+      "type": "color"
     }
   }
 }

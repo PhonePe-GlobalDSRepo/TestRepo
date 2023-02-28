@@ -1,57 +1,129 @@
 {
-  "color": {
-    "TextColor": {
-      "Brand": {
-        "value": "{color.Purple.500}",
-        "type": "color"
+  "semantic": {
+    "Color": {
+      "TextColor": {
+        "Brand": {
+          "value": "{color.Purple.500}",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "{color.Neutral.Black}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{color.Grey.200}",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "{color.Grey.100}",
+          "type": "color"
+        },
+        "Lite": {
+          "value": "{color.Neutral.White}",
+          "type": "color"
+        }
       },
-      "Primary": {
-        "value": "{color.Neutral.Black}",
-        "type": "color"
+      "IconColor": {
+        "Primary": {
+          "value": "{color.Grey.300}",
+          "type": "color"
+        },
+        "Lite": {
+          "value": "{color.Neutral.White}",
+          "type": "color"
+        }
       },
-      "Secondary": {
-        "value": "{color.Grey.200}",
-        "type": "color"
-      },
-      "Tertiary": {
-        "value": "{color.Grey.100}",
-        "type": "color"
-      },
-      "Lite": {
-        "value": "{color.Neutral.White}",
-        "type": "color"
+      "BackgroundColor": {
+        "Card": {
+          "value": "{semantic.Color.IconColor.Lite}",
+          "type": "color"
+        },
+        "AppBackground": {
+          "value": "{color.Purple.100}",
+          "type": "color"
+        },
+        "Tag": {
+          "value": "{color.Green.500}",
+          "type": "color"
+        },
+        "OfferCallout": {
+          "value": "{color.Green.100}",
+          "type": "color"
+        },
+        "Brand": {
+          "value": "{color.Purple.500}",
+          "type": "color"
+        }
       }
     },
-    "IconColor": {
-      "Primary": {
-        "value": "{color.Grey.300}",
-        "type": "color"
+    "BorderRadius": {
+      "Small": {
+        "value": "{borderRadius.8}",
+        "type": "borderRadius"
       },
-      "Lite": {
-        "value": "{color.Neutral.White}",
-        "type": "color"
+      "Medium": {
+        "value": "{borderRadius.12}",
+        "type": "borderRadius"
       }
     },
-    "BackgroundColor": {
-      "Card": {
-        "value": "{color.IconColor.Lite}",
-        "type": "color"
+    "Typography": {
+      "Heading": {
+        "H1": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Bold}",
+            "lineHeight": "{lineHeight.150}",
+            "fontSize": "{fontSize.24}"
+          },
+          "type": "typography"
+        },
+        "H2": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Bold}",
+            "lineHeight": "{lineHeight.150}",
+            "fontSize": "{fontSize.20}"
+          },
+          "type": "typography"
+        },
+        "H3": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Bold}",
+            "lineHeight": "{lineHeight.150}",
+            "fontSize": "{fontSize.16}"
+          },
+          "type": "typography"
+        }
       },
-      "AppBackground": {
-        "value": "{color.Purple.100}",
-        "type": "color"
-      },
-      "Tag": {
-        "value": "{color.Green.500}",
-        "type": "color"
-      },
-      "OfferCallout": {
-        "value": "{color.Green.100}",
-        "type": "color"
-      },
-      "Brand": {
-        "value": "{color.Purple.500}",
-        "type": "color"
+      "Paragraph": {
+        "P1": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Regular}",
+            "lineHeight": "{lineHeight.125}",
+            "fontSize": "{fontSize.14}"
+          },
+          "type": "typography"
+        },
+        "P2": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Regular}",
+            "lineHeight": "{lineHeight.125}",
+            "fontSize": "{fontSize.12}"
+          },
+          "type": "typography"
+        },
+        "P3": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Regular}",
+            "lineHeight": "{lineHeight.125}",
+            "fontSize": "{fontSize.10}"
+          },
+          "type": "typography"
+        }
       }
     }
   },
@@ -93,76 +165,6 @@
     "ExtraLarge": {
       "value": "{spacing.16}",
       "type": "spacing"
-    }
-  },
-  "borderRadius": {
-    "Small": {
-      "value": "{borderRadius.8}",
-      "type": "borderRadius"
-    },
-    "Medium": {
-      "value": "{borderRadius.12}",
-      "type": "borderRadius"
-    }
-  },
-  "typography": {
-    "Heading": {
-      "H1": {
-        "value": {
-          "fontFamily": "{fontFamily.Roboto}",
-          "fontWeight": "{fontWeight.Bold}",
-          "lineHeight": "{lineHeight.150}",
-          "fontSize": "{fontSize.24}"
-        },
-        "type": "typography"
-      },
-      "H2": {
-        "value": {
-          "fontFamily": "{fontFamily.Roboto}",
-          "fontWeight": "{fontWeight.Bold}",
-          "lineHeight": "{lineHeight.150}",
-          "fontSize": "{fontSize.20}"
-        },
-        "type": "typography"
-      },
-      "H3": {
-        "value": {
-          "fontFamily": "{fontFamily.Roboto}",
-          "fontWeight": "{fontWeight.Bold}",
-          "lineHeight": "{lineHeight.150}",
-          "fontSize": "{fontSize.16}"
-        },
-        "type": "typography"
-      }
-    },
-    "Paragraph": {
-      "P1": {
-        "value": {
-          "fontFamily": "{fontFamily.Roboto}",
-          "fontWeight": "{fontWeight.Regular}",
-          "lineHeight": "{lineHeight.125}",
-          "fontSize": "{fontSize.14}"
-        },
-        "type": "typography"
-      },
-      "P2": {
-        "value": {
-          "fontFamily": "{fontFamily.Roboto}",
-          "fontWeight": "{fontWeight.Regular}",
-          "lineHeight": "{lineHeight.125}",
-          "fontSize": "{fontSize.12}"
-        },
-        "type": "typography"
-      },
-      "P3": {
-        "value": {
-          "fontFamily": "{fontFamily.Roboto}",
-          "fontWeight": "{fontWeight.Regular}",
-          "lineHeight": "{lineHeight.125}",
-          "fontSize": "{fontSize.10}"
-        },
-        "type": "typography"
-      }
     }
   }
 }
