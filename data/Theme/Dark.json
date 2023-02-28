@@ -70,5 +70,17 @@
       "value": "{semantic.Color.SeparatorColor.Dark}",
       "type": "color"
     }
+  },
+  "card": {
+    "BackgroundColor": {
+      "value": "{semantic.Color.BackgroundColor.CardDark}",
+      "type": "color"
+    }
+  },
+  "background": {
+    "AppBackgroundColor": {
+      "value": "{semantic.Color.BackgroundColor.AppBackgroundDark}",
+      "type": "color"
+    }
   }
 }

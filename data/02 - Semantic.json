@@ -46,8 +46,16 @@
           "value": "{semantic.Color.IconColor.Lite}",
           "type": "color"
         },
+        "CardDark": {
+          "value": "{color.LightPurple.800}",
+          "type": "color"
+        },
         "AppBackground": {
           "value": "{color.Purple.100}",
+          "type": "color"
+        },
+        "AppBackgroundDark": {
+          "value": "{color.Purple.900}",
           "type": "color"
         },
         "Tag": {
