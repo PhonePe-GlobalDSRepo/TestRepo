@@ -1,9 +1,159 @@
 {
-  "semantic": {
-    "Color": {
-      "Primary": {
+  "color": {
+    "TextColor": {
+      "Brand": {
         "value": "{color.Purple.500}",
         "type": "color"
+      },
+      "Primary": {
+        "value": "{color.Neutral.Black}",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "{color.Grey.200}",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "{color.Grey.100}",
+        "type": "color"
+      },
+      "Lite": {
+        "value": "{color.Neutral.White}",
+        "type": "color"
+      }
+    },
+    "IconColor": {
+      "Primary": {
+        "value": "{color.Grey.300}",
+        "type": "color"
+      },
+      "Lite": {
+        "value": "{color.Neutral.White}",
+        "type": "color"
+      }
+    },
+    "BackgroundColor": {
+      "Card": {
+        "value": "{color.IconColor.Lite}",
+        "type": "color"
+      },
+      "AppBackground": {
+        "value": "{color.Purple.100}",
+        "type": "color"
+      },
+      "Tag": {
+        "value": "{color.Green.500}",
+        "type": "color"
+      },
+      "OfferCallout": {
+        "value": "{color.Green.100}",
+        "type": "color"
+      },
+      "Brand": {
+        "value": "{color.Purple.500}",
+        "type": "color"
+      }
+    }
+  },
+  "size": {
+    "Large": {
+      "value": "{size.40}",
+      "type": "sizing"
+    },
+    "Medium": {
+      "value": "{size.24}",
+      "type": "sizing"
+    },
+    "Small": {
+      "value": "{size.16}",
+      "type": "sizing"
+    }
+  },
+  "spacing": {
+    "Small": {
+      "value": "{spacing.2}",
+      "type": "spacing"
+    },
+    "Medium": {
+      "value": "{spacing.4}",
+      "type": "spacing"
+    },
+    "Large": {
+      "value": "{spacing.8}",
+      "type": "spacing"
+    },
+    "ExtraLarge": {
+      "value": "{spacing.16}",
+      "type": "spacing"
+    }
+  },
+  "borderRadius": {
+    "Small": {
+      "value": "{borderRadius.8}",
+      "type": "borderRadius"
+    },
+    "Medium": {
+      "value": "{borderRadius.12}",
+      "type": "borderRadius"
+    }
+  },
+  "typography": {
+    "Title": {
+      "H1": {
+        "value": {
+          "fontFamily": "{fontFamily.Roboto}",
+          "fontWeight": "{fontWeight.Bold}",
+          "lineHeight": "{lineHeight.150}",
+          "fontSize": "{fontSize.24}"
+        },
+        "type": "typography"
+      },
+      "H2": {
+        "value": {
+          "fontFamily": "{fontFamily.Roboto}",
+          "fontWeight": "{fontWeight.Bold}",
+          "lineHeight": "{lineHeight.150}",
+          "fontSize": "{fontSize.20}"
+        },
+        "type": "typography"
+      },
+      "H3": {
+        "value": {
+          "fontFamily": "{fontFamily.Roboto}",
+          "fontWeight": "{fontWeight.Bold}",
+          "lineHeight": "{lineHeight.150}",
+          "fontSize": "{fontSize.16}"
+        },
+        "type": "typography"
+      }
+    },
+    "Paragraph": {
+      "P1": {
+        "value": {
+          "fontFamily": "{fontFamily.Roboto}",
+          "fontWeight": "{fontWeight.Regular}",
+          "lineHeight": "{lineHeight.125}",
+          "fontSize": "{fontSize.14}"
+        },
+        "type": "typography"
+      },
+      "P2": {
+        "value": {
+          "fontFamily": "{fontFamily.Roboto}",
+          "fontWeight": "{fontWeight.Regular}",
+          "lineHeight": "{lineHeight.125}",
+          "fontSize": "{fontSize.12}"
+        },
+        "type": "typography"
+      },
+      "P3": {
+        "value": {
+          "fontFamily": "{fontFamily.Roboto}",
+          "fontWeight": "{fontWeight.Regular}",
+          "lineHeight": "{lineHeight.125}",
+          "fontSize": "{fontSize.10}"
+        },
+        "type": "typography"
       }
     }
   }
