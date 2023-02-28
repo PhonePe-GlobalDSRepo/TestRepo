@@ -25,6 +25,10 @@
         "BrandLite": {
           "value": "{color.LightPurple.500}",
           "type": "color"
+        },
+        "SecondaryDark": {
+          "value": "{color.LightPurple.200}",
+          "type": "color"
         }
       },
       "IconColor": {

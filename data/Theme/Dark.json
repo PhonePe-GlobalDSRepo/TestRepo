@@ -82,5 +82,19 @@
       "value": "{semantic.Color.BackgroundColor.AppBackgroundDark}",
       "type": "color"
     }
+  },
+  "text": {
+    "Primary": {
+      "value": "{semantic.Color.TextColor.Lite}",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "{semantic.Color.TextColor.SecondaryDark}",
+      "type": "color"
+    },
+    "Tertiary": {
+      "value": "{semantic.Color.TextColor.SecondaryDark}",
+      "type": "color"
+    }
   }
 }
