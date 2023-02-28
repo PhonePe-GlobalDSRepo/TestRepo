@@ -81,7 +81,7 @@
       },
       "SeparatorColor": {
         "Light": {
-          "value": "{color.Grey.300}",
+          "value": "{color.Grey.100}",
           "type": "color"
         },
         "Dark": {
