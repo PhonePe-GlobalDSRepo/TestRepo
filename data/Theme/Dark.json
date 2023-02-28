@@ -96,5 +96,11 @@
       "value": "{semantic.Color.TextColor.SecondaryDark}",
       "type": "color"
     }
+  },
+  "offerCallout": {
+    "BackgroundColor": {
+      "value": "{semantic.Color.BackgroundColor.OfferCalloutDark}",
+      "type": "color"
+    }
   }
 }

@@ -96,5 +96,11 @@
       "value": "{semantic.Color.TextColor.Tertiary}",
       "type": "color"
     }
+  },
+  "offerCallout": {
+    "BackgroundColor": {
+      "value": "{semantic.Color.BackgroundColor.OfferCallout}",
+      "type": "color"
+    }
   }
 }

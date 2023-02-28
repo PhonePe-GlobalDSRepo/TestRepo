@@ -70,6 +70,10 @@
           "value": "{color.Green.100}",
           "type": "color"
         },
+        "OfferCalloutDark": {
+          "value": "{color.Green.800}",
+          "type": "color"
+        },
         "Brand": {
           "value": "{color.Purple.500}",
           "type": "color"
