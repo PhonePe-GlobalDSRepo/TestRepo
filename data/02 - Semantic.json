@@ -98,7 +98,7 @@
     }
   },
   "typography": {
-    "Title": {
+    "Heading": {
       "H1": {
         "value": {
           "fontFamily": "{fontFamily.Roboto}",
