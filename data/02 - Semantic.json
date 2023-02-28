@@ -56,17 +56,25 @@
     }
   },
   "size": {
-    "Large": {
-      "value": "{size.40}",
-      "type": "sizing"
+    "Icon": {
+      "Large": {
+        "value": "{size.24}",
+        "type": "sizing"
+      },
+      "Small": {
+        "value": "{size.16}",
+        "type": "sizing"
+      }
     },
-    "Medium": {
-      "value": "{size.24}",
-      "type": "sizing"
-    },
-    "Small": {
-      "value": "{size.16}",
-      "type": "sizing"
+    "Avatar": {
+      "Large": {
+        "value": "{size.40}",
+        "type": "sizing"
+      },
+      "Small": {
+        "value": "{size.24}",
+        "type": "sizing"
+      }
     }
   },
   "spacing": {
