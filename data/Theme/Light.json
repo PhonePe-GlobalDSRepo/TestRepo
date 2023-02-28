@@ -54,5 +54,15 @@
       "value": "{semantic.Color.TextColor.Lite}",
       "type": "color"
     }
+  },
+  "icons": {
+    "Primary": {
+      "value": "{semantic.Color.IconColor.Primary}",
+      "type": "color"
+    },
+    "Lite": {
+      "value": "{semantic.Color.IconColor.Lite}",
+      "type": "color"
+    }
   }
 }
