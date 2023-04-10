@@ -188,6 +188,20 @@
           "value": "{size.24}",
           "type": "sizing"
         }
+      },
+      "Tag": {
+        "ExtraSmall": {
+          "value": "{size.12}",
+          "type": "sizing"
+        },
+        "Small": {
+          "value": "{size.16}",
+          "type": "sizing"
+        },
+        "Large": {
+          "value": "{size.24}",
+          "type": "sizing"
+        }
       }
     },
     "Spacing": {
@@ -206,6 +220,54 @@
       "ExtraLarge": {
         "value": "{spacing.16}",
         "type": "spacing"
+      }
+    },
+    "UICard": {
+      "Default": {
+        "value": {
+          "borderRadius": "{semantic.BorderRadius.Medium}",
+          "verticalPadding": "{semantic.Spacing.ExtraLarge}",
+          "horizontalPadding": "{semantic.Spacing.ExtraLarge}",
+          "fill": "{semantic.Color.BackgroundColor.Card}"
+        },
+        "type": "composition"
+      },
+      "Tight": {
+        "value": {
+          "borderRadius": "{borderRadius.8}",
+          "verticalPadding": "{semantic.Spacing.Large}",
+          "horizontalPadding": "{semantic.Spacing.Large}",
+          "fill": "{semantic.Card.BackgroundColor}"
+        },
+        "type": "composition"
+      }
+    },
+    "Tag": {
+      "ExtraSmall": {
+        "value": {
+          "borderRadius": "{semantic.BorderRadius.Small}",
+          "height": "{semantic.Size.Tag.ExtraSmall}",
+          "horizontalPadding": "{semantic.Spacing.Large}"
+        },
+        "type": "composition"
+      },
+      "Small": {
+        "value": {
+          "borderRadius": "{semantic.BorderRadius.Small}",
+          "height": "{semantic.Size.Tag.Small}",
+          "horizontalPadding": "{semantic.Spacing.Large}",
+          "fontSizes": "{fontSize.10}"
+        },
+        "type": "composition"
+      },
+      "Large": {
+        "value": {
+          "borderRadius": "{semantic.BorderRadius.Medium}",
+          "height": "{semantic.Size.Tag.Large}",
+          "horizontalPadding": "{semantic.Spacing.Large}",
+          "fontSizes": "{fontSize.12}"
+        },
+        "type": "composition"
       }
     }
   }

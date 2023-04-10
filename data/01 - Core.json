@@ -140,6 +140,10 @@
     }
   },
   "size": {
+    "12": {
+      "value": "12",
+      "type": "sizing"
+    },
     "16": {
       "value": "16",
       "type": "sizing"
