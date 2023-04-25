@@ -1,0 +1,98 @@
+{
+  "semantic": {
+    "Button": {
+      "Primary": {
+        "Bg": {
+          "BorderRadius": {
+            "S": {
+              "value": "{base.BorderRadius.4}",
+              "type": "borderRadius"
+            },
+            "L": {
+              "value": "{base.BorderRadius.8}",
+              "type": "borderRadius"
+            }
+          },
+          "Color": {
+            "Active": {
+              "value": "{base.Color.Purple.500}",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "{base.Color.Grey.300}",
+              "type": "color"
+            }
+          }
+        },
+        "Text": {
+          "Color": {
+            "Active": {
+              "value": "{base.Color.White.500}",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "{base.Color.Grey.600}",
+              "type": "color"
+            }
+          }
+        },
+        "Icon": {
+          "Color": {
+            "Active": {
+              "value": "{base.Color.White.500}",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "{base.Color.Grey.600}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Secondary": {
+        "Bg": {
+          "Color": {
+            "Default": {
+              "value": "{base.Color.White.500}",
+              "type": "color"
+            }
+          },
+          "BorderRadius": {
+            "S": {
+              "value": "{base.BorderRadius.4}",
+              "type": "borderRadius"
+            },
+            "L": {
+              "value": "{base.BorderRadius.8}",
+              "type": "borderRadius"
+            }
+          }
+        },
+        "Text": {
+          "Color": {
+            "Active": {
+              "value": "{base.Color.Purple.500}",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "{base.Color.Grey.600}",
+              "type": "color"
+            }
+          }
+        },
+        "Icon": {
+          "Color": {
+            "Active": {
+              "value": "{base.Color.Purple.500}",
+              "type": "color"
+            },
+            "Diabled": {
+              "value": "{base.Color.Grey.600}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}
