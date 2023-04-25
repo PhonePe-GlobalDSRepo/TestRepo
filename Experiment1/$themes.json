@@ -3,8 +3,7 @@
     "id": "3f20e8066d6c92806c35ec5f81cdf7b7a0f93d00",
     "name": "Light",
     "selectedTokenSets": {
-      "01 - base": "source",
-      "02 - semantic": "disabled"
+      "01 - base": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -12,8 +11,7 @@
     "id": "c563aca316db0ab1c7630cea22a30b3b9a88e861",
     "name": "Dark",
     "selectedTokenSets": {
-      "01 - base": "source",
-      "02 - semantic": "disabled"
+      "01 - base": "source"
     },
     "$figmaStyleReferences": {}
   }

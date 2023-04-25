@@ -397,6 +397,39 @@
         "value": "32",
         "type": "fontSizes"
       }
+    },
+    "BorderWidth": {
+      "1": {
+        "value": "1",
+        "type": "borderWidth"
+      },
+      "2": {
+        "value": "2",
+        "type": "borderWidth"
+      }
+    },
+    "FontWeight": {
+      "Regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "Bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      }
+    },
+    "Typography": {
+      "Title": {
+        "XS": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Bold}",
+            "lineHeight": "{base.LineHeight.125}",
+            "fontSize": "{base.FontSize.12}"
+          },
+          "type": "typography"
+        }
+      }
     }
   }
 }
