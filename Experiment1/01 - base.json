@@ -428,6 +428,15 @@
             "fontSize": "{base.FontSize.12}"
           },
           "type": "typography"
+        },
+        "XXS": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Bold}",
+            "lineHeight": "{base.LineHeight.125}",
+            "fontSize": "{base.FontSize.10}"
+          },
+          "type": "typography"
         }
       }
     }

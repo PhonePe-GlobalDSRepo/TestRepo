@@ -137,6 +137,52 @@
           }
         }
       }
+    },
+    "Tag": {
+      "Primary": {
+        "Bg": {
+          "Color": {
+            "01": {
+              "value": "{base.Color.Red.700}",
+              "type": "color"
+            }
+          }
+        },
+        "Text": {
+          "Color": {
+            "Default": {
+              "value": "{base.Color.White.500}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Secondary": {
+        "Bg": {
+          "Color": {
+            "01": {
+              "value": "{base.Color.Red.100}",
+              "type": "color"
+            }
+          }
+        },
+        "Text": {
+          "Color": {
+            "01": {
+              "value": "{base.Color.Red.800}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Bg": {
+        "BorderRadius": {
+          "Default": {
+            "value": "{base.BorderRadius.8}",
+            "type": "borderRadius"
+          }
+        }
+      }
     }
   }
 }
