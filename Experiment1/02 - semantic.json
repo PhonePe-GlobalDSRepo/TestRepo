@@ -177,7 +177,11 @@
       },
       "Bg": {
         "BorderRadius": {
-          "Default": {
+          "Small": {
+            "value": "{base.BorderRadius.4}",
+            "type": "borderRadius"
+          },
+          "Large": {
             "value": "{base.BorderRadius.8}",
             "type": "borderRadius"
           }
