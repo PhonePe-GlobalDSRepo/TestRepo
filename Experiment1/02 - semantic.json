@@ -113,6 +113,24 @@
           }
         }
       }
+    },
+    "ButtonV2": {
+      "Primary": {
+        "Color": {
+          "BgDefault": {
+            "value": "{base.Color.Purple.500}",
+            "type": "color"
+          },
+          "BgPressed": {
+            "value": "{base.Color.Purple.600}",
+            "type": "color"
+          },
+          "BgDisabled": {
+            "value": "{base.Color.Grey.200}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
