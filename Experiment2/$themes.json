@@ -4,7 +4,17 @@
     "name": "Light",
     "selectedTokenSets": {
       "semantic": "source",
-      "Themes": "enabled"
+      "Theme/Light": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "632077f06113d9bb99a261c9afe4e5959cc1824c",
+    "name": "Dark",
+    "selectedTokenSets": {
+      "Core": "source",
+      "semantic": "enabled",
+      "Theme/Light": "enabled"
     },
     "$figmaStyleReferences": {}
   }
