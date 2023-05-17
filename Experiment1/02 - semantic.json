@@ -13,16 +13,6 @@
               "type": "borderRadius"
             }
           },
-          "Color": {
-            "Active": {
-              "value": "{base.Color.Purple.500}",
-              "type": "color"
-            },
-            "Disabled": {
-              "value": "{base.Color.Grey.300}",
-              "type": "color"
-            }
-          },
           "Border": {
             "Active": {
               "value": {
@@ -41,40 +31,10 @@
               "type": "border"
             }
           }
-        },
-        "Text": {
-          "Color": {
-            "Active": {
-              "value": "{base.Color.White.500}",
-              "type": "color"
-            },
-            "Disabled": {
-              "value": "{base.Color.Grey.600}",
-              "type": "color"
-            }
-          }
-        },
-        "Icon": {
-          "Color": {
-            "Active": {
-              "value": "{base.Color.White.500}",
-              "type": "color"
-            },
-            "Disabled": {
-              "value": "{base.Color.Grey.600}",
-              "type": "color"
-            }
-          }
         }
       },
       "Secondary": {
         "Bg": {
-          "Color": {
-            "Default": {
-              "value": "{base.Color.White.500}",
-              "type": "color"
-            }
-          },
           "BorderRadius": {
             "S": {
               "value": "{base.BorderRadius.4}",
@@ -103,30 +63,6 @@
               "type": "border"
             }
           }
-        },
-        "Text": {
-          "Color": {
-            "Active": {
-              "value": "{base.Color.Purple.500}",
-              "type": "color"
-            },
-            "Disabled": {
-              "value": "{base.Color.Grey.600}",
-              "type": "color"
-            }
-          }
-        },
-        "Icon": {
-          "Color": {
-            "Active": {
-              "value": "{base.Color.Purple.500}",
-              "type": "color"
-            },
-            "Diabled": {
-              "value": "{base.Color.Grey.600}",
-              "type": "color"
-            }
-          }
         }
       },
       "Icon": {
@@ -139,42 +75,6 @@
       }
     },
     "Tag": {
-      "Primary": {
-        "Bg": {
-          "Color": {
-            "01": {
-              "value": "{base.Color.Red.700}",
-              "type": "color"
-            }
-          }
-        },
-        "Text": {
-          "Color": {
-            "Default": {
-              "value": "{base.Color.White.500}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "Secondary": {
-        "Bg": {
-          "Color": {
-            "01": {
-              "value": "{base.Color.Red.100}",
-              "type": "color"
-            }
-          }
-        },
-        "Text": {
-          "Color": {
-            "01": {
-              "value": "{base.Color.Red.800}",
-              "type": "color"
-            }
-          }
-        }
-      },
       "Bg": {
         "BorderRadius": {
           "Small": {
@@ -184,6 +84,32 @@
           "Large": {
             "value": "{base.BorderRadius.8}",
             "type": "borderRadius"
+          }
+        }
+      }
+    },
+    "ButtonV1": {
+      "Primary": {
+        "Small": {
+          "Default": {
+            "Color": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
           }
         }
       }
