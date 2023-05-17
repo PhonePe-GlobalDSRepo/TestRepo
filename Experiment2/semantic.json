@@ -16,6 +16,22 @@
             "type": "sizing"
           }
         }
+      },
+      "Time": {
+        "Size": {
+          "S": {
+            "value": "{size.12}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{semantic.Tag.Status.Size.S} * 2",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{semantic.Tag.Status.Size.S} * 3",
+            "type": "sizing"
+          }
+        }
       }
     },
     "Icons": {
