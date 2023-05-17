@@ -1,1 +1,216 @@
-{}
+{
+  "semantic": {
+    "Tag": {
+      "Status": {
+        "Size": {
+          "S": {
+            "value": "{size.12}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{semantic.Tag.Status.Size.S} * 2",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{semantic.Tag.Status.Size.S} * 3",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "Icons": {
+      "System": {
+        "Size": {
+          "S": {
+            "value": "{size.12}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{size.16}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{size.24}",
+            "type": "sizing"
+          },
+          "XL": {
+            "value": "{size.40}",
+            "type": "sizing"
+          }
+        }
+      },
+      "Benefit": {
+        "Size": {
+          "S": {
+            "value": "{size.12}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{size.16}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{size.24}",
+            "type": "sizing"
+          },
+          "XL": {
+            "value": "{size.40}",
+            "type": "sizing"
+          }
+        }
+      },
+      "Category": {
+        "Size": {
+          "S": {
+            "value": "{size.12}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{size.16}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{size.24}",
+            "type": "sizing"
+          },
+          "XL": {
+            "value": "{size.40}",
+            "type": "sizing"
+          }
+        }
+      },
+      "Placeholder": {
+        "Size": {
+          "S": {
+            "value": "{size.12}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{size.16}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{size.24}",
+            "type": "sizing"
+          },
+          "XL": {
+            "value": "{size.40}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "Tab": {
+      "Fixed": {
+        "Color": {
+          "bg": {
+            "value": "{color.Neutral.White}",
+            "type": "color"
+          },
+          "divider": {
+            "value": "{color.Grey.100}",
+            "type": "color"
+          },
+          "activeText": {
+            "value": "{color.LightPurple.500}",
+            "type": "color"
+          },
+          "inactiveText": {
+            "value": "{color.Grey.200}",
+            "type": "color"
+          }
+        }
+      },
+      "Scrollable": {
+        "Color": {
+          "bg": {
+            "value": "{color.Neutral.White}",
+            "type": "color"
+          },
+          "divider": {
+            "value": "{color.Grey.100}",
+            "type": "color"
+          },
+          "activeText": {
+            "value": "{color.LightPurple.500}",
+            "type": "color"
+          },
+          "inactiveText": {
+            "value": "{color.Grey.200}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Tags": {
+      "Status": {
+        "Color": {
+          "Bg": {
+            "Recommended": {
+              "value": "{color.Green.400}",
+              "type": "color"
+            },
+            "Secondary": {
+              "value": "{color.LightPurple.300}",
+              "type": "color"
+            }
+          },
+          "Stroke": {
+            "Recommended": {
+              "value": "{color.Green.900}",
+              "type": "color"
+            },
+            "Secondary": {
+              "value": "{color.LightPurple.700}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Light": {
+              "value": "{color.Neutral.White}",
+              "type": "color"
+            },
+            "Dark": {
+              "value": "{color.Neutral.Black}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Time": {
+        "Color": {
+          "Bg": {
+            "Recommended": {
+              "value": "{color.Green.400}",
+              "type": "color"
+            },
+            "Secondary": {
+              "value": "{color.LightPurple.300}",
+              "type": "color"
+            }
+          },
+          "Stroke": {
+            "Recommended": {
+              "value": "{color.Green.900}",
+              "type": "color"
+            },
+            "Secondary": {
+              "value": "{color.LightPurple.700}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Light": {
+              "value": "{color.Neutral.White}",
+              "type": "color"
+            },
+            "Dark": {
+              "value": "{color.Neutral.Black}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}
