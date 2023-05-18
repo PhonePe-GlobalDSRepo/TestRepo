@@ -110,24 +110,348 @@
                 "type": "color"
               }
             }
+          },
+          "Pressed": {
+            "Color": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
+          },
+          "Disabled": {
+            "Color": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "Medium": {
+          "Default": {
+            "Color": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
+          },
+          "Pressed": {
+            "Color": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
+          },
+          "Disabled": {
+            "Color": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "Large": {
+          "Default": {
+            "Color": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
+          },
+          "Pressed": {
+            "Color": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
+          },
+          "Disabled": {
+            "Color": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
           }
         }
       }
     },
     "ButtonV2": {
       "Primary": {
-        "Color": {
-          "BgDefault": {
-            "value": "{base.Color.Purple.500}",
-            "type": "color"
-          },
-          "BgPressed": {
-            "value": "{base.Color.Purple.600}",
-            "type": "color"
-          },
-          "BgDisabled": {
-            "value": "{base.Color.Grey.200}",
-            "type": "color"
+        "Small": {
+          "Color": {
+            "Default": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            },
+            "Pressed": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            },
+            "Disabled": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "Medium": {
+          "Color": {
+            "Default": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            },
+            "Pressed": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            },
+            "Disabled": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "Large": {
+          "Color": {
+            "Default": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            },
+            "Pressed": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            },
+            "Disabled": {
+              "Bg": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{base.Color.White.500}",
+                "type": "color"
+              },
+              "Border": {
+                "value": "{base.Color.Purple.500}",
+                "type": "color"
+              }
+            }
           }
         }
       }
