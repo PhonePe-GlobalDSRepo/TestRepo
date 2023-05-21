@@ -299,6 +299,12 @@
             "value": "{color.Green.500}",
             "type": "color"
           }
+        },
+        "Card": {
+          "Background": {
+            "value": "{color.Neutral.White}",
+            "type": "color"
+          }
         }
       },
       "Text": {
@@ -328,6 +334,50 @@
             "fontSize": "{fontSize.10}"
           },
           "type": "typography"
+        }
+      },
+      "CornerRadius": {
+        "Default": {
+          "value": "{borderRadius.12}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "Snackbar": {
+      "Size": {
+        "Icon": {
+          "Default": {
+            "value": "{size.16}",
+            "type": "sizing"
+          }
+        }
+      },
+      "Colour": {
+        "Icon": {
+          "Placeholder": {
+            "value": "{color.Neutral.White}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Primary": {
+            "value": "{color.Neutral.White}",
+            "type": "color"
+          }
+        },
+        "Card": {
+          "Background": {
+            "value": "{color.Neutral.Black}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "SnackBar": {
+      "CornerRadius": {
+        "Default": {
+          "value": "{borderRadius.12}",
+          "type": "borderRadius"
         }
       }
     }
