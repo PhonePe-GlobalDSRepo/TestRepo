@@ -227,6 +227,109 @@
           }
         }
       }
+    },
+    "List": {
+      "Size": {
+        "Icon": {
+          "Supporting": {
+            "value": "{size.24}",
+            "type": "sizing"
+          },
+          "Secondary": {
+            "value": "{size.16}",
+            "type": "sizing"
+          },
+          "Tertiary": {
+            "value": "{size.16}",
+            "type": "sizing"
+          }
+        },
+        "Avatar": {
+          "Default": {
+            "value": "{size.40}",
+            "type": "sizing"
+          }
+        },
+        "Button": {
+          "Secondary": {
+            "value": "{size.32}",
+            "type": "sizing"
+          },
+          "Tertiary": {
+            "value": "{size.32}",
+            "type": "sizing"
+          }
+        }
+      },
+      "Colour": {
+        "Icon": {
+          "Placeholder": {
+            "value": "{color.Grey.200}",
+            "type": "color"
+          },
+          "Offer": {
+            "value": "{color.Green.500}",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "{color.Grey.300}",
+            "type": "color"
+          }
+        },
+        "Separator": {
+          "Placeholder": {
+            "value": "{color.Grey.100}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Primary": {
+            "value": "{color.Grey.300}",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "{color.Grey.200}",
+            "type": "color"
+          },
+          "Tertiary": {
+            "value": "{color.Grey.100}",
+            "type": "color"
+          },
+          "Offer": {
+            "value": "{color.Green.500}",
+            "type": "color"
+          }
+        }
+      },
+      "Text": {
+        "Primary": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Regular}",
+            "lineHeight": "{lineHeight.150}",
+            "fontSize": "{fontSize.14}"
+          },
+          "type": "typography"
+        },
+        "Secondary": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Regular}",
+            "lineHeight": "{lineHeight.150}",
+            "fontSize": "{fontSize.12}"
+          },
+          "type": "typography"
+        },
+        "Tertiary": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Regular}",
+            "lineHeight": "{lineHeight.150}",
+            "fontSize": "{fontSize.10}"
+          },
+          "type": "typography"
+        }
+      }
     }
   }
 }
