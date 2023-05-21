@@ -354,13 +354,13 @@
       },
       "Colour": {
         "Icon": {
-          "Placeholder": {
+          "Default": {
             "value": "{color.Neutral.White}",
             "type": "color"
           }
         },
         "Text": {
-          "Primary": {
+          "Default": {
             "value": "{color.Neutral.White}",
             "type": "color"
           }
@@ -370,6 +370,17 @@
             "value": "{color.Neutral.Black}",
             "type": "color"
           }
+        }
+      },
+      "Text": {
+        "Default": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Regular}",
+            "lineHeight": "{lineHeight.150}",
+            "fontSize": "{fontSize.14}"
+          },
+          "type": "typography"
         }
       }
     },
