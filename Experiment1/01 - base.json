@@ -445,6 +445,348 @@
         "value": "120",
         "type": "sizing"
       }
+    },
+    "BorderRadius": {
+      "0": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "2": {
+        "value": "2",
+        "type": "borderRadius"
+      },
+      "4": {
+        "value": "4",
+        "type": "borderRadius"
+      },
+      "6": {
+        "value": "6",
+        "type": "borderRadius"
+      },
+      "8": {
+        "value": "8",
+        "type": "borderRadius"
+      },
+      "10": {
+        "value": "10",
+        "type": "borderRadius"
+      },
+      "12": {
+        "value": "12",
+        "type": "borderRadius"
+      },
+      "14": {
+        "value": "14",
+        "type": "borderRadius"
+      },
+      "16": {
+        "value": "16",
+        "type": "borderRadius"
+      },
+      "18": {
+        "value": "18",
+        "type": "borderRadius"
+      },
+      "20": {
+        "value": "20",
+        "type": "borderRadius"
+      },
+      "22": {
+        "value": "22",
+        "type": "borderRadius"
+      },
+      "24": {
+        "value": "24",
+        "type": "borderRadius"
+      },
+      "26": {
+        "value": "26",
+        "type": "borderRadius"
+      },
+      "28": {
+        "value": "28",
+        "type": "borderRadius"
+      },
+      "30": {
+        "value": "30",
+        "type": "borderRadius"
+      },
+      "32": {
+        "value": "32",
+        "type": "borderRadius"
+      },
+      "34": {
+        "value": "34",
+        "type": "borderRadius"
+      },
+      "36": {
+        "value": "36",
+        "type": "borderRadius"
+      },
+      "38": {
+        "value": "38",
+        "type": "borderRadius"
+      },
+      "40": {
+        "value": "40",
+        "type": "borderRadius"
+      },
+      "42": {
+        "value": "42",
+        "type": "borderRadius"
+      },
+      "44": {
+        "value": "44",
+        "type": "borderRadius"
+      },
+      "46": {
+        "value": "46",
+        "type": "borderRadius"
+      },
+      "48": {
+        "value": "48",
+        "type": "borderRadius"
+      },
+      "50": {
+        "value": "50",
+        "type": "borderRadius"
+      }
+    },
+    "Spacing": {
+      "0": {
+        "value": "0",
+        "type": "spacing"
+      },
+      "2": {
+        "value": "2",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "6": {
+        "value": "6",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "10": {
+        "value": "10",
+        "type": "spacing"
+      },
+      "12": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "14": {
+        "value": "14",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "18": {
+        "value": "18",
+        "type": "spacing"
+      },
+      "20": {
+        "value": "20",
+        "type": "spacing"
+      },
+      "22": {
+        "value": "22",
+        "type": "spacing"
+      },
+      "24": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "26": {
+        "value": "26",
+        "type": "spacing"
+      },
+      "28": {
+        "value": "28",
+        "type": "spacing"
+      },
+      "30": {
+        "value": "30",
+        "type": "spacing"
+      },
+      "32": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "34": {
+        "value": "34",
+        "type": "spacing"
+      },
+      "36": {
+        "value": "36",
+        "type": "spacing"
+      },
+      "38": {
+        "value": "38",
+        "type": "spacing"
+      },
+      "40": {
+        "value": "40",
+        "type": "spacing"
+      },
+      "42": {
+        "value": "42",
+        "type": "spacing"
+      },
+      "44": {
+        "value": "44",
+        "type": "spacing"
+      },
+      "46": {
+        "value": "46",
+        "type": "spacing"
+      },
+      "48": {
+        "value": "48",
+        "type": "spacing"
+      },
+      "50": {
+        "value": "50",
+        "type": "spacing"
+      }
+    },
+    "BorderWidth": {
+      "0": {
+        "value": "0",
+        "type": "borderWidth"
+      },
+      "1": {
+        "value": "1",
+        "type": "borderWidth"
+      },
+      "2": {
+        "value": "2",
+        "type": "borderWidth"
+      },
+      "3": {
+        "value": "3",
+        "type": "borderWidth"
+      },
+      "4": {
+        "value": "4",
+        "type": "borderWidth"
+      },
+      "5": {
+        "value": "5",
+        "type": "borderWidth"
+      },
+      "6": {
+        "value": "6",
+        "type": "borderWidth"
+      },
+      "7": {
+        "value": "7",
+        "type": "borderWidth"
+      },
+      "8": {
+        "value": "8",
+        "type": "borderWidth"
+      }
+    },
+    "Opacity": {
+      "0": {
+        "value": "0",
+        "type": "opacity"
+      },
+      "5": {
+        "value": "5",
+        "type": "opacity"
+      },
+      "10": {
+        "value": "10",
+        "type": "opacity"
+      },
+      "15": {
+        "value": "15",
+        "type": "opacity"
+      },
+      "20": {
+        "value": "20",
+        "type": "opacity"
+      },
+      "25": {
+        "value": "25",
+        "type": "opacity"
+      },
+      "30": {
+        "value": "30",
+        "type": "opacity"
+      },
+      "35": {
+        "value": "35",
+        "type": "opacity"
+      },
+      "40": {
+        "value": "40",
+        "type": "opacity"
+      },
+      "45": {
+        "value": "45",
+        "type": "opacity"
+      },
+      "50": {
+        "value": "50",
+        "type": "opacity"
+      },
+      "55": {
+        "value": "55",
+        "type": "opacity"
+      },
+      "60": {
+        "value": "60",
+        "type": "opacity"
+      },
+      "65": {
+        "value": "65",
+        "type": "opacity"
+      },
+      "70": {
+        "value": "70",
+        "type": "opacity"
+      },
+      "75": {
+        "value": "75",
+        "type": "opacity"
+      },
+      "80": {
+        "value": "80",
+        "type": "opacity"
+      },
+      "85": {
+        "value": "85",
+        "type": "opacity"
+      },
+      "90": {
+        "value": "90",
+        "type": "opacity"
+      },
+      "95": {
+        "value": "95",
+        "type": "opacity"
+      },
+      "100": {
+        "value": "100",
+        "type": "opacity"
+      }
+    },
+    "FontFamily": {
+      "Roboto": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      }
     }
   }
 }
