@@ -345,11 +345,9 @@
     },
     "Snackbar": {
       "Size": {
-        "Icon": {
-          "Default": {
-            "value": "{size.16}",
-            "type": "sizing"
-          }
+        "S": {
+          "value": "{Size.16}",
+          "type": "sizing"
         }
       },
       "Colour": {
