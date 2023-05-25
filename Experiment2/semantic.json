@@ -397,6 +397,10 @@
     "12": {
       "value": "{size.12}",
       "type": "sizing"
+    },
+    "16": {
+      "value": "{size.16}",
+      "type": "sizing"
     }
   }
 }
