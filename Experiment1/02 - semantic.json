@@ -17,6 +17,10 @@
         "value": "{base.Spacing.8}",
         "type": "spacing"
       },
+      "12": {
+        "value": "{base.Spacing.12}",
+        "type": "spacing"
+      },
       "16": {
         "value": "{base.Spacing.16}",
         "type": "spacing"
@@ -70,6 +74,30 @@
           "Text": {
             "value": "{base.Color.White.500}",
             "type": "color"
+          }
+        }
+      }
+    },
+    "Typography": {
+      "Title": {
+        "H1": {
+          "SingleLine": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.100}",
+              "fontSize": "{base.FontSize.12}"
+            },
+            "type": "typography"
+          },
+          "MultiLine": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.125}",
+              "fontSize": "{base.FontSize.12}"
+            },
+            "type": "typography"
           }
         }
       }
