@@ -17,6 +17,10 @@
         "value": "{base.Spacing.8}",
         "type": "spacing"
       },
+      "10": {
+        "value": "{base.Spacing.10}",
+        "type": "spacing"
+      },
       "12": {
         "value": "{base.Spacing.12}",
         "type": "spacing"
