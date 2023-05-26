@@ -101,6 +101,28 @@
           }
         }
       }
+    },
+    "Filter": {
+      "Active": {
+        "Color": {
+          "Bg": {
+            "value": "{base.Color.Green.100}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{base.Color.Grey.800}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{base.Color.Grey.800}",
+            "type": "color"
+          },
+          "Border": {
+            "value": "{base.Color.Green.500}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
