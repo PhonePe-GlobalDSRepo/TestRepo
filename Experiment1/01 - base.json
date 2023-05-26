@@ -877,6 +877,14 @@
       }
     },
     "FontWeight": {
+      "Thin": {
+        "value": "Thin",
+        "type": "fontWeights"
+      },
+      "Light": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
       "Regular": {
         "value": "Regular",
         "type": "fontWeights"
@@ -887,6 +895,10 @@
       },
       "Bold": {
         "value": "Bold",
+        "type": "fontWeights"
+      },
+      "Black": {
+        "value": "Black",
         "type": "fontWeights"
       }
     }

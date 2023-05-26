@@ -127,6 +127,50 @@
           }
         }
       }
+    },
+    "FontWeight": {
+      "Regular": {
+        "value": "{base.FontWeight.Regular}",
+        "type": "fontWeights"
+      },
+      "Medium": {
+        "value": "{base.FontWeight.Medium}",
+        "type": "fontWeights"
+      },
+      "Bold": {
+        "value": "{base.FontWeight.Bold}",
+        "type": "fontWeights"
+      }
+    },
+    "LineHeight": {
+      "100": {
+        "value": "{base.LineHeight.100}",
+        "type": "lineHeights"
+      },
+      "125": {
+        "value": "{base.LineHeight.125}",
+        "type": "lineHeights"
+      },
+      "135": {
+        "value": "{base.LineHeight.135}",
+        "type": "lineHeights"
+      },
+      "150": {
+        "value": "{base.LineHeight.150}",
+        "type": "lineHeights"
+      }
+    },
+    "FontFamily": {
+      "Roboto": {
+        "value": "{base.FontFamily.Roboto}",
+        "type": "fontFamilies"
+      }
+    },
+    "FontSize": {
+      "12": {
+        "value": "{base.FontSize.12}",
+        "type": "fontSizes"
+      }
     }
   }
 }
