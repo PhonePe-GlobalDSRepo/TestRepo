@@ -1,1 +1,78 @@
-{}
+{
+  "semantic": {
+    "Spacing": {
+      "0": {
+        "value": "{base.Spacing.0}",
+        "type": "spacing"
+      },
+      "2": {
+        "value": "{base.Spacing.2}",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "{base.Spacing.4}",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "{base.Spacing.8}",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "{base.Spacing.16}",
+        "type": "spacing"
+      }
+    },
+    "BorderRadius": {
+      "0": {
+        "value": "{base.BorderRadius.0}",
+        "type": "borderRadius"
+      },
+      "2": {
+        "value": "{base.BorderRadius.2}",
+        "type": "borderRadius"
+      },
+      "4": {
+        "value": "{base.BorderRadius.4}",
+        "type": "borderRadius"
+      },
+      "8": {
+        "value": "{base.BorderRadius.8}",
+        "type": "borderRadius"
+      },
+      "16": {
+        "value": "{base.BorderRadius.16}",
+        "type": "borderRadius"
+      }
+    },
+    "Button": {
+      "Primary": {
+        "Default": {
+          "Color": {
+            "Bg": {
+              "value": "{base.Color.Purple.500}",
+              "type": "color"
+            },
+            "Text": {
+              "value": "{base.Color.White.500}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "Tag": {
+      "New": {
+        "Color": {
+          "Bg": {
+            "value": "{base.Color.Red.500}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{base.Color.White.500}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

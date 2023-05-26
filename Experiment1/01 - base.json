@@ -875,6 +875,20 @@
         "value": "40",
         "type": "fontSizes"
       }
+    },
+    "FontWeight": {
+      "Regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "Medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "Bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      }
     }
   }
 }
