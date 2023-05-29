@@ -9,6 +9,14 @@
         "value": "24",
         "type": "sizing"
       }
+    },
+    "Color": {
+      "White": {
+        "500": {
+          "value": "#FFFFFF",
+          "type": "color"
+        }
+      }
     }
   }
 }
