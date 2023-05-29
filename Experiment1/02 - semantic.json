@@ -63,21 +63,69 @@
             "Text": {
               "value": "{base.Color.White.500}",
               "type": "color"
+            },
+            "Icon": {
+              "value": "{base.Color.White.500}",
+              "type": "color"
+            },
+            "SubText": {
+              "value": "{base.Color.Purple.100}",
+              "type": "color"
+            }
+          }
+        },
+        "Disabled": {
+          "Color": {
+            "Bg": {
+              "value": "{base.Color.Grey.200}",
+              "type": "color"
+            },
+            "Text": {
+              "value": "{base.Color.Grey.700}",
+              "type": "color"
+            },
+            "Icon": {
+              "value": "{base.Color.Grey.700}",
+              "type": "color"
+            },
+            "SubText": {
+              "value": "{base.Color.Grey.600}",
+              "type": "color"
             }
           }
         }
-      }
-    },
-    "Tag": {
-      "New": {
-        "Color": {
-          "Bg": {
-            "value": "{base.Color.Red.500}",
-            "type": "color"
-          },
-          "Text": {
-            "value": "{base.Color.White.500}",
-            "type": "color"
+      },
+      "Secondary": {
+        "Default": {
+          "Color": {
+            "Bg": {
+              "value": "{base.Color.White.500}",
+              "type": "color"
+            },
+            "Text": {
+              "value": "{base.Color.Purple.500}",
+              "type": "color"
+            },
+            "Icon": {
+              "value": "{base.Color.Purple.500}",
+              "type": "color"
+            }
+          }
+        },
+        "Disabled": {
+          "Color": {
+            "Bg": {
+              "value": "{base.Color.White.500}",
+              "type": "color"
+            },
+            "Text": {
+              "value": "{base.Color.Grey.200}",
+              "type": "color"
+            },
+            "Icon": {
+              "value": "{base.Color.Grey.200}",
+              "type": "color"
+            }
           }
         }
       }
@@ -128,48 +176,18 @@
         }
       }
     },
-    "FontWeight": {
-      "Regular": {
-        "value": "{base.FontWeight.Regular}",
-        "type": "fontWeights"
-      },
-      "Medium": {
-        "value": "{base.FontWeight.Medium}",
-        "type": "fontWeights"
-      },
-      "Bold": {
-        "value": "{base.FontWeight.Bold}",
-        "type": "fontWeights"
-      }
-    },
-    "LineHeight": {
-      "100": {
-        "value": "{base.LineHeight.100}",
-        "type": "lineHeights"
-      },
-      "125": {
-        "value": "{base.LineHeight.125}",
-        "type": "lineHeights"
-      },
-      "135": {
-        "value": "{base.LineHeight.135}",
-        "type": "lineHeights"
-      },
-      "150": {
-        "value": "{base.LineHeight.150}",
-        "type": "lineHeights"
-      }
-    },
-    "FontFamily": {
-      "Roboto": {
-        "value": "{base.FontFamily.Roboto}",
-        "type": "fontFamilies"
-      }
-    },
-    "FontSize": {
+    "Size": {
       "12": {
-        "value": "{base.FontSize.12}",
-        "type": "fontSizes"
+        "value": "{base.Size.12}",
+        "type": "sizing"
+      },
+      "16": {
+        "value": "{base.Size.16}",
+        "type": "sizing"
+      },
+      "24": {
+        "value": "{base.Size.24}",
+        "type": "sizing"
       }
     }
   }
