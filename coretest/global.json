@@ -4,6 +4,10 @@
       "16": {
         "value": "16",
         "type": "sizing"
+      },
+      "24": {
+        "value": "24",
+        "type": "sizing"
       }
     }
   }
