@@ -1,0 +1,274 @@
+{
+  "semantic": {
+    "Color": {
+      "TextColor": {
+        "Brand": {
+          "value": "{color.Purple.500}",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "{color.Neutral.Black}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{color.Grey.200}",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "{color.Grey.100}",
+          "type": "color"
+        },
+        "Lite": {
+          "value": "{color.Neutral.White}",
+          "type": "color"
+        },
+        "BrandLite": {
+          "value": "{color.LightPurple.500}",
+          "type": "color"
+        },
+        "SecondaryDark": {
+          "value": "{color.LightPurple.200}",
+          "type": "color"
+        }
+      },
+      "IconColor": {
+        "Primary": {
+          "value": "{color.Grey.300}",
+          "type": "color"
+        },
+        "Lite": {
+          "value": "{color.Neutral.White}",
+          "type": "color"
+        },
+        "PrimaryDark": {
+          "value": "{color.LightPurple.100}",
+          "type": "color"
+        }
+      },
+      "BackgroundColor": {
+        "Card": {
+          "value": "{semantic.Color.IconColor.Lite}",
+          "type": "color"
+        },
+        "CardDark": {
+          "value": "{color.LightPurple.900}",
+          "type": "color"
+        },
+        "AppBackground": {
+          "value": "{color.Purple.100}",
+          "type": "color"
+        },
+        "AppBackgroundDark": {
+          "value": "{color.Purple.900}",
+          "type": "color"
+        },
+        "Tag": {
+          "value": "{color.Green.500}",
+          "type": "color"
+        },
+        "OfferCallout": {
+          "value": "{color.Green.100}",
+          "type": "color"
+        },
+        "OfferCalloutDark": {
+          "value": "{color.Green.800}",
+          "type": "color"
+        },
+        "Brand": {
+          "value": "{color.Purple.500}",
+          "type": "color"
+        },
+        "BrandLite": {
+          "value": "{color.LightPurple.500}",
+          "type": "color"
+        },
+        "BrandDark": {
+          "value": "{color.Purple.700}",
+          "type": "color"
+        }
+      },
+      "SeparatorColor": {
+        "Light": {
+          "value": "{color.Grey.100}",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "{color.LightPurple.100}",
+          "type": "color"
+        }
+      }
+    },
+    "BorderRadius": {
+      "Small": {
+        "value": "{borderRadius.8}",
+        "type": "borderRadius"
+      },
+      "Medium": {
+        "value": "{borderRadius.12}",
+        "type": "borderRadius"
+      }
+    },
+    "Typography": {
+      "Heading": {
+        "H1": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Bold}",
+            "lineHeight": "{lineHeight.150}",
+            "fontSize": "{fontSize.24}"
+          },
+          "type": "typography"
+        },
+        "H2": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Bold}",
+            "lineHeight": "{lineHeight.150}",
+            "fontSize": "{fontSize.20}"
+          },
+          "type": "typography"
+        },
+        "H3": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Bold}",
+            "lineHeight": "{lineHeight.150}",
+            "fontSize": "{fontSize.16}"
+          },
+          "type": "typography"
+        }
+      },
+      "Paragraph": {
+        "P1": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Regular}",
+            "lineHeight": "{lineHeight.125}",
+            "fontSize": "{fontSize.14}"
+          },
+          "type": "typography"
+        },
+        "P2": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Regular}",
+            "lineHeight": "{lineHeight.125}",
+            "fontSize": "{fontSize.12}"
+          },
+          "type": "typography"
+        },
+        "P3": {
+          "value": {
+            "fontFamily": "{fontFamily.Roboto}",
+            "fontWeight": "{fontWeight.Regular}",
+            "lineHeight": "{lineHeight.125}",
+            "fontSize": "{fontSize.10}"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "Size": {
+      "Icon": {
+        "Large": {
+          "value": "{size.24}",
+          "type": "sizing"
+        },
+        "Small": {
+          "value": "{size.16}",
+          "type": "sizing"
+        }
+      },
+      "Avatar": {
+        "Large": {
+          "value": "{size.40}",
+          "type": "sizing"
+        },
+        "Small": {
+          "value": "{size.24}",
+          "type": "sizing"
+        }
+      },
+      "Tag": {
+        "ExtraSmall": {
+          "value": "{size.12}",
+          "type": "sizing"
+        },
+        "Small": {
+          "value": "{size.16}",
+          "type": "sizing"
+        },
+        "Large": {
+          "value": "{size.24}",
+          "type": "sizing"
+        }
+      }
+    },
+    "Spacing": {
+      "Small": {
+        "value": "{spacing.2}",
+        "type": "spacing"
+      },
+      "Medium": {
+        "value": "{spacing.4}",
+        "type": "spacing"
+      },
+      "Large": {
+        "value": "{spacing.8}",
+        "type": "spacing"
+      },
+      "ExtraLarge": {
+        "value": "{spacing.16}",
+        "type": "spacing"
+      }
+    },
+    "UICard": {
+      "Default": {
+        "value": {
+          "borderRadius": "{semantic.BorderRadius.Medium}",
+          "verticalPadding": "{semantic.Spacing.ExtraLarge}",
+          "horizontalPadding": "{semantic.Spacing.ExtraLarge}",
+          "fill": "{semantic.Color.BackgroundColor.Card}"
+        },
+        "type": "composition"
+      },
+      "Tight": {
+        "value": {
+          "borderRadius": "{borderRadius.8}",
+          "verticalPadding": "{semantic.Spacing.Large}",
+          "horizontalPadding": "{semantic.Spacing.Large}",
+          "fill": "{semantic.Card.BackgroundColor}"
+        },
+        "type": "composition"
+      }
+    },
+    "Tag": {
+      "ExtraSmall": {
+        "value": {
+          "borderRadius": "{semantic.BorderRadius.Small}",
+          "height": "{semantic.Size.Tag.ExtraSmall}",
+          "horizontalPadding": "{semantic.Spacing.Large}"
+        },
+        "type": "composition"
+      },
+      "Small": {
+        "value": {
+          "borderRadius": "{semantic.BorderRadius.Small}",
+          "height": "{semantic.Size.Tag.Small}",
+          "horizontalPadding": "{semantic.Spacing.Large}",
+          "fontSizes": "{fontSize.10}"
+        },
+        "type": "composition"
+      },
+      "Large": {
+        "value": {
+          "borderRadius": "{semantic.BorderRadius.Medium}",
+          "height": "{semantic.Size.Tag.Large}",
+          "horizontalPadding": "{semantic.Spacing.Large}",
+          "fontSizes": "{fontSize.12}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
