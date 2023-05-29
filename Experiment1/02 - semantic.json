@@ -162,15 +162,35 @@
             "type": "color"
           },
           "Text": {
-            "value": "{base.Color.Grey.800}",
+            "value": "{base.Color.Grey.700}",
             "type": "color"
           },
           "Icon": {
-            "value": "{base.Color.Grey.800}",
+            "value": "{base.Color.Grey.700}",
             "type": "color"
           },
           "Border": {
             "value": "{base.Color.Green.500}",
+            "type": "color"
+          }
+        }
+      },
+      "Inactive": {
+        "Color": {
+          "Bg": {
+            "value": "{base.Color.White.500}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{base.Color.Grey.700}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{base.Color.Grey.700}",
+            "type": "color"
+          },
+          "Border": {
+            "value": "{base.Color.Grey.200}",
             "type": "color"
           }
         }
