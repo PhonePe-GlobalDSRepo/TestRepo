@@ -8,6 +8,10 @@
       "24": {
         "value": "24",
         "type": "sizing"
+      },
+      "32": {
+        "value": "32",
+        "type": "sizing"
       }
     },
     "Color": {
