@@ -11,9 +11,9 @@
       }
     },
     "Color": {
-      "White": {
+      "Purple": {
         "500": {
-          "value": "#FFFFFF",
+          "value": "#5f259f",
           "type": "color"
         }
       }
