@@ -143,6 +143,20 @@
         "value": "150%",
         "type": "lineHeights"
       }
+    },
+    "LetterSpacing": {
+      "05%": {
+        "value": "0.5%",
+        "type": "letterSpacing"
+      },
+      "1%": {
+        "value": "1%",
+        "type": "letterSpacing"
+      },
+      "15%": {
+        "value": "1.5%",
+        "type": "letterSpacing"
+      }
     }
   }
 }
