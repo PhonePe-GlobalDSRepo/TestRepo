@@ -81,6 +81,10 @@
         "value": "32",
         "type": "fontSizes"
       },
+      "34": {
+        "value": "34",
+        "type": "fontSizes"
+      },
       "36": {
         "value": "36",
         "type": "fontSizes"
@@ -112,7 +116,7 @@
         "type": "lineHeights"
       },
       "120": {
-        "value": "125%",
+        "value": "120%",
         "type": "lineHeights"
       },
       "125": {
