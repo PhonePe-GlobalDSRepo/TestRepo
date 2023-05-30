@@ -153,6 +153,32 @@
         "value": "{base.opacity.100}",
         "type": "opacity"
       }
+    },
+    "boxShadow": {
+      "down": {
+        "small": {
+          "value": "{base.borderShadow.down.small}",
+          "type": "boxShadow"
+        },
+        "medium": {
+          "value": "{base.borderShadow.down.medium}",
+          "type": "boxShadow"
+        },
+        "large": {
+          "value": "{base.borderShadow.down.large}",
+          "type": "boxShadow"
+        }
+      },
+      "up": {
+        "small": {
+          "value": "{base.borderShadow.up.small}",
+          "type": "boxShadow"
+        },
+        "medium": {
+          "value": "{base.borderShadow.up.medium}",
+          "type": "boxShadow"
+        }
+      }
     }
   }
 }
