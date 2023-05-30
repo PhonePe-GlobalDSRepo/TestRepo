@@ -101,7 +101,7 @@
           }
         }
       },
-      "Background": {
+      "Surface": {
         "GrayLite": {
           "value": "{base.Color.Neutral.200}",
           "type": "color"
@@ -112,6 +112,10 @@
         },
         "BrandLite": {
           "value": "{base.Color.Purple.50}",
+          "type": "color"
+        },
+        "Basic": {
+          "value": "{base.Color.Neutral.100}",
           "type": "color"
         }
       },
