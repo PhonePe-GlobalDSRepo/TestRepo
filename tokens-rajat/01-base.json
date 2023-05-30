@@ -1,6 +1,10 @@
 {
   "base": {
     "size": {
+      "0": {
+        "value": "0",
+        "type": "sizing"
+      },
       "4": {
         "value": "4",
         "type": "sizing"
@@ -223,7 +227,7 @@
       }
     },
     "borderShadow": {
-      "down": {
+      "-Y-axis": {
         "small": {
           "value": {
             "x": "0",
@@ -253,12 +257,12 @@
             "blur": "16",
             "spread": "0",
             "color": "rgba(0,0,0,0.16)",
-            "type": "innerShadow"
+            "type": "dropShadow"
           },
           "type": "boxShadow"
         }
       },
-      "up": {
+      "+Y-axis": {
         "small": {
           "value": {
             "x": "0",
@@ -266,7 +270,7 @@
             "blur": "2",
             "spread": "0",
             "color": "rgba(0,0,0,0.04)",
-            "type": "innerShadow"
+            "type": "dropShadow"
           },
           "type": "boxShadow"
         },
@@ -277,7 +281,7 @@
             "blur": "4",
             "spread": "0",
             "color": "rgba(0,0,0,0.04)",
-            "type": "innerShadow"
+            "type": "dropShadow"
           },
           "type": "boxShadow"
         }

@@ -157,25 +157,25 @@
     "boxShadow": {
       "down": {
         "small": {
-          "value": "{base.borderShadow.down.small}",
+          "value": "{base.borderShadow.-Y-axis.small}",
           "type": "boxShadow"
         },
         "medium": {
-          "value": "{base.borderShadow.down.medium}",
+          "value": "{base.borderShadow.-Y-axis.medium}",
           "type": "boxShadow"
         },
         "large": {
-          "value": "{base.borderShadow.down.large}",
+          "value": "{base.borderShadow.-Y-axis.large}",
           "type": "boxShadow"
         }
       },
       "up": {
         "small": {
-          "value": "{base.borderShadow.up.small}",
+          "value": "{base.borderShadow.+Y-axis.small}",
           "type": "boxShadow"
         },
         "medium": {
-          "value": "{base.borderShadow.up.medium}",
+          "value": "{base.borderShadow.+Y-axis.medium}",
           "type": "boxShadow"
         }
       }
