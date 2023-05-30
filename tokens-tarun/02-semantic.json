@@ -180,6 +180,64 @@
             "type": "typography"
           }
         }
+      },
+      "Overline": {
+        "Default": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "lineHeight": "{base.LineHeight.12}",
+            "fontSize": "{base.FontSize.10}",
+            "letterSpacing": "{base.LetterSpacing.Two}"
+          },
+          "type": "typography"
+        }
+      },
+      "Links": {
+        "10": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "lineHeight": "{base.LineHeight.12}",
+            "fontSize": "{base.FontSize.10}",
+            "letterSpacing": "{base.LetterSpacing.TwoHalf}",
+            "textDecoration": "{base.TextDecoration.Underline}"
+          },
+          "type": "typography"
+        },
+        "12": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "lineHeight": "{base.LineHeight.16}",
+            "fontSize": "{base.FontSize.12}",
+            "letterSpacing": "{base.LetterSpacing.Two}",
+            "textDecoration": "{base.TextDecoration.Underline}"
+          },
+          "type": "typography"
+        },
+        "14": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "lineHeight": "{base.LineHeight.20}",
+            "fontSize": "{base.FontSize.14}",
+            "letterSpacing": "{base.LetterSpacing.OneHalf}",
+            "textDecoration": "{base.TextDecoration.Underline}"
+          },
+          "type": "typography"
+        },
+        "16": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "lineHeight": "{base.LineHeight.24}",
+            "fontSize": "{base.FontSize.16}",
+            "letterSpacing": "{base.LetterSpacing.One}",
+            "textDecoration": "{base.TextDecoration.Underline}"
+          },
+          "type": "typography"
+        }
       }
     }
   },
