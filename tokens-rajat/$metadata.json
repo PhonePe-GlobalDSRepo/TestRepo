@@ -1,6 +1,6 @@
 {
   "tokenSetOrder": [
-    "global",
-    "semantic"
+    "01-base",
+    "02-semantic"
   ]
 }
