@@ -2,7 +2,7 @@
   "semantic": {
     "Typography": {
       "Heading": {
-        "H1": {
+        "H3": {
           "value": {
             "fontFamily": "{base.FontFamily.Roboto}",
             "fontWeight": "{base.FontWeight.Regular}",
@@ -24,7 +24,7 @@
           },
           "type": "typography"
         },
-        "H3": {
+        "H1": {
           "value": {
             "fontFamily": "{base.FontFamily.Roboto}",
             "fontWeight": "{base.FontWeight.Bold}",
@@ -104,7 +104,66 @@
           "type": "typography"
         }
       },
-      "Body": {
+      "Overline": {
+        "Default": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "lineHeight": "{base.LineHeight.12}",
+            "fontSize": "{base.FontSize.10}",
+            "letterSpacing": "{base.LetterSpacing.Two}",
+            "textDecoration": "{base.TextDecoration.None}"
+          },
+          "type": "typography"
+        }
+      },
+      "Links": {
+        "10": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "lineHeight": "{base.LineHeight.12}",
+            "fontSize": "{base.FontSize.10}",
+            "letterSpacing": "{base.LetterSpacing.TwoHalf}",
+            "textDecoration": "{base.TextDecoration.Underline}"
+          },
+          "type": "typography"
+        },
+        "12": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "lineHeight": "{base.LineHeight.16}",
+            "fontSize": "{base.FontSize.12}",
+            "letterSpacing": "{base.LetterSpacing.Two}",
+            "textDecoration": "{base.TextDecoration.Underline}"
+          },
+          "type": "typography"
+        },
+        "14": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "lineHeight": "{base.LineHeight.20}",
+            "fontSize": "{base.FontSize.14}",
+            "letterSpacing": "{base.LetterSpacing.OneHalf}",
+            "textDecoration": "{base.TextDecoration.Underline}"
+          },
+          "type": "typography"
+        },
+        "16": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "lineHeight": "{base.LineHeight.24}",
+            "fontSize": "{base.FontSize.16}",
+            "letterSpacing": "{base.LetterSpacing.One}",
+            "textDecoration": "{base.TextDecoration.Underline}"
+          },
+          "type": "typography"
+        }
+      },
+      "Body1": {
         "Bold": {
           "10": {
             "value": {
@@ -198,69 +257,112 @@
           }
         }
       },
-      "Overline": {
-        "Default": {
-          "value": {
-            "fontFamily": "{base.FontFamily.Roboto}",
-            "fontWeight": "{base.FontWeight.Regular}",
-            "lineHeight": "{base.LineHeight.12}",
-            "fontSize": "{base.FontSize.10}",
-            "letterSpacing": "{base.LetterSpacing.Two}",
-            "textDecoration": "{base.TextDecoration.None}"
-          },
-          "type": "typography"
-        }
-      },
-      "Links": {
+      "Body2": {
         "10": {
-          "value": {
-            "fontFamily": "{base.FontFamily.Roboto}",
-            "fontWeight": "{base.FontWeight.Regular}",
-            "lineHeight": "{base.LineHeight.12}",
-            "fontSize": "{base.FontSize.10}",
-            "letterSpacing": "{base.LetterSpacing.TwoHalf}",
-            "textDecoration": "{base.TextDecoration.Underline}"
+          "Bold": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.12}",
+              "fontSize": "{base.FontSize.10}",
+              "letterSpacing": "{base.LetterSpacing.TwoHalf}",
+              "textDecoration": "{base.TextDecoration.None}"
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "Regular": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Regular}",
+              "lineHeight": "{base.LineHeight.12}",
+              "fontSize": "{base.FontSize.10}",
+              "letterSpacing": "{base.LetterSpacing.TwoHalf}",
+              "textDecoration": "{base.TextDecoration.None}"
+            },
+            "type": "typography"
+          }
         },
         "12": {
-          "value": {
-            "fontFamily": "{base.FontFamily.Roboto}",
-            "fontWeight": "{base.FontWeight.Regular}",
-            "lineHeight": "{base.LineHeight.16}",
-            "fontSize": "{base.FontSize.12}",
-            "letterSpacing": "{base.LetterSpacing.Two}",
-            "textDecoration": "{base.TextDecoration.Underline}"
+          "Bold": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.16}",
+              "fontSize": "{base.FontSize.12}",
+              "letterSpacing": "{base.LetterSpacing.Two}",
+              "textDecoration": "{base.TextDecoration.None}"
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "Regular": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Regular}",
+              "lineHeight": "{base.LineHeight.16}",
+              "fontSize": "{base.FontSize.12}",
+              "letterSpacing": "{base.LetterSpacing.Two}",
+              "textDecoration": "{base.TextDecoration.None}"
+            },
+            "type": "typography"
+          }
         },
         "14": {
-          "value": {
-            "fontFamily": "{base.FontFamily.Roboto}",
-            "fontWeight": "{base.FontWeight.Regular}",
-            "lineHeight": "{base.LineHeight.20}",
-            "fontSize": "{base.FontSize.14}",
-            "letterSpacing": "{base.LetterSpacing.OneHalf}",
-            "textDecoration": "{base.TextDecoration.Underline}"
+          "Bold": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.20}",
+              "fontSize": "{base.FontSize.14}",
+              "letterSpacing": "{base.LetterSpacing.OneHalf}",
+              "textDecoration": "{base.TextDecoration.None}"
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "Regular": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Regular}",
+              "lineHeight": "{base.LineHeight.20}",
+              "fontSize": "{base.FontSize.14}",
+              "letterSpacing": "{base.LetterSpacing.OneHalf}",
+              "textDecoration": "{base.TextDecoration.None}"
+            },
+            "type": "typography"
+          }
         },
         "16": {
-          "value": {
-            "fontFamily": "{base.FontFamily.Roboto}",
-            "fontWeight": "{base.FontWeight.Regular}",
-            "lineHeight": "{base.LineHeight.24}",
-            "fontSize": "{base.FontSize.16}",
-            "letterSpacing": "{base.LetterSpacing.One}",
-            "textDecoration": "{base.TextDecoration.Underline}"
+          "Bold": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.24}",
+              "fontSize": "{base.FontSize.16}",
+              "letterSpacing": "{base.LetterSpacing.One}",
+              "textDecoration": "{base.TextDecoration.None}"
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "Regular": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Regular}",
+              "lineHeight": "{base.LineHeight.24}",
+              "fontSize": "{base.FontSize.16}",
+              "letterSpacing": "{base.LetterSpacing.One}",
+              "textDecoration": "{base.TextDecoration.None}"
+            },
+            "type": "typography"
+          }
         }
       }
     },
     "TextDecoration": {
       "Strikethrough": {
         "value": "{base.TextDecoration.Strikethrough}",
+        "type": "textDecoration"
+      },
+      "Undeline": {
+        "value": "underline",
         "type": "textDecoration"
       }
     }
