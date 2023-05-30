@@ -191,11 +191,11 @@
         "value": "none",
         "type": "textDecoration"
       },
-      "UnderLine": {
+      "Underline": {
         "value": "underline",
         "type": "textDecoration"
       },
-      "StrikeThrough": {
+      "Strikethrough": {
         "value": "line-through",
         "type": "textDecoration"
       }

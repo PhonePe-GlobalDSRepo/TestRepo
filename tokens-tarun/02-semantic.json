@@ -96,5 +96,21 @@
         }
       }
     }
+  },
+  "semantic": {
+    "TextDecoration": {
+      "None": {
+        "value": "{base.TextDecoration.None}",
+        "type": "textDecoration"
+      },
+      "Underline": {
+        "value": "{base.TextDecoration.Underline}",
+        "type": "textDecoration"
+      },
+      "Strikethrough": {
+        "value": "{base.TextDecoration.Strikethrough}",
+        "type": "textDecoration"
+      }
+    }
   }
 }
