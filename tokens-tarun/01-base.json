@@ -98,64 +98,102 @@
         "type": "fontSizes"
       }
     },
-    "LineHeight": {
-      "100": {
-        "value": "100%",
-        "type": "lineHeights"
-      },
-      "105": {
-        "value": "105%",
-        "type": "lineHeights"
-      },
-      "110": {
-        "value": "110%",
-        "type": "lineHeights"
-      },
-      "115": {
-        "value": "115%",
-        "type": "lineHeights"
-      },
-      "120": {
-        "value": "120%",
-        "type": "lineHeights"
-      },
-      "125": {
-        "value": "125%",
-        "type": "lineHeights"
-      },
-      "130": {
-        "value": "130%",
-        "type": "lineHeights"
-      },
-      "135": {
-        "value": "135%",
-        "type": "lineHeights"
-      },
-      "140": {
-        "value": "140%",
-        "type": "lineHeights"
-      },
-      "145": {
-        "value": "145%",
-        "type": "lineHeights"
-      },
-      "150": {
-        "value": "150%",
-        "type": "lineHeights"
-      }
-    },
     "LetterSpacing": {
-      "05%": {
+      "Half": {
         "value": "0.5%",
         "type": "letterSpacing"
       },
-      "1%": {
+      "One": {
         "value": "1%",
         "type": "letterSpacing"
       },
-      "15%": {
+      "OneHalf": {
         "value": "1.5%",
         "type": "letterSpacing"
+      },
+      "Two": {
+        "value": "2%",
+        "type": "letterSpacing"
+      }
+    },
+    "LineHeight": {
+      "10": {
+        "value": "10",
+        "type": "lineHeights"
+      },
+      "12": {
+        "value": "12",
+        "type": "lineHeights"
+      },
+      "14": {
+        "value": "14",
+        "type": "lineHeights"
+      },
+      "16": {
+        "value": "16",
+        "type": "lineHeights"
+      },
+      "18": {
+        "value": "18",
+        "type": "lineHeights"
+      },
+      "20": {
+        "value": "20",
+        "type": "lineHeights"
+      },
+      "22": {
+        "value": "22",
+        "type": "lineHeights"
+      },
+      "24": {
+        "value": "24",
+        "type": "lineHeights"
+      },
+      "26": {
+        "value": "26",
+        "type": "lineHeights"
+      },
+      "28": {
+        "value": "28",
+        "type": "lineHeights"
+      },
+      "30": {
+        "value": "30",
+        "type": "lineHeights"
+      },
+      "32": {
+        "value": "32",
+        "type": "lineHeights"
+      },
+      "34": {
+        "value": "34",
+        "type": "lineHeights"
+      },
+      "36": {
+        "value": "36",
+        "type": "lineHeights"
+      },
+      "38": {
+        "value": "38",
+        "type": "lineHeights"
+      },
+      "40": {
+        "value": "40",
+        "type": "lineHeights"
+      }
+    },
+    "TextDecoration": {
+      "None": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "UnderLine": {
+        "value": "underline",
+        "type": "textDecoration"
+      },
+      "StrikeThrough": {
+        "value": "line-through",
+        "type": "textDecoration"
       }
     }
   }
