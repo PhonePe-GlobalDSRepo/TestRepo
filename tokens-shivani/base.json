@@ -232,6 +232,18 @@
           "value": "#0C2E4F",
           "type": "color"
         }
+      },
+      "Yellow": {
+        "100": {
+          "value": "#FFF3BF",
+          "type": "color"
+        }
+      },
+      "Pink": {
+        "100": {
+          "value": "#FFE8EC",
+          "type": "color"
+        }
       }
     }
   }

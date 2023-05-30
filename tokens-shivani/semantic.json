@@ -3,10 +3,6 @@
     "Color": {
       "Status": {
         "Error": {
-          "Dark": {
-            "value": "{base.Color.Red.600}",
-            "type": "color"
-          },
           "Primary": {
             "value": "{base.Color.Red.500}",
             "type": "color"
@@ -17,10 +13,6 @@
           }
         },
         "Success": {
-          "Dark": {
-            "value": "{base.Color.Green.600}",
-            "type": "color"
-          },
           "Primary": {
             "value": "{base.Color.Green.500}",
             "type": "color"
@@ -31,10 +23,6 @@
           }
         },
         "Alert": {
-          "Dark": {
-            "value": "{base.Color.Orange.600}",
-            "type": "color"
-          },
           "Primary": {
             "value": "{base.Color.Orange.500}",
             "type": "color"
@@ -90,6 +78,16 @@
         },
         "Lite": {
           "value": "{base.Color.Neutral.50}",
+          "type": "color"
+        }
+      },
+      "Background": {
+        "Yellow": {
+          "value": "{base.Color.Yellow.100}",
+          "type": "color"
+        },
+        "Blue": {
+          "value": "{base.Color.Blue.100}",
           "type": "color"
         }
       }
