@@ -402,6 +402,10 @@
       "8": {
         "value": "{base.BorderRadius.8}",
         "type": "borderRadius"
+      },
+      "12": {
+        "value": "{base.BorderRadius.12}",
+        "type": "borderRadius"
       }
     },
     "Color": {
@@ -475,6 +479,16 @@
             "value": "{Red.100}",
             "type": "color"
           }
+        }
+      },
+      "Pagination": {
+        "Active": {
+          "value": "{Grey.800}",
+          "type": "color"
+        },
+        "Inactive": {
+          "value": "{Grey.200}",
+          "type": "color"
         }
       }
     }
