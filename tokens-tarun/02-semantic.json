@@ -365,6 +365,118 @@
         "value": "underline",
         "type": "textDecoration"
       }
+    },
+    "Size": {
+      "16": {
+        "value": "{base.Size.16}",
+        "type": "sizing"
+      },
+      "24": {
+        "value": "{base.Size.24}",
+        "type": "sizing"
+      }
+    },
+    "Space": {
+      "4": {
+        "value": "{base.Spacing.4}",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "{base.Spacing.8}",
+        "type": "spacing"
+      },
+      "12": {
+        "value": "{base.Spacing.12}",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "{base.Spacing.16}",
+        "type": "spacing"
+      }
+    },
+    "BorderRadius": {
+      "4": {
+        "value": "{base.BorderRadius.4}",
+        "type": "borderRadius"
+      },
+      "8": {
+        "value": "{base.BorderRadius.8}",
+        "type": "borderRadius"
+      }
+    },
+    "Color": {
+      "Tag": {
+        "Default": {
+          "Text": {
+            "value": "{Purple.700}",
+            "type": "color"
+          },
+          "Bg": {
+            "value": "{Purple.100}",
+            "type": "color"
+          }
+        }
+      },
+      "Icon": {
+        "System": {
+          "Default": {
+            "value": "{Grey.800}",
+            "type": "color"
+          },
+          "Actionable": {
+            "value": "{Purple.500}",
+            "type": "color"
+          }
+        }
+      },
+      "Text": {
+        "Primary": {
+          "value": "{Grey.900}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{Grey.600}",
+          "type": "color"
+        }
+      },
+      "Surface": {
+        "Card": {
+          "value": "{White.500}",
+          "type": "color"
+        }
+      },
+      "Status": {
+        "Success": {
+          "Primary": {
+            "value": "{Green.500}",
+            "type": "color"
+          },
+          "Lite": {
+            "value": "{Green.100}",
+            "type": "color"
+          }
+        },
+        "Warning": {
+          "Primary": {
+            "value": "{Orange.500}",
+            "type": "color"
+          },
+          "Lite": {
+            "value": "{Orange.100}",
+            "type": "color"
+          }
+        },
+        "Danger": {
+          "Primary": {
+            "value": "{Red.500}",
+            "type": "color"
+          },
+          "Lite": {
+            "value": "{Red.100}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
