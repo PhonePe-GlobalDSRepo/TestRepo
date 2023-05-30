@@ -2,6 +2,18 @@
   "base": {
     "Color": {
       "Purple": {
+        "50": {
+          "value": "#F2EAFA",
+          "type": "color"
+        },
+        "200": {
+          "value": "#CCAEEC",
+          "type": "color"
+        },
+        "300": {
+          "value": "#BC95E6",
+          "type": "color"
+        },
         "400": {
           "value": "#ba8bea",
           "type": "color"
