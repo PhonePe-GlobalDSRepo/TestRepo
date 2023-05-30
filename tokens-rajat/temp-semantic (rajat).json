@@ -1,0 +1,104 @@
+{
+  "semantic": {
+    "size": {
+      "small": {
+        "value": "{base.size.8.value}",
+        "type": "sizing"
+      },
+      "medium": {
+        "value": "{base.size.16.value}",
+        "type": "sizing"
+      },
+      "large": {
+        "value": "{base.size.32.value}",
+        "type": "sizing"
+      },
+      "extraLarge": {
+        "value": "{base.size.64.value}",
+        "type": "sizing"
+      }
+    },
+    "spacing": {
+      "none": {
+        "value": "{base.space.0.value}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{base.space.8.value}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{base.space.16.value}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{base.space.32.value}",
+        "type": "spacing"
+      },
+      "extraLarge": {
+        "value": "{base.space.64.value}",
+        "type": "spacing"
+      }
+    },
+    "borderRadius": {
+      "none": {
+        "value": "{base.borderRadius.0.value}",
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": "{base.borderRadius.4.value}",
+        "type": "borderRadius"
+      },
+      "medium": {
+        "value": "{base.borderRadius.8.value}",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{base.borderRadius.32.value}",
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "thin": {
+        "value": "{base.borderWidth.1.value}",
+        "type": "borderWidth"
+      },
+      "thick": {
+        "value": "{base.borderWidth.4.value}",
+        "type": "borderWidth"
+      }
+    },
+    "opacity": {
+      "light": {
+        "value": "{base.opacity.30.value}",
+        "type": "opacity"
+      },
+      "semiLight": {
+        "value": "{base.opacity.60.value}",
+        "type": "opacity"
+      },
+      "semiOpaque": {
+        "value": "{base.opacity.90.value}",
+        "type": "opacity"
+      },
+      "opaque": {
+        "value": "{base.opacity.100.value}",
+        "type": "opacity"
+      }
+    },
+    "boxShadow": {
+      "small": {
+        "value": "{base.borderShadow.down.small.value}",
+        "type": "boxShadow"
+      },
+      "medium": {
+        "value": "{base.borderShadow.down.medium.value}",
+        "type": "boxShadow"
+      },
+      "large": {
+        "value": "{base.borderShadow.down.large.value}",
+        "type": "boxShadow"
+      }
+    }
+  }
+}

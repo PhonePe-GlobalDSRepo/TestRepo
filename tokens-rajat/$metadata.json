@@ -1,6 +1,11 @@
 {
   "tokenSetOrder": [
     "01-base",
-    "02-semantic"
+    "02-semantic",
+    "temp-semantic (rajat)",
+    "temp-core (tarun)",
+    "temp-semantic (tarun)",
+    "temp-core (shivani)",
+    "temp-semantic (shivani)"
   ]
 }

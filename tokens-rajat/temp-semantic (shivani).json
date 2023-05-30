@@ -1,0 +1,54 @@
+{
+  "semantic": {
+    "color": {
+      "textPrimary": {
+        "value": "{base.Color.Neutral.800}",
+        "type": "color"
+      },
+      "textSecondary": {
+        "value": "{base.Color.Neutral.500}",
+        "type": "color"
+      },
+      "textOnBrand": {
+        "value": "{base.Color.Neutral.50}",
+        "type": "color"
+      },
+      "backgroundPrimary": {
+        "value": "{base.Color.Neutral.50}",
+        "type": "color"
+      },
+      "backgroundSecondary": {
+        "value": "{base.Color.Neutral.100}",
+        "type": "color"
+      },
+      "borderColor": {
+        "value": "{base.Color.Neutral.300}",
+        "type": "color"
+      },
+      "brandMain": {
+        "value": "{base.Color.Purple.500}",
+        "type": "color"
+      },
+      "brandSecondary": {
+        "value": "{base.Color.Purple.400}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{base.Color.Red.500}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{base.Color.Green.500}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{base.Color.Orange.500}",
+        "type": "color"
+      },
+      "info": {
+        "value": "{base.Color.Blue.500}",
+        "type": "color"
+      }
+    }
+  }
+}

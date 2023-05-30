@@ -1,0 +1,136 @@
+{
+  "semantic": {
+    "typography": {
+      "bodyText": {
+        "fontFamily": {
+          "value": "{base.FontFamily.Roboto.value}",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "{base.FontWeight.Regular.value}",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "{base.FontSize.14.value}",
+          "type": "other"
+        },
+        "letterSpacing": {
+          "value": "{base.LetterSpacing.Zero.value}",
+          "type": "other"
+        },
+        "lineHeight": {
+          "value": "{base.LineHeight.20.value}",
+          "type": "other"
+        },
+        "textDecoration": {
+          "value": "{base.TextDecoration.None.value}",
+          "type": "other"
+        }
+      },
+      "header1": {
+        "fontFamily": {
+          "value": "{base.FontFamily.Roboto.value}",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "{base.FontWeight.Bold.value}",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "{base.FontSize.32.value}",
+          "type": "other"
+        },
+        "letterSpacing": {
+          "value": "{base.LetterSpacing.Zero.value}",
+          "type": "other"
+        },
+        "lineHeight": {
+          "value": "{base.LineHeight.38.value}",
+          "type": "other"
+        },
+        "textDecoration": {
+          "value": "{base.TextDecoration.None.value}",
+          "type": "other"
+        }
+      },
+      "header2": {
+        "fontFamily": {
+          "value": "{base.FontFamily.Roboto.value}",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "{base.FontWeight.Medium.value}",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "{base.FontSize.26.value}",
+          "type": "other"
+        },
+        "letterSpacing": {
+          "value": "{base.LetterSpacing.Zero.value}",
+          "type": "other"
+        },
+        "lineHeight": {
+          "value": "{base.LineHeight.32.value}",
+          "type": "other"
+        },
+        "textDecoration": {
+          "value": "{base.TextDecoration.None.value}",
+          "type": "other"
+        }
+      },
+      "smallText": {
+        "fontFamily": {
+          "value": "{base.FontFamily.Roboto.value}",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "{base.FontWeight.Regular.value}",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "{base.FontSize.12.value}",
+          "type": "other"
+        },
+        "letterSpacing": {
+          "value": "{base.LetterSpacing.Half.value}",
+          "type": "other"
+        },
+        "lineHeight": {
+          "value": "{base.LineHeight.16.value}",
+          "type": "other"
+        },
+        "textDecoration": {
+          "value": "{base.TextDecoration.None.value}",
+          "type": "other"
+        }
+      },
+      "linkText": {
+        "fontFamily": {
+          "value": "{base.FontFamily.Roboto.value}",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "{base.FontWeight.Regular.value}",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "{base.FontSize.14.value}",
+          "type": "other"
+        },
+        "letterSpacing": {
+          "value": "{base.LetterSpacing.Zero.value}",
+          "type": "other"
+        },
+        "lineHeight": {
+          "value": "{base.LineHeight.20.value}",
+          "type": "other"
+        },
+        "textDecoration": {
+          "value": "{base.TextDecoration.Underline.value}",
+          "type": "other"
+        }
+      }
+    }
+  }
+}
