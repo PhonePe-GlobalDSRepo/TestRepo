@@ -118,6 +118,10 @@
       "Two": {
         "value": "2%",
         "type": "letterSpacing"
+      },
+      "TwoHalf": {
+        "value": "2.5%",
+        "type": "letterSpacing"
       }
     },
     "LineHeight": {
