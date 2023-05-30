@@ -128,6 +128,16 @@
           "value": "{base.Color.Neutral.200}",
           "type": "color"
         }
+      },
+      "Interactive": {
+        "Brand": {
+          "value": "{base.Color.Purple.900}",
+          "type": "color"
+        },
+        "Sucess": {
+          "value": "{base.Color.Green.500}",
+          "type": "color"
+        }
       }
     }
   }
