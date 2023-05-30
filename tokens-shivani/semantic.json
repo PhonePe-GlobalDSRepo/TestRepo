@@ -60,25 +60,45 @@
         }
       },
       "Icon": {
-        "Brand": {
-          "value": "{base.Color.Purple.900}",
-          "type": "color"
+        "System": {
+          "Brand": {
+            "value": "{base.Color.Purple.900}",
+            "type": "color"
+          },
+          "Dark": {
+            "value": "{base.Color.Neutral.800}",
+            "type": "color"
+          },
+          "Default": {
+            "value": "{base.Color.Neutral.700}",
+            "type": "color"
+          },
+          "Lite": {
+            "value": "{base.Color.Neutral.50}",
+            "type": "color"
+          }
         },
-        "Dark": {
-          "value": "{base.Color.Neutral.800}",
-          "type": "color"
+        "Category": {
+          "Brand": {
+            "value": "{base.Color.Purple.900}",
+            "type": "color"
+          },
+          "BrandLite": {
+            "value": "{base.Color.Purple.400}",
+            "type": "color"
+          }
         },
-        "Medium": {
-          "value": "{base.Color.Neutral.700}",
-          "type": "color"
+        "Benefits": {
+          "Example1": {
+            "value": "#",
+            "type": "color"
+          }
         },
-        "MediumLite": {
-          "value": "{base.Color.Neutral.400}",
-          "type": "color"
-        },
-        "Lite": {
-          "value": "{base.Color.Neutral.50}",
-          "type": "color"
+        "Illustration": {
+          "Example2": {
+            "value": "#",
+            "type": "color"
+          }
         }
       },
       "Background": {
