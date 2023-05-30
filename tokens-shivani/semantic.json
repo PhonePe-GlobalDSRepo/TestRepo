@@ -29,6 +29,26 @@
             "value": "{base.Color.Green.100}",
             "type": "color"
           }
+        },
+        "Alert": {
+          "Dark": {
+            "value": "{base.Color.Orange.600}",
+            "type": "color"
+          },
+          "Primary": {
+            "value": "{base.Color.Orange.500}",
+            "type": "color"
+          },
+          "Lite": {
+            "value": "{base.Color.Orange.50}",
+            "type": "color"
+          }
+        }
+      },
+      "Text": {
+        "Brand": {
+          "value": "{base.Color.Purple.900}",
+          "type": "color"
         }
       }
     }
