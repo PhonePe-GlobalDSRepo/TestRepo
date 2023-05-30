@@ -1,1 +1,32 @@
-{}
+{
+  "base": {
+    "Color": {
+      "Purple": {
+        "400": {
+          "value": "#ba8bea",
+          "type": "color"
+        },
+        "500": {
+          "value": "#9c64db",
+          "type": "color"
+        },
+        "600": {
+          "value": "#8C4bd5",
+          "type": "color"
+        },
+        "700": {
+          "value": "#7D32cf",
+          "type": "color"
+        },
+        "800": {
+          "value": "#6e2bb8",
+          "type": "color"
+        },
+        "900": {
+          "value": "#5F259F",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
