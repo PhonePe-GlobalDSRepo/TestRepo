@@ -1,0 +1,36 @@
+{
+  "semantic": {
+    "Color": {
+      "Status": {
+        "Error": {
+          "Dark": {
+            "value": "{base.Color.Red.600}",
+            "type": "color"
+          },
+          "Primary": {
+            "value": "{base.Color.Red.500}",
+            "type": "color"
+          },
+          "Lite": {
+            "value": "{base.Color.Red.100}",
+            "type": "color"
+          }
+        },
+        "Success": {
+          "Dark": {
+            "value": "{base.Color.Green.600}",
+            "type": "color"
+          },
+          "Primary": {
+            "value": "{base.Color.Green.500}",
+            "type": "color"
+          },
+          "Lite": {
+            "value": "{base.Color.Green.100}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
