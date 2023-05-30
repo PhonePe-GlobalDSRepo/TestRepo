@@ -99,6 +99,10 @@
       }
     },
     "LetterSpacing": {
+      "Zero": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
       "Half": {
         "value": "0.5%",
         "type": "letterSpacing"

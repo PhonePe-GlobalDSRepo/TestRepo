@@ -1,1 +1,100 @@
-{}
+{
+  "base": {
+    "Typography": {
+      "Heading": {
+        "H1": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "fontSize": "{base.FontSize.32}",
+            "lineHeight": "{base.LineHeight.40}",
+            "letterSpacing": "{base.LetterSpacing.Zero}"
+          },
+          "type": "typography"
+        },
+        "H2": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Bold}",
+            "lineHeight": "{base.LineHeight.32}",
+            "fontSize": "{base.FontSize.24}",
+            "letterSpacing": "{base.LetterSpacing.Half}"
+          },
+          "type": "typography"
+        },
+        "H3": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Bold}",
+            "lineHeight": "{base.LineHeight.28}",
+            "fontSize": "{base.FontSize.20}",
+            "letterSpacing": "{base.LetterSpacing.Half}"
+          },
+          "type": "typography"
+        },
+        "H4": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Bold}",
+            "lineHeight": "{base.LineHeight.24}",
+            "fontSize": "{base.FontSize.16}",
+            "letterSpacing": "{base.LetterSpacing.OneHalf}"
+          },
+          "type": "typography"
+        },
+        "H5": {
+          "value": {
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontWeight": "{base.FontWeight.Bold}",
+            "lineHeight": "{base.LineHeight.20}",
+            "fontSize": "{base.FontSize.14}",
+            "letterSpacing": "{base.LetterSpacing.Two}"
+          },
+          "type": "typography"
+        },
+        "Amount": {
+          "A1": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.40}",
+              "fontSize": "{base.FontSize.32}",
+              "letterSpacing": "{base.LetterSpacing.Zero}"
+            },
+            "type": "typography"
+          },
+          "A2": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.32}",
+              "fontSize": "{base.FontSize.24}",
+              "letterSpacing": "{base.LetterSpacing.Half}"
+            },
+            "type": "typography"
+          },
+          "A3": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.28}",
+              "fontSize": "{base.FontSize.20}",
+              "letterSpacing": "{base.LetterSpacing.Half}"
+            },
+            "type": "typography"
+          },
+          "A4": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.24}",
+              "fontSize": "{base.FontSize.16}",
+              "letterSpacing": "{base.LetterSpacing.Half}"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    }
+  }
+}
