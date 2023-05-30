@@ -423,8 +423,12 @@
       },
       "Icon": {
         "System": {
-          "Default": {
+          "Primary": {
             "value": "{Grey.800}",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "{Grey.400}",
             "type": "color"
           },
           "Actionable": {
@@ -441,11 +445,19 @@
         "Secondary": {
           "value": "{Grey.600}",
           "type": "color"
+        },
+        "Actionable": {
+          "value": "{Purple.500}",
+          "type": "color"
         }
       },
       "Surface": {
         "Card": {
           "value": "{White.500}",
+          "type": "color"
+        },
+        "AppBg": {
+          "value": "{Purple.100}",
           "type": "color"
         }
       },
