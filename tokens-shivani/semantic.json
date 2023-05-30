@@ -49,6 +49,48 @@
         "Brand": {
           "value": "{base.Color.Purple.900}",
           "type": "color"
+        },
+        "Dark": {
+          "value": "{base.Color.Neutral.800}",
+          "type": "color"
+        },
+        "Medium": {
+          "value": "{base.Color.Neutral.600}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{base.Color.Neutral.300}",
+          "type": "color"
+        },
+        "Placeholder": {
+          "value": "{base.Color.Neutral.400}",
+          "type": "color"
+        },
+        "Lite": {
+          "value": "{base.Color.Neutral.50}",
+          "type": "color"
+        }
+      },
+      "Icon": {
+        "Brand": {
+          "value": "{base.Color.Purple.900}",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "{base.Color.Neutral.800}",
+          "type": "color"
+        },
+        "Medium": {
+          "value": "{base.Color.Neutral.700}",
+          "type": "color"
+        },
+        "MediumLite": {
+          "value": "{base.Color.Neutral.400}",
+          "type": "color"
+        },
+        "Lite": {
+          "value": "{base.Color.Neutral.50}",
+          "type": "color"
         }
       }
     }
