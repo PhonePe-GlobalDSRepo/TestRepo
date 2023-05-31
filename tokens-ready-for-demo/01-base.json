@@ -1,5 +1,5 @@
 {
-  "base": {
+  "Base": {
     "Color": {
       "Purple": {
         "50": {
@@ -510,7 +510,7 @@
         "type": "sizing"
       }
     },
-    "space": {
+    "Space": {
       "0": {
         "value": "0",
         "type": "spacing"
@@ -564,7 +564,7 @@
         "type": "spacing"
       }
     },
-    "borderRadius": {
+    "BorderRadius": {
       "0": {
         "value": "0",
         "type": "borderRadius"
@@ -602,7 +602,7 @@
         "type": "borderRadius"
       }
     },
-    "borderWidth": {
+    "BorderWidth": {
       "1": {
         "value": "1",
         "type": "borderWidth"
@@ -620,7 +620,7 @@
         "type": "borderWidth"
       }
     },
-    "opacity": {
+    "Opacity": {
       "0": {
         "value": "0",
         "type": "opacity"
@@ -666,7 +666,7 @@
         "type": "opacity"
       }
     },
-    "borderShadow": {
+    "BoxShadow": {
       "-Y-axis": {
         "small": {
           "value": {
