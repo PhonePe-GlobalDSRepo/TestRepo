@@ -409,18 +409,6 @@
       }
     },
     "Color": {
-      "Tag": {
-        "Default": {
-          "Text": {
-            "value": "{Purple.700}",
-            "type": "color"
-          },
-          "Bg": {
-            "value": "{Purple.100}",
-            "type": "color"
-          }
-        }
-      },
       "Icon": {
         "System": {
           "Primary": {
@@ -489,6 +477,18 @@
           },
           "Lite": {
             "value": "{Red.100}",
+            "type": "color"
+          }
+        }
+      },
+      "Tag": {
+        "Default": {
+          "Text": {
+            "value": "{Purple.700}",
+            "type": "color"
+          },
+          "Bg": {
+            "value": "{Purple.100}",
             "type": "color"
           }
         }
