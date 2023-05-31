@@ -1,0 +1,104 @@
+{
+  "semantic": {
+    "size": {
+      "small": {
+        "value": "{base.size.8}",
+        "type": "sizing"
+      },
+      "medium": {
+        "value": "{base.size.16}",
+        "type": "sizing"
+      },
+      "large": {
+        "value": "{base.size.32}",
+        "type": "sizing"
+      },
+      "extraLarge": {
+        "value": "{base.size.64}",
+        "type": "sizing"
+      }
+    },
+    "spacing": {
+      "none": {
+        "value": "{base.space.0}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{base.space.8}",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{base.space.16}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{base.space.32}",
+        "type": "spacing"
+      },
+      "extraLarge": {
+        "value": "{base.space.64}",
+        "type": "spacing"
+      }
+    },
+    "borderRadius": {
+      "none": {
+        "value": "{base.borderRadius.0}",
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": "{base.borderRadius.4}",
+        "type": "borderRadius"
+      },
+      "medium": {
+        "value": "{base.borderRadius.8}",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{base.borderRadius.32}",
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "thin": {
+        "value": "{base.borderWidth.1}",
+        "type": "borderWidth"
+      },
+      "thick": {
+        "value": "{base.borderWidth.4}",
+        "type": "borderWidth"
+      }
+    },
+    "opacity": {
+      "light": {
+        "value": "{base.opacity.30}",
+        "type": "opacity"
+      },
+      "semiLight": {
+        "value": "{base.opacity.60}",
+        "type": "opacity"
+      },
+      "semiOpaque": {
+        "value": "{base.opacity.90}",
+        "type": "opacity"
+      },
+      "opaque": {
+        "value": "{base.opacity.100}",
+        "type": "opacity"
+      }
+    },
+    "boxShadow": {
+      "small": {
+        "value": "{base.borderShadow.-Y-axis.small}",
+        "type": "boxShadow"
+      },
+      "medium": {
+        "value": "{base.borderShadow.-Y-axis.medium}",
+        "type": "boxShadow"
+      },
+      "large": {
+        "value": "{base.borderShadow.-Y-axis.large}",
+        "type": "boxShadow"
+      }
+    }
+  }
+}
