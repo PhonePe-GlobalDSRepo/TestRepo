@@ -1,5 +1,445 @@
 {
   "base": {
+    "Color": {
+      "Purple": {
+        "50": {
+          "value": "#F2EAFA",
+          "type": "color"
+        },
+        "200": {
+          "value": "#CCAEEC",
+          "type": "color"
+        },
+        "300": {
+          "value": "#BC95E6",
+          "type": "color"
+        },
+        "400": {
+          "value": "#ba8bea",
+          "type": "color"
+        },
+        "500": {
+          "value": "#9c64db",
+          "type": "color"
+        },
+        "600": {
+          "value": "#8C4bd5",
+          "type": "color"
+        },
+        "700": {
+          "value": "#7D32cf",
+          "type": "color"
+        },
+        "800": {
+          "value": "#6e2bb8",
+          "type": "color"
+        },
+        "900": {
+          "value": "#5F259F",
+          "type": "color"
+        }
+      },
+      "Neutral": {
+        "100": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "200": {
+          "value": "#f5f5f5",
+          "type": "color"
+        },
+        "300": {
+          "value": "#eeeeee",
+          "type": "color"
+        },
+        "400": {
+          "value": "#bdbdbd",
+          "type": "color"
+        },
+        "500": {
+          "value": "#9e9e9e",
+          "type": "color"
+        },
+        "600": {
+          "value": "#616161",
+          "type": "color"
+        },
+        "700": {
+          "value": "#424242",
+          "type": "color"
+        },
+        "800": {
+          "value": "#212121",
+          "type": "color"
+        },
+        "900": {
+          "value": "#000000",
+          "type": "color"
+        }
+      },
+      "Red": {
+        "100": {
+          "value": "#f3d2cf",
+          "type": "color"
+        },
+        "200": {
+          "value": "#eaafab",
+          "type": "color"
+        },
+        "300": {
+          "value": "#e18d86",
+          "type": "color"
+        },
+        "400": {
+          "value": "#D86A61",
+          "type": "color"
+        },
+        "500": {
+          "value": "#CF473C",
+          "type": "color"
+        },
+        "600": {
+          "value": "#BA382E",
+          "type": "color"
+        },
+        "700": {
+          "value": "#9D2F27",
+          "type": "color"
+        },
+        "800": {
+          "value": "#802720",
+          "type": "color"
+        },
+        "900": {
+          "value": "#641e19",
+          "type": "color"
+        }
+      },
+      "Green": {
+        "100": {
+          "value": "#DFF8EB",
+          "type": "color"
+        },
+        "200": {
+          "value": "#A1EAC3",
+          "type": "color"
+        },
+        "300": {
+          "value": "#62DC9B",
+          "type": "color"
+        },
+        "400": {
+          "value": "#2CC674",
+          "type": "color"
+        },
+        "500": {
+          "value": "#1E874F",
+          "type": "color"
+        },
+        "600": {
+          "value": "#1A7645",
+          "type": "color"
+        },
+        "700": {
+          "value": "#17663B",
+          "type": "color"
+        },
+        "800": {
+          "value": "#135532",
+          "type": "color"
+        },
+        "900": {
+          "value": "#0f4428",
+          "type": "color"
+        }
+      },
+      "Orange": {
+        "50": {
+          "value": "#FEEDE1",
+          "type": "color"
+        },
+        "100": {
+          "value": "#FCDBC4",
+          "type": "color"
+        },
+        "200": {
+          "value": "#FAB889",
+          "type": "color"
+        },
+        "300": {
+          "value": "#F7954F",
+          "type": "color"
+        },
+        "400": {
+          "value": "#F47114",
+          "type": "color"
+        },
+        "500": {
+          "value": "#C25609",
+          "type": "color"
+        },
+        "600": {
+          "value": "#AA4B08",
+          "type": "color"
+        },
+        "700": {
+          "value": "#914007",
+          "type": "color"
+        },
+        "800": {
+          "value": "#793606",
+          "type": "color"
+        }
+      },
+      "Blue": {
+        "100": {
+          "value": "#E4EFFB",
+          "type": "color"
+        },
+        "200": {
+          "value": "#AFD1F3",
+          "type": "color"
+        },
+        "300": {
+          "value": "#7AB2EB",
+          "type": "color"
+        },
+        "400": {
+          "value": "#4594E3",
+          "type": "color"
+        },
+        "500": {
+          "value": "#1F75CB",
+          "type": "color"
+        },
+        "600": {
+          "value": "#1A63AC",
+          "type": "color"
+        },
+        "700": {
+          "value": "#16518D",
+          "type": "color"
+        },
+        "800": {
+          "value": "#113F6E",
+          "type": "color"
+        },
+        "900": {
+          "value": "#0C2E4F",
+          "type": "color"
+        }
+      },
+      "Yellow": {
+        "100": {
+          "value": "#FFF3BF",
+          "type": "color"
+        }
+      }
+    },
+    "FontFamily": {
+      "Roboto": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      }
+    },
+    "FontWeight": {
+      "Thin": {
+        "value": "Thin",
+        "type": "fontWeights"
+      },
+      "Light": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
+      "Regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "Medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "Bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "Black": {
+        "value": "Black",
+        "type": "fontWeights"
+      }
+    },
+    "FontSize": {
+      "10": {
+        "value": "10",
+        "type": "fontSizes"
+      },
+      "12": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "14": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "16": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "18": {
+        "value": "18",
+        "type": "fontSizes"
+      },
+      "20": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "22": {
+        "value": "22",
+        "type": "fontSizes"
+      },
+      "24": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "26": {
+        "value": "26",
+        "type": "fontSizes"
+      },
+      "28": {
+        "value": "28",
+        "type": "fontSizes"
+      },
+      "30": {
+        "value": "30",
+        "type": "fontSizes"
+      },
+      "32": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "34": {
+        "value": "34",
+        "type": "fontSizes"
+      },
+      "36": {
+        "value": "36",
+        "type": "fontSizes"
+      },
+      "38": {
+        "value": "38",
+        "type": "fontSizes"
+      },
+      "40": {
+        "value": "40",
+        "type": "fontSizes"
+      }
+    },
+    "LetterSpacing": {
+      "Zero": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "Half": {
+        "value": "0.5%",
+        "type": "letterSpacing"
+      },
+      "One": {
+        "value": "1%",
+        "type": "letterSpacing"
+      },
+      "OneHalf": {
+        "value": "1.5%",
+        "type": "letterSpacing"
+      },
+      "Two": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "TwoHalf": {
+        "value": "2.5%",
+        "type": "letterSpacing"
+      }
+    },
+    "LineHeight": {
+      "10": {
+        "value": "10",
+        "type": "lineHeights"
+      },
+      "12": {
+        "value": "12",
+        "type": "lineHeights"
+      },
+      "14": {
+        "value": "14",
+        "type": "lineHeights"
+      },
+      "16": {
+        "value": "16",
+        "type": "lineHeights"
+      },
+      "18": {
+        "value": "18",
+        "type": "lineHeights"
+      },
+      "20": {
+        "value": "20",
+        "type": "lineHeights"
+      },
+      "22": {
+        "value": "22",
+        "type": "lineHeights"
+      },
+      "24": {
+        "value": "24",
+        "type": "lineHeights"
+      },
+      "26": {
+        "value": "26",
+        "type": "lineHeights"
+      },
+      "28": {
+        "value": "28",
+        "type": "lineHeights"
+      },
+      "30": {
+        "value": "30",
+        "type": "lineHeights"
+      },
+      "32": {
+        "value": "32",
+        "type": "lineHeights"
+      },
+      "34": {
+        "value": "34",
+        "type": "lineHeights"
+      },
+      "36": {
+        "value": "36",
+        "type": "lineHeights"
+      },
+      "38": {
+        "value": "38",
+        "type": "lineHeights"
+      },
+      "40": {
+        "value": "40",
+        "type": "lineHeights"
+      }
+    },
+    "TextDecoration": {
+      "None": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "Underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      },
+      "Strikethrough": {
+        "value": "line-through",
+        "type": "textDecoration"
+      }
+    },
     "size": {
       "0": {
         "value": "0",
