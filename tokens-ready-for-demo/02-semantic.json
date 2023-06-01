@@ -551,6 +551,48 @@
           }
         }
       }
+    },
+    "FontSize": {
+      "Heading": {
+        "H1": {
+          "value": "{Base.FontSize.32}",
+          "type": "fontSizes"
+        },
+        "H2": {
+          "value": "{Base.FontSize.24}",
+          "type": "fontSizes"
+        },
+        "H3": {
+          "value": "{Base.FontSize.20}",
+          "type": "fontSizes"
+        },
+        "H4": {
+          "value": "{Base.FontSize.16}",
+          "type": "fontSizes"
+        },
+        "H5": {
+          "value": "{Base.FontSize.14}",
+          "type": "fontSizes"
+        }
+      },
+      "Body": {
+        "B1": {
+          "value": "{Base.FontSize.16}",
+          "type": "fontSizes"
+        },
+        "B2": {
+          "value": "{Base.FontSize.14}",
+          "type": "fontSizes"
+        },
+        "B3": {
+          "value": "{Base.FontSize.12}",
+          "type": "fontSizes"
+        },
+        "B4": {
+          "value": "{Base.FontSize.10}",
+          "type": "fontSizes"
+        }
+      }
     }
   }
 }
