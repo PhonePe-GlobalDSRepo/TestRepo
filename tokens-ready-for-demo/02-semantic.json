@@ -332,6 +332,10 @@
       "Strikethrough": {
         "value": "{Base.TextDecoration.Strikethrough}",
         "type": "textDecoration"
+      },
+      "None": {
+        "value": "{Base.TextDecoration.None}",
+        "type": "textDecoration"
       }
     }
   },
@@ -592,6 +596,34 @@
           "value": "{Base.FontSize.10}",
           "type": "fontSizes"
         }
+      }
+    },
+    "FontWeight": {
+      "Bold": {
+        "value": "{Base.FontWeight.Bold}",
+        "type": "fontWeights"
+      },
+      "Regular": {
+        "value": "{Base.FontWeight.Regular}",
+        "type": "fontWeights"
+      }
+    },
+    "LineHeight": {
+      "S": {
+        "value": "{Base.LineHeight.100}",
+        "type": "lineHeights"
+      },
+      "M": {
+        "value": "{Base.LineHeight.125}",
+        "type": "lineHeights"
+      },
+      "L": {
+        "value": "{Base.LineHeight.135}",
+        "type": "lineHeights"
+      },
+      "XL": {
+        "value": "{Base.LineHeight.150}",
+        "type": "lineHeights"
       }
     }
   }

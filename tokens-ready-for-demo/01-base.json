@@ -424,6 +424,50 @@
       "40": {
         "value": "40",
         "type": "lineHeights"
+      },
+      "100": {
+        "value": "100%",
+        "type": "lineHeights"
+      },
+      "105": {
+        "value": "105%",
+        "type": "lineHeights"
+      },
+      "110": {
+        "value": "110%",
+        "type": "lineHeights"
+      },
+      "115": {
+        "value": "115%",
+        "type": "lineHeights"
+      },
+      "120": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "125": {
+        "value": "125%",
+        "type": "lineHeights"
+      },
+      "130": {
+        "value": "130%",
+        "type": "lineHeights"
+      },
+      "135": {
+        "value": "135%",
+        "type": "lineHeights"
+      },
+      "140": {
+        "value": "140%",
+        "type": "lineHeights"
+      },
+      "145": {
+        "value": "145%",
+        "type": "lineHeights"
+      },
+      "150": {
+        "value": "150%",
+        "type": "lineHeights"
       }
     },
     "TextDecoration": {
