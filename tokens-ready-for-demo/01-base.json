@@ -1,5 +1,23 @@
 {
   "Base": {
+    "TextCase": {
+      "None": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "UpperCase": {
+        "value": "Uppercase",
+        "type": "textCase"
+      },
+      "LowerCase": {
+        "value": "lowercase",
+        "type": "textCase"
+      },
+      "Capitalize": {
+        "value": "capitalize",
+        "type": "textCase"
+      }
+    },
     "Color": {
       "Purple": {
         "50": {
@@ -232,6 +250,16 @@
       "Yellow": {
         "100": {
           "value": "#FFF3BF",
+          "type": "color"
+        }
+      },
+      "Neutrals": {
+        "White": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "Black": {
+          "value": "#000000",
           "type": "color"
         }
       }

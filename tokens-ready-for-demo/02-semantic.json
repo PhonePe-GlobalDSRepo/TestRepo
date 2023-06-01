@@ -76,6 +76,22 @@
           "value": "{Base.Color.Neutral.100}",
           "type": "color"
         }
+      },
+      "Neutrals": {
+        "White": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "Black": {
+          "value": "#0000",
+          "type": "color"
+        }
+      },
+      "Brand": {
+        "Primary": {
+          "value": "{Base.Color.Purple.600}",
+          "type": "color"
+        }
       }
     },
     "Space": {
