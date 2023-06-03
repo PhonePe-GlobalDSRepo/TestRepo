@@ -16,6 +16,54 @@
             "type": "color"
           }
         }
+      },
+      "Hover": {
+        "Color": {
+          "BackgroundColor": {
+            "value": "{Base.Color.Purple.700}",
+            "type": "color"
+          },
+          "TextColor": {
+            "value": "{Semantic.Color.Neutrals.White}",
+            "type": "color"
+          },
+          "IconColor": {
+            "value": "{Semantic.Color.Neutrals.White}",
+            "type": "color"
+          }
+        }
+      },
+      "Focussed": {
+        "Color": {
+          "BackgroundColor": {
+            "value": "{Base.Color.Purple.800}",
+            "type": "color"
+          },
+          "TextColor": {
+            "value": "{Semantic.Color.Neutrals.White}",
+            "type": "color"
+          },
+          "IconColor": {
+            "value": "{Semantic.Color.Neutrals.White}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Secondary": {
+      "Default": {
+        "BackgroundColor": {
+          "value": "{Base.Color.Purple.50}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{Base.Color.Purple.900}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{Base.Color.Purple.900}",
+          "type": "color"
+        }
       }
     }
   }
