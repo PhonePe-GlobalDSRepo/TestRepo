@@ -1,5 +1,5 @@
 {
-  "Semantic": {
+  "semantic": {
     "Color": {
       "Status": {
         "Error": {
@@ -7,7 +7,7 @@
             "value": "{Base.Color.Red.500}",
             "type": "color"
           },
-          "Lite": {
+          "Subtle": {
             "value": "{Base.Color.Red.100}",
             "type": "color"
           }
@@ -17,7 +17,7 @@
             "value": "{Base.Color.Green.500}",
             "type": "color"
           },
-          "Lite": {
+          "Subtle": {
             "value": "{Base.Color.Green.100}",
             "type": "color"
           }
@@ -27,22 +27,22 @@
             "value": "{Base.Color.Orange.500}",
             "type": "color"
           },
-          "Lite": {
+          "Subtle": {
             "value": "{Base.Color.Orange.50}",
             "type": "color"
           }
         }
       },
       "Text": {
-        "Brand": {
+        "Links": {
           "value": "{Base.Color.Purple.900}",
           "type": "color"
         },
-        "Dark": {
+        "Primary": {
           "value": "{Base.Color.Neutral.800}",
           "type": "color"
         },
-        "Medium": {
+        "Secondary": {
           "value": "{Base.Color.Neutral.600}",
           "type": "color"
         },
@@ -54,13 +54,13 @@
           "value": "{Base.Color.Neutral.500}",
           "type": "color"
         },
-        "Lite": {
+        "Inverse": {
           "value": "{Base.Color.Neutral.100}",
           "type": "color"
         }
       },
-      "Surface": {
-        "GrayLite": {
+      "Background": {
+        "Bg1": {
           "value": "{Base.Color.Neutral.200}",
           "type": "color"
         },
@@ -89,7 +89,13 @@
       },
       "Brand": {
         "Primary": {
-          "value": "{Base.Color.Purple.600}",
+          "value": "{Base.Color.Purple.900}",
+          "type": "color"
+        }
+      },
+      "Helper": {
+        "Helper1": {
+          "value": "{Base.Color.Blue.500}",
           "type": "color"
         }
       }
@@ -287,9 +293,7 @@
         "value": "{Base.TextDecoration.Strikethrough}",
         "type": "textDecoration"
       }
-    }
-  },
-  "semantic": {
+    },
     "FontSize": {
       "Heading": {
         "H1": {

@@ -4,15 +4,15 @@
       "Default": {
         "Color": {
           "BackgroundColor": {
-            "value": "{Semantic.Color.Brand.Primary}",
+            "value": "{semantic.Color.Brand.Primary}",
             "type": "color"
           },
           "TextColor": {
-            "value": "{Semantic.Color.Neutrals.White}",
+            "value": "{semantic.Color.Neutrals.White}",
             "type": "color"
           },
           "IconColor": {
-            "value": "{Semantic.Color.Neutrals.White}",
+            "value": "{semantic.Color.Neutrals.White}",
             "type": "color"
           }
         }
@@ -24,11 +24,11 @@
             "type": "color"
           },
           "TextColor": {
-            "value": "{Semantic.Color.Neutrals.White}",
+            "value": "{semantic.Color.Neutrals.White}",
             "type": "color"
           },
           "IconColor": {
-            "value": "{Semantic.Color.Neutrals.White}",
+            "value": "{semantic.Color.Neutrals.White}",
             "type": "color"
           }
         }
@@ -40,11 +40,11 @@
             "type": "color"
           },
           "TextColor": {
-            "value": "{Semantic.Color.Neutrals.White}",
+            "value": "{semantic.Color.Neutrals.White}",
             "type": "color"
           },
           "IconColor": {
-            "value": "{Semantic.Color.Neutrals.White}",
+            "value": "{semantic.Color.Neutrals.White}",
             "type": "color"
           }
         }
