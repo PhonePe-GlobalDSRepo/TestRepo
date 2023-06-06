@@ -61,7 +61,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{Base.Color.Purple.900}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         }
       }
