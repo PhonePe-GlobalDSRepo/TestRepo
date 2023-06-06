@@ -35,7 +35,7 @@
       },
       "Text": {
         "Links": {
-          "value": "{Base.Color.Purple.900}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "Primary": {
@@ -89,7 +89,7 @@
       },
       "Brand": {
         "Primary": {
-          "value": "{Base.Color.Purple.900}",
+          "value": "{Base.Color.Blue.400}",
           "type": "color"
         }
       },
