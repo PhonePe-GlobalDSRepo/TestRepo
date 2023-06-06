@@ -8,7 +8,7 @@
             "type": "color"
           },
           "Subtle": {
-            "value": "{Base.Color.Red.100}",
+            "value": "{semantic.Color.Background.Bg5}",
             "type": "color"
           }
         },
@@ -18,7 +18,7 @@
             "type": "color"
           },
           "Subtle": {
-            "value": "{Base.Color.Green.100}",
+            "value": "{semantic.Color.Background.Bg6}",
             "type": "color"
           }
         },
@@ -28,7 +28,7 @@
             "type": "color"
           },
           "Subtle": {
-            "value": "{Base.Color.Orange.50}",
+            "value": "{semantic.Color.Background.Bg7}",
             "type": "color"
           }
         }
@@ -64,16 +64,28 @@
           "value": "{Base.Color.Neutral.200}",
           "type": "color"
         },
-        "BlueLite": {
+        "Bg2": {
           "value": "{Base.Color.Blue.100}",
           "type": "color"
         },
-        "BrandLite": {
+        "Bg3": {
           "value": "{Base.Color.Purple.50}",
           "type": "color"
         },
-        "Basic": {
+        "Bg4": {
           "value": "{Base.Color.Neutral.100}",
+          "type": "color"
+        },
+        "Bg5": {
+          "value": "{Base.Color.Red.100}",
+          "type": "color"
+        },
+        "Bg6": {
+          "value": "{Base.Color.Green.100}",
+          "type": "color"
+        },
+        "Bg7": {
+          "value": "{Base.Color.Orange.50}",
           "type": "color"
         }
       },
@@ -89,7 +101,7 @@
       },
       "Brand": {
         "Primary": {
-          "value": "{Base.Color.Blue.400}",
+          "value": "{Base.Color.Purple.900}",
           "type": "color"
         }
       },
