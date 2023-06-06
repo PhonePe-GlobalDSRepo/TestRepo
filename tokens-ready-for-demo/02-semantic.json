@@ -8,7 +8,7 @@
             "type": "color"
           },
           "Subtle": {
-            "value": "{semantic.Color.Background.Bg5}",
+            "value": "{semantic.Color.Surface.Surface05}",
             "type": "color"
           }
         },
@@ -18,7 +18,7 @@
             "type": "color"
           },
           "Subtle": {
-            "value": "{semantic.Color.Background.Bg6}",
+            "value": "{semantic.Color.Surface.Surface06}",
             "type": "color"
           }
         },
@@ -28,7 +28,7 @@
             "type": "color"
           },
           "Subtle": {
-            "value": "{semantic.Color.Background.Bg7}",
+            "value": "{semantic.Color.Surface.Surface07}",
             "type": "color"
           }
         }
@@ -59,32 +59,32 @@
           "type": "color"
         }
       },
-      "Background": {
-        "Bg1": {
+      "Surface": {
+        "Surface01": {
           "value": "{Base.Color.Neutral.200}",
           "type": "color"
         },
-        "Bg2": {
+        "Surface02": {
           "value": "{Base.Color.Blue.100}",
           "type": "color"
         },
-        "Bg3": {
+        "Surface03": {
           "value": "{Base.Color.Purple.50}",
           "type": "color"
         },
-        "Bg4": {
+        "Surface04": {
           "value": "{Base.Color.Neutral.100}",
           "type": "color"
         },
-        "Bg5": {
+        "Surface05": {
           "value": "{Base.Color.Red.100}",
           "type": "color"
         },
-        "Bg6": {
+        "Surface06": {
           "value": "{Base.Color.Green.100}",
           "type": "color"
         },
-        "Bg7": {
+        "Surface07": {
           "value": "{Base.Color.Orange.50}",
           "type": "color"
         }
