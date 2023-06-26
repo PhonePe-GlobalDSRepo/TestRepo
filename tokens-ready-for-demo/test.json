@@ -1,0 +1,26 @@
+{
+  "Base": {
+    "color": {
+      "purple": {
+        "100": {
+          "value": "#f2e6f5",
+          "type": "color"
+        }
+      },
+      "red": {
+        "100": {
+          "value": "#",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Semantic": {
+    "brand": {
+      "primary": {
+        "value": "{Base.Color.Purple.500}",
+        "type": "color"
+      }
+    }
+  }
+}

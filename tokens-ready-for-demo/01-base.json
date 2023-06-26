@@ -375,7 +375,7 @@
         "value": "1%",
         "type": "letterSpacing"
       },
-      "OneHalf": {
+      "OneAndHalf": {
         "value": "1.5%",
         "type": "letterSpacing"
       },
@@ -383,7 +383,7 @@
         "value": "2%",
         "type": "letterSpacing"
       },
-      "TwoHalf": {
+      "TwoAndHalf": {
         "value": "2.5%",
         "type": "letterSpacing"
       }

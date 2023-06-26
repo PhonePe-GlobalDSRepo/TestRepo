@@ -60,32 +60,12 @@
         }
       },
       "Surface": {
-        "Surface01": {
-          "value": "{Base.Color.Neutral.200}",
-          "type": "color"
-        },
-        "Surface02": {
-          "value": "{Base.Color.Blue.100}",
-          "type": "color"
-        },
         "Surface03": {
           "value": "{Base.Color.Purple.50}",
           "type": "color"
         },
         "Surface04": {
           "value": "{Base.Color.Neutral.100}",
-          "type": "color"
-        },
-        "Surface05": {
-          "value": "{Base.Color.Red.100}",
-          "type": "color"
-        },
-        "Surface06": {
-          "value": "{Base.Color.Green.100}",
-          "type": "color"
-        },
-        "Surface07": {
-          "value": "{Base.Color.Orange.50}",
           "type": "color"
         }
       },
