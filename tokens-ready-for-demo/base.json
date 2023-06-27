@@ -271,27 +271,27 @@
       }
     },
     "fontWeight": {
-      "Thin": {
+      "thin": {
         "value": "Thin",
         "type": "fontWeights"
       },
-      "Light": {
+      "light": {
         "value": "Light",
         "type": "fontWeights"
       },
-      "Regular": {
+      "regular": {
         "value": "Regular",
         "type": "fontWeights"
       },
-      "Medium": {
+      "medium": {
         "value": "Medium",
         "type": "fontWeights"
       },
-      "Bold": {
+      "bold": {
         "value": "Bold",
         "type": "fontWeights"
       },
-      "Black": {
+      "black": {
         "value": "Black",
         "type": "fontWeights"
       }

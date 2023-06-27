@@ -65,11 +65,11 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{semantic.color.neutrals.white}",
+          "value": "{semantic.color.neutral.white}",
           "type": "color"
         }
       },
-      "neutrals": {
+      "neutral": {
         "white": {
           "value": "#FFFFFF",
           "type": "color"

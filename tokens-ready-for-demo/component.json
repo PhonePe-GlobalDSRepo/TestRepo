@@ -1,67 +1,67 @@
 {
   "button": {
-    "Primary": {
-      "Default": {
-        "Color": {
-          "BackgroundColor": {
-            "value": "{semantic.Color.Brand.Primary}",
+    "primary": {
+      "default": {
+        "color": {
+          "backgroundcolor": {
+            "value": "{semantic.color.brand.primary}",
             "type": "color"
           },
-          "TextColor": {
-            "value": "{semantic.Color.Neutrals.White}",
+          "textcolor": {
+            "value": "{semantic.color.neutral.white}",
             "type": "color"
           },
-          "IconColor": {
-            "value": "{semantic.Color.Neutrals.White}",
+          "iconcolor": {
+            "value": "{semantic.color.neutral.white}",
             "type": "color"
           }
         }
       },
-      "Hover": {
-        "Color": {
-          "BackgroundColor": {
-            "value": "{semantic.Color.Brand.Primary}",
+      "hover": {
+        "color": {
+          "backgroundcolor": {
+            "value": "{semantic.color.brand.primary}",
             "type": "color"
           },
-          "TextColor": {
-            "value": "{semantic.Color.Neutrals.White}",
+          "textcolor": {
+            "value": "{semantic.color.neutral.white}",
             "type": "color"
           },
-          "IconColor": {
-            "value": "{semantic.Color.Neutrals.White}",
+          "iconcolor": {
+            "value": "{semantic.color.neutral.white}",
             "type": "color"
           }
         }
       },
-      "Focussed": {
-        "Color": {
-          "BackgroundColor": {
-            "value": "{semantic.Color.Brand.Primary}",
+      "focussed": {
+        "color": {
+          "backgroundcolor": {
+            "value": "{semantic.color.brand.primary}",
             "type": "color"
           },
-          "TextColor": {
-            "value": "{semantic.Color.Neutrals.White}",
+          "textcolor": {
+            "value": "{semantic.color.neutral.white}",
             "type": "color"
           },
-          "IconColor": {
-            "value": "{semantic.Color.Neutrals.White}",
+          "iconcolor": {
+            "value": "{semantic.color.neutral.white}",
             "type": "color"
           }
         }
       }
     },
-    "Secondary": {
-      "Default": {
-        "BackgroundColor": {
-          "value": "{Base.Color.Purple.50}",
+    "secondary": {
+      "default": {
+        "backgroundcolor": {
+          "value": "{base.color.purple.50}",
           "type": "color"
         },
-        "TextColor": {
-          "value": "{semantic.Color.Brand.Primary}",
+        "textcolor": {
+          "value": "{semantic.color.brand.primary}",
           "type": "color"
         },
-        "IconColor": {
-          "value": "{semantic.Color.Brand.Primary}",
+        "iconcolor": {
+          "value": "{semantic.color.brand.primary}",
           "type": "color"
         }
       }
