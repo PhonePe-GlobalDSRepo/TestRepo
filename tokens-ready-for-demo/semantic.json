@@ -60,15 +60,13 @@
         }
       },
       "Surface": {
-        "App": {
-          "Primary": {
-            "value": "{Base.Color.Purple.50}",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "{Base.Color.Neutral.100}",
-            "type": "color"
-          }
+        "Primary": {
+          "value": "{Base.Color.Purple.50}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{semantic.Color.Neutrals.White}",
+          "type": "color"
         }
       },
       "Neutrals": {
@@ -88,7 +86,7 @@
         }
       },
       "Helper": {
-        "Helper1": {
+        "Blue": {
           "value": "{Base.Color.Blue.500}",
           "type": "color"
         }
