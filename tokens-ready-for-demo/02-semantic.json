@@ -7,8 +7,8 @@
             "value": "{Base.Color.Red.500}",
             "type": "color"
           },
-          "Subtle": {
-            "value": "{semantic.Color.Surface.Surface05}",
+          "Alternate": {
+            "value": "{semantic.Color.Surface.Alternate}",
             "type": "color"
           }
         },
@@ -17,7 +17,7 @@
             "value": "{Base.Color.Green.500}",
             "type": "color"
           },
-          "Subtle": {
+          "Alternate": {
             "value": "{semantic.Color.Surface.Surface06}",
             "type": "color"
           }
@@ -27,8 +27,8 @@
             "value": "{Base.Color.Orange.500}",
             "type": "color"
           },
-          "Subtle": {
-            "value": "{semantic.Color.Surface.Surface07}",
+          "Alternate": {
+            "value": "{semantic.Color.Surface.Alternate}",
             "type": "color"
           }
         }
@@ -60,13 +60,15 @@
         }
       },
       "Surface": {
-        "Surface03": {
-          "value": "{Base.Color.Purple.50}",
-          "type": "color"
-        },
-        "Surface04": {
-          "value": "{Base.Color.Neutral.100}",
-          "type": "color"
+        "App": {
+          "Primary": {
+            "value": "{Base.Color.Purple.50}",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "{Base.Color.Neutral.100}",
+            "type": "color"
+          }
         }
       },
       "Neutrals": {
@@ -95,6 +97,10 @@
     "Space": {
       "0": {
         "value": "{Base.Space.0}",
+        "type": "spacing"
+      },
+      "2": {
+        "value": "2",
         "type": "spacing"
       },
       "4": {
@@ -127,6 +133,22 @@
       },
       "48": {
         "value": "{Base.Space.48}",
+        "type": "spacing"
+      },
+      "56": {
+        "value": "56",
+        "type": "spacing"
+      },
+      "64": {
+        "value": "64",
+        "type": "spacing"
+      },
+      "80": {
+        "value": "80",
+        "type": "spacing"
+      },
+      "96": {
+        "value": "96",
         "type": "spacing"
       }
     },
