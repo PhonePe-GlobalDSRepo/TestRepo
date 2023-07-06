@@ -34,10 +34,6 @@
         }
       },
       "text": {
-        "links": {
-          "value": "{semantic.color.brand.primary}",
-          "type": "color"
-        },
         "primary": {
           "value": "{base.color.neutral.800}",
           "type": "color"
@@ -46,16 +42,20 @@
           "value": "{base.color.neutral.600}",
           "type": "color"
         },
-        "disabled": {
-          "value": "{base.color.neutral.400}",
-          "type": "color"
-        },
         "placeholder": {
           "value": "{base.color.neutral.500}",
           "type": "color"
         },
+        "disabled": {
+          "value": "{base.color.neutral.400}",
+          "type": "color"
+        },
         "inverse": {
           "value": "{base.color.neutral.100}",
+          "type": "color"
+        },
+        "links": {
+          "value": "{semantic.color.brand.primary}",
           "type": "color"
         }
       },
@@ -251,32 +251,32 @@
     "boxShadow": {
       "Down": {
         "small": {
-          "value": "{base.boxShadow.-Y-axis.small}",
+          "value": "{base.boxShadow.-y-axis.small}",
           "type": "boxShadow"
         },
         "medium": {
-          "value": "{base.boxShadow.-Y-axis.medium}",
+          "value": "{base.boxShadow.-y-axis.medium}",
           "type": "boxShadow"
         },
         "large": {
-          "value": "{base.boxShadow.-Y-axis.large}",
+          "value": "{base.boxShadow.-y-axis.large}",
           "type": "boxShadow"
         }
       },
       "Up": {
         "small": {
-          "value": "{base.boxShadow.+Y-axis.small}",
+          "value": "{base.boxShadow.+y-axis.small}",
           "type": "boxShadow"
         },
         "medium": {
-          "value": "{base.boxShadow.+Y-axis.medium}",
+          "value": "{base.boxShadow.+y-axis.medium}",
           "type": "boxShadow"
         }
       }
     },
     "textDecoration": {
       "none": {
-        "value": "{base.textDecoration.None}",
+        "value": "{base.textDecoration.none}",
         "type": "textDecoration"
       },
       "undeline": {
@@ -284,7 +284,7 @@
         "type": "textDecoration"
       },
       "strikethrough": {
-        "value": "{base.textDecoration.Strikethrough}",
+        "value": "{base.textDecoration.strikethrough}",
         "type": "textDecoration"
       }
     },
@@ -325,18 +325,18 @@
           "type": "fontSizes"
         },
         "b4": {
-          "value": "{base.FontSize.10}",
+          "value": "{base.fontSize.10}",
           "type": "fontSizes"
         }
       }
     },
     "fontWeight": {
       "bold": {
-        "value": "{base.fontWeight.Bold}",
+        "value": "{base.fontWeight.bold}",
         "type": "fontWeights"
       },
       "regular": {
-        "value": "{base.fontWeight.Regular}",
+        "value": "{base.fontWeight.regular}",
         "type": "fontWeights"
       }
     },

@@ -3,7 +3,6 @@
     "base",
     "semantic",
     "component",
-    "dark-theme",
-    "test"
+    "dark-theme"
   ]
 }
