@@ -379,6 +379,94 @@
         "value": "999",
         "type": "borderRadius"
       }
+    },
+    "Button": {
+      "primary": {
+        "default": {
+          "color": {
+            "backgroundColor": {
+              "value": "{semantic.color.brand.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "active": {
+          "color": {
+            "backgroundColor": {
+              "value": "{semantic.color.brand.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "filled": {
+          "color": {
+            "backgroundColor": {
+              "value": "{semantic.color.brand.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "pressed": {
+          "color": {
+            "backgroundColor": {
+              "value": "{semantic.color.brand.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "disabled": {
+          "color": {
+            "backgroundColor": {
+              "value": "{semantic.color.brand.primary}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "Input": {
+      "primary": {
+        "default": {
+          "color": {
+            "backgroundColor": {
+              "value": "{semantic.color.brand.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "active": {
+          "color": {
+            "backgroundColor": {
+              "value": "{semantic.color.brand.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "filled": {
+          "color": {
+            "backgroundColor": {
+              "value": "{semantic.color.brand.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "pressed": {
+          "color": {
+            "backgroundColor": {
+              "value": "{semantic.color.brand.primary}",
+              "type": "color"
+            }
+          }
+        },
+        "disabled": {
+          "color": {
+            "backgroundColor": {
+              "value": "{semantic.color.brand.primary}",
+              "type": "color"
+            }
+          }
+        }
+      }
     }
   }
 }

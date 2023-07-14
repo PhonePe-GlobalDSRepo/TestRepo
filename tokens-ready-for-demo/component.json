@@ -66,5 +66,73 @@
         }
       }
     }
+  },
+  "input": {
+    "primary": {
+      "default": {
+        "color": {
+          "backgroundcolor": {
+            "value": "{semantic.color.brand.primary}",
+            "type": "color"
+          },
+          "textcolor": {
+            "value": "{semantic.color.neutral.white}",
+            "type": "color"
+          },
+          "iconcolor": {
+            "value": "{semantic.color.neutral.white}",
+            "type": "color"
+          }
+        }
+      },
+      "hover": {
+        "color": {
+          "backgroundcolor": {
+            "value": "{semantic.color.brand.primary}",
+            "type": "color"
+          },
+          "textcolor": {
+            "value": "{semantic.color.neutral.white}",
+            "type": "color"
+          },
+          "iconcolor": {
+            "value": "{semantic.color.neutral.white}",
+            "type": "color"
+          }
+        }
+      },
+      "focussed": {
+        "color": {
+          "backgroundcolor": {
+            "value": "{semantic.color.brand.primary}",
+            "type": "color"
+          },
+          "textcolor": {
+            "value": "{semantic.color.neutral.white}",
+            "type": "color"
+          },
+          "iconcolor": {
+            "value": "{semantic.color.neutral.white}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "secondary": {
+      "default": {
+        "backgroundcolor": {
+          "value": "{base.color.purple.50}",
+          "type": "color"
+        },
+        "textcolor": {
+          "value": "{semantic.color.brand.primary}",
+          "type": "color"
+        },
+        "iconcolor": {
+          "value": "{semantic.color.brand.primary}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
