@@ -184,7 +184,7 @@
         "type": "sizing"
       },
       "80": {
-        "value": "{base.size.80}",
+        "value": "{base.size.72}",
         "type": "sizing"
       },
       "96": {

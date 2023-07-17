@@ -405,8 +405,8 @@
         "value": "64",
         "type": "sizing"
       },
-      "80": {
-        "value": "80",
+      "72": {
+        "value": "72",
         "type": "sizing"
       },
       "96": {
@@ -415,18 +415,6 @@
       },
       "128": {
         "value": "128",
-        "type": "sizing"
-      },
-      "192": {
-        "value": "192",
-        "type": "sizing"
-      },
-      "256": {
-        "value": "256",
-        "type": "sizing"
-      },
-      "512": {
-        "value": "512",
         "type": "sizing"
       }
     },
