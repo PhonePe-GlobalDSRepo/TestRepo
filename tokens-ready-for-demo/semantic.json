@@ -94,7 +94,7 @@
     },
     "space": {
       "0": {
-        "value": "{base.space.0}",
+        "value": "{base.spacing.0}",
         "type": "spacing"
       },
       "2": {
@@ -102,35 +102,35 @@
         "type": "spacing"
       },
       "4": {
-        "value": "{base.space.4}",
+        "value": "{base.spacing.4}",
         "type": "spacing"
       },
       "8": {
-        "value": "{base.space.8}",
+        "value": "{base.spacing.8}",
         "type": "spacing"
       },
       "12": {
-        "value": "{base.space.12}",
+        "value": "{base.spacing.12}",
         "type": "spacing"
       },
       "16": {
-        "value": "{base.space.16}",
+        "value": "{base.spacing.16}",
         "type": "spacing"
       },
       "24": {
-        "value": "{base.space.24}",
+        "value": "{base.spacing.24}",
         "type": "spacing"
       },
       "32": {
-        "value": "{base.space.32}",
+        "value": "{base.spacing.32}",
         "type": "spacing"
       },
       "40": {
-        "value": "{base.space.40}",
+        "value": "{base.spacing.40}",
         "type": "spacing"
       },
       "48": {
-        "value": "{base.space.48}",
+        "value": "{base.spacing.48}",
         "type": "spacing"
       },
       "56": {
@@ -251,25 +251,25 @@
     "boxShadow": {
       "Down": {
         "small": {
-          "value": "{base.boxShadow.-y-axis.small}",
+          "value": "{base.elevation.up.small}",
           "type": "boxShadow"
         },
         "medium": {
-          "value": "{base.boxShadow.-y-axis.medium}",
+          "value": "{base.elevation.up.m}",
           "type": "boxShadow"
         },
         "large": {
-          "value": "{base.boxShadow.-y-axis.large}",
+          "value": "{base.elevation.up.xl}",
           "type": "boxShadow"
         }
       },
       "Up": {
         "small": {
-          "value": "{base.boxShadow.+y-axis.small}",
+          "value": "{base.elevation.down.s}",
           "type": "boxShadow"
         },
         "medium": {
-          "value": "{base.boxShadow.+y-axis.medium}",
+          "value": "{base.elevation.down.m}",
           "type": "boxShadow"
         }
       }
@@ -346,11 +346,11 @@
         "type": "lineHeights"
       },
       "medium": {
-        "value": "{base.lineHeight.125}",
+        "value": "{base.lineHeight.125%}",
         "type": "lineHeights"
       },
       "large": {
-        "value": "{base.lineHeight.135}",
+        "value": "{base.lineHeight.135%}",
         "type": "lineHeights"
       },
       "extra-large": {
