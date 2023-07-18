@@ -94,7 +94,7 @@
     },
     "space": {
       "0": {
-        "value": "{base.spacing.0}",
+        "value": "{base.Spacing.0}",
         "type": "spacing"
       },
       "2": {
@@ -102,35 +102,35 @@
         "type": "spacing"
       },
       "4": {
-        "value": "{base.spacing.4}",
+        "value": "{base.Spacing.4}",
         "type": "spacing"
       },
       "8": {
-        "value": "{base.spacing.8}",
+        "value": "{base.Spacing.8}",
         "type": "spacing"
       },
       "12": {
-        "value": "{base.spacing.12}",
+        "value": "{base.Spacing.12}",
         "type": "spacing"
       },
       "16": {
-        "value": "{base.spacing.16}",
+        "value": "{base.Spacing.16}",
         "type": "spacing"
       },
       "24": {
-        "value": "{base.spacing.24}",
+        "value": "{base.Spacing.24}",
         "type": "spacing"
       },
       "32": {
-        "value": "{base.spacing.32}",
+        "value": "{base.Spacing.32}",
         "type": "spacing"
       },
       "40": {
-        "value": "{base.spacing.40}",
+        "value": "{base.Spacing.40}",
         "type": "spacing"
       },
       "48": {
-        "value": "{base.spacing.48}",
+        "value": "{base.Spacing.48}",
         "type": "spacing"
       },
       "56": {
@@ -152,53 +152,53 @@
     },
     "size": {
       "16": {
-        "value": "{base.size.16}",
+        "value": "{base.Size.16}",
         "type": "sizing"
       },
       "20": {
-        "value": "{base.size.16}",
+        "value": "{base.Size.16}",
         "type": "sizing"
       },
       "24": {
-        "value": "{base.size.24}",
+        "value": "{base.Size.24}",
         "type": "sizing"
       },
       "32": {
-        "value": "{base.size.32}",
+        "value": "{base.Size.32}",
         "type": "sizing"
       },
       "40": {
-        "value": "{base.size.40}",
+        "value": "{base.Size.40}",
         "type": "sizing"
       },
       "48": {
-        "value": "{base.size.48}",
+        "value": "{base.Size.48}",
         "type": "sizing"
       },
       "56": {
-        "value": "{base.size.56}",
+        "value": "{base.Size.56}",
         "type": "sizing"
       },
       "64": {
-        "value": "{base.size.64}",
+        "value": "{base.Size.64}",
         "type": "sizing"
       },
       "80": {
-        "value": "{base.size.72}",
+        "value": "{base.Size.72}",
         "type": "sizing"
       },
       "96": {
-        "value": "{base.size.96}",
+        "value": "{base.Size.96}",
         "type": "sizing"
       }
     },
     "borderWidth": {
       "1": {
-        "value": "{base.borderWidth.1}",
+        "value": "{base.BorderWidth.1}",
         "type": "borderWidth"
       },
       "2": {
-        "value": "{base.borderWidth.2}",
+        "value": "{base.BorderWidth.2}",
         "type": "borderWidth"
       }
     },
@@ -255,28 +255,28 @@
           "type": "boxShadow"
         },
         "medium": {
-          "value": "{base.elevation.up.m}",
+          "value": "{base.Elevation.YNegative.M}",
           "type": "boxShadow"
         },
         "large": {
-          "value": "{base.elevation.up.xl}",
+          "value": "{base.Elevation.YNegative.XL}",
           "type": "boxShadow"
         }
       },
       "Up": {
         "small": {
-          "value": "{base.elevation.down.s}",
+          "value": "{base.Elevation.YPositive.S}",
           "type": "boxShadow"
         },
         "medium": {
-          "value": "{base.elevation.down.m}",
+          "value": "{base.Elevation.YPositive.M}",
           "type": "boxShadow"
         }
       }
     },
     "textDecoration": {
       "none": {
-        "value": "{base.textDecoration.none}",
+        "value": "{base.TextDecoration.None}",
         "type": "textDecoration"
       },
       "undeline": {
@@ -284,59 +284,59 @@
         "type": "textDecoration"
       },
       "strikethrough": {
-        "value": "{base.textDecoration.strikethrough}",
+        "value": "{base.TextDecoration.Strikethrough}",
         "type": "textDecoration"
       }
     },
     "fontSize": {
       "heading": {
         "h1": {
-          "value": "{base.fontSize.32}",
+          "value": "{base.FontSize.32}",
           "type": "fontSizes"
         },
         "h2": {
-          "value": "{base.fontSize.24}",
+          "value": "{base.FontSize.24}",
           "type": "fontSizes"
         },
         "h3": {
-          "value": "{base.fontSize.20}",
+          "value": "{base.FontSize.20}",
           "type": "fontSizes"
         },
         "h4": {
-          "value": "{base.fontSize.16}",
+          "value": "{base.FontSize.16}",
           "type": "fontSizes"
         },
         "h5": {
-          "value": "{base.fontSize.14}",
+          "value": "{base.FontSize.14}",
           "type": "fontSizes"
         }
       },
       "body": {
         "b1": {
-          "value": "{base.fontSize.16}",
+          "value": "{base.FontSize.16}",
           "type": "fontSizes"
         },
         "b2": {
-          "value": "{base.fontSize.14}",
+          "value": "{base.FontSize.14}",
           "type": "fontSizes"
         },
         "b3": {
-          "value": "{base.fontSize.12}",
+          "value": "{base.FontSize.12}",
           "type": "fontSizes"
         },
         "b4": {
-          "value": "{base.fontSize.10}",
+          "value": "{base.FontSize.10}",
           "type": "fontSizes"
         }
       }
     },
     "fontWeight": {
       "bold": {
-        "value": "{base.fontWeight.bold}",
+        "value": "{base.FontWeight.Bold}",
         "type": "fontWeights"
       },
       "regular": {
-        "value": "{base.fontWeight.regular}",
+        "value": "{base.FontWeight.Regular}",
         "type": "fontWeights"
       }
     },
@@ -346,11 +346,11 @@
         "type": "lineHeights"
       },
       "medium": {
-        "value": "{base.lineHeight.125%}",
+        "value": "{base.LineHeight.125%}",
         "type": "lineHeights"
       },
       "large": {
-        "value": "{base.lineHeight.135%}",
+        "value": "{base.LineHeight.135%}",
         "type": "lineHeights"
       },
       "extra-large": {

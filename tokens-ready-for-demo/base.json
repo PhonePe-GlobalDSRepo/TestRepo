@@ -1,36 +1,26 @@
 {
   "base": {
-    "textCase": {
-      "none": {
-        "value": "none",
-        "type": "textCase"
-      },
-      "upperCase": {
-        "value": "uppercase",
-        "type": "textCase"
-      }
-    },
-    "fontFamily": {
-      "roboto": {
+    "FontFamily": {
+      "Roboto": {
         "value": "Roboto",
         "type": "fontFamilies"
       },
-      "sanFransisco": {
+      "SFPro": {
         "value": "SF Pro",
         "type": "fontFamilies"
       }
     },
-    "fontWeight": {
-      "regular": {
+    "FontWeight": {
+      "Regular": {
         "value": "Regular",
         "type": "fontWeights"
       },
-      "bold": {
+      "Bold": {
         "value": "Bold",
         "type": "fontWeights"
       }
     },
-    "fontSize": {
+    "FontSize": {
       "8": {
         "value": "8",
         "type": "fontSizes"
@@ -64,7 +54,7 @@
         "type": "fontSizes"
       }
     },
-    "letterSpacing": {
+    "LetterSpacing": {
       "0%": {
         "value": "0%",
         "type": "letterSpacing"
@@ -86,7 +76,7 @@
         "type": "letterSpacing"
       }
     },
-    "lineHeight": {
+    "LineHeight": {
       "125%": {
         "value": "125%",
         "type": "lineHeights"
@@ -96,21 +86,21 @@
         "type": "lineHeights"
       }
     },
-    "textDecoration": {
-      "none": {
+    "TextDecoration": {
+      "None": {
         "value": "none",
         "type": "textDecoration"
       },
-      "underline": {
+      "Underline": {
         "value": "underline",
         "type": "textDecoration"
       },
-      "strikethrough": {
+      "Strikethrough": {
         "value": "line-through",
         "type": "textDecoration"
       }
     },
-    "size": {
+    "Size": {
       "1": {
         "value": "1",
         "type": "sizing"
@@ -172,7 +162,7 @@
         "type": "sizing"
       }
     },
-    "spacing": {
+    "Spacing": {
       "0": {
         "value": "0",
         "type": "spacing"
@@ -214,7 +204,7 @@
         "type": "spacing"
       }
     },
-    "borderRadius": {
+    "BorderRadius": {
       "0": {
         "value": "0",
         "type": "borderRadius"
@@ -236,7 +226,7 @@
         "type": "borderRadius"
       }
     },
-    "borderWidth": {
+    "BorderWidth": {
       "1": {
         "value": "1",
         "type": "borderWidth"
@@ -254,9 +244,9 @@
         "type": "borderWidth"
       }
     },
-    "elevation": {
-      "up": {
-        "m": {
+    "Elevation": {
+      "YNegative": {
+        "M": {
           "value": {
             "x": "0",
             "y": "-4",
@@ -267,7 +257,7 @@
           },
           "type": "boxShadow"
         },
-        "xl": {
+        "XL": {
           "value": {
             "x": "0",
             "y": "-24",
@@ -279,8 +269,8 @@
           "type": "boxShadow"
         }
       },
-      "down": {
-        "s": {
+      "YPositive": {
+        "S": {
           "value": {
             "x": "0",
             "y": "2",
@@ -291,7 +281,7 @@
           },
           "type": "boxShadow"
         },
-        "m": {
+        "M": {
           "value": {
             "x": "0",
             "y": "4",
@@ -302,7 +292,7 @@
           },
           "type": "boxShadow"
         },
-        "l": {
+        "L": {
           "value": {
             "x": "0",
             "y": "0",
@@ -313,7 +303,7 @@
           },
           "type": "boxShadow"
         },
-        "xl": {
+        "XL": {
           "value": {
             "x": "0",
             "y": "24",
@@ -326,7 +316,7 @@
         }
       }
     },
-    "opacity": {
+    "Opacity": {
       "5%": {
         "value": "5%",
         "type": "opacity",
@@ -348,8 +338,8 @@
         "description": "This opacity value is used on semantic/status colors for Deep Purple and Deep Grey modes."
       }
     },
-    "color": {
-      "purple": {
+    "Color": {
+      "Purple": {
         "50": {
           "value": "#f7f3fc",
           "type": "color"
@@ -391,7 +381,7 @@
           "type": "color"
         }
       },
-      "lightPurple": {
+      "LightPurple": {
         "50": {
           "value": "#fdfaff",
           "type": "color"
@@ -433,7 +423,7 @@
           "type": "color"
         }
       },
-      "grey": {
+      "Grey": {
         "50": {
           "value": "#fafafa",
           "type": "color"
@@ -475,7 +465,7 @@
           "type": "color"
         }
       },
-      "red": {
+      "Red": {
         "50": {
           "value": "#ffebee",
           "type": "color"
@@ -518,7 +508,7 @@
           "description": "TITLE BAR"
         }
       },
-      "green": {
+      "Green": {
         "50": {
           "value": "#e8f5e9",
           "type": "color"
@@ -560,7 +550,7 @@
           "type": "color"
         }
       },
-      "orange": {
+      "Orange": {
         "50": {
           "value": "#fff3e0",
           "type": "color"
@@ -602,7 +592,7 @@
           "type": "color"
         }
       },
-      "blue": {
+      "Blue": {
         "50": {
           "value": "#e3f2fd",
           "type": "color"
@@ -644,7 +634,7 @@
           "type": "color"
         }
       },
-      "pink": {
+      "Pink": {
         "50": {
           "value": "#fce4ec",
           "type": "color"
@@ -686,7 +676,7 @@
           "type": "color"
         }
       },
-      "yellow": {
+      "Yellow": {
         "50": {
           "value": "#fffde7",
           "type": "color"
@@ -728,7 +718,7 @@
           "type": "color"
         }
       },
-      "neutral": {
+      "Neutral": {
         "White": {
           "value": "#ffffff",
           "type": "color"
@@ -738,7 +728,7 @@
           "type": "color"
         }
       },
-      "deepPurple": {
+      "DeepPurple": {
         "50": {
           "value": "#eae6ee",
           "type": "color",
@@ -785,7 +775,7 @@
           "type": "color"
         }
       },
-      "deepGrey": {
+      "DeepGrey": {
         "50": {
           "value": "#f0f0f0",
           "type": "color"
