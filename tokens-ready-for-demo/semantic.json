@@ -181,6 +181,22 @@
         "Brand": {
           "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
+        },
+        "Strong": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
+        },
+        "Bold": {
+          "value": "{base.Color.Grey.700}",
+          "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
         }
       }
     }
