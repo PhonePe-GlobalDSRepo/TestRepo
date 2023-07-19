@@ -113,7 +113,7 @@
       },
       "Surface": {
         "Bold01": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "Bold02": {
