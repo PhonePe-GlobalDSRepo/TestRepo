@@ -730,48 +730,48 @@
       },
       "DeepPurple": {
         "50": {
-          "value": "#eae6ee",
+          "value": "#D6D4D8",
           "type": "color",
           "description": "High Emphasis"
         },
         "100": {
-          "value": "#d5cdde",
+          "value": "#ADA9B1",
           "type": "color",
           "description": "Less Emphasis"
         },
         "200": {
-          "value": "#6f5887",
+          "value": "#847E8B",
           "type": "color"
         },
         "300": {
-          "value": "#5a486e",
+          "value": "#5B5364",
           "type": "color"
         },
         "400": {
-          "value": "#463856",
+          "value": "#32283D",
           "type": "color"
         },
         "500": {
-          "value": "#32283d",
+          "value": "#282031",
           "type": "color",
           "description": "Layer 2"
         },
         "600": {
-          "value": "#282031",
+          "value": "#1E1824",
           "type": "color"
         },
         "700": {
-          "value": "#1e1824",
+          "value": "#141018",
           "type": "color",
           "description": "Layer 1"
         },
         "800": {
-          "value": "#141018",
+          "value": "#0A080C",
           "type": "color",
           "description": "Layer 0"
         },
         "900": {
-          "value": "#0a080c",
+          "value": "#050406",
           "type": "color"
         }
       },
