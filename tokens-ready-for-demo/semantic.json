@@ -198,24 +198,36 @@
           "value": "{base.Color.Grey.400}",
           "type": "color"
         }
-      }
-    },
-    "Border": {
-      "Brand": {
-        "value": "{semantic.Color.Brand.Primary}",
-        "type": "color"
       },
-      "Subtle": {
-        "value": "{base.Color.Grey.400}",
-        "type": "color"
-      },
-      "NeutralWhite": {
-        "value": "{base.Color.Neutral.White}",
-        "type": "color"
-      },
-      "Selected": {
-        "value": "{base.Color.Green.800}",
-        "type": "color"
+      "Border": {
+        "Brand": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Error": {
+          "value": "{base.Color.Red.900}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "NeutralSubtle": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "NeutralBold": {
+          "value": "{base.Color.Neutral.Black}",
+          "type": "color"
+        }
       }
     }
   }
