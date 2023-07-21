@@ -55,23 +55,23 @@
       }
     },
     "LetterSpacing": {
-      "0%": {
+      "ExtraTight": {
         "value": "0%",
         "type": "letterSpacing"
       },
-      "oneHalf%": {
+      "Tight": {
         "value": "1.5%",
         "type": "letterSpacing"
       },
-      "4%": {
-        "value": "4%",
-        "type": "letterSpacing"
-      },
-      "2%": {
+      "Medium": {
         "value": "2%",
         "type": "letterSpacing"
       },
-      "12%": {
+      "Loose": {
+        "value": "4%",
+        "type": "letterSpacing"
+      },
+      "ExtraLoose": {
         "value": "12%",
         "type": "letterSpacing"
       }

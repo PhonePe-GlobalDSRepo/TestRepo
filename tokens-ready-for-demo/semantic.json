@@ -244,6 +244,16 @@
           "value": "{base.Color.Neutral.Black}",
           "type": "color"
         }
+      },
+      "Skeleton": {
+        "Bold": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        }
       }
     }
   }
