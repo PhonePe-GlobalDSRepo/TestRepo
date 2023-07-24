@@ -218,6 +218,98 @@
       "8": {
         "value": "{base.FontSize.8}",
         "type": "fontSizes"
+      },
+      "10": {
+        "value": "{base.FontSize.10}",
+        "type": "fontSizes"
+      },
+      "12": {
+        "value": "{base.FontSize.12}",
+        "type": "fontSizes"
+      },
+      "14": {
+        "value": "{base.FontSize.14}",
+        "type": "fontSizes"
+      },
+      "16": {
+        "value": "{base.FontSize.16}",
+        "type": "fontSizes"
+      },
+      "20": {
+        "value": "{base.FontSize.20}",
+        "type": "fontSizes"
+      },
+      "24": {
+        "value": "{base.FontSize.24}",
+        "type": "fontSizes"
+      },
+      "32": {
+        "value": "{base.FontSize.32}",
+        "type": "fontSizes"
+      }
+    },
+    "Spacing": {
+      "0": {
+        "value": "{base.Spacing.0}",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "{base.Spacing.4}",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "{base.Spacing.8}",
+        "type": "spacing"
+      },
+      "12": {
+        "value": "{base.Spacing.12}",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "{base.Spacing.16}",
+        "type": "spacing"
+      },
+      "24": {
+        "value": "{base.Spacing.24}",
+        "type": "spacing"
+      },
+      "32": {
+        "value": "{base.Spacing.32}",
+        "type": "spacing"
+      },
+      "40": {
+        "value": "{base.Spacing.40}",
+        "type": "spacing"
+      },
+      "48": {
+        "value": "{base.Spacing.48}",
+        "type": "spacing"
+      },
+      "56": {
+        "value": "{base.Spacing.56}",
+        "type": "spacing"
+      }
+    },
+    "BorderRadius": {
+      "0": {
+        "value": "{base.BorderRadius.0}",
+        "type": "borderRadius"
+      },
+      "4": {
+        "value": "{base.BorderRadius.4}",
+        "type": "borderRadius"
+      },
+      "8": {
+        "value": "{base.BorderRadius.8}",
+        "type": "borderRadius"
+      },
+      "12": {
+        "value": "{base.BorderRadius.12}",
+        "type": "borderRadius"
+      },
+      "16": {
+        "value": "{base.BorderRadius.16}",
+        "type": "borderRadius"
       }
     }
   }
