@@ -820,6 +820,33 @@
           "description": "Layer 0"
         }
       }
+    },
+    "Border": {
+      "WhiteMedium": {
+        "value": {
+          "color": "{semantic.Color.Border.NeutralSubtle}",
+          "width": "{base.BorderWidth.Medium}",
+          "style": "solid"
+        },
+        "type": "border",
+        "description": "Used in parent child avatar"
+      },
+      "GreenThin": {
+        "value": {
+          "style": "solid",
+          "width": "{base.BorderWidth.Thin}",
+          "color": "{base.Color.Green.800}"
+        },
+        "type": "border"
+      },
+      "GreyThin": {
+        "value": {
+          "color": "{base.Color.Grey.400}",
+          "width": "{base.BorderWidth.Thin}",
+          "style": "solid"
+        },
+        "type": "border"
+      }
     }
   },
   "core": {
