@@ -373,6 +373,22 @@
         "value": "{base.LetterSpacing.ExtraTight}",
         "type": "letterSpacing"
       }
+    },
+    "Typography": {
+      "Android": {
+        "Heading": {
+          "H1": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{semantic.fontWeight.bold}",
+              "lineHeight": "{semantic.LineHeight.125%}",
+              "fontSize": "{base.FontSize.32}",
+              "letterSpacing": "{base.LetterSpacing.ExtraTight}"
+            },
+            "type": "typography"
+          }
+        }
+      }
     }
   }
 }
