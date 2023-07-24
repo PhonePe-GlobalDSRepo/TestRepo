@@ -227,19 +227,19 @@
       }
     },
     "BorderWidth": {
-      "1": {
+      "Thin": {
         "value": "1",
         "type": "borderWidth"
       },
-      "2": {
+      "Thick": {
         "value": "2",
         "type": "borderWidth"
       },
-      "4": {
+      "ExtraThick": {
         "value": "4",
         "type": "borderWidth"
       },
-      "1Half": {
+      "Medium": {
         "value": "1.5",
         "type": "borderWidth"
       }
