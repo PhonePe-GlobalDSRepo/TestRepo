@@ -311,6 +311,68 @@
         "value": "{base.BorderRadius.16}",
         "type": "borderRadius"
       }
+    },
+    "BorderWidth": {
+      "Thin": {
+        "value": "{base.BorderWidth.Thin}",
+        "type": "borderWidth"
+      },
+      "Medium": {
+        "value": "{base.BorderWidth.Medium}",
+        "type": "borderWidth"
+      },
+      "Thick": {
+        "value": "{base.BorderWidth.Thick}",
+        "type": "borderWidth"
+      },
+      "ExtraThick": {
+        "value": "{base.BorderWidth.ExtraThick}",
+        "type": "borderWidth"
+      }
+    },
+    "Opacity": {
+      "5%": {
+        "value": "{base.Opacity.5%}",
+        "type": "opacity"
+      },
+      "10%": {
+        "value": "{base.Opacity.10%}",
+        "type": "opacity"
+      },
+      "40%": {
+        "value": "{base.Opacity.40%}",
+        "type": "opacity"
+      },
+      "70%": {
+        "value": "{base.Opacity.70%}",
+        "type": "opacity"
+      }
+    },
+    "FontFamily": {
+      "Roboto": {
+        "value": "{base.FontFamily.Roboto}",
+        "type": "fontFamilies"
+      },
+      "SFPro": {
+        "value": "{base.FontFamily.SFPro}",
+        "type": "fontFamilies"
+      }
+    },
+    "LineHeight": {
+      "125%": {
+        "value": "{base.LineHeight.125%}",
+        "type": "lineHeights"
+      },
+      "135%": {
+        "value": "{base.LineHeight.135%}",
+        "type": "lineHeights"
+      }
+    },
+    "LetterSpacing": {
+      "ExtraTight": {
+        "value": "{base.LetterSpacing.ExtraTight}",
+        "type": "letterSpacing"
+      }
     }
   }
 }

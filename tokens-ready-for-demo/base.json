@@ -327,15 +327,15 @@
         "type": "opacity",
         "description": "This opacity value is used for Section Separator."
       },
-      "70%": {
-        "value": "70%",
-        "type": "opacity",
-        "description": "This opacity value is used for Overlay."
-      },
       "40%": {
         "value": "40%",
         "type": "opacity",
         "description": "This opacity value is used on semantic/status colors for Deep Purple and Deep Grey modes."
+      },
+      "70%": {
+        "value": "70%",
+        "type": "opacity",
+        "description": "This opacity value is used for Overlay."
       }
     },
     "Color": {
