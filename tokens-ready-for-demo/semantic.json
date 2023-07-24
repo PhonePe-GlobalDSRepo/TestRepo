@@ -380,10 +380,158 @@
           "H1": {
             "value": {
               "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{semantic.fontWeight.bold}",
-              "lineHeight": "{semantic.LineHeight.125%}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.125%}",
               "fontSize": "{base.FontSize.32}",
-              "letterSpacing": "{base.LetterSpacing.ExtraTight}"
+              "letterSpacing": "{base.LetterSpacing.ExtraTight}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "H2": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.125%}",
+              "fontSize": "{base.FontSize.24}",
+              "letterSpacing": "{base.LetterSpacing.ExtraTight}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "H3": {
+            "value": {
+              "fontSize": "{base.FontSize.20}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "lineHeight": "{base.LineHeight.135%}",
+              "letterSpacing": "{base.LetterSpacing.Tight}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "H4": {
+            "value": {
+              "fontSize": "{base.FontSize.16}",
+              "lineHeight": "{base.LineHeight.135%}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "letterSpacing": "{base.LetterSpacing.Tight}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "H5": {
+            "value": {
+              "fontSize": "{base.FontSize.14}",
+              "lineHeight": "{base.LineHeight.135%}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "letterSpacing": "{base.LetterSpacing.Tight}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "H6": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.135%}",
+              "fontSize": "{base.FontSize.12}",
+              "letterSpacing": "{base.LetterSpacing.Tight}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "Overline": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.125%}",
+              "fontSize": "{base.FontSize.12}",
+              "letterSpacing": "{base.LetterSpacing.ExtraLoose}",
+              "textCase": "{core.TextCase.Uppercase}"
+            },
+            "type": "typography"
+          }
+        },
+        "Body": {
+          "B1": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Regular}",
+              "lineHeight": "{base.LineHeight.135%}",
+              "fontSize": "{base.FontSize.14}",
+              "letterSpacing": "{base.LetterSpacing.Tight}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "B2": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Regular}",
+              "lineHeight": "{base.LineHeight.135%}",
+              "fontSize": "{base.FontSize.14}",
+              "letterSpacing": "{base.LetterSpacing.Tight}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "B3": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Regular}",
+              "lineHeight": "{base.LineHeight.135%}",
+              "fontSize": "{base.FontSize.12}",
+              "letterSpacing": "{base.LetterSpacing.Tight}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "B4": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Regular}",
+              "lineHeight": "{base.LineHeight.135%}",
+              "fontSize": "{base.FontSize.10}",
+              "letterSpacing": "{base.LetterSpacing.Tight}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "B5": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Regular}",
+              "lineHeight": "{base.LineHeight.135%}",
+              "fontSize": "{base.FontSize.8}",
+              "letterSpacing": "{base.LetterSpacing.Loose}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          }
+        },
+        "Button": {
+          "Button1": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.125%}",
+              "fontSize": "{base.FontSize.16}",
+              "letterSpacing": "{base.LetterSpacing.Loose}",
+              "textCase": "{core.TextCase.None}"
+            },
+            "type": "typography"
+          },
+          "Button2": {
+            "value": {
+              "fontFamily": "{base.FontFamily.Roboto}",
+              "fontWeight": "{base.FontWeight.Bold}",
+              "lineHeight": "{base.LineHeight.125%}",
+              "fontSize": "{base.FontSize.12}",
+              "letterSpacing": "{base.LetterSpacing.Medium}",
+              "textCase": "{core.TextCase.None}"
             },
             "type": "typography"
           }
