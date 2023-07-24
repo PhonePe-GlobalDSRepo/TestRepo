@@ -14,48 +14,6 @@
         "type": "textDecoration"
       }
     },
-    "fontSize": {
-      "heading": {
-        "h1": {
-          "value": "{base.FontSize.32}",
-          "type": "fontSizes"
-        },
-        "h2": {
-          "value": "{base.FontSize.24}",
-          "type": "fontSizes"
-        },
-        "h3": {
-          "value": "{base.FontSize.20}",
-          "type": "fontSizes"
-        },
-        "h4": {
-          "value": "{base.FontSize.16}",
-          "type": "fontSizes"
-        },
-        "h5": {
-          "value": "{base.FontSize.14}",
-          "type": "fontSizes"
-        }
-      },
-      "body": {
-        "b1": {
-          "value": "{base.FontSize.16}",
-          "type": "fontSizes"
-        },
-        "b2": {
-          "value": "{base.FontSize.14}",
-          "type": "fontSizes"
-        },
-        "b3": {
-          "value": "{base.FontSize.12}",
-          "type": "fontSizes"
-        },
-        "b4": {
-          "value": "{base.FontSize.10}",
-          "type": "fontSizes"
-        }
-      }
-    },
     "fontWeight": {
       "bold": {
         "value": "{base.FontWeight.Bold}",
@@ -254,6 +212,12 @@
           "value": "{base.Color.Grey.400}",
           "type": "color"
         }
+      }
+    },
+    "FontSize": {
+      "8": {
+        "value": "{base.FontSize.8}",
+        "type": "fontSizes"
       }
     }
   }
