@@ -442,7 +442,8 @@
               "lineHeight": "{base.LineHeight.135%}",
               "fontSize": "{base.FontSize.12}",
               "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{base.TextCase.None}"
+              "textCase": "{base.TextCase.None}",
+              "fontFamily": "{base.FontFamily.Roboto}"
             },
             "type": "typography"
           },
