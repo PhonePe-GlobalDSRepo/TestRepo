@@ -38,7 +38,7 @@
         "type": "fontSizes"
       },
       "16": {
-        "value": "{base.Size.20}",
+        "value": "{base.Size.16}",
         "type": "fontSizes"
       },
       "20": {
@@ -133,6 +133,10 @@
         "value": "14",
         "type": "sizing"
       },
+      "16": {
+        "value": "16",
+        "type": "sizing"
+      },
       "20": {
         "value": "20",
         "type": "sizing"
@@ -192,7 +196,7 @@
         "type": "spacing"
       },
       "16": {
-        "value": "{base.Size.20}",
+        "value": "{base.Size.16}",
         "type": "spacing"
       },
       "24": {
@@ -257,7 +261,7 @@
       }
     },
     "Elevation": {
-      "YBottom": {
+      "YTop": {
         "M": {
           "value": {
             "x": "0",
@@ -281,7 +285,7 @@
           "type": "boxShadow"
         }
       },
-      "YTop": {
+      "YBottom": {
         "S": {
           "value": {
             "x": "0",
@@ -329,6 +333,11 @@
       }
     },
     "Opacity": {
+      "0%": {
+        "value": "0%",
+        "type": "opacity",
+        "description": "This opacity value is used for Item Separator."
+      },
       "5%": {
         "value": "5%",
         "type": "opacity",
@@ -859,9 +868,7 @@
         },
         "type": "border"
       }
-    }
-  },
-  "core": {
+    },
     "TextCase": {
       "None": {
         "value": "None",

@@ -388,7 +388,7 @@
               "lineHeight": "{base.LineHeight.125%}",
               "fontSize": "{base.FontSize.32}",
               "letterSpacing": "{base.LetterSpacing.ExtraTight}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -399,7 +399,7 @@
               "lineHeight": "{base.LineHeight.125%}",
               "fontSize": "{base.FontSize.24}",
               "letterSpacing": "{base.LetterSpacing.ExtraTight}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -410,7 +410,7 @@
               "fontFamily": "{base.FontFamily.Roboto}",
               "lineHeight": "{base.LineHeight.135%}",
               "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -421,7 +421,7 @@
               "fontWeight": "{base.FontWeight.Bold}",
               "fontFamily": "{base.FontFamily.Roboto}",
               "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -432,7 +432,7 @@
               "fontWeight": "{base.FontWeight.Bold}",
               "fontFamily": "{base.FontFamily.Roboto}",
               "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -442,7 +442,7 @@
               "lineHeight": "{base.LineHeight.135%}",
               "fontSize": "{base.FontSize.12}",
               "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -453,7 +453,7 @@
               "lineHeight": "{base.LineHeight.125%}",
               "fontSize": "{base.FontSize.12}",
               "letterSpacing": "{base.LetterSpacing.ExtraLoose}",
-              "textCase": "{core.TextCase.Uppercase}"
+              "textCase": "{base.TextCase.Uppercase}"
             },
             "type": "typography"
           }
@@ -466,7 +466,7 @@
               "lineHeight": "{base.LineHeight.135%}",
               "fontSize": "{base.FontSize.14}",
               "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -477,7 +477,7 @@
               "lineHeight": "{base.LineHeight.135%}",
               "fontSize": "{base.FontSize.14}",
               "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -488,7 +488,7 @@
               "lineHeight": "{base.LineHeight.135%}",
               "fontSize": "{base.FontSize.12}",
               "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -499,7 +499,7 @@
               "lineHeight": "{base.LineHeight.135%}",
               "fontSize": "{base.FontSize.10}",
               "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -510,7 +510,7 @@
               "lineHeight": "{base.LineHeight.135%}",
               "fontSize": "{base.FontSize.8}",
               "letterSpacing": "{base.LetterSpacing.Loose}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           }
@@ -523,7 +523,7 @@
               "lineHeight": "{base.LineHeight.125%}",
               "fontSize": "{base.FontSize.16}",
               "letterSpacing": "{base.LetterSpacing.Loose}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           },
@@ -534,7 +534,7 @@
               "lineHeight": "{base.LineHeight.125%}",
               "fontSize": "{base.FontSize.12}",
               "letterSpacing": "{base.LetterSpacing.Medium}",
-              "textCase": "{core.TextCase.None}"
+              "textCase": "{base.TextCase.None}"
             },
             "type": "typography"
           }
