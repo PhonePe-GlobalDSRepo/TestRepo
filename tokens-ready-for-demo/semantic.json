@@ -610,5 +610,13 @@
         }
       }
     }
+  },
+  "semnatic": {
+    "size": {
+      "1": {
+        "value": "{base.Size.1}",
+        "type": "sizing"
+      }
+    }
   }
 }
