@@ -354,7 +354,7 @@
         "type": "fontFamilies"
       },
       "SFPro": {
-        "value": "{base.FontFamily.SFPro}",
+        "value": "Inter",
         "type": "fontFamilies"
       }
     },
@@ -434,7 +434,6 @@
           },
           "H6": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
               "fontWeight": "{base.FontWeight.Bold}",
               "lineHeight": "{base.LineHeight.135%}",
               "fontSize": "{base.FontSize.12}",
