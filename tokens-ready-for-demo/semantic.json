@@ -357,8 +357,8 @@
         "value": "{base.FontFamily.Roboto}",
         "type": "fontFamilies"
       },
-      "SFPro": {
-        "value": "Inter",
+      "SFProDisplay": {
+        "value": "SF Pro Display",
         "type": "fontFamilies"
       }
     },
@@ -542,7 +542,7 @@
       }
     },
     "Elevation": {
-      "YNegative": {
+      "YTop": {
         "M": {
           "value": {
             "x": "0",
@@ -566,7 +566,7 @@
           "type": "boxShadow"
         }
       },
-      "YPositive": {
+      "YBottom": {
         "S": {
           "value": {
             "x": "0",
