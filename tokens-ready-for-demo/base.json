@@ -210,7 +210,7 @@
         "type": "borderRadius"
       },
       "4": {
-        "value": "4",
+        "value": "{base.Size.4}",
         "type": "borderRadius"
       },
       "8": {
@@ -231,16 +231,16 @@
         "value": "1",
         "type": "borderWidth"
       },
+      "Medium": {
+        "value": "1.5",
+        "type": "borderWidth"
+      },
       "Thick": {
         "value": "2",
         "type": "borderWidth"
       },
       "ExtraThick": {
         "value": "4",
-        "type": "borderWidth"
-      },
-      "Medium": {
-        "value": "1.5",
         "type": "borderWidth"
       }
     },
