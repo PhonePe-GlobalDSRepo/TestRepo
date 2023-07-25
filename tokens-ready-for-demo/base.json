@@ -244,7 +244,7 @@
     },
     "BorderWidth": {
       "Light": {
-        "value": "{base.Size.1}",
+        "value": "1",
         "type": "borderWidth"
       },
       "Regular": {
@@ -252,11 +252,11 @@
         "type": "borderWidth"
       },
       "Medium": {
-        "value": "{base.Size.2}",
+        "value": "2",
         "type": "borderWidth"
       },
       "Bold": {
-        "value": "{base.Size.4}",
+        "value": "4",
         "type": "borderWidth"
       }
     },
