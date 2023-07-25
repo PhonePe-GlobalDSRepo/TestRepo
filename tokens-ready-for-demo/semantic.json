@@ -94,6 +94,10 @@
           "value": "{base.Color.Pink.600}",
           "type": "color"
         },
+        "Bold07": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
+        },
         "NeutralBold": {
           "value": "{base.Color.Neutral.Black}",
           "type": "color"
