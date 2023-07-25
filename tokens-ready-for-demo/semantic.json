@@ -250,87 +250,91 @@
     },
     "Spacing": {
       "0": {
-        "value": "{base.Size.0}",
+        "value": "{base.Spacing.0}",
         "type": "spacing"
       },
       "4": {
-        "value": "{base.Size.4}",
+        "value": "{base.Spacing.4}",
         "type": "spacing"
       },
       "8": {
-        "value": "{base.Size.8}",
+        "value": "{base.Spacing.8}",
         "type": "spacing"
       },
       "12": {
-        "value": "{base.Size.12}",
+        "value": "{base.Spacing.12}",
         "type": "spacing"
       },
       "16": {
-        "value": "{base.Size.20}",
+        "value": "{base.Spacing.16}",
         "type": "spacing"
       },
       "24": {
-        "value": "{base.Size.24}",
+        "value": "{base.Spacing.24}",
         "type": "spacing"
       },
       "32": {
-        "value": "{base.Size.32}",
+        "value": "{base.Spacing.32}",
         "type": "spacing"
       },
       "40": {
-        "value": "{base.Size.40}",
+        "value": "{base.Spacing.40}",
         "type": "spacing"
       },
       "48": {
-        "value": "{base.Size.48}",
+        "value": "{base.Spacing.48}",
         "type": "spacing"
       },
       "56": {
-        "value": "{base.Size.56}",
+        "value": "{base.Spacing.56}",
         "type": "spacing"
       }
     },
     "BorderRadius": {
       "0": {
-        "value": "{base.Size.0}",
+        "value": "{base.BorderRadius.0}",
         "type": "borderRadius"
       },
       "4": {
-        "value": "{base.Size.4}",
+        "value": "{base.BorderRadius.4}",
         "type": "borderRadius"
       },
       "8": {
-        "value": "{base.Size.8}",
+        "value": "{base.BorderRadius.8}",
         "type": "borderRadius"
       },
       "12": {
-        "value": "{base.Size.12}",
+        "value": "{base.BorderRadius.12}",
         "type": "borderRadius"
       },
       "16": {
-        "value": "{base.Size.20}",
+        "value": "{base.BorderRadius.16}",
         "type": "borderRadius"
       }
     },
     "BorderWidth": {
-      "Thin": {
+      "Light": {
         "value": "{base.BorderWidth.Light}",
         "type": "borderWidth"
       },
-      "Medium": {
+      "Regular": {
         "value": "{base.BorderWidth.Regular}",
         "type": "borderWidth"
       },
-      "Thick": {
+      "Medium": {
         "value": "{base.BorderWidth.Medium}",
         "type": "borderWidth"
       },
-      "ExtraThick": {
+      "Bold": {
         "value": "{base.BorderWidth.Bold}",
         "type": "borderWidth"
       }
     },
     "Opacity": {
+      "0%": {
+        "value": "{base.Opacity.0%}",
+        "type": "opacity"
+      },
       "5%": {
         "value": "{base.Opacity.5%}",
         "type": "opacity"
@@ -608,9 +612,7 @@
           "type": "boxShadow"
         }
       }
-    }
-  },
-  "semnatic": {
+    },
     "size": {
       "1": {
         "value": "1",
