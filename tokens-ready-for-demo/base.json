@@ -238,7 +238,7 @@
         "type": "borderRadius"
       },
       "16": {
-        "value": "{base.Size.20}",
+        "value": "{base.Size.16}",
         "type": "borderRadius"
       }
     },
