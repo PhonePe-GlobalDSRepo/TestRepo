@@ -231,20 +231,20 @@
       }
     },
     "BorderWidth": {
-      "Thin": {
-        "value": "1",
+      "Light": {
+        "value": "{base.Size.1}",
         "type": "borderWidth"
       },
-      "Medium": {
+      "Regular": {
         "value": "1.5",
         "type": "borderWidth"
       },
-      "Thick": {
-        "value": "2",
+      "Medium": {
+        "value": "{base.Size.2}",
         "type": "borderWidth"
       },
-      "ExtraThick": {
-        "value": "4",
+      "Bold": {
+        "value": "{base.Size.4}",
         "type": "borderWidth"
       }
     },
@@ -829,7 +829,7 @@
       "WhiteMedium": {
         "value": {
           "color": "{semantic.Color.Border.NeutralSubtle}",
-          "width": "{base.BorderWidth.Medium}",
+          "width": "{base.BorderWidth.Regular}",
           "style": "solid"
         },
         "type": "border",
@@ -838,7 +838,7 @@
       "GreenThin": {
         "value": {
           "style": "solid",
-          "width": "{base.BorderWidth.Thin}",
+          "width": "{base.BorderWidth.Light}",
           "color": "{base.Color.Green.800}"
         },
         "type": "border"
@@ -846,7 +846,7 @@
       "GreyThin": {
         "value": {
           "color": "{base.Color.Grey.400}",
-          "width": "{base.BorderWidth.Thin}",
+          "width": "{base.BorderWidth.Light}",
           "style": "solid"
         },
         "type": "border"

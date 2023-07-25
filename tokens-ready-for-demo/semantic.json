@@ -314,19 +314,19 @@
     },
     "BorderWidth": {
       "Thin": {
-        "value": "{base.BorderWidth.Thin}",
+        "value": "{base.BorderWidth.Light}",
         "type": "borderWidth"
       },
       "Medium": {
-        "value": "{base.BorderWidth.Medium}",
+        "value": "{base.BorderWidth.Regular}",
         "type": "borderWidth"
       },
       "Thick": {
-        "value": "{base.BorderWidth.Thick}",
+        "value": "{base.BorderWidth.Medium}",
         "type": "borderWidth"
       },
       "ExtraThick": {
-        "value": "{base.BorderWidth.ExtraThick}",
+        "value": "{base.BorderWidth.Bold}",
         "type": "borderWidth"
       }
     },
