@@ -266,7 +266,7 @@
         "type": "spacing"
       },
       "16": {
-        "value": "{base.Size.16}",
+        "value": "{base.Size.20}",
         "type": "spacing"
       },
       "24": {
@@ -308,7 +308,7 @@
         "type": "borderRadius"
       },
       "16": {
-        "value": "{base.Size.16}",
+        "value": "{base.Size.20}",
         "type": "borderRadius"
       }
     },

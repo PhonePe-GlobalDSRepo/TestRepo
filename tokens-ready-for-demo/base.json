@@ -5,8 +5,8 @@
         "value": "Roboto",
         "type": "fontFamilies"
       },
-      "SFPro": {
-        "value": "SF Pro",
+      "SFProDisplay": {
+        "value": "SF Pro Display",
         "type": "fontFamilies"
       }
     },
@@ -22,35 +22,35 @@
     },
     "FontSize": {
       "8": {
-        "value": "8",
+        "value": "{base.Size.8}",
         "type": "fontSizes"
       },
       "10": {
-        "value": "10",
+        "value": "{base.Size.10}",
         "type": "fontSizes"
       },
       "12": {
-        "value": "12",
+        "value": "{base.Size.12}",
         "type": "fontSizes"
       },
       "14": {
-        "value": "14",
+        "value": "{base.Size.14}",
         "type": "fontSizes"
       },
       "16": {
-        "value": "16",
+        "value": "{base.Size.20}",
         "type": "fontSizes"
       },
       "20": {
-        "value": "20",
+        "value": "{base.Size.20}",
         "type": "fontSizes"
       },
       "24": {
-        "value": "24",
+        "value": "{base.Size.24}",
         "type": "fontSizes"
       },
       "32": {
-        "value": "32",
+        "value": "{base.Size.32}",
         "type": "fontSizes"
       }
     },
@@ -121,12 +121,20 @@
         "value": "8",
         "type": "sizing"
       },
+      "10": {
+        "value": "10",
+        "type": "sizing"
+      },
       "12": {
         "value": "12",
         "type": "sizing"
       },
-      "16": {
-        "value": "16",
+      "14": {
+        "value": "14",
+        "type": "sizing"
+      },
+      "20": {
+        "value": "20",
         "type": "sizing"
       },
       "24": {
@@ -184,7 +192,7 @@
         "type": "spacing"
       },
       "16": {
-        "value": "{base.Size.16}",
+        "value": "{base.Size.20}",
         "type": "spacing"
       },
       "24": {
@@ -226,7 +234,7 @@
         "type": "borderRadius"
       },
       "16": {
-        "value": "{base.Size.16}",
+        "value": "{base.Size.20}",
         "type": "borderRadius"
       }
     },
@@ -249,7 +257,7 @@
       }
     },
     "Elevation": {
-      "YNegative": {
+      "YBottom": {
         "M": {
           "value": {
             "x": "0",
@@ -273,7 +281,7 @@
           "type": "boxShadow"
         }
       },
-      "YPositive": {
+      "YTop": {
         "S": {
           "value": {
             "x": "0",
