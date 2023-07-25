@@ -615,63 +615,63 @@
     },
     "size": {
       "1": {
-        "value": "1",
+        "value": "{base.Size.1}",
         "type": "sizing"
       },
       "2": {
-        "value": "2",
+        "value": "{base.Size.2}",
         "type": "sizing"
       },
       "4": {
-        "value": "4",
+        "value": "{base.Size.4}",
         "type": "sizing"
       },
       "8": {
-        "value": "8",
+        "value": "{base.Size.8}",
         "type": "sizing"
       },
       "12": {
-        "value": "12",
+        "value": "{base.Size.12}",
         "type": "sizing"
       },
       "16": {
-        "value": "16",
+        "value": "{base.Size.16}",
         "type": "sizing"
       },
       "24": {
-        "value": "24",
+        "value": "{base.Size.24}",
         "type": "sizing"
       },
       "32": {
-        "value": "32",
+        "value": "{base.Size.32}",
         "type": "sizing"
       },
       "40": {
-        "value": "40",
+        "value": "{base.Size.40}",
         "type": "sizing"
       },
       "48": {
-        "value": "48",
+        "value": "{base.Size.48}",
         "type": "sizing"
       },
       "56": {
-        "value": "56",
+        "value": "{base.Size.56}",
         "type": "sizing"
       },
       "64": {
-        "value": "64",
+        "value": "{base.Size.64}",
         "type": "sizing"
       },
       "72": {
-        "value": "72",
+        "value": "{base.Size.72}",
         "type": "sizing"
       },
       "96": {
-        "value": "96",
+        "value": "{base.Size.96}",
         "type": "sizing"
       },
       "128": {
-        "value": "128",
+        "value": "{base.Size.128}",
         "type": "sizing"
       }
     }
