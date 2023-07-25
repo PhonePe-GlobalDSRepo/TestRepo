@@ -101,6 +101,10 @@
       }
     },
     "Size": {
+      "0": {
+        "value": "0",
+        "type": "sizing"
+      },
       "1": {
         "value": "1",
         "type": "sizing"
@@ -164,49 +168,49 @@
     },
     "Spacing": {
       "0": {
-        "value": "0",
+        "value": "{base.Size.0}",
         "type": "spacing"
       },
       "4": {
-        "value": "4",
+        "value": "{base.Size.4}",
         "type": "spacing"
       },
       "8": {
-        "value": "8",
+        "value": "{base.Size.8}",
         "type": "spacing"
       },
       "12": {
-        "value": "12",
+        "value": "{base.Size.12}",
         "type": "spacing"
       },
       "16": {
-        "value": "16",
+        "value": "{base.Size.16}",
         "type": "spacing"
       },
       "24": {
-        "value": "24",
+        "value": "{base.Size.24}",
         "type": "spacing"
       },
       "32": {
-        "value": "32",
+        "value": "{base.Size.32}",
         "type": "spacing"
       },
       "40": {
-        "value": "40",
+        "value": "{base.Size.40}",
         "type": "spacing"
       },
       "48": {
-        "value": "48",
+        "value": "{base.Size.48}",
         "type": "spacing"
       },
       "56": {
-        "value": "56",
+        "value": "{base.Size.56}",
         "type": "spacing"
       }
     },
     "BorderRadius": {
       "0": {
-        "value": "0",
+        "value": "{base.Size.0}",
         "type": "borderRadius"
       },
       "4": {
@@ -214,15 +218,15 @@
         "type": "borderRadius"
       },
       "8": {
-        "value": "8",
+        "value": "{base.Size.8}",
         "type": "borderRadius"
       },
       "12": {
-        "value": "12",
+        "value": "{base.Size.12}",
         "type": "borderRadius"
       },
       "16": {
-        "value": "16",
+        "value": "{base.Size.16}",
         "type": "borderRadius"
       }
     },
