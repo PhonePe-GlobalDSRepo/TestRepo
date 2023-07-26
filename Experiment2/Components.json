@@ -82,5 +82,37 @@
         "type": "color"
       }
     }
+  },
+  "progressTracker": {
+    "Color": {
+      "Background": {
+        "value": "{semantic.Color.Surface.Subtle07}",
+        "type": "color"
+      },
+      "ActiveBackground": {
+        "value": "{semantic.Color.Surface.Bold02}",
+        "type": "color"
+      },
+      "DescriptionText": {
+        "value": "{semantic.Color.Text.Bold}",
+        "type": "color"
+      }
+    },
+    "Completed": {
+      "Color": {
+        "Text": {
+          "value": "{semantic.Color.Text.Accent02}",
+          "type": "color"
+        }
+      }
+    },
+    "Incompleted": {
+      "Color": {
+        "Text": {
+          "value": "{semantic.Color.Text.Bold}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
