@@ -474,56 +474,56 @@
         "Body": {
           "B1": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{base.FontWeight.Regular}",
-              "lineHeight": "{base.LineHeight.135%}",
-              "fontSize": "{base.FontSize.14}",
-              "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{base.TextCase.None}"
+              "fontFamily": "{semantic.FontFamily.Roboto}",
+              "fontWeight": "{semantic.FontWeight.Regular}",
+              "lineHeight": "{semantic.LineHeight.135%}",
+              "fontSize": "{semantic.FontSize.14}",
+              "letterSpacing": "{semantic.LetterSpacing.Tight}",
+              "textCase": "{semantic.TextCase.None}"
             },
             "type": "typography"
           },
           "B2": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{base.FontWeight.Regular}",
-              "lineHeight": "{base.LineHeight.135%}",
-              "fontSize": "{base.FontSize.14}",
-              "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{base.TextCase.None}"
+              "fontFamily": "{semantic.FontFamily.Roboto}",
+              "fontWeight": "{semantic.FontWeight.Regular}",
+              "lineHeight": "{semantic.LineHeight.135%}",
+              "fontSize": "{semantic.FontSize.14}",
+              "letterSpacing": "{semantic.LetterSpacing.Tight}",
+              "textCase": "{semantic.TextCase.None}"
             },
             "type": "typography"
           },
           "B3": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{base.FontWeight.Regular}",
-              "lineHeight": "{base.LineHeight.135%}",
-              "fontSize": "{base.FontSize.12}",
-              "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{base.TextCase.None}"
+              "fontFamily": "{semantic.FontFamily.Roboto}",
+              "fontWeight": "{semantic.FontWeight.Regular}",
+              "lineHeight": "{semantic.LineHeight.135%}",
+              "fontSize": "{semantic.FontSize.12}",
+              "letterSpacing": "{semantic.LetterSpacing.Tight}",
+              "textCase": "{semantic.TextCase.None}"
             },
             "type": "typography"
           },
           "B4": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{base.FontWeight.Regular}",
-              "lineHeight": "{base.LineHeight.135%}",
-              "fontSize": "{base.FontSize.10}",
-              "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{base.TextCase.None}"
+              "fontFamily": "{semantic.FontFamily.Roboto}",
+              "fontWeight": "{semantic.FontWeight.Regular}",
+              "lineHeight": "{semantic.LineHeight.135%}",
+              "fontSize": "{semantic.FontSize.10}",
+              "letterSpacing": "{semantic.LetterSpacing.Tight}",
+              "textCase": "{semantic.TextCase.None}"
             },
             "type": "typography"
           },
           "B5": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{base.FontWeight.Regular}",
-              "lineHeight": "{base.LineHeight.135%}",
-              "fontSize": "{base.FontSize.8}",
-              "letterSpacing": "{base.LetterSpacing.Loose}",
-              "textCase": "{base.TextCase.None}"
+              "fontFamily": "{semantic.FontFamily.Roboto}",
+              "fontWeight": "{semantic.FontWeight.Regular}",
+              "lineHeight": "{semantic.LineHeight.135%}",
+              "fontSize": "{semantic.FontSize.8}",
+              "letterSpacing": "{semantic.LetterSpacing.Loose}",
+              "textCase": "{semantic.TextCase.None}"
             },
             "type": "typography"
           }
