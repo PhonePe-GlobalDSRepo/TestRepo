@@ -15,11 +15,11 @@
       }
     },
     "FontWeight": {
-      "bold": {
+      "Bold": {
         "value": "{base.FontWeight.Bold}",
         "type": "fontWeights"
       },
-      "regular": {
+      "Regular": {
         "value": "{base.FontWeight.Regular}",
         "type": "fontWeights"
       }
@@ -396,7 +396,7 @@
           "H1": {
             "value": {
               "fontFamily": "{semantic.FontFamily.Roboto}",
-              "fontWeight": "{semantic.FontWeight.bold}",
+              "fontWeight": "{semantic.FontWeight.Bold}",
               "lineHeight": "{semantic.LineHeight.125%}",
               "fontSize": "{semantic.FontSize.32}",
               "letterSpacing": "{semantic.LetterSpacing.ExtraTight}",
@@ -407,7 +407,7 @@
           "H2": {
             "value": {
               "fontFamily": "{semantic.FontFamily.Roboto}",
-              "fontWeight": "{semantic.FontWeight.bold}",
+              "fontWeight": "{semantic.FontWeight.Bold}",
               "lineHeight": "{semantic.LineHeight.125%}",
               "fontSize": "{semantic.FontSize.24}",
               "letterSpacing": "{semantic.LetterSpacing.ExtraTight}",
@@ -418,7 +418,7 @@
           "H3": {
             "value": {
               "fontSize": "{semantic.FontSize.20}",
-              "fontWeight": "{semantic.FontWeight.bold}",
+              "fontWeight": "{semantic.FontWeight.Bold}",
               "fontFamily": "{semantic.FontFamily.Roboto}",
               "lineHeight": "{semantic.LineHeight.135%}",
               "letterSpacing": "{semantic.LetterSpacing.Tight}",
@@ -430,7 +430,7 @@
             "value": {
               "fontSize": "{semantic.FontSize.16}",
               "lineHeight": "{semantic.LineHeight.135%}",
-              "fontWeight": "{semantic.FontWeight.bold}",
+              "fontWeight": "{semantic.FontWeight.Bold}",
               "fontFamily": "{semantic.FontFamily.Roboto}",
               "letterSpacing": "{semantic.LetterSpacing.Tight}",
               "textCase": "{semantic.TextCase.None}"
@@ -441,7 +441,7 @@
             "value": {
               "fontSize": "{semantic.FontSize.14}",
               "lineHeight": "{semantic.LineHeight.135%}",
-              "fontWeight": "{semantic.FontWeight.bold}",
+              "fontWeight": "{semantic.FontWeight.Bold}",
               "fontFamily": "{semantic.FontFamily.Roboto}",
               "letterSpacing": "{semantic.LetterSpacing.Tight}",
               "textCase": "{semantic.TextCase.None}"
@@ -450,23 +450,23 @@
           },
           "H6": {
             "value": {
-              "fontWeight": "{base.FontWeight.Bold}",
-              "lineHeight": "{base.LineHeight.135%}",
-              "fontSize": "{base.FontSize.12}",
-              "letterSpacing": "{base.LetterSpacing.Tight}",
-              "textCase": "{base.TextCase.None}",
-              "fontFamily": "{base.FontFamily.Roboto}"
+              "fontWeight": "{semantic.FontWeight.Bold}",
+              "lineHeight": "{semantic.LineHeight.135%}",
+              "fontSize": "{semantic.FontSize.12}",
+              "letterSpacing": "{semantic.LetterSpacing.Tight}",
+              "textCase": "{semantic.TextCase.None}",
+              "fontFamily": "{semantic.FontFamily.Roboto}"
             },
             "type": "typography"
           },
           "Overline": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{base.FontWeight.Bold}",
-              "lineHeight": "{base.LineHeight.125%}",
-              "fontSize": "{base.FontSize.12}",
-              "letterSpacing": "{base.LetterSpacing.ExtraLoose}",
-              "textCase": "{base.TextCase.Uppercase}"
+              "fontFamily": "{semantic.FontFamily.Roboto}",
+              "fontWeight": "{semantic.FontWeight.Bold}",
+              "lineHeight": "{semantic.LineHeight.125%}",
+              "fontSize": "{semantic.FontSize.12}",
+              "letterSpacing": "{semantic.LetterSpacing.ExtraLoose}",
+              "textCase": "{semantic.TextCase.Uppercase}"
             },
             "type": "typography"
           }
