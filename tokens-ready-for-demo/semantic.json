@@ -1,6 +1,6 @@
 {
   "semantic": {
-    "textDecoration": {
+    "TextDecoration": {
       "none": {
         "value": "{base.TextDecoration.None}",
         "type": "textDecoration"
@@ -14,7 +14,7 @@
         "type": "textDecoration"
       }
     },
-    "fontWeight": {
+    "FontWeight": {
       "bold": {
         "value": "{base.FontWeight.Bold}",
         "type": "fontWeights"
@@ -376,6 +376,18 @@
       "ExtraTight": {
         "value": "{base.LetterSpacing.ExtraTight}",
         "type": "letterSpacing"
+      },
+      "Loose": {
+        "value": "{base.LetterSpacing.Loose}",
+        "type": "letterSpacing"
+      },
+      "Tight": {
+        "value": "{base.LetterSpacing.Tight}",
+        "type": "letterSpacing"
+      },
+      "ExtraLoose": {
+        "value": "{base.LetterSpacing.ExtraLoose}",
+        "type": "letterSpacing"
       }
     },
     "Typography": {
@@ -383,23 +395,23 @@
         "Heading": {
           "H1": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{base.FontWeight.Bold}",
-              "lineHeight": "{base.LineHeight.125%}",
-              "fontSize": "{base.FontSize.32}",
-              "letterSpacing": "{base.LetterSpacing.ExtraTight}",
-              "textCase": "{base.TextCase.None}"
+              "fontFamily": "{semantic.FontFamily.Roboto}",
+              "fontWeight": "{semantic.FontWeight.bold}",
+              "lineHeight": "{semantic.LineHeight.125%}",
+              "fontSize": "{semantic.FontSize.32}",
+              "letterSpacing": "{semantic.LetterSpacing.ExtraTight}",
+              "textCase": "{semantic.TextCase.None}"
             },
             "type": "typography"
           },
           "H2": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{base.FontWeight.Bold}",
-              "lineHeight": "{base.LineHeight.125%}",
-              "fontSize": "{base.FontSize.24}",
-              "letterSpacing": "{base.LetterSpacing.ExtraTight}",
-              "textCase": "{base.TextCase.None}"
+              "fontFamily": "{semantic.FontFamily.Roboto}",
+              "fontWeight": "{semantic.FontWeight.bold}",
+              "lineHeight": "{semantic.LineHeight.125%}",
+              "fontSize": "{semantic.FontSize.24}",
+              "letterSpacing": "{semantic.LetterSpacing.ExtraTight}",
+              "textCase": "{semantic.TextCase.None}"
             },
             "type": "typography"
           },
@@ -690,6 +702,16 @@
       "128": {
         "value": "{base.Size.128}",
         "type": "sizing"
+      }
+    },
+    "TextCase": {
+      "None": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "Uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
       }
     }
   }
