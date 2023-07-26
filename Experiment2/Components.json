@@ -70,5 +70,17 @@
         }
       }
     }
+  },
+  "progressBar": {
+    "Color": {
+      "ActiveBackground": {
+        "value": "{semantic.Color.Surface.Bold02}",
+        "type": "color"
+      },
+      "Background": {
+        "value": "{semantic.Color.Surface.Subtle07}",
+        "type": "color"
+      }
+    }
   }
 }
