@@ -254,7 +254,7 @@
     },
     "Spacing": {
       "0": {
-        "value": "{base.Spacing.0}",
+        "value": "{semantic.Size.0}",
         "type": "spacing"
       },
       "4": {
@@ -618,7 +618,11 @@
         }
       }
     },
-    "size": {
+    "Size": {
+      "0": {
+        "value": "{base.Size.0}",
+        "type": "sizing"
+      },
       "1": {
         "value": "{base.Size.1}",
         "type": "sizing"
