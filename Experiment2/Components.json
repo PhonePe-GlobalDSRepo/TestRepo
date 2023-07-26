@@ -1,1 +1,22 @@
-{}
+{
+  "tooltip": {
+    "Color": {
+      "Text": {
+        "value": "{semantic.Color.Text.InverseBold}",
+        "type": "color"
+      },
+      "Background": {
+        "value": "{semantic.Color.Surface.Bold07}",
+        "type": "color"
+      }
+    }
+  },
+  "stepper": {
+    "Color": {
+      "Background": {
+        "value": "{semantic.Color.Surface.NeutralSubtle}",
+        "type": "color"
+      }
+    }
+  }
+}
