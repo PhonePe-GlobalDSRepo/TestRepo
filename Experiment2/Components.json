@@ -31,6 +31,10 @@
         "Surface": {
           "value": "{semantic.Color.Surface.Bold02}",
           "type": "color"
+        },
+        "Divider": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
         }
       }
     },
@@ -47,13 +51,17 @@
         "IconBorder": {
           "value": "{semantic.Color.Border.Subtle}",
           "type": "color"
+        },
+        "Divider": {
+          "value": "{semantic.Color.Border.Subtle}",
+          "type": "color"
         }
       }
     },
     "Completed": {
       "Color": {
         "DescriptionText": {
-          "value": "{semantic.Color.Text.Subtle}",
+          "value": "{semantic.Color.Text.Strong}",
           "type": "color"
         },
         "Icon": {
