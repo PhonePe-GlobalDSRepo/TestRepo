@@ -481,7 +481,7 @@
               "fontFamily": "{semantic.FontFamily.Roboto}",
               "fontWeight": "{semantic.FontWeight.Regular}",
               "lineHeight": "{semantic.LineHeight.135%}",
-              "fontSize": "{semantic.FontSize.14}",
+              "fontSize": "{base.FontSize.16}",
               "letterSpacing": "{semantic.LetterSpacing.Tight}",
               "textCase": "{semantic.TextCase.None}"
             },
@@ -716,6 +716,44 @@
       "Uppercase": {
         "value": "uppercase",
         "type": "textCase"
+      }
+    },
+    "Search": {
+      "Inactive": {
+        "Color": {
+          "Icon": {
+            "value": "{semantic.Color.Surface.Bold07}",
+            "type": "color"
+          },
+          "Border": {
+            "value": "{semantic.Color.Border.Subtle}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.Moderate}",
+            "type": "color"
+          }
+        }
+      },
+      "Active": {
+        "Color": {
+          "ClearIcon": {
+            "value": "{semantic.Color.Surface.Bold07}",
+            "type": "color"
+          },
+          "ClearIconBG": {
+            "value": "{semantic.Color.Surface.Subtle07}",
+            "type": "color"
+          },
+          "Border": {
+            "value": "{semantic.Color.Border.Brand}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.Strong}",
+            "type": "color"
+          }
+        }
       }
     }
   }
