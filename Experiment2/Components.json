@@ -17,6 +17,50 @@
         "value": "{semantic.Color.Surface.NeutralSubtle}",
         "type": "color"
       }
+    },
+    "Active": {
+      "Color": {
+        "DescriptionText": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        },
+        "IconText": {
+          "value": "{semantic.Color.Text.InverseBold}",
+          "type": "color"
+        },
+        "Surface": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        }
+      }
+    },
+    "Pending": {
+      "Color": {
+        "DescriptionText": {
+          "value": "{semantic.Color.Text.Subtle}",
+          "type": "color"
+        },
+        "IconText": {
+          "value": "{semantic.Color.Text.Subtle}",
+          "type": "color"
+        },
+        "IconBorder": {
+          "value": "{semantic.Color.Border.Subtle}",
+          "type": "color"
+        }
+      }
+    },
+    "Completed": {
+      "Color": {
+        "DescriptionText": {
+          "value": "{semantic.Color.Text.Subtle}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{semantic.Color.Status.SuccessBold}",
+          "type": "color"
+        }
+      }
     }
   }
 }
