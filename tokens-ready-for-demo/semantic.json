@@ -388,6 +388,10 @@
       "ExtraLoose": {
         "value": "{base.LetterSpacing.ExtraLoose}",
         "type": "letterSpacing"
+      },
+      "Medium": {
+        "value": "{base.LetterSpacing.Medium}",
+        "type": "letterSpacing"
       }
     },
     "Typography": {
@@ -529,25 +533,25 @@
           }
         },
         "Button": {
-          "Button1": {
+          "Large": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{base.FontWeight.Bold}",
-              "lineHeight": "{base.LineHeight.125%}",
-              "fontSize": "{base.FontSize.16}",
-              "letterSpacing": "{base.LetterSpacing.Loose}",
-              "textCase": "{base.TextCase.None}"
+              "fontFamily": "{semantic.FontFamily.Roboto}",
+              "fontWeight": "{semantic.FontWeight.Bold}",
+              "lineHeight": "{semantic.LineHeight.125%}",
+              "fontSize": "{semantic.FontSize.16}",
+              "letterSpacing": "{semantic.LetterSpacing.Loose}",
+              "textCase": "{semantic.TextCase.None}"
             },
             "type": "typography"
           },
-          "Button2": {
+          "Default": {
             "value": {
-              "fontFamily": "{base.FontFamily.Roboto}",
-              "fontWeight": "{base.FontWeight.Bold}",
-              "lineHeight": "{base.LineHeight.125%}",
-              "fontSize": "{base.FontSize.12}",
-              "letterSpacing": "{base.LetterSpacing.Medium}",
-              "textCase": "{base.TextCase.None}"
+              "fontFamily": "{semantic.FontFamily.Roboto}",
+              "fontWeight": "{semantic.FontWeight.Bold}",
+              "lineHeight": "{semantic.LineHeight.125%}",
+              "fontSize": "{semantic.FontSize.12}",
+              "letterSpacing": "{semantic.LetterSpacing.Medium}",
+              "textCase": "{semantic.TextCase.None}"
             },
             "type": "typography"
           }
