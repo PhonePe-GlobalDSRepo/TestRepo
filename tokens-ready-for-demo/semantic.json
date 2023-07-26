@@ -258,31 +258,31 @@
         "type": "spacing"
       },
       "4": {
-        "value": "{base.Spacing.4}",
+        "value": "{semantic.Size.4}",
         "type": "spacing"
       },
       "8": {
-        "value": "{base.Spacing.8}",
+        "value": "{semantic.Size.8}",
         "type": "spacing"
       },
       "12": {
-        "value": "{base.Spacing.12}",
+        "value": "{semantic.Size.12}",
         "type": "spacing"
       },
       "16": {
-        "value": "{base.Spacing.16}",
+        "value": "{semantic.Size.16}",
         "type": "spacing"
       },
       "24": {
-        "value": "{base.Spacing.24}",
+        "value": "{semantic.Size.24}",
         "type": "spacing"
       },
       "32": {
-        "value": "{base.Spacing.32}",
+        "value": "{semantic.Size.32}",
         "type": "spacing"
       },
       "40": {
-        "value": "{base.Spacing.40}",
+        "value": "{semantic.Size.40}",
         "type": "spacing"
       },
       "48": {
@@ -296,23 +296,23 @@
     },
     "BorderRadius": {
       "0": {
-        "value": "{base.BorderRadius.0}",
+        "value": "{semantic.Size.0}",
         "type": "borderRadius"
       },
       "4": {
-        "value": "{base.BorderRadius.4}",
+        "value": "{semantic.Size.4}",
         "type": "borderRadius"
       },
       "8": {
-        "value": "{base.BorderRadius.8}",
+        "value": "{semantic.Size.8}",
         "type": "borderRadius"
       },
       "12": {
-        "value": "{base.BorderRadius.12}",
+        "value": "{semantic.Size.12}",
         "type": "borderRadius"
       },
       "16": {
-        "value": "{base.BorderRadius.16}",
+        "value": "{semantic.Size.16}",
         "type": "borderRadius"
       }
     },
