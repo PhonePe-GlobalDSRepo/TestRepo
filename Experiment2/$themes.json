@@ -3,8 +3,8 @@
     "id": "632077f06113d9bb99a261c9afe4e5959cc1824c",
     "name": "Dark",
     "selectedTokenSets": {
-      "Core": "source",
-      "semantic": "enabled"
+      "semantic": "enabled",
+      "base": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -13,7 +13,7 @@
     "name": "Light",
     "selectedTokenSets": {
       "semantic": "source",
-      "Core": "source"
+      "base": "source"
     },
     "$figmaStyleReferences": {}
   }
