@@ -1,7 +1,6 @@
 {
   "tokenSetOrder": [
-    "Core",
-    "semantic",
-    "Components"
+    "base",
+    "semantic"
   ]
 }
