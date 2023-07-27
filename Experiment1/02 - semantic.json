@@ -833,6 +833,18 @@
           "type": "color"
         }
       }
+    },
+    "Coachmark": {
+      "Color": {
+        "Heading": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        },
+        "Body": {
+          "value": "{semantic.Color.Text.Bold}",
+          "type": "color"
+        }
+      }
     }
   }
 }
