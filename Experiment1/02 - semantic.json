@@ -923,6 +923,30 @@
           }
         }
       }
+    },
+    "ActionMenu": {
+      "Color": {
+        "BG": {
+          "value": "{semantic.Color.Surface.NeutralSubtle}",
+          "type": "color"
+        }
+      }
+    },
+    "ActionMenuItem": {
+      "Color": {
+        "Icon": {
+          "value": "{semantic.Color.Surface.Bold01}",
+          "type": "color"
+        },
+        "Heading": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        },
+        "SubHeading": {
+          "value": "{semantic.Color.Text.Bold}",
+          "type": "color"
+        }
+      }
     }
   }
 }
