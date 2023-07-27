@@ -1,0 +1,742 @@
+{
+  "semantic": {
+    "TextDecoration": {
+      "None": {
+        "value": "{base.TextDecoration.None}",
+        "type": "textDecoration"
+      },
+      "Underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      },
+      "Strikethrough": {
+        "value": "{base.TextDecoration.Strikethrough}",
+        "type": "textDecoration"
+      }
+    },
+    "FontWeight": {
+      "Bold": {
+        "value": "{base.FontWeight.Bold}",
+        "type": "fontWeights"
+      },
+      "Regular": {
+        "value": "{base.FontWeight.Regular}",
+        "type": "fontWeights"
+      }
+    },
+    "Color": {
+      "Brand": {
+        "Primary": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.LightPurple.500}",
+          "type": "color"
+        }
+      },
+      "Status": {
+        "SuccessBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "SuccessSubtle": {
+          "value": "{base.Color.Green.50}",
+          "type": "color"
+        },
+        "ErrorBold": {
+          "value": "{base.Color.Red.900}",
+          "type": "color"
+        },
+        "ErrorSubtle": {
+          "value": "{base.Color.Red.50}",
+          "type": "color"
+        },
+        "WarningBold": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color"
+        },
+        "WarningSubtle": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
+        },
+        "InformationBold": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color"
+        },
+        "InformationSubtle": {
+          "value": "{base.Color.Blue.50}",
+          "type": "color"
+        }
+      },
+      "Surface": {
+        "Bold01": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "Bold02": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Bold03": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color"
+        },
+        "Bold04": {
+          "value": "{base.Color.Red.900}",
+          "type": "color"
+        },
+        "Bold05": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color"
+        },
+        "Bold06": {
+          "value": "{base.Color.Pink.600}",
+          "type": "color"
+        },
+        "Bold07": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
+        },
+        "NeutralBold": {
+          "value": "{base.Color.Neutral.Black}",
+          "type": "color"
+        },
+        "Subtle01": {
+          "value": "{base.Color.Purple.100}",
+          "type": "color"
+        },
+        "Subtle02": {
+          "value": "{base.Color.Green.50}",
+          "type": "color"
+        },
+        "Subtle03": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
+        },
+        "Subtle04": {
+          "value": "{base.Color.Red.50}",
+          "type": "color"
+        },
+        "Subtle05": {
+          "value": "{base.Color.Blue.50}",
+          "type": "color"
+        },
+        "Subtle06": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Subtle07": {
+          "value": "{base.Color.Grey.300}",
+          "type": "color"
+        },
+        "Subtle08": {
+          "value": "{base.Color.Grey.200}",
+          "type": "color"
+        },
+        "NeutralSubtle": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "Brand": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "Strong": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
+        },
+        "Bold": {
+          "value": "{base.Color.Grey.700}",
+          "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        },
+        "InverseSubtle": {
+          "value": "{base.Color.LightPurple.200}",
+          "type": "color"
+        },
+        "InverseBold": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "Accent01": {
+          "value": "{base.Color.Red.900}",
+          "type": "color"
+        },
+        "Accent02": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        }
+      },
+      "Border": {
+        "Brand": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "NeutralSubtle": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "NeutralBold": {
+          "value": "{base.Color.Neutral.Black}",
+          "type": "color"
+        }
+      },
+      "Skeleton": {
+        "Bold": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        }
+      },
+      "Icon": {
+        "Brand": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "White": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "Strong": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.Grey.800}",
+          "type": "color"
+        },
+        "Light": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        }
+      }
+    },
+    "FontSize": {
+      "8": {
+        "value": "{semantic.Size.8}",
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": "{semantic.Size.10}",
+        "type": "fontSizes"
+      },
+      "12": {
+        "value": "{semantic.Size.12}",
+        "type": "fontSizes"
+      },
+      "14": {
+        "value": "{semantic.Size.14}",
+        "type": "fontSizes"
+      },
+      "16": {
+        "value": "{semantic.Size.16}",
+        "type": "fontSizes"
+      },
+      "20": {
+        "value": "{semantic.Size.20}",
+        "type": "fontSizes"
+      },
+      "24": {
+        "value": "{semantic.Size.24}",
+        "type": "fontSizes"
+      },
+      "32": {
+        "value": "{semantic.Size.32}",
+        "type": "fontSizes"
+      }
+    },
+    "Spacing": {
+      "0": {
+        "value": "{semantic.Size.0}",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "{semantic.Size.4}",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "{semantic.Size.8}",
+        "type": "spacing"
+      },
+      "12": {
+        "value": "{semantic.Size.12}",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "{semantic.Size.16}",
+        "type": "spacing"
+      },
+      "24": {
+        "value": "{semantic.Size.24}",
+        "type": "spacing"
+      },
+      "32": {
+        "value": "{semantic.Size.32}",
+        "type": "spacing"
+      },
+      "40": {
+        "value": "{semantic.Size.40}",
+        "type": "spacing"
+      },
+      "48": {
+        "value": "{base.Spacing.48}",
+        "type": "spacing"
+      },
+      "56": {
+        "value": "{base.Spacing.56}",
+        "type": "spacing"
+      }
+    },
+    "BorderRadius": {
+      "0": {
+        "value": "{semantic.Size.0}",
+        "type": "borderRadius"
+      },
+      "4": {
+        "value": "{semantic.Size.4}",
+        "type": "borderRadius"
+      },
+      "8": {
+        "value": "{semantic.Size.8}",
+        "type": "borderRadius"
+      },
+      "12": {
+        "value": "{semantic.Size.12}",
+        "type": "borderRadius"
+      },
+      "16": {
+        "value": "{semantic.Size.16}",
+        "type": "borderRadius"
+      }
+    },
+    "BorderWidth": {
+      "Light": {
+        "value": "{base.BorderWidth.Light}",
+        "type": "borderWidth"
+      },
+      "Regular": {
+        "value": "{base.BorderWidth.Regular}",
+        "type": "borderWidth"
+      },
+      "Medium": {
+        "value": "{base.BorderWidth.Medium}",
+        "type": "borderWidth"
+      },
+      "Bold": {
+        "value": "{base.BorderWidth.Bold}",
+        "type": "borderWidth"
+      }
+    },
+    "Opacity": {
+      "0%": {
+        "value": "{base.Opacity.0%}",
+        "type": "opacity"
+      },
+      "5%": {
+        "value": "{base.Opacity.5%}",
+        "type": "opacity"
+      },
+      "10%": {
+        "value": "{base.Opacity.10%}",
+        "type": "opacity"
+      },
+      "40%": {
+        "value": "{base.Opacity.40%}",
+        "type": "opacity"
+      },
+      "70%": {
+        "value": "{base.Opacity.70%}",
+        "type": "opacity"
+      }
+    },
+    "FontFamily": {
+      "Roboto": {
+        "value": "{base.FontFamily.Roboto}",
+        "type": "fontFamilies"
+      },
+      "SFPro": {
+        "value": "{base.FontFamily.SFPro}",
+        "type": "fontFamilies"
+      }
+    },
+    "LineHeight": {
+      "125%": {
+        "value": "{base.LineHeight.125%}",
+        "type": "lineHeights"
+      },
+      "135%": {
+        "value": "{base.LineHeight.135%}",
+        "type": "lineHeights"
+      }
+    },
+    "LetterSpacing": {
+      "ExtraTight": {
+        "value": "{base.LetterSpacing.ExtraTight}",
+        "type": "letterSpacing"
+      },
+      "Tight": {
+        "value": "{base.LetterSpacing.Tight}",
+        "type": "letterSpacing"
+      },
+      "Medium": {
+        "value": "{base.LetterSpacing.Medium}",
+        "type": "letterSpacing"
+      },
+      "Loose": {
+        "value": "{base.LetterSpacing.Loose}",
+        "type": "letterSpacing"
+      },
+      "ExtraLoose": {
+        "value": "{base.LetterSpacing.ExtraLoose}",
+        "type": "letterSpacing"
+      }
+    },
+    "Typography": {
+      "Heading": {
+        "H1": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.125%}",
+            "fontSize": "{semantic.FontSize.32}",
+            "letterSpacing": "{semantic.LetterSpacing.ExtraTight}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "H2": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.125%}",
+            "fontSize": "{semantic.FontSize.24}",
+            "letterSpacing": "{semantic.LetterSpacing.ExtraTight}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "H3": {
+          "value": {
+            "fontSize": "{semantic.FontSize.20}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "letterSpacing": "{semantic.LetterSpacing.Tight}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "H4": {
+          "value": {
+            "fontSize": "{semantic.FontSize.16}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "letterSpacing": "{semantic.LetterSpacing.Tight}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "H5": {
+          "value": {
+            "fontSize": "{semantic.FontSize.14}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "letterSpacing": "{semantic.LetterSpacing.Tight}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "H6": {
+          "value": {
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.12}",
+            "letterSpacing": "{semantic.LetterSpacing.Tight}",
+            "textCase": "{semantic.TextCase.None}",
+            "fontFamily": "{semantic.FontFamily.Roboto}"
+          },
+          "type": "typography"
+        },
+        "Overline": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.125%}",
+            "fontSize": "{semantic.FontSize.12}",
+            "letterSpacing": "{semantic.LetterSpacing.ExtraLoose}",
+            "textCase": "{semantic.TextCase.Uppercase}"
+          },
+          "type": "typography"
+        }
+      },
+      "Body": {
+        "B1": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.14}",
+            "letterSpacing": "{semantic.LetterSpacing.Tight}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "B2": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.14}",
+            "letterSpacing": "{semantic.LetterSpacing.Tight}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "B3": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.12}",
+            "letterSpacing": "{semantic.LetterSpacing.Tight}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "B4": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.10}",
+            "letterSpacing": "{semantic.LetterSpacing.Tight}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "B5": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.8}",
+            "letterSpacing": "{semantic.LetterSpacing.Loose}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        }
+      },
+      "Button": {
+        "Large": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.125%}",
+            "fontSize": "{semantic.FontSize.16}",
+            "letterSpacing": "{semantic.LetterSpacing.Loose}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "Default": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.125%}",
+            "fontSize": "{semantic.FontSize.12}",
+            "letterSpacing": "{semantic.LetterSpacing.Medium}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "Elevation": {
+      "YTop": {
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "-4",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.08)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "XL": {
+          "value": {
+            "x": "0",
+            "y": "-24",
+            "blur": "80",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.3)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "YBottom": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "2",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.04)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.08)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "L": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "16",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.16)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "XL": {
+          "value": {
+            "x": "0",
+            "y": "24",
+            "blur": "80",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.3)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    },
+    "Size": {
+      "0": {
+        "value": "{base.Size.0}",
+        "type": "sizing"
+      },
+      "1": {
+        "value": "{base.Size.1}",
+        "type": "sizing"
+      },
+      "2": {
+        "value": "{base.Size.2}",
+        "type": "sizing"
+      },
+      "4": {
+        "value": "{base.Size.4}",
+        "type": "sizing"
+      },
+      "8": {
+        "value": "{base.Size.8}",
+        "type": "sizing"
+      },
+      "10": {
+        "value": "{base.Size.10}",
+        "type": "sizing"
+      },
+      "12": {
+        "value": "{base.Size.12}",
+        "type": "sizing"
+      },
+      "14": {
+        "value": "{base.Size.14}",
+        "type": "sizing"
+      },
+      "16": {
+        "value": "{base.Size.16}",
+        "type": "sizing"
+      },
+      "20": {
+        "value": "{base.Size.20}",
+        "type": "sizing"
+      },
+      "24": {
+        "value": "{base.Size.24}",
+        "type": "sizing"
+      },
+      "32": {
+        "value": "{base.Size.32}",
+        "type": "sizing"
+      },
+      "40": {
+        "value": "{base.Size.40}",
+        "type": "sizing"
+      },
+      "48": {
+        "value": "{base.Size.48}",
+        "type": "sizing"
+      },
+      "56": {
+        "value": "{base.Size.56}",
+        "type": "sizing"
+      },
+      "64": {
+        "value": "{base.Size.64}",
+        "type": "sizing"
+      },
+      "72": {
+        "value": "{base.Size.72}",
+        "type": "sizing"
+      },
+      "96": {
+        "value": "{base.Size.96}",
+        "type": "sizing"
+      },
+      "128": {
+        "value": "{base.Size.128}",
+        "type": "sizing"
+      }
+    },
+    "TextCase": {
+      "None": {
+        "value": "{base.TextCase.None}",
+        "type": "textCase"
+      },
+      "Uppercase": {
+        "value": "{base.TextCase.Uppercase}",
+        "type": "textCase"
+      }
+    }
+  }
+}
