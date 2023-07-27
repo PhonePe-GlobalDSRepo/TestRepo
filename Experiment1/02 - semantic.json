@@ -817,6 +817,22 @@
           "type": "color"
         }
       }
+    },
+    "NotificationBadge": {
+      "Color": {
+        "BG": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        },
+        "Border": {
+          "value": "{semantic.Color.Border.NeutralSubtle}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{semantic.Color.Text.InverseBold}",
+          "type": "color"
+        }
+      }
     }
   }
 }
