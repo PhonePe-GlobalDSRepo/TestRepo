@@ -70,35 +70,35 @@
         }
       },
       "Surface": {
-        "Bold01": {
+        "Strong01": {
           "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
-        "Bold02": {
+        "Strong02": {
           "value": "{base.Color.Green.800}",
           "type": "color"
         },
-        "Bold03": {
+        "Strong03": {
           "value": "{base.Color.Orange.900}",
           "type": "color"
         },
-        "Bold04": {
+        "Strong04": {
           "value": "{base.Color.Red.900}",
           "type": "color"
         },
-        "Bold05": {
+        "Strong05": {
           "value": "{base.Color.Blue.700}",
           "type": "color"
         },
-        "Bold06": {
+        "Strong06": {
           "value": "{base.Color.Pink.600}",
           "type": "color"
         },
-        "Bold07": {
+        "Strong07": {
           "value": "{base.Color.Grey.900}",
           "type": "color"
         },
-        "NeutralBold": {
+        "StrongNeutral": {
           "value": "{base.Color.Neutral.Black}",
           "type": "color"
         },
@@ -134,7 +134,7 @@
           "value": "{base.Color.Grey.200}",
           "type": "color"
         },
-        "NeutralSubtle": {
+        "SubtleNeutral": {
           "value": "{base.Color.Neutral.White}",
           "type": "color"
         }
@@ -906,7 +906,7 @@
             "type": "color"
           },
           "Icon": {
-            "value": "{semantic.Color.Surface.Bold01}",
+            "value": "{semantic.Color.Surface.Strong01}",
             "type": "color"
           }
         }
@@ -935,7 +935,7 @@
     "ActionMenuItem": {
       "Color": {
         "Icon": {
-          "value": "{semantic.Color.Surface.Bold01}",
+          "value": "{semantic.Color.Surface.Strong01}",
           "type": "color"
         },
         "Heading": {
@@ -1007,6 +1007,51 @@
               }
             }
           }
+        }
+      }
+    },
+    "Avatar": {
+      "Color": {
+        "BorderDefault": {
+          "value": "{semantic.Color.Border.NeutralBold}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "BorderInverse": {
+          "value": "{semantic.Color.Border.NeutralSubtle}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{semantic.Color.Text.InverseBold}",
+          "type": "color"
+        },
+        "BG01": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        },
+        "Bg02": {
+          "value": "{semantic.Color.Surface.Bold03}",
+          "type": "color"
+        },
+        "BG03": {
+          "value": "{semantic.Color.Surface.Bold04}",
+          "type": "color"
+        },
+        "BG04": {
+          "value": "{semantic.Color.Surface.Bold05}",
+          "type": "color"
+        },
+        "BG05": {
+          "value": "{semantic.Color.Surface.Bold06}",
+          "type": "color"
         }
       }
     }
