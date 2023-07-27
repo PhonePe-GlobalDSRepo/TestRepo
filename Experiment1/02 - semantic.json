@@ -845,6 +845,50 @@
           "type": "color"
         }
       }
+    },
+    "CarouselIndicator": {
+      "Default": {
+        "Color": {
+          "Active": {
+            "value": "{semantic.Color.Surface.Bold07}",
+            "type": "color"
+          },
+          "Inactive": {
+            "value": "{semantic.Color.Surface.Bold07}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.3",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Inverse": {
+        "Color": {
+          "Active": {
+            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "type": "color"
+          },
+          "Inactive": {
+            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.3",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
