@@ -780,75 +780,83 @@
         }
       },
       "Error": {
-        "Background": {
-          "value": "{semantic.Color.Status.ErrorBold}",
-          "type": "color"
-        },
-        "Title": {
-          "value": "{semantic.Color.Text.InverseBold}",
-          "type": "color"
-        },
-        "Subitle": {
-          "value": "{semantic.Color.Text.InverseBold}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{semantic.Color.Icon.White}",
-          "type": "color"
+        "Color": {
+          "Background": {
+            "value": "{semantic.Color.Status.ErrorBold}",
+            "type": "color"
+          },
+          "Title": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          },
+          "Subitle": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Icon.White}",
+            "type": "color"
+          }
         }
       },
       "Success": {
-        "Background": {
-          "value": "{semantic.Color.Surface.Bold02}",
-          "type": "color"
-        },
-        "Title": {
-          "value": "{semantic.Color.Text.InverseBold}",
-          "type": "color"
-        },
-        "Subtitle": {
-          "value": "{semantic.Color.Text.InverseBold}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{semantic.Color.Icon.White}",
-          "type": "color"
+        "Color": {
+          "Background": {
+            "value": "{semantic.Color.Surface.Bold02}",
+            "type": "color"
+          },
+          "Title": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          },
+          "Subtitle": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Icon.White}",
+            "type": "color"
+          }
         }
       },
       "Warning": {
-        "Background": {
-          "value": "{semantic.Color.Status.WarningBold}",
-          "type": "color"
-        },
-        "Title": {
-          "value": "{semantic.Color.Text.InverseBold}",
-          "type": "color"
-        },
-        "Subtitle": {
-          "value": "{semantic.Color.Text.InverseBold}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{semantic.Color.Icon.White}",
-          "type": "color"
+        "Color": {
+          "Background": {
+            "value": "{semantic.Color.Status.WarningBold}",
+            "type": "color"
+          },
+          "Title": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          },
+          "Subtitle": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Icon.White}",
+            "type": "color"
+          }
         }
       },
       "Disabled": {
-        "Background": {
-          "value": "{semantic.Color.Surface.Subtle06}",
-          "type": "color"
-        },
-        "Title": {
-          "value": "{semantic.Color.Text.InverseBold}",
-          "type": "color"
-        },
-        "Subtitle": {
-          "value": "{semantic.Color.Text.InverseBold}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{semantic.Color.Icon.White}",
-          "type": "color"
+        "Color": {
+          "Background": {
+            "value": "{semantic.Color.Surface.Subtle06}",
+            "type": "color"
+          },
+          "Title": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          },
+          "Subtitle": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Icon.White}",
+            "type": "color"
+          }
         }
       }
     }
