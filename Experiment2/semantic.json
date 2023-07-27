@@ -502,7 +502,7 @@
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Regular}",
             "lineHeight": "{semantic.LineHeight.135%}",
-            "fontSize": "{semantic.FontSize.14}",
+            "fontSize": "{base.FontSize.16}",
             "letterSpacing": "{semantic.LetterSpacing.Tight}",
             "textCase": "{semantic.TextCase.None}"
           },
