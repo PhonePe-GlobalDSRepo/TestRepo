@@ -406,6 +406,14 @@
       "Medium": {
         "value": "{base.LetterSpacing.Medium}",
         "type": "letterSpacing"
+      },
+      "Loose": {
+        "value": "{base.LetterSpacing.Loose}",
+        "type": "letterSpacing"
+      },
+      "ExtraLoose": {
+        "value": "{base.LetterSpacing.ExtraLoose}",
+        "type": "letterSpacing"
       }
     },
     "Typography": {
