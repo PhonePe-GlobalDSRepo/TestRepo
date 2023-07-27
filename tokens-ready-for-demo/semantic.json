@@ -379,8 +379,8 @@
         "value": "{base.FontFamily.Roboto}",
         "type": "fontFamilies"
       },
-      "SFProDisplay": {
-        "value": "{base.FontFamily.SFProDisplay}",
+      "SFPro": {
+        "value": "{base.FontFamily.SFPro}",
         "type": "fontFamilies"
       }
     },
