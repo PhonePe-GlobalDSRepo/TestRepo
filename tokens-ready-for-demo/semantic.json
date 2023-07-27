@@ -212,6 +212,28 @@
           "value": "{base.Color.Grey.400}",
           "type": "color"
         }
+      },
+      "Icon": {
+        "Brand": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color"
+        },
+        "White": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "Strong": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.Grey.800}",
+          "type": "color"
+        },
+        "Light": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        }
       }
     },
     "FontSize": {
