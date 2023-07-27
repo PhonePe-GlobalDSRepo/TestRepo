@@ -755,6 +755,68 @@
           }
         }
       }
+    },
+    "Snackbar": {
+      "Standard": {
+        "Color": {
+          "BG": {
+            "value": "{semantic.Color.Surface.Bold07}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "type": "color"
+          }
+        }
+      },
+      "Success": {
+        "Color": {
+          "BG": {
+            "value": "{semantic.Color.Surface.Bold02}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          }
+        }
+      },
+      "Warning": {
+        "Color": {
+          "BG": {
+            "value": "{semantic.Color.Surface.Bold03}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          }
+        }
+      },
+      "Danger": {
+        "Color": {
+          "BG": {
+            "value": "{semantic.Color.Surface.Bold04}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "SnackbarButton": {
+      "Color": {
+        "Text": {
+          "value": "{semantic.Color.Text.InverseSubtle}",
+          "type": "color"
+        }
+      }
     }
   }
 }
