@@ -14,12 +14,12 @@
         "type": "textDecoration"
       }
     },
-    "fontWeight": {
-      "bold": {
+    "FontWeight": {
+      "Bold": {
         "value": "{base.FontWeight.Bold}",
         "type": "fontWeights"
       },
-      "regular": {
+      "Regular": {
         "value": "{base.FontWeight.Regular}",
         "type": "fontWeights"
       }
@@ -380,7 +380,7 @@
         "type": "fontFamilies"
       },
       "SFProDisplay": {
-        "value": "SF Pro Display",
+        "value": "{base.FontFamily.SFProDisplay}",
         "type": "fontFamilies"
       }
     },
@@ -397,6 +397,14 @@
     "LetterSpacing": {
       "ExtraTight": {
         "value": "{base.LetterSpacing.ExtraTight}",
+        "type": "letterSpacing"
+      },
+      "Tight": {
+        "value": "{base.LetterSpacing.Tight}",
+        "type": "letterSpacing"
+      },
+      "Medium": {
+        "value": "{base.LetterSpacing.Medium}",
         "type": "letterSpacing"
       }
     },
