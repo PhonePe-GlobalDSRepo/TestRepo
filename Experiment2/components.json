@@ -1,5 +1,5 @@
 {
-  "tooltip": {
+  "Tooltip": {
     "Color": {
       "Text": {
         "value": "{semantic.Color.Text.InverseBold}",
@@ -11,7 +11,7 @@
       }
     }
   },
-  "stepper": {
+  "Stepper": {
     "Color": {
       "Background": {
         "value": "{semantic.Color.Surface.NeutralSubtle}",
@@ -71,7 +71,7 @@
       }
     }
   },
-  "progressBar": {
+  "ProgressBar": {
     "Color": {
       "ActiveBackground": {
         "value": "{semantic.Color.Surface.Bold02}",
@@ -83,7 +83,7 @@
       }
     }
   },
-  "progressTracker": {
+  "ProgressTracker": {
     "Color": {
       "Background": {
         "value": "{semantic.Color.Surface.Subtle07}",
