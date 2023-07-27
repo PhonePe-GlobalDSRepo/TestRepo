@@ -204,7 +204,7 @@
         }
       },
       "Skeleton": {
-        "Bold": {
+        "Strong": {
           "value": "{base.Color.Grey.500}",
           "type": "color"
         },
@@ -722,7 +722,7 @@
       "Inactive": {
         "Color": {
           "Icon": {
-            "value": "{semantic.Color.Surface.Bold07}",
+            "value": "{semantic.Color.Surface.Strong07}",
             "type": "color"
           },
           "Border": {
@@ -738,7 +738,7 @@
       "Active": {
         "Color": {
           "ClearIcon": {
-            "value": "{semantic.Color.Surface.Bold07}",
+            "value": "{semantic.Color.Surface.Strong07}",
             "type": "color"
           },
           "ClearIconBG": {
@@ -760,7 +760,7 @@
       "Standard": {
         "Color": {
           "BG": {
-            "value": "{semantic.Color.Surface.Bold07}",
+            "value": "{semantic.Color.Surface.Strong07}",
             "type": "color"
           },
           "Text": {
@@ -768,7 +768,7 @@
             "type": "color"
           },
           "Icon": {
-            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "value": "{semantic.Color.Surface.SubtleNeutral}",
             "type": "color"
           }
         }
@@ -776,7 +776,7 @@
       "Success": {
         "Color": {
           "BG": {
-            "value": "{semantic.Color.Surface.Bold02}",
+            "value": "{semantic.Color.Surface.Strong02}",
             "type": "color"
           },
           "Text": {
@@ -788,7 +788,7 @@
       "Warning": {
         "Color": {
           "BG": {
-            "value": "{semantic.Color.Surface.Bold03}",
+            "value": "{semantic.Color.Surface.Strong03}",
             "type": "color"
           },
           "Text": {
@@ -800,7 +800,7 @@
       "Danger": {
         "Color": {
           "BG": {
-            "value": "{semantic.Color.Surface.Bold04}",
+            "value": "{semantic.Color.Surface.Strong04}",
             "type": "color"
           },
           "Text": {
@@ -821,7 +821,7 @@
     "NotificationBadge": {
       "Color": {
         "BG": {
-          "value": "{semantic.Color.Surface.Bold02}",
+          "value": "{semantic.Color.Surface.Strong02}",
           "type": "color"
         },
         "Border": {
@@ -850,11 +850,11 @@
       "Default": {
         "Color": {
           "Active": {
-            "value": "{semantic.Color.Surface.Bold07}",
+            "value": "{semantic.Color.Surface.Strong07}",
             "type": "color"
           },
           "Inactive": {
-            "value": "{semantic.Color.Surface.Bold07}",
+            "value": "{semantic.Color.Surface.Strong07}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -871,11 +871,11 @@
       "Inverse": {
         "Color": {
           "Active": {
-            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "value": "{semantic.Color.Surface.SubtleNeutral}",
             "type": "color"
           },
           "Inactive": {
-            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "value": "{semantic.Color.Surface.SubtleNeutral}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -927,7 +927,7 @@
     "ActionMenu": {
       "Color": {
         "BG": {
-          "value": "{semantic.Color.Surface.NeutralSubtle}",
+          "value": "{semantic.Color.Surface.SubtleNeutral}",
           "type": "color"
         }
       }
@@ -952,7 +952,7 @@
       "Item": {
         "Color": {
           "Default": {
-            "value": "{semantic.Color.Surface.NeutralBold}",
+            "value": "{semantic.Color.Surface.StrongNeutral}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -965,7 +965,7 @@
             }
           },
           "Inverse": {
-            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "value": "{semantic.Color.Surface.SubtleNeutral}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -982,7 +982,7 @@
       "Section": {
         "Color": {
           "Default": {
-            "value": "{semantic.Color.Surface.NeutralBold}",
+            "value": "{semantic.Color.Surface.StrongNeutral}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -995,7 +995,7 @@
             }
           },
           "Inverse": {
-            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "value": "{semantic.Color.Surface.SubtleNeutral}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1034,23 +1034,23 @@
           "type": "color"
         },
         "BG01": {
-          "value": "{semantic.Color.Surface.Bold02}",
+          "value": "{semantic.Color.Surface.Strong02}",
           "type": "color"
         },
         "Bg02": {
-          "value": "{semantic.Color.Surface.Bold03}",
+          "value": "{semantic.Color.Surface.Strong03}",
           "type": "color"
         },
         "BG03": {
-          "value": "{semantic.Color.Surface.Bold04}",
+          "value": "{semantic.Color.Surface.Strong04}",
           "type": "color"
         },
         "BG04": {
-          "value": "{semantic.Color.Surface.Bold05}",
+          "value": "{semantic.Color.Surface.Strong04}",
           "type": "color"
         },
         "BG05": {
-          "value": "{semantic.Color.Surface.Bold06}",
+          "value": "{semantic.Color.Surface.Strong05}",
           "type": "color"
         }
       }
