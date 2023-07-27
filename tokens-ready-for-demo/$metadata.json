@@ -1,8 +1,7 @@
 {
   "tokenSetOrder": [
-    "base",
+    "Core",
     "semantic",
-    "component",
-    "dark-theme"
+    "Components"
   ]
 }

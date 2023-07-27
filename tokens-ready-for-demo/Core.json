@@ -842,6 +842,33 @@
         }
       }
     },
+    "Border": {
+      "WhiteMedium": {
+        "value": {
+          "color": "{semantic.Color.Border.NeutralSubtle}",
+          "width": "{base.BorderWidth.Regular}",
+          "style": "solid"
+        },
+        "type": "border",
+        "description": "Used in parent child avatar"
+      },
+      "GreenThin": {
+        "value": {
+          "style": "solid",
+          "width": "{base.BorderWidth.Light}",
+          "color": "{base.Color.Green.800}"
+        },
+        "type": "border"
+      },
+      "GreyThin": {
+        "value": {
+          "color": "{base.Color.Grey.400}",
+          "width": "{base.BorderWidth.Light}",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    },
     "TextCase": {
       "None": {
         "value": "None",
