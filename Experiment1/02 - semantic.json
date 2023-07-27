@@ -889,6 +889,40 @@
           }
         }
       }
+    },
+    "Counter": {
+      "Color": {
+        "Text": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        }
+      }
+    },
+    "IconButton": {
+      "Active": {
+        "Color": {
+          "Border": {
+            "value": "{semantic.Color.Border.Brand}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Surface.Bold01}",
+            "type": "color"
+          }
+        }
+      },
+      "Disabled": {
+        "Color": {
+          "Border": {
+            "value": "{semantic.Color.Border.Subtle}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Border.Subtle}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
