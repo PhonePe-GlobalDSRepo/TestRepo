@@ -947,6 +947,68 @@
           "type": "color"
         }
       }
+    },
+    "Separator": {
+      "Item": {
+        "Color": {
+          "Default": {
+            "value": "{semantic.Color.Surface.NeutralBold}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.05",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "Inverse": {
+            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.05",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Section": {
+        "Color": {
+          "Default": {
+            "value": "{semantic.Color.Surface.NeutralBold}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "Inverse": {
+            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
