@@ -691,6 +691,14 @@
         "value": "{base.Size.128}",
         "type": "sizing"
       }
+    },
+    "Overlay": {
+      "Colour": {
+        "BG": {
+          "value": "{semantic.Color.Surface.NeutralBold}",
+          "type": "color"
+        }
+      }
     }
   }
 }
