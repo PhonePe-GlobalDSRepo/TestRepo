@@ -727,6 +727,14 @@
           "type": "color"
         }
       }
+    },
+    "Card": {
+      "Color": {
+        "BG": {
+          "value": "{semantic.Color.Surface.NeutralSubtle}",
+          "type": "color"
+        }
+      }
     }
   }
 }
