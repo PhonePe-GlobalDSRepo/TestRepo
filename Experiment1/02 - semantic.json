@@ -255,6 +255,28 @@
           }
         }
       },
+      "Icon": {
+        "Brand": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "Strong": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.Grey.800}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        }
+      },
       "Skeleton": {
         "Strong": {
           "value": "{base.Color.Grey.500}",
@@ -774,7 +796,7 @@
       "Inactive": {
         "Color": {
           "Icon": {
-            "value": "{semantic.Color.Surface.Strong07}",
+            "value": "{semantic.Color.Icon.Strong}",
             "type": "color"
           },
           "Border": {
@@ -790,7 +812,7 @@
       "Active": {
         "Color": {
           "ClearIcon": {
-            "value": "{semantic.Color.Surface.Strong07}",
+            "value": "{semantic.Color.Icon.Strong}",
             "type": "color"
           },
           "ClearIconBG": {
@@ -820,7 +842,7 @@
             "type": "color"
           },
           "Icon": {
-            "value": "{semantic.Color.Surface.SubtleNeutral}",
+            "value": "{semantic.Color.Icon.Inverse}",
             "type": "color"
           }
         }
@@ -958,7 +980,7 @@
             "type": "color"
           },
           "Icon": {
-            "value": "{semantic.Color.Surface.Strong01}",
+            "value": "{semantic.Color.Icon.Brand}",
             "type": "color"
           }
         }
@@ -970,7 +992,7 @@
             "type": "color"
           },
           "Icon": {
-            "value": "{semantic.Color.Border.Subtle}",
+            "value": "{semantic.Color.Icon.Subtle}",
             "type": "color"
           }
         }
@@ -987,7 +1009,7 @@
     "ActionMenuItem": {
       "Color": {
         "Icon": {
-          "value": "{semantic.Color.Surface.Strong01}",
+          "value": "{semantic.Color.Icon.Brand}",
           "type": "color"
         },
         "Heading": {
@@ -1004,60 +1026,28 @@
       "Item": {
         "Color": {
           "Default": {
-            "value": "{semantic.Color.Surface.StrongNeutral}",
+            "value": "{semantic.Color.Border.Strong03}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.05",
-                  "space": "lch"
-                }
-              }
-            }
+            "$extensions": {}
           },
           "Inverse": {
-            "value": "{semantic.Color.Surface.SubtleNeutral}",
+            "value": "{semantic.Color.Border.Inverse03}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.05",
-                  "space": "lch"
-                }
-              }
-            }
+            "$extensions": {}
           }
         }
       },
       "Section": {
         "Color": {
           "Default": {
-            "value": "{semantic.Color.Surface.StrongNeutral}",
+            "value": "{semantic.Color.Border.Strong02}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.1",
-                  "space": "lch"
-                }
-              }
-            }
+            "$extensions": {}
           },
           "Inverse": {
-            "value": "{semantic.Color.Surface.SubtleNeutral}",
+            "value": "{semantic.Color.Border.Inverse02}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.1",
-                  "space": "lch"
-                }
-              }
-            }
+            "$extensions": {}
           }
         }
       }
@@ -1065,17 +1055,9 @@
     "Avatar": {
       "Color": {
         "BorderDefault": {
-          "value": "{semantic.Color.Border.Strong01}",
+          "value": "{semantic.Color.Border.Strong02}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.1",
-                "space": "lch"
-              }
-            }
-          }
+          "$extensions": {}
         },
         "BorderInverse": {
           "value": "{semantic.Color.Border.Inverse01}",
@@ -1115,6 +1097,23 @@
         },
         "Border": {
           "value": "{semantic.Color.Border.Strong02}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{semantic.Color.Icon.Moderate}",
+          "type": "color"
+        }
+      }
+    },
+    "BrandLogos": {
+      "Color": {
+        "BorderDefault": {
+          "value": "{semantic.Color.Border.Strong02}",
+          "type": "color",
+          "$extensions": {}
+        },
+        "BorderInverse": {
+          "value": "{semantic.Color.Border.Inverse01}",
           "type": "color"
         }
       }
