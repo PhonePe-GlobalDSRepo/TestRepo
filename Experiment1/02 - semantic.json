@@ -36,7 +36,7 @@
         }
       },
       "Status": {
-        "SuccessBold": {
+        "SuccessStrong": {
           "value": "{base.Color.Green.800}",
           "type": "color"
         },
@@ -44,7 +44,7 @@
           "value": "{base.Color.Green.50}",
           "type": "color"
         },
-        "ErrorBold": {
+        "ErrorStrong": {
           "value": "{base.Color.Red.900}",
           "type": "color"
         },
@@ -52,7 +52,7 @@
           "value": "{base.Color.Red.50}",
           "type": "color"
         },
-        "WarningBold": {
+        "WarningStrong": {
           "value": "{base.Color.Orange.900}",
           "type": "color"
         },
@@ -60,7 +60,7 @@
           "value": "{base.Color.Orange.50}",
           "type": "color"
         },
-        "InformationBold": {
+        "InformationStrong": {
           "value": "{base.Color.Blue.700}",
           "type": "color"
         },
@@ -148,15 +148,15 @@
           "value": "{base.Color.Grey.900}",
           "type": "color"
         },
-        "Bold": {
+        "Moderate": {
           "value": "{base.Color.Grey.700}",
           "type": "color"
         },
-        "Moderate": {
+        "Subtle": {
           "value": "{base.Color.Grey.500}",
           "type": "color"
         },
-        "Subtle": {
+        "Minimal": {
           "value": "{base.Color.Grey.400}",
           "type": "color"
         },
@@ -164,7 +164,7 @@
           "value": "{base.Color.LightPurple.200}",
           "type": "color"
         },
-        "InverseBold": {
+        "InverseStrong": {
           "value": "{base.Color.Neutral.White}",
           "type": "color"
         },
@@ -186,21 +186,73 @@
           "value": "{base.Color.Green.800}",
           "type": "color"
         },
-        "Subtle": {
-          "value": "{base.Color.Grey.400}",
+        "Strong01": {
+          "value": "{base.Color.Neutral.Black}",
           "type": "color"
+        },
+        "Strong02": {
+          "value": "{base.Color.Neutral.Black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "Strong03": {
+          "value": "{base.Color.Neutral.Black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.05",
+                "space": "lch"
+              }
+            }
+          }
         },
         "Moderate": {
           "value": "{base.Color.Grey.500}",
           "type": "color"
         },
-        "NeutralSubtle": {
+        "Subtle": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        },
+        "Inverse01": {
           "value": "{base.Color.Neutral.White}",
           "type": "color"
         },
-        "NeutralBold": {
-          "value": "{base.Color.Neutral.Black}",
-          "type": "color"
+        "Inverse02": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "Inverse03": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.05",
+                "space": "lch"
+              }
+            }
+          }
         }
       },
       "Skeleton": {
@@ -730,7 +782,7 @@
             "type": "color"
           },
           "Text": {
-            "value": "{semantic.Color.Text.Moderate}",
+            "value": "{semantic.Color.Text.Subtle}",
             "type": "color"
           }
         }
@@ -764,7 +816,7 @@
             "type": "color"
           },
           "Text": {
-            "value": "{semantic.Color.Text.InverseBold}",
+            "value": "{semantic.Color.Text.InverseStrong}",
             "type": "color"
           },
           "Icon": {
@@ -780,7 +832,7 @@
             "type": "color"
           },
           "Text": {
-            "value": "{semantic.Color.Text.InverseBold}",
+            "value": "{semantic.Color.Text.InverseStrong}",
             "type": "color"
           }
         }
@@ -792,7 +844,7 @@
             "type": "color"
           },
           "Text": {
-            "value": "{semantic.Color.Text.InverseBold}",
+            "value": "{semantic.Color.Text.InverseStrong}",
             "type": "color"
           }
         }
@@ -804,7 +856,7 @@
             "type": "color"
           },
           "Text": {
-            "value": "{semantic.Color.Text.InverseBold}",
+            "value": "{semantic.Color.Text.InverseStrong}",
             "type": "color"
           }
         }
@@ -825,11 +877,11 @@
           "type": "color"
         },
         "Border": {
-          "value": "{semantic.Color.Border.NeutralSubtle}",
+          "value": "{semantic.Color.Border.Inverse01}",
           "type": "color"
         },
         "Text": {
-          "value": "{semantic.Color.Text.InverseBold}",
+          "value": "{semantic.Color.Text.InverseStrong}",
           "type": "color"
         }
       }
@@ -841,7 +893,7 @@
           "type": "color"
         },
         "Body": {
-          "value": "{semantic.Color.Text.Bold}",
+          "value": "{semantic.Color.Text.Moderate}",
           "type": "color"
         }
       }
@@ -943,7 +995,7 @@
           "type": "color"
         },
         "SubHeading": {
-          "value": "{semantic.Color.Text.Bold}",
+          "value": "{semantic.Color.Text.Moderate}",
           "type": "color"
         }
       }
@@ -1013,7 +1065,7 @@
     "Avatar": {
       "Color": {
         "BorderDefault": {
-          "value": "{semantic.Color.Border.NeutralBold}",
+          "value": "{semantic.Color.Border.Strong01}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -1026,11 +1078,11 @@
           }
         },
         "BorderInverse": {
-          "value": "{semantic.Color.Border.NeutralSubtle}",
+          "value": "{semantic.Color.Border.Inverse01}",
           "type": "color"
         },
         "Text": {
-          "value": "{semantic.Color.Text.InverseBold}",
+          "value": "{semantic.Color.Text.InverseStrong}",
           "type": "color"
         },
         "BG01": {
