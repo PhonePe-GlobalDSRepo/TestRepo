@@ -196,7 +196,7 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "lighten",
+                "type": "alpha",
                 "value": "0.1",
                 "space": "lch"
               }
@@ -209,7 +209,7 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "lighten",
+                "type": "alpha",
                 "value": "0.05",
                 "space": "lch"
               }
@@ -1103,6 +1103,18 @@
         },
         "BG05": {
           "value": "{semantic.Color.Surface.Strong05}",
+          "type": "color"
+        }
+      }
+    },
+    "CloseButton": {
+      "Color": {
+        "BG": {
+          "value": "{semantic.Color.Surface.SubtleNeutral}",
+          "type": "color"
+        },
+        "Border": {
+          "value": "{semantic.Color.Border.Strong02}",
           "type": "color"
         }
       }
