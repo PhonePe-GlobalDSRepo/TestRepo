@@ -1,5 +1,15 @@
 {
   "semantic": {
+    "FontWeight": {
+      "Bold": {
+        "value": "{base.FontWeight.Bold}",
+        "type": "fontWeights"
+      },
+      "Regular": {
+        "value": "{base.FontWeight.Regular}",
+        "type": "fontWeights"
+      }
+    },
     "Color": {
       "Brand": {
         "Primary": {
