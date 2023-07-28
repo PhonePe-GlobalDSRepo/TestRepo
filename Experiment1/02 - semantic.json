@@ -1101,6 +1101,34 @@
           "type": "color"
         }
       }
+    },
+    "PageHeader": {
+      "Color": {
+        "OverlineHeading": {
+          "value": "{semantic.Color.Text.InverseSubtle}",
+          "type": "color"
+        },
+        "Heading": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        },
+        "SubHeading": {
+          "value": "{semantic.Color.Text.Moderate}",
+          "type": "color"
+        }
+      }
+    },
+    "PageHeaderBenefit": {
+      "Color": {
+        "Border": {
+          "value": "{semantic.Color.Border.Strong02}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        }
+      }
     }
   }
 }
