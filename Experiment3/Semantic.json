@@ -699,6 +699,34 @@
           "type": "color"
         }
       }
+    },
+    "Tabs": {
+      "Active": {
+        "Color": {
+          "Text": {
+            "value": "{semantic.Color.Text.Brand}",
+            "type": "color"
+          },
+          "LineIndicator": {
+            "value": "{semantic.Color.Surface.Bold01}",
+            "type": "color"
+          }
+        }
+      },
+      "Inactive": {
+        "Color": {
+          "Text": {
+            "value": "{semantic.Color.Text.Bold}",
+            "type": "color"
+          }
+        }
+      },
+      "Color": {
+        "BG": {
+          "value": "{semantic.Color.Surface.NeutralSubtle}",
+          "type": "color"
+        }
+      }
     }
   }
 }
