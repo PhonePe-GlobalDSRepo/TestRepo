@@ -901,6 +901,10 @@
         "Body": {
           "value": "{semantic.Color.Text.Moderate}",
           "type": "color"
+        },
+        "BG": {
+          "value": "{semantic.Color.Surface.SubtleNeutral}",
+          "type": "color"
         }
       }
     },
