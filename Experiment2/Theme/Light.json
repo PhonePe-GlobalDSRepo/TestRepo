@@ -1,0 +1,118 @@
+{
+  "Tooltip": {
+    "Color": {
+      "Text": {
+        "value": "{semantic.Color.Text.InverseBold}",
+        "type": "color"
+      },
+      "Background": {
+        "value": "{semantic.Color.Surface.Bold07}",
+        "type": "color"
+      }
+    }
+  },
+  "Stepper": {
+    "Color": {
+      "Background": {
+        "value": "{semantic.Color.Surface.NeutralSubtle}",
+        "type": "color"
+      }
+    },
+    "Active": {
+      "Color": {
+        "DescriptionText": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        },
+        "IconText": {
+          "value": "{semantic.Color.Text.InverseBold}",
+          "type": "color"
+        },
+        "Surface": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        },
+        "Divider": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        }
+      }
+    },
+    "Pending": {
+      "Color": {
+        "DescriptionText": {
+          "value": "{semantic.Color.Text.Subtle}",
+          "type": "color"
+        },
+        "IconText": {
+          "value": "{semantic.Color.Text.Subtle}",
+          "type": "color"
+        },
+        "IconBorder": {
+          "value": "{semantic.Color.Border.Subtle}",
+          "type": "color"
+        },
+        "Divider": {
+          "value": "{semantic.Color.Border.Subtle}",
+          "type": "color"
+        }
+      }
+    },
+    "Completed": {
+      "Color": {
+        "DescriptionText": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{semantic.Color.Status.SuccessBold}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "ProgressBar": {
+    "Color": {
+      "ActiveBackground": {
+        "value": "{semantic.Color.Surface.Bold02}",
+        "type": "color"
+      },
+      "Background": {
+        "value": "{semantic.Color.Surface.Subtle07}",
+        "type": "color"
+      }
+    }
+  },
+  "ProgressTracker": {
+    "Color": {
+      "Background": {
+        "value": "{semantic.Color.Surface.Subtle07}",
+        "type": "color"
+      },
+      "ActiveBackground": {
+        "value": "{semantic.Color.Surface.Bold02}",
+        "type": "color"
+      },
+      "DescriptionText": {
+        "value": "{semantic.Color.Text.Bold}",
+        "type": "color"
+      }
+    },
+    "Completed": {
+      "Color": {
+        "Text": {
+          "value": "{semantic.Color.Text.Accent02}",
+          "type": "color"
+        }
+      }
+    },
+    "Incompleted": {
+      "Color": {
+        "Text": {
+          "value": "{semantic.Color.Text.Bold}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
