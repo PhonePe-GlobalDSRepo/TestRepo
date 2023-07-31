@@ -694,7 +694,7 @@
     },
     "Overlay": {
       "Colour": {
-        "BG": {
+        "Background": {
           "value": "{semantic.Color.Surface.NeutralBold}",
           "type": "color"
         }
@@ -722,7 +722,7 @@
         }
       },
       "Color": {
-        "BG": {
+        "Background": {
           "value": "{semantic.Color.Surface.NeutralSubtle}",
           "type": "color"
         }
@@ -730,7 +730,7 @@
     },
     "Card": {
       "Color": {
-        "BG": {
+        "Background": {
           "value": "{semantic.Color.Surface.NeutralSubtle}",
           "type": "color"
         }
