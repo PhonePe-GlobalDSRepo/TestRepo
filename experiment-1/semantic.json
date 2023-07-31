@@ -861,19 +861,21 @@
       }
     },
     "BottomNavigation": {
-      "Default": {
+      "Color": {
+        "Background": {
+          "value": "{semantic.Color.Surface.NeutralSubtle}",
+          "type": "color",
+          "description": "Used for Default title bars Purple"
+        }
+      },
+      "ActiveListItem": {
         "Color": {
           "Background": {
             "value": "{semantic.Color.Surface.Bold01}",
             "type": "color",
-            "description": "Used for Default title bars Purple"
-          },
-          "Title": {
-            "value": "{semantic.Color.Text.InverseBold}",
-            "type": "color",
             "description": "Used for main Title 16px bold"
           },
-          "Subtitle": {
+          "Text": {
             "value": "{semantic.Color.Text.InverseBold}",
             "type": "color",
             "description": "Used for Subtitle"
@@ -885,18 +887,18 @@
           }
         }
       },
-      "Inverse": {
+      "Inactive": {
         "Color": {
           "Background": {
-            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "value": "{semantic.Color.Surface.Subtle06}",
             "type": "color"
           },
           "Title": {
-            "value": "{semantic.Color.Text.Strong}",
+            "value": "{semantic.Color.Text.InverseBold}",
             "type": "color"
           },
           "Icon": {
-            "value": "{semantic.Color.Icon.Strong}",
+            "value": "{semantic.Color.Icon.White}",
             "type": "color"
           }
         }
