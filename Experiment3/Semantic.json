@@ -295,6 +295,10 @@
         "value": "{semantic.Size.0}",
         "type": "borderRadius"
       },
+      "2": {
+        "value": "{base.Size.2}",
+        "type": "borderRadius"
+      },
       "4": {
         "value": "{semantic.Size.4}",
         "type": "borderRadius"
