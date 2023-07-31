@@ -709,27 +709,29 @@
         }
       }
     },
-    "Tabs": {
-      "Active": {
+    "Tab": {
+      "Selected": {
         "Color": {
           "Text": {
             "value": "{semantic.Color.Text.Brand}",
             "type": "color"
           },
-          "LineIndicator": {
+          "Indicator": {
             "value": "{semantic.Color.Surface.Bold01}",
             "type": "color"
           }
         }
       },
-      "Inactive": {
+      "Unselected": {
         "Color": {
           "Text": {
             "value": "{semantic.Color.Text.Bold}",
             "type": "color"
           }
         }
-      },
+      }
+    },
+    "Tabs": {
       "Color": {
         "Background": {
           "value": "{semantic.Color.Surface.NeutralSubtle}",
