@@ -73,12 +73,16 @@
   },
   "ProgressBar": {
     "Color": {
+      "Background": {
+        "value": "{semantic.Color.Surface.Subtle07}",
+        "type": "color"
+      },
       "ActiveBackground": {
         "value": "{semantic.Color.Surface.Bold02}",
         "type": "color"
       },
-      "Background": {
-        "value": "{semantic.Color.Surface.Subtle07}",
+      "DescriptionText": {
+        "value": "{semantic.Color.Text.Bold}",
         "type": "color"
       }
     }
@@ -111,6 +115,84 @@
         "Text": {
           "value": "{semantic.Color.Text.Bold}",
           "type": "color"
+        }
+      }
+    }
+  },
+  "Chips": {
+    "Multiselect": {
+      "Selected": {
+        "Color": {
+          "Background": {
+            "value": "{semantic.Color.Surface.Subtle02}",
+            "type": "color"
+          },
+          "Border": {
+            "value": "{semantic.Color.Border.Active}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.Strong}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Icon.Moderate}",
+            "type": "color"
+          }
+        }
+      },
+      "Unselected": {
+        "Color": {
+          "Background": {
+            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "type": "color"
+          },
+          "Border": {
+            "value": "{semantic.Color.Border.Subtle}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.Strong}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Icon.Moderate}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "SingleSelect": {
+      "Selected": {
+        "Color": {
+          "Background": {
+            "value": "{semantic.Color.Border.Active}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Icon.Moderate}",
+            "type": "color"
+          }
+        }
+      },
+      "Unselected": {
+        "Color": {
+          "Border": {
+            "value": "{semantic.Color.Border.Subtle}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.Strong}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Icon.Moderate}",
+            "type": "color"
+          }
         }
       }
     }
