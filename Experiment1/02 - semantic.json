@@ -1137,6 +1137,86 @@
           "type": "color"
         }
       }
+    },
+    "Button": {
+      "Primary": {
+        "Default": {
+          "Active": {
+            "Color": {
+              "Background": {
+                "value": "{semantic.Color.Surface.Strong01}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{semantic.Color.Text.InverseStrong}",
+                "type": "color"
+              }
+            }
+          },
+          "Disabled": {
+            "Color": {
+              "Background": {
+                "value": "{semantic.Color.Surface.Subtle07}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{semantic.Color.Text.Subtle}",
+                "type": "color"
+              }
+            }
+          },
+          "Pressed": {
+            "Color": {
+              "Background": {
+                "value": "{semantic.Color.Surface.Strong01}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{semantic.Color.Text.InverseStrong}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "Inverse": {
+          "Active": {
+            "Color": {
+              "Background": {
+                "value": "{semantic.Color.Surface.SubtleNeutral}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{semantic.Color.Text.Brand}",
+                "type": "color"
+              }
+            }
+          },
+          "Disabled": {
+            "Color": {
+              "Background": {
+                "value": "{semantic.Color.Surface.Subtle07}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{semantic.Color.Text.Subtle}",
+                "type": "color"
+              }
+            }
+          },
+          "Pressed": {
+            "Color": {
+              "Background": {
+                "value": "{semantic.Color.Surface.SubtleNeutral}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{semantic.Color.Text.Brand}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
