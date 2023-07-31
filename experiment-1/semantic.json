@@ -198,9 +198,19 @@
           "value": "{base.Color.Neutral.White}",
           "type": "color"
         },
-        "NeutralBold": {
+        "Strong1": {
           "value": "{base.Color.Neutral.Black}",
-          "type": "color"
+          "type": "color",
+          "description": "Used for seprator and avatar inside stroke",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
         }
       },
       "Skeleton": {
