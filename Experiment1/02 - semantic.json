@@ -795,20 +795,16 @@
       },
       "Active": {
         "Color": {
-          "ClearIcon": {
-            "value": "{semantic.Color.Icon.Strong}",
-            "type": "color"
-          },
-          "ClearIconBG": {
-            "value": "{semantic.Color.Surface.Subtle07}",
-            "type": "color"
-          },
           "Border": {
             "value": "{semantic.Color.Border.Brand}",
             "type": "color"
           },
           "Text": {
             "value": "{semantic.Color.Text.Strong}",
+            "type": "color"
+          },
+          "Cursor": {
+            "value": "{semantic.Color.Surface.Strong01}",
             "type": "color"
           }
         }
@@ -817,7 +813,7 @@
     "Snackbar": {
       "Standard": {
         "Color": {
-          "BG": {
+          "Background": {
             "value": "{semantic.Color.Surface.Strong07}",
             "type": "color"
           },
@@ -833,7 +829,7 @@
       },
       "Success": {
         "Color": {
-          "BG": {
+          "Background": {
             "value": "{semantic.Color.Surface.Strong02}",
             "type": "color"
           },
@@ -845,7 +841,7 @@
       },
       "Warning": {
         "Color": {
-          "BG": {
+          "Background": {
             "value": "{semantic.Color.Surface.Strong03}",
             "type": "color"
           },
@@ -857,7 +853,7 @@
       },
       "Danger": {
         "Color": {
-          "BG": {
+          "Background": {
             "value": "{semantic.Color.Surface.Strong04}",
             "type": "color"
           },
@@ -878,7 +874,7 @@
     },
     "NotificationBadge": {
       "Color": {
-        "BG": {
+        "Background": {
           "value": "{semantic.Color.Surface.Strong02}",
           "type": "color"
         },
@@ -894,7 +890,7 @@
     },
     "Coachmark": {
       "Color": {
-        "Heading": {
+        "Title": {
           "value": "{semantic.Color.Text.Strong}",
           "type": "color"
         },
@@ -902,7 +898,7 @@
           "value": "{semantic.Color.Text.Moderate}",
           "type": "color"
         },
-        "BG": {
+        "Background": {
           "value": "{semantic.Color.Surface.SubtleNeutral}",
           "type": "color"
         }
@@ -961,7 +957,7 @@
       }
     },
     "IconButton": {
-      "Active": {
+      "Enabled": {
         "Color": {
           "Border": {
             "value": "{semantic.Color.Border.Brand}",
@@ -988,7 +984,7 @@
     },
     "ActionMenu": {
       "Color": {
-        "BG": {
+        "Background": {
           "value": "{semantic.Color.Surface.SubtleNeutral}",
           "type": "color"
         }
@@ -1000,11 +996,11 @@
           "value": "{semantic.Color.Icon.Brand}",
           "type": "color"
         },
-        "Heading": {
+        "Title": {
           "value": "{semantic.Color.Text.Strong}",
           "type": "color"
         },
-        "SubHeading": {
+        "SubTitle": {
           "value": "{semantic.Color.Text.Moderate}",
           "type": "color"
         }
@@ -1079,7 +1075,7 @@
     },
     "CloseButton": {
       "Color": {
-        "BG": {
+        "Background": {
           "value": "{semantic.Color.Surface.SubtleNeutral}",
           "type": "color"
         },
@@ -1108,15 +1104,15 @@
     },
     "PageHeader": {
       "Color": {
-        "OverlineHeading": {
+        "OverlineText": {
           "value": "{semantic.Color.Text.InverseSubtle}",
           "type": "color"
         },
-        "Heading": {
+        "Title": {
           "value": "{semantic.Color.Text.Strong}",
           "type": "color"
         },
-        "SubHeading": {
+        "Body": {
           "value": "{semantic.Color.Text.Moderate}",
           "type": "color"
         }
@@ -1124,12 +1120,20 @@
     },
     "PageHeaderBenefit": {
       "Color": {
-        "Border": {
-          "value": "{semantic.Color.Border.Strong02}",
-          "type": "color"
-        },
         "Text": {
           "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        }
+      }
+    },
+    "SearchClearIcon": {
+      "Color": {
+        "Icon": {
+          "value": "{semantic.Color.Icon.Strong}",
+          "type": "color"
+        },
+        "Background": {
+          "value": "{semantic.Color.Surface.Subtle07}",
           "type": "color"
         }
       }
