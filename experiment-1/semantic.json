@@ -887,7 +887,7 @@
           }
         }
       },
-      "Inactive": {
+      "InactiveListItem": {
         "Color": {
           "Background": {
             "value": "{semantic.Color.Surface.Subtle06}",
