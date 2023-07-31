@@ -196,5 +196,79 @@
         }
       }
     }
+  },
+  "DialogBox": {
+    "Color": {
+      "Background": {
+        "value": "{semantic.Color.Surface.NeutralSubtle}",
+        "type": "color"
+      },
+      "TitleText": {
+        "value": "{semantic.Color.Text.Strong}",
+        "type": "color"
+      },
+      "BodyText": {
+        "value": "{semantic.Color.Text.Bold}",
+        "type": "color"
+      },
+      "Icon": {
+        "value": "{semantic.Color.Icon.Moderate}",
+        "type": "color"
+      }
+    }
+  },
+  "Filter": {
+    "Unselected": {
+      "Color": {
+        "Border": {
+          "value": "{semantic.Color.Border.Subtle}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{semantic.Color.Icon.Moderate}",
+          "type": "color"
+        }
+      }
+    },
+    "Selected": {
+      "Color": {
+        "Background": {
+          "value": "{semantic.Color.Surface.Subtle02}",
+          "type": "color"
+        },
+        "Border": {
+          "value": "{semantic.Color.Border.Active}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{semantic.Color.Icon.Moderate}",
+          "type": "color"
+        }
+      }
+    },
+    "Disabled": {
+      "Color": {
+        "Background": {
+          "value": "{semantic.Color.Surface.Subtle07}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{semantic.Color.Text.Moderate}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{semantic.Color.Icon.Light}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
