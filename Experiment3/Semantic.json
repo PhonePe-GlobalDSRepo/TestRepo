@@ -713,36 +713,6 @@
         }
       }
     },
-    "Tab": {
-      "Selected": {
-        "Color": {
-          "Text": {
-            "value": "{semantic.Color.Text.Brand}",
-            "type": "color"
-          },
-          "Indicator": {
-            "value": "{semantic.Color.Surface.Bold01}",
-            "type": "color"
-          }
-        }
-      },
-      "Unselected": {
-        "Color": {
-          "Text": {
-            "value": "{semantic.Color.Text.Bold}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "Tabs": {
-      "Color": {
-        "Background": {
-          "value": "{semantic.Color.Surface.NeutralSubtle}",
-          "type": "color"
-        }
-      }
-    },
     "Card": {
       "Color": {
         "Background": {
