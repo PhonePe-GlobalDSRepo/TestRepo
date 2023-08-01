@@ -2,12 +2,16 @@
   "Tooltip": {
     "Color": {
       "Text": {
-        "value": "{semantic.Color.Text.InverseBold}",
-        "type": "color"
+        "Default": {
+          "value": "{semantic.Color.Text.InverseBold}",
+          "type": "color"
+        }
       },
-      "Background": {
-        "value": "{semantic.Color.Surface.Bold07}",
-        "type": "color"
+      "Surface": {
+        "Background": {
+          "value": "{semantic.Color.Surface.Bold07}",
+          "type": "color"
+        }
       }
     }
   },
@@ -73,75 +77,97 @@
   },
   "ProgressBar": {
     "Color": {
-      "Foreground": {
-        "value": "{semantic.Color.Surface.Bold02}",
-        "type": "color"
-      },
-      "Background": {
-        "value": "{semantic.Color.Surface.Subtle07}",
-        "type": "color"
+      "Surface": {
+        "Foreground": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        },
+        "Background": {
+          "value": "{semantic.Color.Surface.Subtle07}",
+          "type": "color"
+        }
       }
     }
   },
   "ProgressTracker": {
     "Color": {
-      "Container": {
-        "value": "{semantic.Color.Surface.Subtle07}",
-        "type": "color"
+      "Surface": {
+        "Background": {
+          "value": "{semantic.Color.Surface.Subtle07}",
+          "type": "color"
+        },
+        "Foreground": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        }
       },
-      "Progress": {
-        "value": "{semantic.Color.Surface.Bold02}",
-        "type": "color"
-      },
-      "CompletedText": {
-        "value": "{semantic.Color.Surface.Bold02}",
-        "type": "color"
-      },
-      "DescriptionText": {
-        "value": "{semantic.Color.Text.Bold}",
-        "type": "color"
+      "Text": {
+        "Success": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        },
+        "Muted": {
+          "value": "{semantic.Color.Text.Bold}",
+          "type": "color"
+        }
       }
     }
   },
   "Chips": {
-    "MultiSelect": {
+    "Multiselect": {
       "Selected": {
         "Color": {
-          "Background": {
-            "value": "{semantic.Color.Surface.Subtle02}",
-            "type": "color"
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Subtle02}",
+              "type": "color"
+            }
           },
           "Border": {
-            "value": "{semantic.Color.Border.Active}",
-            "type": "color"
+            "Success": {
+              "value": "{semantic.Color.Border.Active}",
+              "type": "color"
+            }
           },
           "Text": {
-            "value": "{semantic.Color.Text.Strong}",
-            "type": "color"
+            "Success": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
           },
           "Icon": {
-            "value": "{semantic.Color.Icon.Moderate}",
-            "type": "color"
+            "Success": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
           }
         }
       },
       "Unselected": {
         "Color": {
-          "Background": {
-            "value": "{semantic.Color.Surface.NeutralSubtle}",
-            "type": "color"
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.NeutralSubtle}",
+              "type": "color"
+            }
           },
           "Border": {
-            "value": "{semantic.Color.Border.Subtle}",
-            "type": "color"
+            "Default": {
+              "value": "{semantic.Color.Border.Subtle}",
+              "type": "color"
+            }
           },
           "Text": {
-            "value": "{semantic.Color.Text.Strong}",
-            "type": "color"
+            "Default": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
           },
           "Icon": {
-            "value": "{semantic.Color.Icon.Moderate}",
-            "type": "color"
+            "Default": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
           }
         }
       }
@@ -149,33 +175,45 @@
     "SingleSelect": {
       "Selected": {
         "Color": {
-          "Background": {
-            "value": "{semantic.Color.Border.Active}",
-            "type": "color"
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Border.Active}",
+              "type": "color"
+            }
           },
           "Text": {
-            "value": "{semantic.Color.Text.InverseBold}",
-            "type": "color"
+            "Success": {
+              "value": "{semantic.Color.Text.InverseBold}",
+              "type": "color"
+            }
           },
           "Icon": {
-            "value": "{semantic.Color.Icon.Moderate}",
-            "type": "color"
+            "Success": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
           }
         }
       },
       "Unselected": {
         "Color": {
           "Border": {
-            "value": "{semantic.Color.Border.Subtle}",
-            "type": "color"
+            "Default": {
+              "value": "{semantic.Color.Border.Subtle}",
+              "type": "color"
+            }
           },
           "Text": {
-            "value": "{semantic.Color.Text.Strong}",
-            "type": "color"
+            "Default": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
           },
           "Icon": {
-            "value": "{semantic.Color.Icon.Moderate}",
-            "type": "color"
+            "Default": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
           }
         }
       }
