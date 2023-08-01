@@ -712,26 +712,6 @@
           }
         }
       }
-    },
-    "Card": {
-      "Color": {
-        "Background": {
-          "value": "{semantic.Color.Surface.NeutralSubtle}",
-          "type": "color"
-        }
-      }
-    },
-    "Toggle": {
-      "Android": {
-        "Active": {
-          "Colour": {
-            "Container": {
-              "value": "{semantic.Color.Brand.Secondary}",
-              "type": "color"
-            }
-          }
-        }
-      }
     }
   }
 }
