@@ -73,27 +73,27 @@
   },
   "ProgressBar": {
     "Color": {
-      "Background": {
-        "value": "{semantic.Color.Surface.Subtle07}",
-        "type": "color"
-      },
-      "ActiveBackground": {
+      "Progress": {
         "value": "{semantic.Color.Surface.Bold02}",
         "type": "color"
       },
-      "DescriptionText": {
-        "value": "{semantic.Color.Text.Bold}",
+      "Container": {
+        "value": "{semantic.Color.Surface.Subtle07}",
         "type": "color"
       }
     }
   },
   "ProgressTracker": {
     "Color": {
-      "Background": {
+      "Container": {
         "value": "{semantic.Color.Surface.Subtle07}",
         "type": "color"
       },
-      "ActiveBackground": {
+      "Progress": {
+        "value": "{semantic.Color.Surface.Bold02}",
+        "type": "color"
+      },
+      "CompletedText": {
         "value": "{semantic.Color.Surface.Bold02}",
         "type": "color"
       },
@@ -101,26 +101,10 @@
         "value": "{semantic.Color.Text.Bold}",
         "type": "color"
       }
-    },
-    "Completed": {
-      "Color": {
-        "Text": {
-          "value": "{semantic.Color.Text.Accent02}",
-          "type": "color"
-        }
-      }
-    },
-    "Incompleted": {
-      "Color": {
-        "Text": {
-          "value": "{semantic.Color.Text.Bold}",
-          "type": "color"
-        }
-      }
     }
   },
   "Chips": {
-    "Multiselect": {
+    "MultiSelect": {
       "Selected": {
         "Color": {
           "Background": {
