@@ -231,6 +231,10 @@
           "type": "color"
         },
         "Light": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Lightest": {
           "value": "{base.Color.Grey.400}",
           "type": "color"
         }
