@@ -1677,6 +1677,16 @@
           }
         }
       }
+    },
+    "Tooltip": {
+      "Color": {
+        "Surface": {
+          "Default": {
+            "value": "{semantic.Color.Surface.Strong07}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
