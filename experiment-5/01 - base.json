@@ -5,8 +5,8 @@
         "value": "Roboto",
         "type": "fontFamilies"
       },
-      "SFPro": {
-        "value": "SF Pro",
+      "SFProDisplay": {
+        "value": "SF Pro Display",
         "type": "fontFamilies"
       }
     },
