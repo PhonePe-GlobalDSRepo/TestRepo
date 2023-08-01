@@ -135,6 +135,10 @@
         "SubtleNeutral": {
           "value": "{base.Color.Neutral.White}",
           "type": "color"
+        },
+        "purple400": {
+          "value": "{base.Color.LightPurple.400}",
+          "type": "color"
         }
       },
       "Text": {
