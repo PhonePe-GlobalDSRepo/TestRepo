@@ -712,6 +712,24 @@
           }
         }
       }
+    },
+    "Tabs": {
+      "Color": {
+        "Background": {
+          "value": "{semantic.Color.Surface.NeutralSubtle}",
+          "type": "color"
+        }
+      }
+    },
+    "Tab": {
+      "Selected": {
+        "Color": {
+          "Indicator": {
+            "value": "{semantic.Color.Surface.Bold01}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
