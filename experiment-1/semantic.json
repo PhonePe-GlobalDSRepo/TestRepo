@@ -771,7 +771,7 @@
             }
           },
           "Icon": {
-            "MainIcon": {
+            "Default": {
               "value": "{semantic.Color.Icon.White}",
               "type": "color",
               "description": "Used for all icon colors"
