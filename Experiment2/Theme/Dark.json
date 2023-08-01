@@ -1,0 +1,532 @@
+{
+  "Color": {
+    "Brand": {
+      "Primary": {
+        "value": "{base.Color.Purple.500}",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "{base.Color.LightPurple.500}",
+        "type": "color"
+      }
+    },
+    "Status": {
+      "SuccessBold": {
+        "value": "{base.Color.Green.800}",
+        "type": "color"
+      },
+      "SuccessSubtle": {
+        "value": "{base.Color.Green.50}",
+        "type": "color"
+      },
+      "ErrorBold": {
+        "value": "{base.Color.Red.900}",
+        "type": "color"
+      },
+      "ErrorSubtle": {
+        "value": "{base.Color.Red.50}",
+        "type": "color"
+      },
+      "WarningBold": {
+        "value": "{base.Color.Orange.900}",
+        "type": "color"
+      },
+      "WarningSubtle": {
+        "value": "{base.Color.Orange.50}",
+        "type": "color"
+      },
+      "InformationBold": {
+        "value": "{base.Color.Blue.700}",
+        "type": "color"
+      },
+      "InformationSubtle": {
+        "value": "{base.Color.Blue.50}",
+        "type": "color"
+      }
+    },
+    "Surface": {
+      "Bold01": {
+        "value": "{semantic.Color.Brand.Primary}",
+        "type": "color"
+      },
+      "Bold02": {
+        "value": "{base.Color.Green.800}",
+        "type": "color"
+      },
+      "Bold03": {
+        "value": "{base.Color.Orange.900}",
+        "type": "color"
+      },
+      "Bold04": {
+        "value": "{base.Color.Red.900}",
+        "type": "color"
+      },
+      "Bold05": {
+        "value": "{base.Color.Blue.700}",
+        "type": "color"
+      },
+      "Bold06": {
+        "value": "{base.Color.Pink.600}",
+        "type": "color"
+      },
+      "Bold07": {
+        "value": "{base.Color.Grey.900}",
+        "type": "color"
+      },
+      "NeutralBold": {
+        "value": "{base.Color.Neutral.Black}",
+        "type": "color"
+      },
+      "Subtle01": {
+        "value": "{base.Color.Purple.100}",
+        "type": "color"
+      },
+      "Subtle02": {
+        "value": "{base.Color.Green.50}",
+        "type": "color"
+      },
+      "Subtle03": {
+        "value": "{base.Color.Orange.50}",
+        "type": "color"
+      },
+      "Subtle04": {
+        "value": "{base.Color.Red.50}",
+        "type": "color"
+      },
+      "Subtle05": {
+        "value": "{base.Color.Blue.50}",
+        "type": "color"
+      },
+      "Subtle06": {
+        "value": "{base.Color.Grey.500}",
+        "type": "color"
+      },
+      "Subtle07": {
+        "value": "{base.Color.Grey.300}",
+        "type": "color"
+      },
+      "Subtle08": {
+        "value": "{base.Color.Grey.200}",
+        "type": "color"
+      },
+      "NeutralSubtle": {
+        "value": "{base.Color.Neutral.White}",
+        "type": "color"
+      }
+    },
+    "Text": {
+      "Brand": {
+        "value": "{semantic.Color.Brand.Primary}",
+        "type": "color"
+      },
+      "Strong": {
+        "value": "{base.Color.Grey.900}",
+        "type": "color"
+      },
+      "Bold": {
+        "value": "{base.Color.Grey.700}",
+        "type": "color"
+      },
+      "Moderate": {
+        "value": "{base.Color.Grey.500}",
+        "type": "color"
+      },
+      "Subtle": {
+        "value": "{base.Color.Grey.400}",
+        "type": "color"
+      },
+      "InverseSubtle": {
+        "value": "{base.Color.LightPurple.200}",
+        "type": "color"
+      },
+      "InverseBold": {
+        "value": "{base.Color.Neutral.White}",
+        "type": "color"
+      },
+      "Accent01": {
+        "value": "{base.Color.Red.900}",
+        "type": "color"
+      },
+      "Accent02": {
+        "value": "{base.Color.Green.800}",
+        "type": "color"
+      }
+    },
+    "Border": {
+      "Brand": {
+        "value": "{semantic.Color.Brand.Primary}",
+        "type": "color"
+      },
+      "Active": {
+        "value": "{base.Color.Green.800}",
+        "type": "color"
+      },
+      "Subtle": {
+        "value": "{base.Color.Grey.400}",
+        "type": "color"
+      },
+      "Moderate": {
+        "value": "{base.Color.Grey.500}",
+        "type": "color"
+      },
+      "NeutralSubtle": {
+        "value": "{base.Color.Neutral.White}",
+        "type": "color"
+      },
+      "NeutralBold": {
+        "value": "{base.Color.Neutral.Black}",
+        "type": "color"
+      }
+    },
+    "Skeleton": {
+      "Bold": {
+        "value": "{base.Color.Grey.500}",
+        "type": "color"
+      },
+      "Subtle": {
+        "value": "{base.Color.Grey.400}",
+        "type": "color"
+      }
+    },
+    "Icon": {
+      "Brand": {
+        "value": "{semantic.Color.Brand.Primary}",
+        "type": "color"
+      },
+      "White": {
+        "value": "{base.Color.Neutral.White}",
+        "type": "color"
+      },
+      "Strong": {
+        "value": "{base.Color.Grey.900}",
+        "type": "color"
+      },
+      "Moderate": {
+        "value": "{base.Color.Grey.800}",
+        "type": "color"
+      },
+      "Light": {
+        "value": "{base.Color.Grey.400}",
+        "type": "color"
+      }
+    }
+  },
+  "Tooltip": {
+    "Color": {
+      "Text": {
+        "Default": {
+          "value": "{semantic.Color.Text.InverseBold}",
+          "type": "color"
+        }
+      },
+      "Surface": {
+        "Background": {
+          "value": "{semantic.Color.Surface.Bold07}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Stepper": {
+    "Color": {
+      "Background": {
+        "value": "{semantic.Color.Surface.NeutralSubtle}",
+        "type": "color"
+      }
+    },
+    "Active": {
+      "Color": {
+        "DescriptionText": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        },
+        "IconText": {
+          "value": "{semantic.Color.Text.InverseBold}",
+          "type": "color"
+        },
+        "Surface": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        },
+        "Divider": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        }
+      }
+    },
+    "Pending": {
+      "Color": {
+        "DescriptionText": {
+          "value": "{semantic.Color.Text.Subtle}",
+          "type": "color"
+        },
+        "IconText": {
+          "value": "{semantic.Color.Text.Subtle}",
+          "type": "color"
+        },
+        "IconBorder": {
+          "value": "{semantic.Color.Border.Subtle}",
+          "type": "color"
+        },
+        "Divider": {
+          "value": "{semantic.Color.Border.Subtle}",
+          "type": "color"
+        }
+      }
+    },
+    "Completed": {
+      "Color": {
+        "DescriptionText": {
+          "value": "{semantic.Color.Text.Strong}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{semantic.Color.Status.SuccessBold}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "ProgressBar": {
+    "Color": {
+      "Surface": {
+        "Foreground": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        },
+        "Background": {
+          "value": "{semantic.Color.Surface.Subtle07}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "ProgressTracker": {
+    "Color": {
+      "Surface": {
+        "Background": {
+          "value": "{semantic.Color.Surface.Subtle07}",
+          "type": "color"
+        },
+        "Foreground": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "Success": {
+          "value": "{semantic.Color.Surface.Bold02}",
+          "type": "color"
+        },
+        "Muted": {
+          "value": "{semantic.Color.Text.Bold}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Chips": {
+    "Multiselect": {
+      "Selected": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Subtle02}",
+              "type": "color"
+            }
+          },
+          "Border": {
+            "Success": {
+              "value": "{semantic.Color.Border.Active}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Success": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Success": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Unselected": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.NeutralSubtle}",
+              "type": "color"
+            }
+          },
+          "Border": {
+            "Default": {
+              "value": "{semantic.Color.Border.Subtle}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "SingleSelect": {
+      "Selected": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Border.Active}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Success": {
+              "value": "{semantic.Color.Text.InverseBold}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Success": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Unselected": {
+        "Color": {
+          "Border": {
+            "Default": {
+              "value": "{semantic.Color.Border.Subtle}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "DialogBox": {
+    "Color": {
+      "Surface": {
+        "Background": {
+          "value": "{semantic.Color.Surface.NeutralSubtle}",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "Title": {
+          "Default": {
+            "value": "{semantic.Color.Text.Strong}",
+            "type": "color"
+          }
+        },
+        "Body": {
+          "Default": {
+            "value": "{semantic.Color.Text.Bold}",
+            "type": "color"
+          }
+        }
+      },
+      "Icon": {
+        "Default": {
+          "value": "{semantic.Color.Icon.Moderate}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Filter": {
+    "Unselected": {
+      "Color": {
+        "Border": {
+          "Default": {
+            "value": "{semantic.Color.Border.Subtle}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Default": {
+            "value": "{semantic.Color.Text.Strong}",
+            "type": "color"
+          }
+        },
+        "Icon": {
+          "Default": {
+            "value": "{semantic.Color.Surface.Subtle02}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Selected": {
+      "Color": {
+        "Border": {
+          "Success": {
+            "value": "{semantic.Color.Border.Active}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Success": {
+            "value": "{semantic.Color.Text.Strong}",
+            "type": "color"
+          }
+        },
+        "Icon": {
+          "Success": {
+            "value": "{semantic.Color.Icon.Moderate}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Disabled": {
+      "Color": {
+        "Surface": {
+          "Background": {
+            "value": "{semantic.Color.Surface.Subtle07}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Muted": {
+            "value": "{semantic.Color.Text.Moderate}",
+            "type": "color"
+          }
+        },
+        "Icon": {
+          "Muted": {
+            "value": "{semantic.Color.Icon.Light}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
