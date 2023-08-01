@@ -784,60 +784,6 @@
         }
       }
     },
-    "Snackbar": {
-      "Standard": {
-        "Color": {
-          "Background": {
-            "value": "{semantic.Color.Surface.Strong07}",
-            "type": "color"
-          },
-          "Text": {
-            "value": "{semantic.Color.Text.InverseStrong}",
-            "type": "color"
-          },
-          "Icon": {
-            "value": "{semantic.Color.Icon.Inverse}",
-            "type": "color"
-          }
-        }
-      },
-      "Success": {
-        "Color": {
-          "Background": {
-            "value": "{semantic.Color.Surface.Strong02}",
-            "type": "color"
-          },
-          "Text": {
-            "value": "{semantic.Color.Text.InverseStrong}",
-            "type": "color"
-          }
-        }
-      },
-      "Warning": {
-        "Color": {
-          "Background": {
-            "value": "{semantic.Color.Surface.Strong03}",
-            "type": "color"
-          },
-          "Text": {
-            "value": "{semantic.Color.Text.InverseStrong}",
-            "type": "color"
-          }
-        }
-      },
-      "Danger": {
-        "Color": {
-          "Background": {
-            "value": "{semantic.Color.Surface.Strong04}",
-            "type": "color"
-          },
-          "Text": {
-            "value": "{semantic.Color.Text.InverseStrong}",
-            "type": "color"
-          }
-        }
-      }
-    },
     "SnackbarButton": {
       "Color": {
         "Text": {
@@ -1683,6 +1629,44 @@
         "Surface": {
           "Default": {
             "value": "{semantic.Color.Surface.Strong07}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "TitleBar": {
+      "Default": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Strong01}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Inverse": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.SubtleNeutral}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "Snackbar": {
+      "Color": {
+        "Surface": {
+          "Background": {
+            "value": "{semantic.Color.Surface.Strong07}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Button": {
+            "value": "{semantic.Color.Surface.Subtle10}",
             "type": "color"
           }
         }
