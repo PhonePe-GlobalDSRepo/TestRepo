@@ -73,11 +73,11 @@
   },
   "ProgressBar": {
     "Color": {
-      "Progress": {
+      "Foreground": {
         "value": "{semantic.Color.Surface.Bold02}",
         "type": "color"
       },
-      "Container": {
+      "Background": {
         "value": "{semantic.Color.Surface.Subtle07}",
         "type": "color"
       }
