@@ -751,25 +751,31 @@
     "TitleBar": {
       "Default": {
         "Color": {
-          "Background": {
-            "value": "{semantic.Color.Surface.Bold01}",
-            "type": "color",
-            "description": "Used for Default title bars Purple"
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Bold01}",
+              "type": "color",
+              "description": "Used for Default title bars Purple"
+            }
           },
-          "Title": {
-            "value": "{semantic.Color.Text.InverseBold}",
-            "type": "color",
-            "description": "Used for main Title 16px bold"
-          },
-          "Subtitle": {
-            "value": "{semantic.Color.Text.InverseBold}",
-            "type": "color",
-            "description": "Used for Subtitle"
+          "Text": {
+            "Title": {
+              "value": "{semantic.Color.Text.InverseBold}",
+              "type": "color",
+              "description": "Used for main Title 16px bold"
+            },
+            "Subtitle": {
+              "value": "{semantic.Color.Text.InverseBold}",
+              "type": "color",
+              "description": "Used for Subtitle"
+            }
           },
           "Icon": {
-            "value": "{semantic.Color.Icon.White}",
-            "type": "color",
-            "description": "Used for all icon colors"
+            "MainIcon": {
+              "value": "{semantic.Color.Icon.White}",
+              "type": "color",
+              "description": "Used for all icon colors"
+            }
           }
         }
       },
