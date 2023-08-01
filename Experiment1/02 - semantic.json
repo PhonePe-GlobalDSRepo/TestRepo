@@ -15,10 +15,6 @@
         "Primary": {
           "value": "{base.Color.Purple.500}",
           "type": "color"
-        },
-        "Secondary": {
-          "value": "{base.Color.LightPurple.500}",
-          "type": "color"
         }
       },
       "Status": {
@@ -92,6 +88,14 @@
           "value": "{base.Color.Purple.100}",
           "type": "color"
         },
+        "Subtle09": {
+          "value": "{base.Color.Purple.200}",
+          "type": "color"
+        },
+        "Subtle10": {
+          "value": "{base.Color.LightPurple.300}",
+          "type": "color"
+        },
         "Subtle02": {
           "value": "{base.Color.Green.50}",
           "type": "color"
@@ -122,6 +126,14 @@
         },
         "SubtleNeutral": {
           "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "Subtle11": {
+          "value": "{base.Color.Pink.50}",
+          "type": "color"
+        },
+        "Subtle12": {
+          "value": "{base.Color.Yellow.50}",
           "type": "color"
         }
       },
