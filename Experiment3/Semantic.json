@@ -695,41 +695,6 @@
         "value": "{base.Size.128}",
         "type": "sizing"
       }
-    },
-    "Overlay": {
-      "Colour": {
-        "Background": {
-          "value": "{semantic.Color.Surface.NeutralBold}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.7",
-                "space": "lch"
-              }
-            }
-          }
-        }
-      }
-    },
-    "Tabs": {
-      "Color": {
-        "Background": {
-          "value": "{semantic.Color.Surface.NeutralSubtle}",
-          "type": "color"
-        }
-      }
-    },
-    "Tab": {
-      "Selected": {
-        "Color": {
-          "Indicator": {
-            "value": "{semantic.Color.Surface.Bold01}",
-            "type": "color"
-          }
-        }
-      }
     }
   }
 }
