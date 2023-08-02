@@ -14,6 +14,18 @@
               "value": "{semantic.Color.Surface.SubtleNeutral}",
               "type": "color"
             }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.Subtle}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
           }
         }
       },
@@ -34,8 +46,20 @@
               "value": "{semantic.Color.Surface.SubtleNeutral}",
               "type": "color"
             },
-            "IconBackground": {
+            "ClearIconBackground": {
               "value": "{semantic.Color.Surface.Subtle07}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Strong}",
               "type": "color"
             }
           }
@@ -127,32 +151,64 @@
     "Separator": {
       "Item": {
         "Color": {
-          "Surface": {
+          "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Strong03}",
+              "value": "{semantic.Color.Border.Strong}",
               "type": "color",
-              "$extensions": {}
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.05",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "Inverse": {
-              "value": "{semantic.Color.Border.Inverse03}",
+              "value": "{semantic.Color.Border.Inverse}",
               "type": "color",
-              "$extensions": {}
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.05",
+                    "space": "lch"
+                  }
+                }
+              }
             }
           }
         }
       },
       "Section": {
         "Color": {
-          "Surface": {
+          "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Strong02}",
+              "value": "{semantic.Color.Border.Strong}",
               "type": "color",
-              "$extensions": {}
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.1",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "Inverse": {
-              "value": "{semantic.Color.Border.Inverse02}",
+              "value": "{semantic.Color.Border.Inverse}",
               "type": "color",
-              "$extensions": {}
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.1",
+                    "space": "lch"
+                  }
+                }
+              }
             }
           }
         }
@@ -198,6 +254,12 @@
           },
           "Inverse": {
             "value": "{semantic.Color.Border.Inverse}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Default": {
+            "value": "{semantic.Color.Text.InverseStrong}",
             "type": "color"
           }
         }
@@ -874,6 +936,10 @@
           "Success": {
             "value": "{semantic.Color.Surface.Strong02}",
             "type": "color"
+          },
+          "Muted": {
+            "value": "{semantic.Color.Text.Moderate}",
+            "type": "color"
           }
         }
       }
@@ -885,15 +951,37 @@
             "value": "{semantic.Color.Surface.Strong07}",
             "type": "color"
           }
+        },
+        "Text": {
+          "Default": {
+            "value": "{semantic.Color.Text.InverseStrong}",
+            "type": "color"
+          }
         }
       }
     },
     "TitleBar": {
-      "Default": {
+      "Standard": {
         "Color": {
           "Surface": {
             "Background": {
               "value": "{semantic.Color.Surface.Strong01}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Title": {
+              "value": "{semantic.Color.Text.InverseStrong}",
+              "type": "color"
+            },
+            "SubTitle": {
+              "value": "{semantic.Color.Text.InverseSubtle}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Inverse}",
               "type": "color"
             }
           }
@@ -906,22 +994,176 @@
               "value": "{semantic.Color.Surface.SubtleNeutral}",
               "type": "color"
             }
+          },
+          "Text": {
+            "Title": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Strong}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Success": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Status.SuccessStrong}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Title": {
+              "value": "{semantic.Color.Text.InverseStrong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Inverse}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Warning": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Status.WarningStrong}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Title": {
+              "value": "{semantic.Color.Text.InverseStrong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Inverse}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Error": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Status.ErrorStrong}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Title": {
+              "value": "{semantic.Color.Text.InverseStrong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Inverse}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Disabled": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Subtle06}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Title": {
+              "value": "{semantic.Color.Text.InverseStrong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Inverse}",
+              "type": "color"
+            }
           }
         }
       }
     },
     "Snackbar": {
       "Color": {
-        "Surface": {
-          "Background": {
-            "value": "{semantic.Color.Surface.Strong07}",
-            "type": "color"
+        "Standard": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Strong07}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Button": {
+              "value": "{semantic.Color.Surface.Subtle10}",
+              "type": "color"
+            },
+            "Default": {
+              "value": "{semantic.Color.Text.InverseStrong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Inverse}",
+              "type": "color"
+            }
           }
         },
-        "Text": {
-          "Button": {
-            "value": "{semantic.Color.Surface.Subtle10}",
-            "type": "color"
+        "Success": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Status.SuccessStrong}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.InverseStrong}",
+              "type": "color"
+            }
+          }
+        },
+        "Warning": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Status.WarningStrong}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.InverseStrong}",
+              "type": "color"
+            }
+          }
+        },
+        "Error": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Status.ErrorStrong}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.InverseStrong}",
+              "type": "color"
+            }
           }
         }
       }
@@ -941,6 +1183,18 @@
                 "value": "{semantic.Color.Border.Subtle}",
                 "type": "color"
               }
+            },
+            "Text": {
+              "Default": {
+                "value": "{semantic.Color.Text.Strong}",
+                "type": "color"
+              }
+            },
+            "Icon": {
+              "Default": {
+                "value": "{semantic.Color.Icon.Moderate}",
+                "type": "color"
+              }
             }
           }
         },
@@ -955,6 +1209,18 @@
             "Border": {
               "Default": {
                 "value": "{semantic.Color.Surface.Strong02}",
+                "type": "color"
+              }
+            },
+            "Text": {
+              "Default": {
+                "value": "{semantic.Color.Text.InverseStrong}",
+                "type": "color"
+              }
+            },
+            "Icon": {
+              "Default": {
+                "value": "{semantic.Color.Icon.Inverse}",
                 "type": "color"
               }
             }
@@ -975,6 +1241,18 @@
                 "value": "{semantic.Color.Border.Subtle}",
                 "type": "color"
               }
+            },
+            "Text": {
+              "Default": {
+                "value": "{semantic.Color.Text.Strong}",
+                "type": "color"
+              }
+            },
+            "Icon": {
+              "Default": {
+                "value": "{semantic.Color.Icon.Moderate}",
+                "type": "color"
+              }
             }
           }
         },
@@ -989,6 +1267,18 @@
             "Border": {
               "Default": {
                 "value": "{semantic.Color.Surface.Strong02}",
+                "type": "color"
+              }
+            },
+            "Text": {
+              "Default": {
+                "value": "{semantic.Color.Text.Strong}",
+                "type": "color"
+              }
+            },
+            "Icon": {
+              "Default": {
+                "value": "{semantic.Color.Icon.Moderate}",
                 "type": "color"
               }
             }
@@ -1056,6 +1346,77 @@
           "Surface": {
             "Background": {
               "value": "{semantic.Color.Surface.SubtleNeutral}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "IconButton": {
+      "Color": {
+        "Icon": {
+          "Default": {
+            "value": "{semantic.Color.Icon.Moderate}",
+            "type": "color"
+          }
+        },
+        "Border": {
+          "Default": {
+            "value": "{semantic.Color.Border.Strong}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "BottomNavigationItem": {
+      "Inactive": {
+        "Color": {
+          "Surface": {
+            "IconBackground": {
+              "value": "{semantic.Color.Surface.Subtle06}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Foreground": {
+              "value": "{semantic.Color.Icon.Inverse}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.Subtle}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Active": {
+        "Color": {
+          "Surface": {
+            "IconBackground": {
+              "value": "{semantic.Color.Surface.Strong01}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Foreground": {
+              "value": "{semantic.Color.Icon.Inverse}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.Brand}",
               "type": "color"
             }
           }
