@@ -67,6 +67,24 @@
               "Background": {
                 "value": "{semantic.Color.Surface.Subtle06}",
                 "type": "color"
+              },
+              "Indicator": {
+                "value": "{semantic.Color.Surface.NeutralSubtle}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "Selected": {
+          "Color": {
+            "Surface": {
+              "Background": {
+                "value": "{semantic.Color.Surface.Bold02}",
+                "type": "color"
+              },
+              "Indicator": {
+                "value": "{semantic.Color.Surface.NeutralSubtle}",
+                "type": "color"
               }
             }
           }
