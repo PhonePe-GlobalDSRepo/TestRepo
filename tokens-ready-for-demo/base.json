@@ -55,23 +55,23 @@
       }
     },
     "LetterSpacing": {
-      "Normal": {
+      "None": {
         "value": "0%",
         "type": "letterSpacing"
       },
-      "Moderate": {
+      "Normal": {
         "value": "1.5%",
         "type": "letterSpacing"
       },
-      "Medium": {
+      "Moderate": {
         "value": "2%",
         "type": "letterSpacing"
       },
-      "Loose": {
+      "Medium": {
         "value": "4%",
         "type": "letterSpacing"
       },
-      "Slack": {
+      "Loose": {
         "value": "12%",
         "type": "letterSpacing"
       }

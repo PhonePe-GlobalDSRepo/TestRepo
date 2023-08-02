@@ -106,22 +106,6 @@
           "value": "{base.Color.Purple.100}",
           "type": "color"
         },
-        "Subtle02": {
-          "value": "{base.Color.Green.50}",
-          "type": "color"
-        },
-        "Subtle03": {
-          "value": "{base.Color.Orange.50}",
-          "type": "color"
-        },
-        "Subtle04": {
-          "value": "{base.Color.Red.50}",
-          "type": "color"
-        },
-        "Subtle05": {
-          "value": "{base.Color.Blue.50}",
-          "type": "color"
-        },
         "Subtle06": {
           "value": "{base.Color.Grey.500}",
           "type": "color"
@@ -400,23 +384,23 @@
     },
     "LetterSpacing": {
       "ExtraTight": {
-        "value": "{base.LetterSpacing.Normal}",
+        "value": "{base.LetterSpacing.None}",
         "type": "letterSpacing"
       },
       "Tight": {
-        "value": "{base.LetterSpacing.Moderate}",
+        "value": "{base.LetterSpacing.Normal}",
         "type": "letterSpacing"
       },
       "Medium": {
-        "value": "{base.LetterSpacing.Medium}",
+        "value": "{base.LetterSpacing.Moderate}",
         "type": "letterSpacing"
       },
       "Loose": {
-        "value": "{base.LetterSpacing.Loose}",
+        "value": "{base.LetterSpacing.Medium}",
         "type": "letterSpacing"
       },
       "ExtraLoose": {
-        "value": "{base.LetterSpacing.Slack}",
+        "value": "{base.LetterSpacing.Loose}",
         "type": "letterSpacing"
       }
     },
