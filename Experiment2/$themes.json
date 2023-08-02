@@ -4,8 +4,7 @@
     "name": "Dark",
     "selectedTokenSets": {
       "base": "source",
-      "semantic": "enabled",
-      "component": "disabled"
+      "semantic": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -14,8 +13,7 @@
     "name": "Light",
     "selectedTokenSets": {
       "base": "source",
-      "semantic": "source",
-      "component": "disabled"
+      "semantic": "source"
     },
     "$figmaStyleReferences": {}
   }
