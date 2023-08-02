@@ -127,6 +127,28 @@
             }
           }
         }
+      },
+      "Status": {
+        "Color": {
+          "Surface": {
+            "Danger": {
+              "value": "{semantic.Color.Status.ErrorSubtle}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Danger": {
+              "value": "{semantic.Color.Status.ErrorBold}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Danger": {
+              "value": "{semantic.Color.Status.ErrorBold}",
+              "type": "color"
+            }
+          }
+        }
       }
     }
   }
