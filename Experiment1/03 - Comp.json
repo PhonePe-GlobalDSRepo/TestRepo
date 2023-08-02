@@ -1470,6 +1470,38 @@
           }
         }
       }
+    },
+    "Tags": {
+      "Marketing": {
+        "Color": {
+          "Surface": {
+            "01": {
+              "value": "{semantic.Color.Surface.Strong04}",
+              "type": "color"
+            },
+            "02": {
+              "value": "{semantic.Color.Surface.Strong02}",
+              "type": "color"
+            },
+            "03": {
+              "value": "{semantic.Color.Surface.Strong03}",
+              "type": "color"
+            },
+            "04": {
+              "value": "{semantic.Color.Surface.Subtle06}",
+              "type": "color"
+            },
+            "05": {
+              "value": "{semantic.Color.Surface.Strong05}",
+              "type": "color"
+            },
+            "06": {
+              "value": "{semantic.Color.Surface.Strong06}",
+              "type": "color"
+            }
+          }
+        }
+      }
     }
   }
 }
