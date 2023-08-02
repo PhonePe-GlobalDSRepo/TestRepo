@@ -177,8 +177,58 @@
             }
           },
           "Text": {
-            "value": "{semantic.Color.Text.InverseBold}",
-            "type": "color"
+            "Default": {
+              "value": "{semantic.Color.Text.InverseBold}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Success": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Bold02}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.InverseBold}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Danger": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Bold04}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.InverseBold}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Pending": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Bold03}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.InverseBold}",
+              "type": "color"
+            }
           }
         }
       }
