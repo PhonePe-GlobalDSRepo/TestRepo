@@ -18,44 +18,6 @@
           }
         }
       }
-    },
-    "Tab": {
-      "Selected": {
-        "Color": {
-          "Selected": {
-            "Text": {
-              "value": "{semantic.Color.Text.Brand}",
-              "type": "color"
-            }
-          },
-          "Surface": {
-            "Indicator": {
-              "value": "{semantic.Color.Surface.Bold01}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "Default": {
-        "Color": {
-          "Default": {
-            "Text": {
-              "value": "{semantic.Color.Text.Bold}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
-    "Tabs": {
-      "Color": {
-        "Surface": {
-          "Background": {
-            "value": "{semantic.Color.Surface.NeutralSubtle}",
-            "type": "color"
-          }
-        }
-      }
     }
   }
 }
