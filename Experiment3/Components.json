@@ -171,7 +171,13 @@
       "Standard": {
         "Color": {
           "Surface": {
-            "value": "{semantic.Color.Surface.Bold07}",
+            "Background": {
+              "value": "{semantic.Color.Surface.Bold07}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "value": "{semantic.Color.Text.InverseBold}",
             "type": "color"
           }
         }
