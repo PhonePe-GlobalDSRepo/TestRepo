@@ -59,6 +59,18 @@
             }
           }
         }
+      },
+      "IOS": {
+        "Default": {
+          "Color": {
+            "Surface": {
+              "Background": {
+                "value": "{semantic.Color.Surface.Subtle06}",
+                "type": "color"
+              }
+            }
+          }
+        }
       }
     }
   }
