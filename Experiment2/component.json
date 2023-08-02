@@ -64,19 +64,19 @@
             }
           },
           "Border": {
-            "Success": {
+            "Active": {
               "value": "{semantic.Color.Border.Active}",
               "type": "color"
             }
           },
           "Text": {
-            "Success": {
+            "Active": {
               "value": "{semantic.Color.Text.Strong}",
               "type": "color"
             }
           },
           "Icon": {
-            "Success": {
+            "Active": {
               "value": "{semantic.Color.Icon.Moderate}",
               "type": "color"
             }
@@ -122,13 +122,13 @@
             }
           },
           "Text": {
-            "Success": {
+            "Active": {
               "value": "{semantic.Color.Text.InverseBold}",
               "type": "color"
             }
           },
           "Icon": {
-            "Success": {
+            "Active": {
               "value": "{semantic.Color.Icon.Moderate}",
               "type": "color"
             }
@@ -159,36 +159,6 @@
       }
     }
   },
-  "DialogBox": {
-    "Color": {
-      "Surface": {
-        "Background": {
-          "value": "{semantic.Color.Surface.NeutralSubtle}",
-          "type": "color"
-        }
-      },
-      "Text": {
-        "Title": {
-          "Default": {
-            "value": "{semantic.Color.Text.Strong}",
-            "type": "color"
-          }
-        },
-        "Body": {
-          "Default": {
-            "value": "{semantic.Color.Text.Bold}",
-            "type": "color"
-          }
-        }
-      },
-      "Icon": {
-        "Default": {
-          "value": "{semantic.Color.Icon.Moderate}",
-          "type": "color"
-        }
-      }
-    }
-  },
   "Filter": {
     "Unselected": {
       "Color": {
@@ -215,19 +185,19 @@
     "Selected": {
       "Color": {
         "Border": {
-          "Success": {
+          "Active": {
             "value": "{semantic.Color.Border.Active}",
             "type": "color"
           }
         },
         "Text": {
-          "Success": {
+          "Active": {
             "value": "{semantic.Color.Text.Strong}",
             "type": "color"
           }
         },
         "Icon": {
-          "Success": {
+          "Active": {
             "value": "{semantic.Color.Icon.Moderate}",
             "type": "color"
           }
