@@ -166,6 +166,16 @@
           }
         }
       }
+    },
+    "Snackbar": {
+      "Standard": {
+        "Color": {
+          "Surface": {
+            "value": "{semantic.Color.Surface.Bold07}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
