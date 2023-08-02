@@ -91,7 +91,7 @@
         }
       }
     },
-    "Tags": {
+    "Tag": {
       "Default": {
         "Color": {
           "Surface": {
