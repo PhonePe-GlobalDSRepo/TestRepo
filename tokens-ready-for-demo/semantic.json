@@ -400,11 +400,11 @@
     },
     "LetterSpacing": {
       "ExtraTight": {
-        "value": "{base.LetterSpacing.ExtraTight}",
+        "value": "{base.LetterSpacing.Normal}",
         "type": "letterSpacing"
       },
       "Tight": {
-        "value": "{base.LetterSpacing.Tight}",
+        "value": "{base.LetterSpacing.Moderate}",
         "type": "letterSpacing"
       },
       "Medium": {
@@ -416,7 +416,7 @@
         "type": "letterSpacing"
       },
       "ExtraLoose": {
-        "value": "{base.LetterSpacing.ExtraLoose}",
+        "value": "{base.LetterSpacing.Slack}",
         "type": "letterSpacing"
       }
     },
