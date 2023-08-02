@@ -298,6 +298,22 @@
           }
         }
       }
+    },
+    "Tooltip": {
+      "Color": {
+        "Surface": {
+          "Background": {
+            "value": "{semantic.Color.Surface.Bold07}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Default": {
+            "value": "{semantic.Color.Text.InverseBold}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
