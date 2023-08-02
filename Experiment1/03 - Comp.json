@@ -1347,6 +1347,40 @@
             "Background": {
               "value": "{semantic.Color.Surface.SubtleNeutral}",
               "type": "color"
+            },
+            "PrefilledBackground": {
+              "value": "{semantic.Color.Surface.Subtle08}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Input": {
+              "value": "{semantic.Color.Text.Subtle}",
+              "type": "color"
+            },
+            "Title": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            },
+            "Muted": {
+              "value": "{semantic.Color.Text.Moderate}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            },
+            "Action": {
+              "value": "{semantic.Color.Text.Brand}",
+              "type": "color"
+            }
+          },
+          "Border": {
+            "Default": {
+              "value": "{semantic.Color.Border.Moderate}",
+              "type": "color"
             }
           }
         }
