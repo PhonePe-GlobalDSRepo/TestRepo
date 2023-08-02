@@ -28,6 +28,24 @@
           }
         }
       }
+    },
+    "Toggle": {
+      "Android": {
+        "Default": {
+          "Color": {
+            "Surface": {
+              "Background": {
+                "value": "{semantic.Color.Surface.Subtle07}",
+                "type": "color"
+              },
+              "Indicator": {
+                "value": "{semantic.Color.Surface.NeutralSubtle}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
