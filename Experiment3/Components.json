@@ -138,6 +138,10 @@
             "Success": {
               "value": "{semantic.Color.Surface.Subtle02}",
               "type": "color"
+            },
+            "Pending": {
+              "value": "{semantic.Color.Status.WarningSubtle}",
+              "type": "color"
             }
           },
           "Text": {
@@ -147,6 +151,10 @@
             },
             "Success": {
               "value": "{semantic.Color.Status.SuccessBold}",
+              "type": "color"
+            },
+            "Pending": {
+              "value": "{semantic.Color.Status.WarningBold}",
               "type": "color"
             }
           },
