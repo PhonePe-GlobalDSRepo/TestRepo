@@ -213,75 +213,15 @@
   },
   "Tooltip": {
     "Color": {
-      "Text": {
-        "Default": {
-          "value": "{semantic.Color.Text.InverseBold}",
-          "type": "color"
-        }
-      },
       "Surface": {
         "Background": {
           "value": "{semantic.Color.Surface.Bold07}",
           "type": "color"
         }
-      }
-    }
-  },
-  "Stepper": {
-    "Color": {
-      "Background": {
-        "value": "{semantic.Color.Surface.NeutralSubtle}",
-        "type": "color"
-      }
-    },
-    "Active": {
-      "Color": {
-        "DescriptionText": {
-          "value": "{semantic.Color.Text.Strong}",
-          "type": "color"
-        },
-        "IconText": {
+      },
+      "Text": {
+        "Default": {
           "value": "{semantic.Color.Text.InverseBold}",
-          "type": "color"
-        },
-        "Surface": {
-          "value": "{semantic.Color.Surface.Bold02}",
-          "type": "color"
-        },
-        "Divider": {
-          "value": "{semantic.Color.Surface.Bold02}",
-          "type": "color"
-        }
-      }
-    },
-    "Pending": {
-      "Color": {
-        "DescriptionText": {
-          "value": "{semantic.Color.Text.Subtle}",
-          "type": "color"
-        },
-        "IconText": {
-          "value": "{semantic.Color.Text.Subtle}",
-          "type": "color"
-        },
-        "IconBorder": {
-          "value": "{semantic.Color.Border.Subtle}",
-          "type": "color"
-        },
-        "Divider": {
-          "value": "{semantic.Color.Border.Subtle}",
-          "type": "color"
-        }
-      }
-    },
-    "Completed": {
-      "Color": {
-        "DescriptionText": {
-          "value": "{semantic.Color.Text.Strong}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{semantic.Color.Status.SuccessBold}",
           "type": "color"
         }
       }
@@ -336,19 +276,19 @@
             }
           },
           "Border": {
-            "Success": {
+            "Active": {
               "value": "{semantic.Color.Border.Active}",
               "type": "color"
             }
           },
           "Text": {
-            "Success": {
+            "Active": {
               "value": "{semantic.Color.Text.Strong}",
               "type": "color"
             }
           },
           "Icon": {
-            "Success": {
+            "Active": {
               "value": "{semantic.Color.Icon.Moderate}",
               "type": "color"
             }
@@ -394,13 +334,13 @@
             }
           },
           "Text": {
-            "Success": {
+            "Active": {
               "value": "{semantic.Color.Text.InverseBold}",
               "type": "color"
             }
           },
           "Icon": {
-            "Success": {
+            "Active": {
               "value": "{semantic.Color.Icon.Moderate}",
               "type": "color"
             }
@@ -431,36 +371,6 @@
       }
     }
   },
-  "DialogBox": {
-    "Color": {
-      "Surface": {
-        "Background": {
-          "value": "{semantic.Color.Surface.NeutralSubtle}",
-          "type": "color"
-        }
-      },
-      "Text": {
-        "Title": {
-          "Default": {
-            "value": "{semantic.Color.Text.Strong}",
-            "type": "color"
-          }
-        },
-        "Body": {
-          "Default": {
-            "value": "{semantic.Color.Text.Bold}",
-            "type": "color"
-          }
-        }
-      },
-      "Icon": {
-        "Default": {
-          "value": "{semantic.Color.Icon.Moderate}",
-          "type": "color"
-        }
-      }
-    }
-  },
   "Filter": {
     "Unselected": {
       "Color": {
@@ -487,19 +397,19 @@
     "Selected": {
       "Color": {
         "Border": {
-          "Success": {
+          "Active": {
             "value": "{semantic.Color.Border.Active}",
             "type": "color"
           }
         },
         "Text": {
-          "Success": {
+          "Active": {
             "value": "{semantic.Color.Text.Strong}",
             "type": "color"
           }
         },
         "Icon": {
-          "Success": {
+          "Active": {
             "value": "{semantic.Color.Icon.Moderate}",
             "type": "color"
           }
