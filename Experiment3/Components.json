@@ -314,6 +314,54 @@
           }
         }
       }
+    },
+    "CarouselIndicator": {
+      "Standard": {
+        "Color": {
+          "Surface": {
+            "Selected": {
+              "value": "{semantic.Color.Surface.Bold07}",
+              "type": "color"
+            },
+            "Unselected": {
+              "value": "{semantic.Color.Surface.Bold07}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.3",
+                    "space": "lch"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Inverse": {
+        "Color": {
+          "Surface": {
+            "Selected": {
+              "value": "{semantic.Color.Surface.NeutralSubtle}",
+              "type": "color"
+            },
+            "Unselected": {
+              "value": "{semantic.Color.Surface.NeutralSubtle}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.3",
+                    "space": "lch"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
