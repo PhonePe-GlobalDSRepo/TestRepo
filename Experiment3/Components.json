@@ -18,6 +18,16 @@
           }
         }
       }
+    },
+    "Card": {
+      "Color": {
+        "Surface": {
+          "Background": {
+            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
