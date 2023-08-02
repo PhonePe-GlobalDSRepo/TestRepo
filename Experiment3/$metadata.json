@@ -2,6 +2,9 @@
   "tokenSetOrder": [
     "Core",
     "Semantic",
-    "Components"
+    "Components",
+    "Themes",
+    "Light Theme",
+    "Dark Theme"
   ]
 }
