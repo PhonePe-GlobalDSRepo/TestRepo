@@ -110,6 +110,20 @@
             "4": {
               "value": "{semantic.Color.Surface.Subtle06}",
               "type": "color"
+            },
+            "5": {
+              "value": "{semantic.Color.Surface.Bold05}",
+              "type": "color"
+            },
+            "6": {
+              "value": "{semantic.Color.Surface.Bold06}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.InverseBold}",
+              "type": "color"
             }
           }
         }
