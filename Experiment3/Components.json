@@ -134,11 +134,19 @@
             "Danger": {
               "value": "{semantic.Color.Status.ErrorSubtle}",
               "type": "color"
+            },
+            "Success": {
+              "value": "{semantic.Color.Surface.Subtle02}",
+              "type": "color"
             }
           },
           "Text": {
             "Danger": {
               "value": "{semantic.Color.Status.ErrorBold}",
+              "type": "color"
+            },
+            "Success": {
+              "value": "{semantic.Color.Status.SuccessBold}",
               "type": "color"
             }
           },
