@@ -44,6 +44,20 @@
               }
             }
           }
+        },
+        "Selected": {
+          "Color": {
+            "Surface": {
+              "Background": {
+                "value": "{semantic.Color.Surface.Subtle01}",
+                "type": "color"
+              },
+              "Indicator": {
+                "value": "{semantic.Color.Surface.Bold01}",
+                "type": "color"
+              }
+            }
+          }
         }
       }
     }
