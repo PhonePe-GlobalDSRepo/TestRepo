@@ -238,12 +238,6 @@
     },
     "Tooltip": {
       "Color": {
-        "Text": {
-          "Default": {
-            "value": "{semantic.Color.Text.InverseBold}",
-            "type": "color"
-          }
-        },
         "Surface": {
           "Background": {
             "value": "{semantic.Color.Surface.Bold07}",
@@ -254,16 +248,20 @@
     },
     "Stepper": {
       "Color": {
-        "Background": {
-          "value": "{semantic.Color.Surface.NeutralSubtle}",
-          "type": "color"
+        "Surface": {
+          "Background": {
+            "value": "{semantic.Color.Surface.NeutralSubtle}",
+            "type": "color"
+          }
         }
       },
       "Active": {
         "Color": {
-          "DescriptionText": {
-            "value": "{semantic.Color.Text.Strong}",
-            "type": "color"
+          "Text": {
+            "Title": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
           },
           "IconText": {
             "value": "{semantic.Color.Text.InverseBold}",
