@@ -90,6 +90,30 @@
           }
         }
       }
+    },
+    "Tags": {
+      "Default": {
+        "Color": {
+          "Surface": {
+            "1": {
+              "value": "{semantic.Color.Surface.Bold04}",
+              "type": "color"
+            },
+            "2": {
+              "value": "{semantic.Color.Surface.Bold02}",
+              "type": "color"
+            },
+            "3": {
+              "value": "{semantic.Color.Surface.Bold03}",
+              "type": "color"
+            },
+            "4": {
+              "value": "{semantic.Color.Surface.Subtle06}",
+              "type": "color"
+            }
+          }
+        }
+      }
     }
   }
 }
