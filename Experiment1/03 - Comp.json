@@ -850,12 +850,6 @@
     "Search": {
       "Default": {
         "Color": {
-          "Border": {
-            "Default": {
-              "value": "{semantic.Color.Border.Subtle}",
-              "type": "color"
-            }
-          },
           "Surface": {
             "Default": {
               "value": "{semantic.Color.Surface.SubtleNeutral}",
@@ -873,17 +867,17 @@
               "value": "{semantic.Color.Icon.Moderate}",
               "type": "color"
             }
+          },
+          "Border": {
+            "Default": {
+              "value": "{semantic.Color.Border.Subtle}",
+              "type": "color"
+            }
           }
         }
       },
       "Active": {
         "Color": {
-          "Border": {
-            "Default": {
-              "value": "{semantic.Color.Border.Brand}",
-              "type": "color"
-            }
-          },
           "Surface": {
             "Default": {
               "value": "{semantic.Color.Surface.SubtleNeutral}",
@@ -903,6 +897,12 @@
           "Icon": {
             "Default": {
               "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
+          },
+          "Border": {
+            "Default": {
+              "value": "{semantic.Color.Border.Brand}",
               "type": "color"
             }
           }
@@ -1124,20 +1124,6 @@
     },
     "TitleBar": {
       "Color": {
-        "Text": {
-          "SubTitle": {
-            "value": "{semantic.Color.Text.InverseSubtle}",
-            "type": "color"
-          },
-          "Title": {
-            "value": "{semantic.Color.Text.InverseStrong}",
-            "type": "color"
-          },
-          "InverseTitle": {
-            "value": "{semantic.Color.Text.Strong}",
-            "type": "color"
-          }
-        },
         "Surface": {
           "Default": {
             "value": "{semantic.Color.Surface.Strong01}",
@@ -1161,6 +1147,20 @@
           },
           "Disabled": {
             "value": "{semantic.Color.Surface.Subtle06}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "SubTitle": {
+            "value": "{semantic.Color.Text.InverseSubtle}",
+            "type": "color"
+          },
+          "Title": {
+            "value": "{semantic.Color.Text.InverseStrong}",
+            "type": "color"
+          },
+          "InverseTitle": {
+            "value": "{semantic.Color.Text.Strong}",
             "type": "color"
           }
         },
