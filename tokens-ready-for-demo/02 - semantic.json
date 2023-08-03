@@ -35,40 +35,6 @@
           "type": "color"
         }
       },
-      "Status": {
-        "SuccessBold": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "SuccessSubtle": {
-          "value": "{base.Color.Green.50}",
-          "type": "color"
-        },
-        "ErrorBold": {
-          "value": "{base.Color.Red.900}",
-          "type": "color"
-        },
-        "ErrorSubtle": {
-          "value": "{base.Color.Red.50}",
-          "type": "color"
-        },
-        "WarningBold": {
-          "value": "{base.Color.Orange.900}",
-          "type": "color"
-        },
-        "WarningSubtle": {
-          "value": "{base.Color.Orange.50}",
-          "type": "color"
-        },
-        "InformationBold": {
-          "value": "{base.Color.Blue.700}",
-          "type": "color"
-        },
-        "InformationSubtle": {
-          "value": "{base.Color.Blue.50}",
-          "type": "color"
-        }
-      },
       "Background": {
         "Brand": {
           "Primary": {
