@@ -47,17 +47,17 @@
             "value": "{base.Color.Green.800}",
             "type": "color"
           },
-          "Pale": {
+          "Faded": {
             "value": "{base.Color.Green.50}",
             "type": "color"
           }
         },
         "Warning": {
-          "Strong": {
+          "Rich": {
             "value": "{base.Color.Orange.900}",
             "type": "color"
           },
-          "Weak": {
+          "Faded": {
             "value": "{base.Color.Orange.50}",
             "type": "color"
           }
@@ -67,17 +67,17 @@
             "value": "{base.Color.Red.900}",
             "type": "color"
           },
-          "Pale": {
+          "Faded": {
             "value": "{base.Color.Red.50}",
             "type": "color"
           }
         },
         "Information": {
-          "Strong": {
+          "Rich": {
             "value": "{base.Color.Blue.700}",
             "type": "color"
           },
-          "Weak": {
+          "Faded": {
             "value": "{base.Color.Blue.50}",
             "type": "color"
           }
@@ -87,7 +87,7 @@
             "value": "{base.Color.Pink.600}",
             "type": "color"
           },
-          "PalePink": {
+          "FadedPink": {
             "value": "{base.Color.Pink.50}",
             "type": "color"
           },
@@ -95,7 +95,7 @@
             "value": "{base.Color.Green.800}",
             "type": "color"
           },
-          "PaleGreen": {
+          "FadedGreen": {
             "value": "{base.Color.Green.50}",
             "type": "color"
           },
@@ -103,7 +103,7 @@
             "value": "{base.Color.Red.900}",
             "type": "color"
           },
-          "PaleRed": {
+          "FadedRed": {
             "value": "{base.Color.Red.50}",
             "type": "color"
           },
@@ -111,7 +111,7 @@
             "value": "{base.Color.Orange.900}",
             "type": "color"
           },
-          "PaleOrange": {
+          "FadedOrange": {
             "value": "{base.Color.Orange.50}",
             "type": "color"
           },
@@ -119,7 +119,7 @@
             "value": "{base.Color.Blue.700}",
             "type": "color"
           },
-          "PaleBlue": {
+          "FadedBlue": {
             "value": "{base.Color.Blue.50}",
             "type": "color"
           },
@@ -127,7 +127,7 @@
             "value": "{base.Color.Yellow.900}",
             "type": "color"
           },
-          "PaleYellow": {
+          "FadedYellow": {
             "value": "{base.Color.Yellow.50}",
             "type": "color"
           },
@@ -136,42 +136,38 @@
             "type": "color",
             "description": "Used for tags"
           },
-          "PaleGrey": {
+          "FadedGrey": {
             "value": "{base.Color.Grey.100}",
             "type": "color"
           }
         },
         "UIElement": {
-          "Vivid": {
+          "Intense": {
             "value": "{base.Color.Neutral.Black}",
             "type": "color"
           },
-          "Rich": {
+          "Vivid": {
             "value": "{base.Color.Grey.900}",
             "type": "color",
             "description": "Used for coachmark, tooltips, etc."
           },
-          "Emphasis": {
+          "Rich": {
             "value": "{base.Color.Grey.500}",
             "type": "color"
           },
-          "Moderate": {
+          "Emphasis": {
             "value": "{base.Color.Grey.400}",
             "type": "color"
           },
-          "Subtle": {
+          "Moderate": {
             "value": "{base.Color.Grey.300}",
             "type": "color"
           },
-          "Faded": {
+          "Subtle": {
             "value": "{base.Color.Grey.200}",
             "type": "color"
           },
-          "Pale": {
-            "value": "{base.Color.Grey.100}",
-            "type": "color"
-          },
-          "White": {
+          "Faded": {
             "value": "{base.Color.Neutral.White}",
             "type": "color"
           }
@@ -256,21 +252,21 @@
           }
         },
         "Success": {
-          "Strong": {
+          "Rich": {
             "value": "{base.Color.Green.800}",
             "type": "color",
             "description": "Used for tags showing status"
           }
         },
         "Warning": {
-          "Strong": {
+          "Rich": {
             "value": "{base.Color.Orange.900}",
             "type": "color",
             "description": "Used for tags showing status"
           }
         },
         "Danger": {
-          "Strong": {
+          "Rich": {
             "value": "{base.Color.Red.900}",
             "type": "color",
             "description": "Used for tags showing status"
@@ -329,7 +325,7 @@
           "value": "{base.Color.Neutral.White}",
           "type": "color"
         },
-        "Strong": {
+        "Rich": {
           "value": "{base.Color.Grey.900}",
           "type": "color"
         },
