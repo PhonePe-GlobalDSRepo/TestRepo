@@ -1,7 +1,7 @@
 {
   "component": {
     "Search": {
-      "Inactive": {
+      "Default": {
         "Color": {
           "Border": {
             "Default": {
@@ -38,15 +38,11 @@
             }
           },
           "Surface": {
-            "Cursor": {
-              "value": "{semantic.Color.Surface.Strong01}",
-              "type": "color"
-            },
             "Background": {
               "value": "{semantic.Color.Surface.SubtleNeutral}",
               "type": "color"
             },
-            "ClearIconBackground": {
+            "IconBackground": {
               "value": "{semantic.Color.Surface.Subtle07}",
               "type": "color"
             }
@@ -627,16 +623,6 @@
         }
       }
     },
-    "Cards": {
-      "Color": {
-        "Surface": {
-          "Background": {
-            "value": "{semantic.Color.Surface.SubtleNeutral}",
-            "type": "color"
-          }
-        }
-      }
-    },
     "Overlay": {
       "Color": {
         "Surface": {
@@ -701,217 +687,9 @@
         }
       }
     },
-    "TitleBar1": {
-      "Default": {
-        "Color": {
-          "Surface": {
-            "Background": {
-              "value": "{semantic.Color.Surface.Strong01}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Title": {
-              "value": "{semantic.Color.Text.InverseStrong}",
-              "type": "color"
-            },
-            "SubTitle": {
-              "value": "{semantic.Color.Text.InverseSubtle}",
-              "type": "color"
-            }
-          },
-          "Icon": {
-            "Default": {
-              "value": "{semantic.Color.Icon.Inverse}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "Inverse": {
-        "Color": {
-          "Surface": {
-            "Background": {
-              "value": "{semantic.Color.Surface.SubtleNeutral}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Title": {
-              "value": "{semantic.Color.Text.Strong}",
-              "type": "color"
-            }
-          },
-          "Icon": {
-            "Default": {
-              "value": "{semantic.Color.Icon.Strong}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "Success": {
-        "Color": {
-          "Surface": {
-            "Background": {
-              "value": "{semantic.Color.Status.SuccessStrong}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Title": {
-              "value": "{semantic.Color.Text.InverseStrong}",
-              "type": "color"
-            }
-          },
-          "Icon": {
-            "Default": {
-              "value": "{semantic.Color.Icon.Inverse}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "Warning": {
-        "Color": {
-          "Surface": {
-            "Background": {
-              "value": "{semantic.Color.Status.WarningStrong}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Title": {
-              "value": "{semantic.Color.Text.InverseStrong}",
-              "type": "color"
-            }
-          },
-          "Icon": {
-            "Default": {
-              "value": "{semantic.Color.Icon.Inverse}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "Error": {
-        "Color": {
-          "Surface": {
-            "Background": {
-              "value": "{semantic.Color.Status.ErrorStrong}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Title": {
-              "value": "{semantic.Color.Text.InverseStrong}",
-              "type": "color"
-            }
-          },
-          "Icon": {
-            "Default": {
-              "value": "{semantic.Color.Icon.Inverse}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "Disabled": {
-        "Color": {
-          "Surface": {
-            "Background": {
-              "value": "{semantic.Color.Surface.Subtle06}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Title": {
-              "value": "{semantic.Color.Text.InverseStrong}",
-              "type": "color"
-            }
-          },
-          "Icon": {
-            "Default": {
-              "value": "{semantic.Color.Icon.Inverse}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
-    "Snackbar1": {
-      "Color": {
-        "Standard": {
-          "Surface": {
-            "Background": {
-              "value": "{semantic.Color.Surface.Strong07}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Button": {
-              "value": "{semantic.Color.Surface.Subtle10}",
-              "type": "color"
-            },
-            "Default": {
-              "value": "{semantic.Color.Text.InverseStrong}",
-              "type": "color"
-            }
-          },
-          "Icon": {
-            "Default": {
-              "value": "{semantic.Color.Icon.Inverse}",
-              "type": "color"
-            }
-          }
-        },
-        "Success": {
-          "Surface": {
-            "Background": {
-              "value": "{semantic.Color.Status.SuccessStrong}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Default": {
-              "value": "{semantic.Color.Text.InverseStrong}",
-              "type": "color"
-            }
-          }
-        },
-        "Warning": {
-          "Surface": {
-            "Background": {
-              "value": "{semantic.Color.Status.WarningStrong}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Default": {
-              "value": "{semantic.Color.Text.InverseStrong}",
-              "type": "color"
-            }
-          }
-        },
-        "Error": {
-          "Surface": {
-            "Background": {
-              "value": "{semantic.Color.Status.ErrorStrong}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Default": {
-              "value": "{semantic.Color.Text.InverseStrong}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
     "Chips": {
       "SingleSelect": {
-        "Inactive": {
+        "Default": {
           "Color": {
             "Surface": {
               "Background": {
@@ -958,12 +736,18 @@
                 "value": "{semantic.Color.Icon.Inverse}",
                 "type": "color"
               }
+            },
+            "Border": {
+              "Default": {
+                "value": "{semantic.Color.Surface.Strong02}",
+                "type": "color"
+              }
             }
           }
         }
       },
       "MultiSelect": {
-        "Inactive": {
+        "Default": {
           "Color": {
             "Surface": {
               "Background": {
@@ -1019,83 +803,89 @@
             }
           }
         }
+      }
+    },
+    "Filter": {
+      "Default": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.SubtleNeutral}",
+              "type": "color"
+            }
+          },
+          "Border": {
+            "Default": {
+              "value": "{semantic.Color.Border.Subtle}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
+            }
+          }
+        }
       },
-      "Filter": {
-        "Inactive": {
-          "Color": {
-            "Surface": {
-              "Background": {
-                "value": "{semantic.Color.Surface.SubtleNeutral}",
-                "type": "color"
-              }
-            },
-            "Border": {
-              "Default": {
-                "value": "{semantic.Color.Border.Subtle}",
-                "type": "color"
-              }
-            },
-            "Text": {
-              "Default": {
-                "value": "{semantic.Color.Text.Strong}",
-                "type": "color"
-              }
-            },
-            "Icon": {
-              "Default": {
-                "value": "{semantic.Color.Icon.Moderate}",
-                "type": "color"
-              }
+      "Active": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Subtle02}",
+              "type": "color"
+            }
+          },
+          "Border": {
+            "Default": {
+              "value": "{semantic.Color.Surface.Strong02}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.Strong}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Moderate}",
+              "type": "color"
             }
           }
-        },
-        "Active": {
-          "Color": {
-            "Surface": {
-              "Background": {
-                "value": "{semantic.Color.Surface.Subtle02}",
-                "type": "color"
-              }
-            },
-            "Border": {
-              "Default": {
-                "value": "{semantic.Color.Surface.Strong02}",
-                "type": "color"
-              }
-            },
-            "Text": {
-              "Default": {
-                "value": "{semantic.Color.Text.Strong}",
-                "type": "color"
-              }
-            },
-            "Icon": {
-              "Default": {
-                "value": "{semantic.Color.Icon.Moderate}",
-                "type": "color"
-              }
+        }
+      },
+      "Disabled": {
+        "Color": {
+          "Surface": {
+            "Background": {
+              "value": "{semantic.Color.Surface.Subtle07}",
+              "type": "color"
             }
-          }
-        },
-        "Disabled": {
-          "Color": {
-            "Surface": {
-              "Background": {
-                "value": "{semantic.Color.Surface.Subtle07}",
-                "type": "color"
-              }
-            },
-            "Text": {
-              "Default": {
-                "value": "{semantic.Color.Text.Subtle}",
-                "type": "color"
-              }
-            },
-            "Icon": {
-              "Default": {
-                "value": "{semantic.Color.Icon.Subtle}",
-                "type": "color"
-              }
+          },
+          "Text": {
+            "Default": {
+              "value": "{semantic.Color.Text.Subtle}",
+              "type": "color"
+            }
+          },
+          "Icon": {
+            "Default": {
+              "value": "{semantic.Color.Icon.Subtle}",
+              "type": "color"
+            }
+          },
+          "Border": {
+            "Default": {
+              "value": "{semantic.Color.Border.Moderate}",
+              "type": "color"
             }
           }
         }
@@ -1115,7 +905,7 @@
             }
           }
         },
-        "Inactive": {
+        "Default": {
           "Surface": {
             "Background": {
               "value": "{semantic.Color.Surface.Subtle07}",
@@ -1141,7 +931,7 @@
             }
           }
         },
-        "Inactive": {
+        "Default": {
           "Surface": {
             "Background": {
               "value": "{semantic.Color.Surface.Subtle07}",
@@ -1440,6 +1230,14 @@
           "Error": {
             "value": "{semantic.Color.Status.ErrorStrong}",
             "type": "color"
+          },
+          "Label": {
+            "value": "{semantic.Color.Text.Strong}",
+            "type": "color"
+          },
+          "Description": {
+            "value": "{semantic.Color.Text.Moderate}",
+            "type": "color"
           }
         },
         "Icon": {
@@ -1455,7 +1253,7 @@
             "value": "{semantic.Color.Icon.Subtle}",
             "type": "color"
           },
-          "Text": {
+          "Error": {
             "value": "{semantic.Color.Status.ErrorStrong}",
             "type": "color"
           }
@@ -1477,10 +1275,10 @@
       }
     },
     "Tags": {
-      "Marketing": {
+      "Default": {
         "Color": {
           "Surface": {
-            "Urgent": {
+            "Accent01": {
               "value": "{semantic.Color.Surface.Strong04}",
               "type": "color"
             },
@@ -1558,9 +1356,26 @@
             }
           }
         }
+      },
+      "Image": {
+        "Border": {
+          "Default": {
+            "value": "{semantic.Color.Border.Strong}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        }
       }
     },
-    "TitleBar2": {
+    "TitleBar": {
       "Color": {
         "Text": {
           "SubTitle": {
@@ -1614,10 +1429,10 @@
         }
       }
     },
-    "Snackbar2": {
+    "Snackbar": {
       "Color": {
         "Surface": {
-          "DefaultBackground": {
+          "Default": {
             "value": "{semantic.Color.Surface.Strong07}",
             "type": "color"
           },
