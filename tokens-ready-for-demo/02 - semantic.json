@@ -36,13 +36,9 @@
         }
       },
       "Background": {
-        "Brand": {
-          "Rich": {
+        "Primary": {
+          "Brand": {
             "value": "{semantic.Color.Brand.Primary}",
-            "type": "color"
-          },
-          "Pale": {
-            "value": "{base.Color.Purple.100}",
             "type": "color"
           }
         },
@@ -212,12 +208,16 @@
           }
         },
         "Interaction": {
-          "BrandTertitaryPressed": {
+          "IS01": {
+            "value": "{base.Color.Purple.700}",
+            "type": "color"
+          },
+          "IS02": {
             "value": "{base.Color.Purple.100}",
             "type": "color",
             "description": "Used for Tertiary CTA hover or pressed UI"
           },
-          "DestructivePressed": {
+          "IS03": {
             "value": "{base.Color.Red.50}",
             "type": "color",
             "description": "Used for Tertiary CTA hover or pressed UI"
@@ -225,16 +225,6 @@
         }
       },
       "Text": {
-        "Interaction": {
-          "Primary": {
-            "value": "{base.Color.Purple.500}",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "{base.Color.LightPurple.500}",
-            "type": "color"
-          }
-        },
         "Default": {
           "Primary": {
             "value": "{base.Color.Grey.900}",
