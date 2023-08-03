@@ -70,9 +70,25 @@
         }
       },
       "Background": {
-        "Brand": {
-          "Strong": {
+        "UI": {
+          "Brand": {
             "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Inverse": {
+            "value": "{base.Color.Grey.900}",
+            "type": "color"
+          },
+          "Strong": {
+            "value": "{base.Color.Grey.500}",
+            "type": "color"
+          },
+          "Medium": {
+            "value": "{base.Color.Grey.300}",
+            "type": "color"
+          },
+          "Weak": {
+            "value": "{base.Color.Grey.200}",
             "type": "color"
           }
         },
@@ -117,39 +133,50 @@
           }
         },
         "Accent": {
-          "Pink": {
+          "Pink600": {
             "value": "{base.Color.Pink.600}",
+            "type": "color"
+          },
+          "Green800": {
+            "value": "{base.Color.Green.800}",
+            "type": "color"
+          },
+          "Red900": {
+            "value": "{base.Color.Red.900}",
+            "type": "color"
+          },
+          "Red50": {
+            "value": "{base.Color.Red.50}",
+            "type": "color"
+          },
+          "Green50": {
+            "value": "{base.Color.Green.50}",
+            "type": "color"
+          },
+          "Orange900": {
+            "value": "{base.Color.Orange.900}",
+            "type": "color"
+          },
+          "Orange50": {
+            "value": "{base.Color.Orange.50}",
             "type": "color"
           }
         },
         "Default": {
-          "Inverse": {
-            "value": "{base.Color.Grey.900}",
-            "type": "color"
-          },
           "Layer0": {
             "value": "{base.Color.Purple.100}",
-            "type": "color"
+            "type": "color",
+            "description": "Used for app background"
           },
           "Layer1": {
             "value": "{base.Color.Neutral.White}",
-            "type": "color"
+            "type": "color",
+            "description": "Used for priamry cards "
           },
           "Layer2": {
             "value": "{base.Color.Neutral.White}",
-            "type": "color"
-          },
-          "Strong": {
-            "value": "{base.Color.Grey.500}",
-            "type": "color"
-          },
-          "Medium": {
-            "value": "{base.Color.Grey.300}",
-            "type": "color"
-          },
-          "Weak": {
-            "value": "{base.Color.Grey.200}",
-            "type": "color"
+            "type": "color",
+            "description": "Used for tertiary layers like dialog box, action menu, bottom sheet."
           }
         },
         "Misc": {
@@ -168,6 +195,13 @@
           "SkeletonWeak": {
             "value": "{base.Color.Neutral.White}",
             "type": "color"
+          }
+        },
+        "Interaction": {
+          "TertiaryHover": {
+            "value": "{base.Color.Purple.100}",
+            "type": "color",
+            "description": "Used for Tertiary CTA hover or pressed UI"
           }
         }
       },
