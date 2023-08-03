@@ -4,7 +4,7 @@
       "Color": {
         "Surface": {
           "Background01": {
-            "value": "{semantic.Color.Surface.Strong02}",
+            "value": "{semantic.Color.Background.Accent.RichPink}",
             "type": "color"
           },
           "Background02": {
@@ -70,19 +70,19 @@
         "Color": {
           "Surface": {
             "IconBackground": {
-              "value": "{semantic.Color.Surface.Subtle06}",
+              "value": "{semantic.Color.Background.UIElement.Rich}",
               "type": "color"
             }
           },
           "Text": {
             "Default": {
-              "value": "{semantic.Color.Text.Subtle}",
+              "value": "{semantic.Color.Text.Default.Disabled}",
               "type": "color"
             }
           },
           "Icon": {
             "Default": {
-              "value": "{semantic.Color.Icon.Inverse}",
+              "value": "{semantic.Color.Icon.Soft}",
               "type": "color"
             }
           }
@@ -92,13 +92,13 @@
         "Color": {
           "Surface": {
             "IconBackground": {
-              "value": "{semantic.Color.Surface.Strong01}",
+              "value": "{semantic.Color.Background.Primary.Brand}",
               "type": "color"
             }
           },
           "Icon": {
             "Default": {
-              "value": "{semantic.Color.Icon.Inverse}",
+              "value": "{semantic.Color.Icon.Soft}",
               "type": "color"
             }
           },
