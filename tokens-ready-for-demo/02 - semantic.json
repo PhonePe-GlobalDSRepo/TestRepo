@@ -222,19 +222,19 @@
       },
       "Text": {
         "Default": {
-          "Primary": {
+          "Rich": {
             "value": "{base.Color.Grey.900}",
             "type": "color"
           },
-          "Secondary": {
+          "Emphasis": {
             "value": "{base.Color.Grey.700}",
             "type": "color"
           },
-          "Tertiary": {
+          "Subtle": {
             "value": "{base.Color.Grey.500}",
             "type": "color"
           },
-          "Quaternary": {
+          "Faded": {
             "value": "{base.Color.Grey.400}",
             "type": "color"
           }
