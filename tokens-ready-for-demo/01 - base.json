@@ -55,23 +55,23 @@
       }
     },
     "LetterSpacing": {
-      "None": {
+      "ExtraTight": {
         "value": "0%",
         "type": "letterSpacing"
       },
-      "Normal": {
+      "Tight": {
         "value": "1.5%",
         "type": "letterSpacing"
       },
-      "Moderate": {
+      "Medium": {
         "value": "2%",
         "type": "letterSpacing"
       },
-      "Medium": {
+      "Loose": {
         "value": "4%",
         "type": "letterSpacing"
       },
-      "Loose": {
+      "ExtraLoose": {
         "value": "12%",
         "type": "letterSpacing"
       }
@@ -261,7 +261,7 @@
       }
     },
     "Elevation": {
-      "Top": {
+      "YTop": {
         "M": {
           "value": {
             "x": "0",
@@ -285,7 +285,7 @@
           "type": "boxShadow"
         }
       },
-      "Bottom": {
+      "YBottom": {
         "S": {
           "value": {
             "x": "0",

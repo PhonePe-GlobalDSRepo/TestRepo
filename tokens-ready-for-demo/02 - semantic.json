@@ -1,19 +1,5 @@
 {
   "semantic": {
-    "TextDecoration": {
-      "None": {
-        "value": "{base.TextDecoration.None}",
-        "type": "textDecoration"
-      },
-      "Underline": {
-        "value": "underline",
-        "type": "textDecoration"
-      },
-      "Strikethrough": {
-        "value": "{base.TextDecoration.Strikethrough}",
-        "type": "textDecoration"
-      }
-    },
     "FontWeight": {
       "Bold": {
         "value": "{base.FontWeight.Bold}",
@@ -29,14 +15,10 @@
         "Primary": {
           "value": "{base.Color.Purple.500}",
           "type": "color"
-        },
-        "Secondary": {
-          "value": "{base.Color.LightPurple.500}",
-          "type": "color"
         }
       },
       "Status": {
-        "SuccessBold": {
+        "SuccessStrong": {
           "value": "{base.Color.Green.800}",
           "type": "color"
         },
@@ -44,7 +26,7 @@
           "value": "{base.Color.Green.50}",
           "type": "color"
         },
-        "ErrorBold": {
+        "ErrorStrong": {
           "value": "{base.Color.Red.900}",
           "type": "color"
         },
@@ -52,7 +34,7 @@
           "value": "{base.Color.Red.50}",
           "type": "color"
         },
-        "WarningBold": {
+        "WarningStrong": {
           "value": "{base.Color.Orange.900}",
           "type": "color"
         },
@@ -60,7 +42,7 @@
           "value": "{base.Color.Orange.50}",
           "type": "color"
         },
-        "InformationBold": {
+        "InformationStrong": {
           "value": "{base.Color.Blue.700}",
           "type": "color"
         },
@@ -69,238 +51,120 @@
           "type": "color"
         }
       },
-      "Background": {
-        "Brand": {
-          "Primary": {
-            "value": "{semantic.Color.Brand.Primary}",
-            "type": "color"
-          }
+      "Surface": {
+        "Strong01": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
         },
-        "Success": {
-          "Strong": {
-            "value": "{base.Color.Green.800}",
-            "type": "color"
-          },
-          "Weak": {
-            "value": "{base.Color.Green.50}",
-            "type": "color"
-          }
+        "Strong02": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
         },
-        "Warning": {
-          "Strong": {
-            "value": "{base.Color.Orange.900}",
-            "type": "color"
-          },
-          "Weak": {
-            "value": "{base.Color.Orange.50}",
-            "type": "color"
-          }
+        "Strong03": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color"
         },
-        "Danger": {
-          "Strong": {
-            "value": "{base.Color.Red.900}",
-            "type": "color"
-          },
-          "Weak": {
-            "value": "{base.Color.Red.50}",
-            "type": "color"
-          }
+        "Strong04": {
+          "value": "{base.Color.Red.900}",
+          "type": "color"
         },
-        "Information": {
-          "Strong": {
-            "value": "{base.Color.Blue.700}",
-            "type": "color"
-          },
-          "Weak": {
-            "value": "{base.Color.Blue.50}",
-            "type": "color"
-          }
+        "Strong05": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color"
         },
-        "Accent": {
-          "RichPink": {
-            "value": "{base.Color.Pink.600}",
-            "type": "color"
-          },
-          "PalePink": {
-            "value": "{base.Color.Pink.50}",
-            "type": "color"
-          },
-          "GreenRich": {
-            "value": "{base.Color.Green.800}",
-            "type": "color"
-          },
-          "GreenPale": {
-            "value": "{base.Color.Green.50}",
-            "type": "color"
-          },
-          "Red900": {
-            "value": "{base.Color.Red.900}",
-            "type": "color"
-          },
-          "Red50": {
-            "value": "{base.Color.Red.50}",
-            "type": "color"
-          },
-          "Orange900": {
-            "value": "{base.Color.Orange.900}",
-            "type": "color"
-          },
-          "Orange50": {
-            "value": "{base.Color.Orange.50}",
-            "type": "color"
-          },
-          "RichBlue": {
-            "value": "{base.Color.Blue.700}",
-            "type": "color"
-          },
-          "PurplePale": {
-            "value": "{base.Color.Purple.100}",
-            "type": "color"
-          }
+        "Strong06": {
+          "value": "{base.Color.Pink.600}",
+          "type": "color"
         },
-        "UiElement": {
-          "Empahsize": {
-            "value": "{base.Color.Grey.900}",
-            "type": "color"
-          },
-          "Moderate": {
-            "value": "{base.Color.Grey.500}",
-            "type": "color"
-          },
-          "Subtle": {
-            "value": "{base.Color.Grey.400}",
-            "type": "color"
-          },
-          "Faded": {
-            "value": "{base.Color.Grey.300}",
-            "type": "color"
-          },
-          "Pale": {
-            "value": "{base.Color.Grey.200}",
-            "type": "color"
-          },
-          "Rich": {
-            "value": "{base.Color.Neutral.Black}",
-            "type": "color"
-          }
+        "Strong07": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
         },
-        "Surface": {
-          "Layer0": {
-            "value": "{base.Color.Purple.100}",
-            "type": "color",
-            "description": "Used for app background"
-          },
-          "Layer1": {
-            "value": "{base.Color.Neutral.White}",
-            "type": "color",
-            "description": "Used for priamry cards "
-          },
-          "Layer2": {
-            "value": "{base.Color.Neutral.White}",
-            "type": "color",
-            "description": "Used for tertiary layers like dialog box, action menu, bottom sheet."
-          }
+        "StrongNeutral": {
+          "value": "{base.Color.Neutral.Black}",
+          "type": "color"
         },
-        "Skeleton": {
-          "SkeletonStrong": {
-            "value": "{base.Color.Grey.500}",
-            "type": "color"
-          },
-          "SkeletonMedium": {
-            "value": "{base.Color.Grey.400}",
-            "type": "color"
-          },
-          "SkeletonWeak": {
-            "value": "{base.Color.Neutral.White}",
-            "type": "color"
-          }
+        "Subtle01": {
+          "value": "{base.Color.Purple.100}",
+          "type": "color"
         },
-        "Interaction": {
-          "TertiaryHover": {
-            "value": "{base.Color.Purple.100}",
-            "type": "color",
-            "description": "Used for Tertiary CTA hover or pressed UI"
-          }
+        "Subtle09": {
+          "value": "{base.Color.Purple.200}",
+          "type": "color"
+        },
+        "Subtle10": {
+          "value": "{base.Color.LightPurple.300}",
+          "type": "color"
+        },
+        "Subtle02": {
+          "value": "{base.Color.Green.50}",
+          "type": "color"
+        },
+        "Subtle03": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
+        },
+        "Subtle04": {
+          "value": "{base.Color.Red.50}",
+          "type": "color"
+        },
+        "Subtle05": {
+          "value": "{base.Color.Blue.50}",
+          "type": "color"
+        },
+        "Subtle06": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Subtle07": {
+          "value": "{base.Color.Grey.300}",
+          "type": "color"
+        },
+        "Subtle08": {
+          "value": "{base.Color.Grey.200}",
+          "type": "color"
+        },
+        "SubtleNeutral": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "Subtle11": {
+          "value": "{base.Color.Pink.50}",
+          "type": "color"
+        },
+        "Subtle12": {
+          "value": "{base.Color.Yellow.50}",
+          "type": "color"
         }
       },
       "Text": {
-        "Interaction": {
-          "Primary": {
-            "value": "{base.Color.Purple.500}",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "{base.Color.LightPurple.500}",
-            "type": "color"
-          }
+        "Brand": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
         },
-        "Default": {
-          "Primary": {
-            "value": "{base.Color.Grey.900}",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "{base.Color.Grey.700}",
-            "type": "color"
-          },
-          "Tertiary": {
-            "value": "{base.Color.Grey.500}",
-            "type": "color"
-          },
-          "Quaternary": {
-            "value": "{base.Color.Grey.400}",
-            "type": "color"
-          }
+        "Strong": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
         },
-        "Inverse": {
-          "Secondary": {
-            "value": "{base.Color.LightPurple.200}",
-            "type": "color",
-            "description": "Used on dark background mostly Brand Primary"
-          },
-          "Primary": {
-            "value": "{base.Color.Neutral.White}",
-            "type": "color",
-            "description": "Used on dark backgrounds"
-          }
+        "Moderate": {
+          "value": "{base.Color.Grey.700}",
+          "type": "color"
         },
-        "Success": {
-          "Strong": {
-            "value": "{base.Color.Green.800}",
-            "type": "color",
-            "description": "Used for tags showing status"
-          }
+        "Subtle": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
         },
-        "Warning": {
-          "Strong": {
-            "value": "{base.Color.Orange.900}",
-            "type": "color",
-            "description": "Used for tags showing status"
-          }
+        "Minimal": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
         },
-        "Danger": {
-          "Strong": {
-            "value": "{base.Color.Red.900}",
-            "type": "color",
-            "description": "Used for tags showing status"
-          }
+        "InverseSubtle": {
+          "value": "{base.Color.LightPurple.200}",
+          "type": "color"
         },
-        "Accent": {
-          "Red": {
-            "value": "{base.Color.Red.900}",
-            "type": "color",
-            "description": "Used for tags"
-          },
-          "Green": {
-            "value": "{base.Color.Green.800}",
-            "type": "color",
-            "description": "Used for tags"
-          },
-          "Grey": {
-            "value": "{base.Color.Grey.700}",
-            "type": "color",
-            "description": "Used for tags"
-          }
+        "InverseStrong": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
         }
       },
       "Border": {
@@ -312,20 +176,20 @@
           "value": "{base.Color.Green.800}",
           "type": "color"
         },
-        "Subtle": {
-          "value": "{base.Color.Grey.400}",
+        "Strong": {
+          "value": "{base.Color.Neutral.Black}",
           "type": "color"
         },
         "Moderate": {
           "value": "{base.Color.Grey.500}",
           "type": "color"
         },
-        "NeutralSubtle": {
-          "value": "{base.Color.Neutral.White}",
+        "Subtle": {
+          "value": "{base.Color.Grey.400}",
           "type": "color"
         },
-        "NeutralBold": {
-          "value": "{base.Color.Neutral.Black}",
+        "Inverse": {
+          "value": "{base.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -334,7 +198,7 @@
           "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
-        "White": {
+        "Inverse": {
           "value": "{base.Color.Neutral.White}",
           "type": "color"
         },
@@ -346,11 +210,21 @@
           "value": "{base.Color.Grey.800}",
           "type": "color"
         },
-        "Light": {
+        "Subtle": {
           "value": "{base.Color.Grey.500}",
           "type": "color"
         },
-        "Lightest": {
+        "Minimal": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        }
+      },
+      "Skeleton": {
+        "Strong": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Subtle": {
           "value": "{base.Color.Grey.400}",
           "type": "color"
         }
@@ -455,11 +329,11 @@
       }
     },
     "BorderWidth": {
-      "Default": {
+      "Light": {
         "value": "{base.BorderWidth.Light}",
         "type": "borderWidth"
       },
-      "Moderate": {
+      "Regular": {
         "value": "{base.BorderWidth.Regular}",
         "type": "borderWidth"
       },
@@ -467,7 +341,7 @@
         "value": "{base.BorderWidth.Medium}",
         "type": "borderWidth"
       },
-      "Heavy": {
+      "Bold": {
         "value": "{base.BorderWidth.Bold}",
         "type": "borderWidth"
       }
@@ -516,23 +390,23 @@
     },
     "LetterSpacing": {
       "ExtraTight": {
-        "value": "{base.LetterSpacing.None}",
+        "value": "{base.LetterSpacing.ExtraTight}",
         "type": "letterSpacing"
       },
       "Tight": {
-        "value": "{base.LetterSpacing.Normal}",
+        "value": "{base.LetterSpacing.Tight}",
         "type": "letterSpacing"
       },
       "Medium": {
-        "value": "{base.LetterSpacing.Moderate}",
-        "type": "letterSpacing"
-      },
-      "Loose": {
         "value": "{base.LetterSpacing.Medium}",
         "type": "letterSpacing"
       },
-      "ExtraLoose": {
+      "Loose": {
         "value": "{base.LetterSpacing.Loose}",
+        "type": "letterSpacing"
+      },
+      "ExtraLoose": {
+        "value": "{base.LetterSpacing.ExtraLoose}",
         "type": "letterSpacing"
       }
     },
@@ -617,7 +491,7 @@
         }
       },
       "Body": {
-        "XL": {
+        "B1": {
           "value": {
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Regular}",
@@ -628,7 +502,7 @@
           },
           "type": "typography"
         },
-        "L": {
+        "B2": {
           "value": {
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Regular}",
@@ -639,7 +513,7 @@
           },
           "type": "typography"
         },
-        "M": {
+        "B3": {
           "value": {
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Regular}",
@@ -650,7 +524,7 @@
           },
           "type": "typography"
         },
-        "S": {
+        "B4": {
           "value": {
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Regular}",
@@ -661,7 +535,7 @@
           },
           "type": "typography"
         },
-        "XS": {
+        "B5": {
           "value": {
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Regular}",
@@ -699,7 +573,7 @@
       }
     },
     "Elevation": {
-      "Top": {
+      "YTop": {
         "M": {
           "value": {
             "x": "0",
@@ -723,7 +597,7 @@
           "type": "boxShadow"
         }
       },
-      "Bottom": {
+      "YBottom": {
         "S": {
           "value": {
             "x": "0",
