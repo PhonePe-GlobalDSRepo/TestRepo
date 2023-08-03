@@ -67,11 +67,11 @@
           }
         },
         "Danger": {
-          "Strong": {
+          "Rich": {
             "value": "{base.Color.Red.900}",
             "type": "color"
           },
-          "Weak": {
+          "Pale": {
             "value": "{base.Color.Red.50}",
             "type": "color"
           }
@@ -189,7 +189,7 @@
           "Layer1": {
             "value": "{base.Color.Neutral.White}",
             "type": "color",
-            "description": "Used for priamry cards "
+            "description": "Used for primary cards "
           },
           "Layer2": {
             "value": "{base.Color.Neutral.White}",
@@ -198,22 +198,27 @@
           }
         },
         "Skeleton": {
-          "SkeletonStrong": {
+          "Emaphsise": {
             "value": "{base.Color.Grey.500}",
             "type": "color"
           },
-          "SkeletonMedium": {
+          "Moderate": {
             "value": "{base.Color.Grey.400}",
             "type": "color"
           },
-          "SkeletonWeak": {
+          "White": {
             "value": "{base.Color.Neutral.White}",
             "type": "color"
           }
         },
         "Interaction": {
-          "TertiaryHover": {
+          "BrandTertitaryPressed": {
             "value": "{base.Color.Purple.100}",
+            "type": "color",
+            "description": "Used for Tertiary CTA hover or pressed UI"
+          },
+          "DestructivePressed": {
+            "value": "{base.Color.Red.50}",
             "type": "color",
             "description": "Used for Tertiary CTA hover or pressed UI"
           }
