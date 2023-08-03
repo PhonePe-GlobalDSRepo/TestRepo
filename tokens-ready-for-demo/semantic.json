@@ -69,58 +69,106 @@
           "type": "color"
         }
       },
-      "Surface": {
-        "Bold01": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
+      "Background": {
+        "Brand": {
+          "Strong": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          }
         },
-        "Bold02": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
+        "Success": {
+          "Strong": {
+            "value": "{base.Color.Green.800}",
+            "type": "color"
+          },
+          "Weak": {
+            "value": "{base.Color.Green.50}",
+            "type": "color"
+          }
         },
-        "Bold03": {
-          "value": "{base.Color.Orange.900}",
-          "type": "color"
+        "Warning": {
+          "Strong": {
+            "value": "{base.Color.Orange.900}",
+            "type": "color"
+          },
+          "Weak": {
+            "value": "{base.Color.Orange.50}",
+            "type": "color"
+          }
         },
-        "Bold04": {
-          "value": "{base.Color.Red.900}",
-          "type": "color"
+        "Danger": {
+          "Strong": {
+            "value": "{base.Color.Red.900}",
+            "type": "color"
+          },
+          "Weak": {
+            "value": "{base.Color.Red.50}",
+            "type": "color"
+          }
         },
-        "Bold05": {
-          "value": "{base.Color.Blue.700}",
-          "type": "color"
+        "Information": {
+          "Strong": {
+            "value": "{base.Color.Blue.700}",
+            "type": "color"
+          },
+          "Weak": {
+            "value": "{base.Color.Blue.50}",
+            "type": "color"
+          }
         },
-        "Bold06": {
-          "value": "{base.Color.Pink.600}",
-          "type": "color"
+        "Accent": {
+          "Pink": {
+            "value": "{base.Color.Pink.600}",
+            "type": "color"
+          }
         },
-        "Bold07": {
-          "value": "{base.Color.Grey.900}",
-          "type": "color"
+        "Default": {
+          "Inverse": {
+            "value": "{base.Color.Grey.900}",
+            "type": "color"
+          },
+          "Layer0": {
+            "value": "{base.Color.Purple.100}",
+            "type": "color"
+          },
+          "Layer1": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color"
+          },
+          "Layer2": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color"
+          },
+          "Strong": {
+            "value": "{base.Color.Grey.500}",
+            "type": "color"
+          },
+          "Medium": {
+            "value": "{base.Color.Grey.300}",
+            "type": "color"
+          },
+          "Weak": {
+            "value": "{base.Color.Grey.200}",
+            "type": "color"
+          }
         },
-        "NeutralBold": {
-          "value": "{base.Color.Neutral.Black}",
-          "type": "color"
-        },
-        "Subtle01": {
-          "value": "{base.Color.Purple.100}",
-          "type": "color"
-        },
-        "Subtle06": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "Subtle07": {
-          "value": "{base.Color.Grey.300}",
-          "type": "color"
-        },
-        "Subtle08": {
-          "value": "{base.Color.Grey.200}",
-          "type": "color"
-        },
-        "NeutralSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
+        "Misc": {
+          "Overlay": {
+            "value": "{base.Color.Neutral.Black}",
+            "type": "color"
+          },
+          "SkeletonStrong": {
+            "value": "{base.Color.Grey.500}",
+            "type": "color"
+          },
+          "SkeletonMedium": {
+            "value": "{base.Color.Grey.400}",
+            "type": "color"
+          },
+          "SkeletonWeak": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color"
+          }
         }
       },
       "Text": {
@@ -184,16 +232,6 @@
         },
         "NeutralBold": {
           "value": "{base.Color.Neutral.Black}",
-          "type": "color"
-        }
-      },
-      "Skeleton": {
-        "Bold": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "Subtle": {
-          "value": "{base.Color.Grey.400}",
           "type": "color"
         }
       },
