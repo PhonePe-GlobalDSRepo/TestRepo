@@ -172,7 +172,7 @@
         }
       },
       "Text": {
-        "Brand": {
+        "Interaction": {
           "Primary": {
             "value": "{base.Color.Purple.500}",
             "type": "color"
