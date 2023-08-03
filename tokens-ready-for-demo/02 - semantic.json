@@ -125,28 +125,32 @@
           }
         },
         "UiElement": {
-          "Empahsize": {
-            "value": "{base.Color.Grey.900}",
-            "type": "color"
-          },
-          "Moderate": {
-            "value": "{base.Color.Grey.500}",
-            "type": "color"
-          },
-          "Subtle": {
-            "value": "{base.Color.Grey.400}",
-            "type": "color"
-          },
-          "Faded": {
-            "value": "{base.Color.Grey.300}",
-            "type": "color"
-          },
-          "Pale": {
-            "value": "{base.Color.Grey.200}",
+          "Vivid": {
+            "value": "{base.Color.Neutral.Black}",
             "type": "color"
           },
           "Rich": {
-            "value": "{base.Color.Neutral.Black}",
+            "value": "{base.Color.Grey.900}",
+            "type": "color"
+          },
+          "Emphasis": {
+            "value": "{base.Color.Grey.500}",
+            "type": "color"
+          },
+          "Moderate": {
+            "value": "{base.Color.Grey.400}",
+            "type": "color"
+          },
+          "Subtle": {
+            "value": "{base.Color.Grey.300}",
+            "type": "color"
+          },
+          "Faded": {
+            "value": "{base.Color.Grey.200}",
+            "type": "color"
+          },
+          "Pale": {
+            "value": "{base.Color.Grey.100}",
             "type": "color"
           }
         },
