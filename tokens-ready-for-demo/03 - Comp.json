@@ -23,7 +23,7 @@
           },
           "Icon": {
             "Default": {
-              "value": "{semantic.Color.Icon.Moderate}",
+              "value": "{semantic.Color.Icon.Emphasis}",
               "type": "color"
             }
           }
@@ -33,7 +33,7 @@
         "Color": {
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Brand}",
+              "value": "{semantic.Color.Border.Primary}",
               "type": "color"
             }
           },
@@ -329,7 +329,7 @@
             },
             "Icon": {
               "Default": {
-                "value": "{semantic.Color.Icon.Moderate}",
+                "value": "{semantic.Color.Icon.Emphasis}",
                 "type": "color"
               }
             }
@@ -387,7 +387,7 @@
             },
             "Icon": {
               "Default": {
-                "value": "{semantic.Color.Icon.Moderate}",
+                "value": "{semantic.Color.Icon.Emphasis}",
                 "type": "color"
               }
             }
@@ -415,7 +415,7 @@
             },
             "Icon": {
               "Default": {
-                "value": "{semantic.Color.Icon.Moderate}",
+                "value": "{semantic.Color.Icon.Emphasis}",
                 "type": "color"
               }
             }
@@ -446,7 +446,7 @@
           },
           "Icon": {
             "Default": {
-              "value": "{semantic.Color.Icon.Moderate}",
+              "value": "{semantic.Color.Icon.Emphasis}",
               "type": "color"
             }
           }
@@ -474,7 +474,7 @@
           },
           "Icon": {
             "Default": {
-              "value": "{semantic.Color.Icon.Moderate}",
+              "value": "{semantic.Color.Icon.Emphasis}",
               "type": "color"
             }
           }
@@ -657,7 +657,7 @@
         },
         "Icon": {
           "Primary": {
-            "value": "{semantic.Color.Icon.Moderate}",
+            "value": "{semantic.Color.Icon.Emphasis}",
             "type": "color"
           },
           "Action": {
@@ -679,7 +679,7 @@
             "type": "color"
           },
           "Active": {
-            "value": "{semantic.Color.Border.Brand}",
+            "value": "{semantic.Color.Border.Primary}",
             "type": "color"
           },
           "Error": {
@@ -939,7 +939,7 @@
             "Color": {
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Brand}",
+                  "value": "{semantic.Color.Border.Primary}",
                   "type": "color"
                 }
               },
@@ -971,7 +971,7 @@
             "Color": {
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Brand}",
+                  "value": "{semantic.Color.Border.Primary}",
                   "type": "color"
                 }
               },
@@ -995,7 +995,7 @@
             "Color": {
               "Icon": {
                 "Default": {
-                  "value": "{semantic.Color.Icon.Brand}",
+                  "value": "{semantic.Color.Icon.Primary}",
                   "type": "color"
                 },
                 "Destructive": {
@@ -1035,7 +1035,7 @@
             "Color": {
               "Icon": {
                 "Default": {
-                  "value": "{semantic.Color.Icon.Brand}",
+                  "value": "{semantic.Color.Icon.Primary}",
                   "type": "color"
                 },
                 "Destructive": {
