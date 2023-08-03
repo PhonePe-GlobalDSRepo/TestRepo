@@ -117,12 +117,20 @@
           }
         },
         "Accent": {
-          "Pink600": {
+          "RichPink": {
             "value": "{base.Color.Pink.600}",
+            "type": "color"
+          },
+          "PalePink": {
+            "value": "{base.Color.Pink.50}",
             "type": "color"
           },
           "GreenRich": {
             "value": "{base.Color.Green.800}",
+            "type": "color"
+          },
+          "GreenPale": {
+            "value": "{base.Color.Green.50}",
             "type": "color"
           },
           "Red900": {
@@ -133,16 +141,16 @@
             "value": "{base.Color.Red.50}",
             "type": "color"
           },
-          "GreenPale": {
-            "value": "{base.Color.Green.50}",
-            "type": "color"
-          },
           "Orange900": {
             "value": "{base.Color.Orange.900}",
             "type": "color"
           },
           "Orange50": {
             "value": "{base.Color.Orange.50}",
+            "type": "color"
+          },
+          "RichBlue": {
+            "value": "{base.Color.Blue.700}",
             "type": "color"
           },
           "PurplePale": {
