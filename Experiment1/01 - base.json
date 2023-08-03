@@ -55,23 +55,23 @@
       }
     },
     "LetterSpacing": {
-      "ExtraTight": {
+      "None": {
         "value": "0%",
         "type": "letterSpacing"
       },
-      "Tight": {
+      "Normal": {
         "value": "1.5%",
         "type": "letterSpacing"
       },
-      "Medium": {
+      "Moderate": {
         "value": "2%",
         "type": "letterSpacing"
       },
-      "Loose": {
+      "Medium": {
         "value": "4%",
         "type": "letterSpacing"
       },
-      "ExtraLoose": {
+      "Loose": {
         "value": "12%",
         "type": "letterSpacing"
       }
@@ -243,11 +243,11 @@
       }
     },
     "BorderWidth": {
-      "Light": {
+      "Default": {
         "value": "1",
         "type": "borderWidth"
       },
-      "Regular": {
+      "Moderate": {
         "value": "1.5",
         "type": "borderWidth"
       },
@@ -255,13 +255,13 @@
         "value": "2",
         "type": "borderWidth"
       },
-      "Bold": {
+      "Heavy": {
         "value": "4",
         "type": "borderWidth"
       }
     },
     "Elevation": {
-      "YTop": {
+      "Up": {
         "M": {
           "value": {
             "x": "0",
@@ -285,7 +285,7 @@
           "type": "boxShadow"
         }
       },
-      "YBottom": {
+      "Down": {
         "S": {
           "value": {
             "x": "0",
