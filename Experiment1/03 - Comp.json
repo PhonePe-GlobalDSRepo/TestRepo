@@ -10,7 +10,7 @@
             }
           },
           "Surface": {
-            "Background": {
+            "Default": {
               "value": "{semantic.Color.Surface.SubtleNeutral}",
               "type": "color"
             }
@@ -1822,6 +1822,28 @@
         "Icon": {
           "Default": {
             "value": "{semantic.Color.Icon.Inverse}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "NotificationBadge": {
+      "Color": {
+        "Surface": {
+          "Default": {
+            "value": "{semantic.Color.Surface.Strong02}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Default": {
+            "value": "{semantic.Color.Text.InverseStrong}",
+            "type": "color"
+          }
+        },
+        "Border": {
+          "Default": {
+            "value": "{semantic.Color.Border.Inverse}",
             "type": "color"
           }
         }
