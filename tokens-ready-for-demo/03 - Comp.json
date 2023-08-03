@@ -502,7 +502,7 @@
           },
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Moderate}",
+              "value": "{semantic.Color.Border.Emphasis}",
               "type": "color"
             }
           }
@@ -675,7 +675,7 @@
         },
         "Border": {
           "Default": {
-            "value": "{semantic.Color.Border.Moderate}",
+            "value": "{semantic.Color.Border.Emphasis}",
             "type": "color"
           },
           "Active": {
@@ -955,7 +955,7 @@
             "Color": {
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Moderate}",
+                  "value": "{semantic.Color.Border.Emphasis}",
                   "type": "color"
                 }
               },
@@ -1139,7 +1139,7 @@
             "Color": {
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Moderate}",
+                  "value": "{semantic.Color.Border.Emphasis}",
                   "type": "color"
                 }
               },

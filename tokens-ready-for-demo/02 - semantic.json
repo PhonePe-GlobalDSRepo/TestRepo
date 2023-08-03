@@ -222,33 +222,33 @@
       },
       "Text": {
         "Default": {
-          "Rich": {
+          "Primary": {
             "value": "{base.Color.Grey.900}",
             "type": "color"
           },
-          "Emphasis": {
+          "Secondary": {
             "value": "{base.Color.Grey.700}",
             "type": "color"
           },
-          "Subtle": {
+          "Disabled": {
             "value": "{base.Color.Grey.500}",
             "type": "color"
           },
-          "Faded": {
+          "Muted": {
             "value": "{base.Color.Grey.400}",
             "type": "color"
           }
         },
         "Inverse": {
-          "Secondary": {
-            "value": "{base.Color.LightPurple.200}",
-            "type": "color",
-            "description": "Used on dark background mostly Brand Primary"
-          },
-          "Primary": {
+          "Rich": {
             "value": "{base.Color.Neutral.White}",
             "type": "color",
             "description": "Used on dark backgrounds"
+          },
+          "Emphasis": {
+            "value": "{base.Color.LightPurple.200}",
+            "type": "color",
+            "description": "Used on dark background mostly Brand Primary"
           }
         },
         "Success": {
@@ -272,21 +272,50 @@
             "description": "Used for tags showing status"
           }
         },
+        "Info": {
+          "Rich": {
+            "value": "{base.Color.Blue.700}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
+        },
         "Accent": {
-          "Red": {
+          "RichRed": {
             "value": "{base.Color.Red.900}",
             "type": "color",
             "description": "Used for tags"
           },
-          "Green": {
+          "RichGreen": {
             "value": "{base.Color.Green.800}",
             "type": "color",
             "description": "Used for tags"
           },
-          "Grey": {
+          "RichBlue": {
+            "value": "{base.Color.Blue.700}",
+            "type": "color",
+            "description": "Used for tags"
+          },
+          "RichOrange": {
+            "value": "{base.Color.Orange.900}",
+            "type": "color",
+            "description": "Used for tags"
+          },
+          "RichGrey": {
             "value": "{base.Color.Grey.700}",
             "type": "color",
             "description": "Used for tags"
+          }
+        },
+        "Interaction": {
+          "Link": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color",
+            "description": "Used for Links or URLs"
+          },
+          "Active": {
+            "value": "{base.Color.Green.800}",
+            "type": "color",
+            "description": "Used in form elements to show active text or any selected state."
           }
         }
       },
@@ -299,21 +328,24 @@
           "value": "{base.Color.Green.800}",
           "type": "color"
         },
+        "Intense": {
+          "value": "{base.Color.Neutral.Black}",
+          "type": "color",
+          "description": "Used for avatar border with radius"
+        },
+        "Emphasis": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color",
+          "description": "Used for input field border"
+        },
         "Subtle": {
           "value": "{base.Color.Grey.400}",
           "type": "color"
         },
-        "Moderate": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "NeutralSubtle": {
+        "Soft": {
           "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        },
-        "NeutralBold": {
-          "value": "{base.Color.Neutral.Black}",
-          "type": "color"
+          "type": "color",
+          "description": "Used with child avatars"
         }
       },
       "Icon": {
