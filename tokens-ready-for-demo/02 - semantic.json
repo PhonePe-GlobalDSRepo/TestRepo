@@ -37,17 +37,21 @@
       },
       "Background": {
         "Brand": {
-          "Primary": {
+          "Rich": {
             "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Pale": {
+            "value": "{base.Color.Purple.100}",
             "type": "color"
           }
         },
         "Success": {
-          "Strong": {
+          "Rich": {
             "value": "{base.Color.Green.800}",
             "type": "color"
           },
-          "Weak": {
+          "Pale": {
             "value": "{base.Color.Green.50}",
             "type": "color"
           }
@@ -91,27 +95,27 @@
             "value": "{base.Color.Pink.50}",
             "type": "color"
           },
-          "GreenRich": {
+          "RichGreen": {
             "value": "{base.Color.Green.800}",
             "type": "color"
           },
-          "GreenPale": {
+          "PaleGreen": {
             "value": "{base.Color.Green.50}",
             "type": "color"
           },
-          "Red900": {
+          "RichRed": {
             "value": "{base.Color.Red.900}",
             "type": "color"
           },
-          "Red50": {
+          "PaleRed": {
             "value": "{base.Color.Red.50}",
             "type": "color"
           },
-          "Orange900": {
+          "RichOrange": {
             "value": "{base.Color.Orange.900}",
             "type": "color"
           },
-          "Orange50": {
+          "PaleOrange": {
             "value": "{base.Color.Orange.50}",
             "type": "color"
           },
@@ -119,12 +123,29 @@
             "value": "{base.Color.Blue.700}",
             "type": "color"
           },
-          "PurplePale": {
-            "value": "{base.Color.Purple.100}",
+          "PaleBlue": {
+            "value": "{base.Color.Blue.50}",
+            "type": "color"
+          },
+          "RichYellow": {
+            "value": "{base.Color.Yellow.900}",
+            "type": "color"
+          },
+          "PaleYellow": {
+            "value": "{base.Color.Yellow.50}",
+            "type": "color"
+          },
+          "RichGrey": {
+            "value": "{base.Color.Grey.500}",
+            "type": "color",
+            "description": "Used for tags"
+          },
+          "PaleGrey": {
+            "value": "{base.Color.Grey.100}",
             "type": "color"
           }
         },
-        "UiElement": {
+        "UIElement": {
           "Vivid": {
             "value": "{base.Color.Neutral.Black}",
             "type": "color"
@@ -151,6 +172,10 @@
           },
           "Pale": {
             "value": "{base.Color.Grey.100}",
+            "type": "color"
+          },
+          "White": {
+            "value": "{base.Color.Neutral.White}",
             "type": "color"
           }
         },
