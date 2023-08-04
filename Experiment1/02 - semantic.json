@@ -36,8 +36,8 @@
         }
       },
       "Background": {
-        "Primary": {
-          "Brand": {
+        "Brand": {
+          "Primary": {
             "value": "{semantic.Color.Brand.Primary}",
             "type": "color"
           }
@@ -167,11 +167,11 @@
             "value": "{base.Color.Grey.200}",
             "type": "color"
           },
-          "F5F5F5": {
-            "value": "{base.Color.Grey.100}",
+          "Faded": {
+            "value": "{base.Color.Neutral.White}",
             "type": "color"
           },
-          "Faded": {
+          "Soft": {
             "value": "{base.Color.Neutral.White}",
             "type": "color"
           }
@@ -319,7 +319,8 @@
           },
           "RichLightPurple": {
             "value": "{base.Color.LightPurple.500}",
-            "type": "color"
+            "type": "color",
+            "description": "Used for overline heading"
           }
         },
         "Interaction": {
@@ -328,14 +329,15 @@
             "type": "color",
             "description": "Used for Links or URLs"
           },
+          "Action": {
+            "value": "{base.Color.LightPurple.500}",
+            "type": "color",
+            "description": "Used for actions in the snackbar"
+          },
           "Active": {
             "value": "{base.Color.Green.800}",
             "type": "color",
             "description": "Used in form elements to show active text or any selected state."
-          },
-          "RichLightPurple": {
-            "value": "{base.Color.LightPurple.500}",
-            "type": "color"
           }
         },
         "Brand": {
@@ -346,36 +348,45 @@
         }
       },
       "Border": {
-        "Primary": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
+        "Brand": {
+          "Primary": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          }
         },
-        "Active": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "Intense": {
-          "value": "{base.Color.Neutral.Black}",
-          "type": "color",
-          "description": "Used for avatar border with radius"
-        },
-        "Emphasis": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color",
-          "description": "Used for input field border"
-        },
-        "Subtle": {
-          "value": "{base.Color.Grey.400}",
-          "type": "color"
-        },
-        "Faded": {
-          "value": "{base.Color.Grey.300}",
-          "type": "color"
-        },
-        "Soft": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Used with child avatars"
+        "Default": {
+          "Active": {
+            "value": "{base.Color.Green.800}",
+            "type": "color"
+          },
+          "Intense": {
+            "value": "{base.Color.Neutral.Black}",
+            "type": "color",
+            "description": "Used for avatar border with radius"
+          },
+          "Emphasis": {
+            "value": "{base.Color.Grey.500}",
+            "type": "color",
+            "description": "Used for input field border"
+          },
+          "Moderate": {
+            "value": "{base.Color.Grey.400}",
+            "type": "color"
+          },
+          "Subtle": {
+            "value": "{base.Color.Grey.300}",
+            "type": "color"
+          },
+          "Faded": {
+            "value": "{base.Color.Grey.200}",
+            "type": "color",
+            "description": "Used as border for inpur field in disabled state"
+          },
+          "Soft": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color",
+            "description": "Used with child avatars"
+          }
         },
         "Success": {
           "Rich": {
@@ -397,14 +408,23 @@
             "type": "color",
             "description": "Used for tags showing status"
           }
+        },
+        "Info": {
+          "Rich": {
+            "value": "{base.Color.Blue.700}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         }
       },
       "Icon": {
-        "Default": {
+        "Brand": {
           "Primary": {
             "value": "{semantic.Color.Brand.Primary}",
             "type": "color"
-          },
+          }
+        },
+        "Default": {
           "Rich": {
             "value": "{base.Color.Grey.900}",
             "type": "color"
@@ -444,6 +464,13 @@
         "Danger": {
           "Rich": {
             "value": "{base.Color.Red.900}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
+        },
+        "Info": {
+          "Rich": {
+            "value": "{base.Color.Blue.700}",
             "type": "color",
             "description": "Used for tags showing status"
           }
@@ -551,7 +578,8 @@
     "BorderWidth": {
       "Default": {
         "value": "{base.BorderWidth.Default}",
-        "type": "borderWidth"
+        "type": "borderWidth",
+        "description": "Used for default inpur fields,etc."
       },
       "Moderate": {
         "value": "{base.BorderWidth.Moderate}",
@@ -615,19 +643,21 @@
       },
       "Normal": {
         "value": "{base.LetterSpacing.Normal}",
-        "type": "letterSpacing"
+        "type": "letterSpacing",
+        "description": "Used for all the body text and heading upto 24px"
       },
       "Moderate": {
         "value": "{base.LetterSpacing.Moderate}",
         "type": "letterSpacing"
       },
       "Medium": {
-        "value": "{base.LetterSpacing.Moderate}",
+        "value": "{base.LetterSpacing.Medium}",
         "type": "letterSpacing"
       },
       "Loose": {
-        "value": "{base.LetterSpacing.Medium}",
-        "type": "letterSpacing"
+        "value": "{base.LetterSpacing.Loose}",
+        "type": "letterSpacing",
+        "description": "Used for overline text"
       }
     },
     "Typography": {
