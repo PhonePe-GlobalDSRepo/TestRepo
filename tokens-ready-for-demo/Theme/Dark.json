@@ -254,27 +254,6 @@
             "description": "Used on dark background mostly Brand Primary"
           }
         },
-        "Warning": {
-          "Rich": {
-            "value": "{base.Color.Orange.900}",
-            "type": "color",
-            "description": "Used for tags showing status"
-          }
-        },
-        "Danger": {
-          "Rich": {
-            "value": "{base.Color.Red.900}",
-            "type": "color",
-            "description": "Used for tags showing status"
-          }
-        },
-        "Info": {
-          "Rich": {
-            "value": "{base.Color.Blue.700}",
-            "type": "color",
-            "description": "Used for tags showing status"
-          }
-        },
         "Accent": {
           "RichRed": {
             "value": "{base.Color.Red.900}",
@@ -383,100 +362,6 @@
             "type": "color",
             "description": "Used for dark surfaces"
           }
-        }
-      }
-    },
-    "Opacity": {
-      "0%": {
-        "value": "{base.Opacity.0%}",
-        "type": "opacity"
-      },
-      "5%": {
-        "value": "{base.Opacity.5%}",
-        "type": "opacity"
-      },
-      "10%": {
-        "value": "{base.Opacity.10%}",
-        "type": "opacity"
-      },
-      "40%": {
-        "value": "{base.Opacity.40%}",
-        "type": "opacity"
-      },
-      "70%": {
-        "value": "{base.Opacity.70%}",
-        "type": "opacity"
-      }
-    },
-    "Elevation": {
-      "Top": {
-        "M": {
-          "value": {
-            "x": "0",
-            "y": "-4",
-            "blur": "8",
-            "spread": "0",
-            "color": "rgba(0,0,0,0.08)",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "XL": {
-          "value": {
-            "x": "0",
-            "y": "-24",
-            "blur": "80",
-            "spread": "0",
-            "color": "rgba(0,0,0,0.3)",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
-      },
-      "Bottom": {
-        "S": {
-          "value": {
-            "x": "0",
-            "y": "2",
-            "blur": "2",
-            "spread": "0",
-            "color": "rgba(0,0,0,0.04)",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "M": {
-          "value": {
-            "x": "0",
-            "y": "4",
-            "blur": "4",
-            "spread": "0",
-            "color": "rgba(0,0,0,0.08)",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "L": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "16",
-            "spread": "0",
-            "color": "rgba(0,0,0,0.16)",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "XL": {
-          "value": {
-            "x": "0",
-            "y": "24",
-            "blur": "80",
-            "spread": "0",
-            "color": "rgba(0,0,0,0.3)",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
         }
       }
     }
