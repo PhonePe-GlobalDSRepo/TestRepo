@@ -325,6 +325,12 @@
             "type": "color",
             "description": "Used in form elements to show active text or any selected state."
           }
+        },
+        "Primary": {
+          "Brand": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          }
         }
       },
       "Border": {
@@ -348,6 +354,10 @@
         },
         "Subtle": {
           "value": "{base.Color.Grey.400}",
+          "type": "color"
+        },
+        "Faded": {
+          "value": "{base.Color.Grey.300}",
           "type": "color"
         },
         "Soft": {
