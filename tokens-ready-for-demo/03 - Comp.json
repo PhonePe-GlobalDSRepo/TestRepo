@@ -5,7 +5,7 @@
         "Color": {
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Subtle}",
+              "value": "{semantic.Color.Border.Default.Subtle}",
               "type": "color"
             }
           },
@@ -23,7 +23,7 @@
           },
           "Icon": {
             "Default": {
-              "value": "{semantic.Color.Icon.Emphasis}",
+              "value": "{semantic.Color.Icon.Default.Emphasis}",
               "type": "color"
             }
           }
@@ -33,7 +33,7 @@
         "Color": {
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Primary}",
+              "value": "{semantic.Color.Border.Brand.Primary}",
               "type": "color"
             }
           },
@@ -317,7 +317,7 @@
             },
             "Border": {
               "Default": {
-                "value": "{semantic.Color.Border.Subtle}",
+                "value": "{semantic.Color.Border.Default.Subtle}",
                 "type": "color"
               }
             },
@@ -329,7 +329,7 @@
             },
             "Icon": {
               "Default": {
-                "value": "{semantic.Color.Icon.Emphasis}",
+                "value": "{semantic.Color.Icon.Default.Emphasis}",
                 "type": "color"
               }
             }
@@ -375,7 +375,7 @@
             },
             "Border": {
               "Default": {
-                "value": "{semantic.Color.Border.Subtle}",
+                "value": "{semantic.Color.Border.Default.Subtle}",
                 "type": "color"
               }
             },
@@ -387,7 +387,7 @@
             },
             "Icon": {
               "Default": {
-                "value": "{semantic.Color.Icon.Emphasis}",
+                "value": "{semantic.Color.Icon.Default.Emphasis}",
                 "type": "color"
               }
             }
@@ -415,7 +415,7 @@
             },
             "Icon": {
               "Default": {
-                "value": "{semantic.Color.Icon.Emphasis}",
+                "value": "{semantic.Color.Icon.Default.Emphasis}",
                 "type": "color"
               }
             }
@@ -434,7 +434,7 @@
           },
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Subtle}",
+              "value": "{semantic.Color.Border.Default.Subtle}",
               "type": "color"
             }
           },
@@ -446,7 +446,7 @@
           },
           "Icon": {
             "Default": {
-              "value": "{semantic.Color.Icon.Emphasis}",
+              "value": "{semantic.Color.Icon.Default.Emphasis}",
               "type": "color"
             }
           }
@@ -474,7 +474,7 @@
           },
           "Icon": {
             "Default": {
-              "value": "{semantic.Color.Icon.Emphasis}",
+              "value": "{semantic.Color.Icon.Default.Emphasis}",
               "type": "color"
             }
           }
@@ -496,13 +496,13 @@
           },
           "Icon": {
             "Default": {
-              "value": "{semantic.Color.Icon.Subtle}",
+              "value": "{semantic.Color.Icon.Default.Subtle}",
               "type": "color"
             }
           },
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Emphasis}",
+              "value": "{semantic.Color.Border.Default.Emphasis}",
               "type": "color"
             }
           }
@@ -657,7 +657,7 @@
         },
         "Icon": {
           "Primary": {
-            "value": "{semantic.Color.Icon.Emphasis}",
+            "value": "{semantic.Color.Icon.Default.Emphasis}",
             "type": "color"
           },
           "Action": {
@@ -665,7 +665,7 @@
             "type": "color"
           },
           "Secondary": {
-            "value": "{semantic.Color.Icon.Subtle}",
+            "value": "{semantic.Color.Icon.Default.Subtle}",
             "type": "color"
           },
           "Error": {
@@ -675,11 +675,11 @@
         },
         "Border": {
           "Default": {
-            "value": "{semantic.Color.Border.Emphasis}",
+            "value": "{semantic.Color.Border.Default.Emphasis}",
             "type": "color"
           },
           "Active": {
-            "value": "{semantic.Color.Border.Primary}",
+            "value": "{semantic.Color.Border.Brand.Primary}",
             "type": "color"
           },
           "Error": {
@@ -939,7 +939,7 @@
             "Color": {
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Primary}",
+                  "value": "{semantic.Color.Border.Brand.Primary}",
                   "type": "color"
                 }
               },
@@ -955,7 +955,7 @@
             "Color": {
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Emphasis}",
+                  "value": "{semantic.Color.Border.Default.Emphasis}",
                   "type": "color"
                 }
               },
@@ -971,7 +971,7 @@
             "Color": {
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Primary}",
+                  "value": "{semantic.Color.Border.Brand.Primary}",
                   "type": "color"
                 }
               },
@@ -995,7 +995,7 @@
             "Color": {
               "Icon": {
                 "Default": {
-                  "value": "{semantic.Color.Icon.Primary}",
+                  "value": "{semantic.Color.Icon.Brand.Primary}",
                   "type": "color"
                 },
                 "Destructive": {
@@ -1019,7 +1019,7 @@
             "Color": {
               "Icon": {
                 "Default": {
-                  "value": "{semantic.Color.Icon.Subtle}",
+                  "value": "{semantic.Color.Icon.Default.Subtle}",
                   "type": "color"
                 }
               },
@@ -1035,7 +1035,7 @@
             "Color": {
               "Icon": {
                 "Default": {
-                  "value": "{semantic.Color.Icon.Primary}",
+                  "value": "{semantic.Color.Icon.Brand.Primary}",
                   "type": "color"
                 },
                 "Destructive": {
@@ -1139,7 +1139,7 @@
             "Color": {
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Emphasis}",
+                  "value": "{semantic.Color.Border.Default.Emphasis}",
                   "type": "color"
                 }
               },
@@ -1189,7 +1189,7 @@
             "Color": {
               "Icon": {
                 "Default": {
-                  "value": "{semantic.Color.Icon.Subtle}",
+                  "value": "{semantic.Color.Icon.Default.Subtle}",
                   "type": "color"
                 }
               },

@@ -36,8 +36,8 @@
         }
       },
       "Background": {
-        "Primary": {
-          "Brand": {
+        "Brand": {
+          "Primary": {
             "value": "{semantic.Color.Brand.Primary}",
             "type": "color"
           }
@@ -326,71 +326,121 @@
             "description": "Used in form elements to show active text or any selected state."
           }
         },
-        "Primary": {
-          "Brand": {
+        "Brand": {
+          "Primary": {
             "value": "{semantic.Color.Brand.Primary}",
             "type": "color"
           }
         }
       },
       "Border": {
-        "Primary": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
+        "Brand": {
+          "Primary": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          }
         },
-        "Active": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
+        "Default": {
+          "Active": {
+            "value": "{base.Color.Green.800}",
+            "type": "color"
+          },
+          "Intense": {
+            "value": "{base.Color.Neutral.Black}",
+            "type": "color",
+            "description": "Used for avatar border with radius"
+          },
+          "Emphasis": {
+            "value": "{base.Color.Grey.500}",
+            "type": "color",
+            "description": "Used for input field border"
+          },
+          "Subtle": {
+            "value": "{base.Color.Grey.400}",
+            "type": "color"
+          },
+          "Faded": {
+            "value": "{base.Color.Grey.300}",
+            "type": "color"
+          },
+          "Soft": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color",
+            "description": "Used with child avatars"
+          }
         },
-        "Intense": {
-          "value": "{base.Color.Neutral.Black}",
-          "type": "color",
-          "description": "Used for avatar border with radius"
+        "Success": {
+          "Rich": {
+            "value": "{base.Color.Green.800}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         },
-        "Emphasis": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color",
-          "description": "Used for input field border"
+        "Warning": {
+          "Rich": {
+            "value": "{base.Color.Orange.900}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         },
-        "Subtle": {
-          "value": "{base.Color.Grey.400}",
-          "type": "color"
-        },
-        "Faded": {
-          "value": "{base.Color.Grey.300}",
-          "type": "color"
-        },
-        "Soft": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Used with child avatars"
+        "Danger": {
+          "Rich": {
+            "value": "{base.Color.Red.900}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         }
       },
       "Icon": {
-        "Primary": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
+        "Brand": {
+          "Primary": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          }
         },
-        "Rich": {
-          "value": "{base.Color.Grey.900}",
-          "type": "color"
+        "Default": {
+          "Rich": {
+            "value": "{base.Color.Grey.900}",
+            "type": "color"
+          },
+          "Emphasis": {
+            "value": "{base.Color.Grey.800}",
+            "type": "color"
+          },
+          "Moderate": {
+            "value": "{base.Color.Grey.500}",
+            "type": "color"
+          },
+          "Subtle": {
+            "value": "{base.Color.Grey.400}",
+            "type": "color"
+          },
+          "Soft": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color",
+            "description": "Used for dark surfaces"
+          }
         },
-        "Emphasis": {
-          "value": "{base.Color.Grey.800}",
-          "type": "color"
+        "Success": {
+          "Rich": {
+            "value": "{base.Color.Green.800}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         },
-        "Moderate": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
+        "Warning": {
+          "Rich": {
+            "value": "{base.Color.Orange.900}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         },
-        "Subtle": {
-          "value": "{base.Color.Grey.400}",
-          "type": "color"
-        },
-        "Soft": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Used for dark surfaces"
+        "Danger": {
+          "Rich": {
+            "value": "{base.Color.Red.900}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         }
       }
     },
