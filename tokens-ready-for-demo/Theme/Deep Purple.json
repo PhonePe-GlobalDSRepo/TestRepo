@@ -288,6 +288,10 @@
           }
         },
         "Default": {
+          "Intense": {
+            "value": "{base.Color.DeepPurple.50}",
+            "type": "color"
+          },
           "Emphasis": {
             "value": "{base.Color.DeepPurple.300}",
             "type": "color",
@@ -305,6 +309,10 @@
             "value": "{base.Color.DeepPurple.400}",
             "type": "color",
             "description": "Used as border for inpur field in disabled state"
+          },
+          "Soft": {
+            "value": "{base.Color.DeepPurple.600}",
+            "type": "color"
           }
         }
       },

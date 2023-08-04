@@ -425,7 +425,7 @@
             },
             "Text": {
               "Default": {
-                "value": "{semantic.Color.Text.Neutral.Black}",
+                "value": "{semantic.Color.Text.Default.Primary}",
                 "type": "color"
               }
             },
@@ -655,11 +655,11 @@
         },
         "Text": {
           "Label": {
-            "value": "{semantic.Color.Text.Neutral.Black}",
+            "value": "{semantic.Color.Text.Default.Primary}",
             "type": "color"
           },
           "InputText": {
-            "value": "{semantic.Color.Text.Neutral.Black}",
+            "value": "{semantic.Color.Text.Default.Primary}",
             "type": "color"
           },
           "Description": {
