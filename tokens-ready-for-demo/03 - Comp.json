@@ -5,7 +5,7 @@
         "Color": {
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Default.Subtle}",
+              "value": "{semantic.Color.Border.Default.Moderate}",
               "type": "color"
             }
           },
@@ -317,7 +317,7 @@
             },
             "Border": {
               "Default": {
-                "value": "{semantic.Color.Border.Default.Subtle}",
+                "value": "{semantic.Color.Border.Default.Moderate}",
                 "type": "color"
               }
             },
@@ -375,7 +375,7 @@
             },
             "Border": {
               "Default": {
-                "value": "{semantic.Color.Border.Default.Subtle}",
+                "value": "{semantic.Color.Border.Default.Moderate}",
                 "type": "color"
               }
             },
@@ -434,7 +434,7 @@
           },
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Default.Subtle}",
+              "value": "{semantic.Color.Border.Default.Moderate}",
               "type": "color"
             }
           },
