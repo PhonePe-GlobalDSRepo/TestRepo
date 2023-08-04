@@ -7,7 +7,7 @@
       "01 - base": "source",
       "02 - semantic": "source",
       "03 - Comp": "source",
-      "Theme/Light": "enabled"
+      "Theme/Light": "source"
     },
     "group": "Theme"
   },
@@ -19,7 +19,19 @@
       "01 - base": "source",
       "02 - semantic": "source",
       "03 - Comp": "source",
-      "Theme/Dark": "enabled"
+      "Theme/Dark": "source"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "f9e2bb48eb41e1deea6c957ce5cbd603409c0cb9",
+    "name": "Deep Purple",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "01 - base": "source",
+      "02 - semantic": "source",
+      "03 - Comp": "source",
+      "Theme/Deep Purple": "source"
     },
     "group": "Theme"
   }
