@@ -168,7 +168,7 @@
             "type": "color"
           },
           "Faded": {
-            "value": "{base.Color.Neutral.White}",
+            "value": "{base.Color.Grey.100}",
             "type": "color"
           },
           "Soft": {
@@ -220,7 +220,7 @@
           "IS03": {
             "value": "{base.Color.Red.50}",
             "type": "color",
-            "description": "Used for Tertiary CTA hover or pressed UI"
+            "description": "Used for Tertiary Destructive CTA hover or pressed UI"
           }
         }
       },
