@@ -484,11 +484,12 @@
     },
     "BorderWidth": {
       "Default": {
-        "value": "{base.BorderWidth.Light}",
-        "type": "borderWidth"
+        "value": "{base.BorderWidth.Default}",
+        "type": "borderWidth",
+        "description": "Used for default inpur fields,etc."
       },
       "Moderate": {
-        "value": "{base.BorderWidth.Regular}",
+        "value": "{base.BorderWidth.Moderate}",
         "type": "borderWidth"
       },
       "Medium": {
@@ -496,7 +497,7 @@
         "type": "borderWidth"
       },
       "Heavy": {
-        "value": "{base.BorderWidth.Bold}",
+        "value": "{base.BorderWidth.Heavy}",
         "type": "borderWidth"
       }
     },
