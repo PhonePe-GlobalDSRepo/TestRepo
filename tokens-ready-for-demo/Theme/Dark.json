@@ -21,10 +21,6 @@
           }
         },
         "Success": {
-          "Rich": {
-            "value": "{base.Color.Green.800}",
-            "type": "color"
-          },
           "Faded": {
             "value": "{base.Color.Green.800}",
             "type": "color",
@@ -40,10 +36,6 @@
           }
         },
         "Warning": {
-          "Rich": {
-            "value": "{base.Color.Orange.900}",
-            "type": "color"
-          },
           "Faded": {
             "value": "{base.Color.Orange.900}",
             "type": "color",
@@ -59,10 +51,6 @@
           }
         },
         "Danger": {
-          "Rich": {
-            "value": "{base.Color.Red.900}",
-            "type": "color"
-          },
           "Faded": {
             "value": "{base.Color.Red.800}",
             "type": "color",
@@ -78,10 +66,6 @@
           }
         },
         "Information": {
-          "Rich": {
-            "value": "{base.Color.Blue.700}",
-            "type": "color"
-          },
           "Faded": {
             "value": "{base.Color.Blue.700}",
             "type": "color",
