@@ -791,7 +791,7 @@
         },
         "Border": {
           "Default": {
-            "value": "{semantic.Color.Border.Soft}",
+            "value": "{semantic.Color.Border.Default.Soft}",
             "type": "color"
           }
         }
@@ -874,7 +874,7 @@
           },
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Subtle}",
+              "value": "{semantic.Color.Border.Default.Moderate}",
               "type": "color"
             }
           }
@@ -906,7 +906,7 @@
           },
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Primary}",
+              "value": "{semantic.Color.Border.Brand.Primary}",
               "type": "color"
             }
           }
@@ -918,7 +918,7 @@
         "Color": {
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Intense}",
+              "value": "{semantic.Color.Border.Default.Intense}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -931,7 +931,7 @@
               }
             },
             "Inverse": {
-              "value": "{semantic.Color.Border.Soft}",
+              "value": "{semantic.Color.Border.Default.Soft}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -950,7 +950,7 @@
         "Color": {
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Intense}",
+              "value": "{semantic.Color.Border.Default.Intense}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -963,7 +963,7 @@
               }
             },
             "Inverse": {
-              "value": "{semantic.Color.Border.Soft}",
+              "value": "{semantic.Color.Border.Default.Soft}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -1005,7 +1005,7 @@
             "type": "color"
           },
           "Button": {
-            "value": "{semantic.Color.Text.Interaction.RichLightPurple}",
+            "value": "{semantic.Color.Text.Interaction.Action}",
             "type": "color"
           }
         },
@@ -1111,7 +1111,7 @@
       "Image": {
         "Border": {
           "Default": {
-            "value": "{semantic.Color.Border.Intense}",
+            "value": "{semantic.Color.Border.Default.Intense}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1130,7 +1130,7 @@
       "Color": {
         "Surface": {
           "Default": {
-            "value": "{semantic.Color.Background.Primary.Brand}",
+            "value": "{semantic.Color.Background.Brand.Primary}",
             "type": "color"
           },
           "Inverse": {
@@ -1189,7 +1189,7 @@
               "type": "color"
             },
             "Foreground": {
-              "value": "{semantic.Color.Background.Primary.Brand}",
+              "value": "{semantic.Color.Background.Brand.Primary}",
               "type": "color"
             }
           }
@@ -1211,7 +1211,7 @@
         "Active": {
           "Surface": {
             "Background": {
-              "value": "{semantic.Color.Background.Primary.Brand}",
+              "value": "{semantic.Color.Background.Brand.Primary}",
               "type": "color"
             },
             "Foreground": {
