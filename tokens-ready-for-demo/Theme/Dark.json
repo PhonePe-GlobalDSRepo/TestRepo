@@ -256,14 +256,6 @@
             "value": "{base.Color.DeepGrey.300}",
             "type": "color",
             "description": "Used for disabaled text"
-          },
-          "Subtle": {
-            "value": "{base.Color.Grey.300}",
-            "type": "color"
-          },
-          "Soft": {
-            "value": "{base.Color.Neutral.White}",
-            "type": "color"
           }
         },
         "Neutral": {
