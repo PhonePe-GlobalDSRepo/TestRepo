@@ -170,6 +170,10 @@
           "Faded": {
             "value": "{base.Color.Neutral.White}",
             "type": "color"
+          },
+          "Soft": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color"
           }
         },
         "Surface": {
