@@ -253,8 +253,9 @@
             "type": "color"
           },
           "Muted": {
-            "value": "{base.Color.Grey.400}",
-            "type": "color"
+            "value": "{base.Color.DeepGrey.300}",
+            "type": "color",
+            "description": "Used for disabaled text"
           },
           "Subtle": {
             "value": "{base.Color.Grey.300}",
