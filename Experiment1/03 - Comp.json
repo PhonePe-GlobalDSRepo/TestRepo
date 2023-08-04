@@ -1048,7 +1048,7 @@
           },
           "Text": {
             "Default": {
-              "value": "{semantic.Color.Text.InverseStrong}",
+              "value": "{semantic.Color.Text.Default.Soft}",
               "type": "color"
             }
           }
@@ -1058,51 +1058,51 @@
         "Color": {
           "Surface": {
             "Error": {
-              "value": "{semantic.Color.Status.ErrorSubtle}",
+              "value": "{semantic.Color.Background.Danger.Faded}",
               "type": "color"
             },
             "Success": {
-              "value": "{semantic.Color.Status.SuccessSubtle}",
+              "value": "{semantic.Color.Background.Success.Faded}",
               "type": "color"
             },
             "Warning": {
-              "value": "{semantic.Color.Status.WarningSubtle}",
+              "value": "{semantic.Color.Background.Warning.Faded}",
               "type": "color"
             },
             "Disabled": {
-              "value": "{semantic.Color.Surface.Subtle07}",
+              "value": "{semantic.Color.Background.UIElement.Moderate}",
               "type": "color"
             }
           },
           "Text": {
             "Error": {
-              "value": "{semantic.Color.Status.ErrorStrong}",
+              "value": "{semantic.Color.Text.Danger.Rich}",
               "type": "color"
             },
             "Success": {
-              "value": "{semantic.Color.Status.SuccessStrong}",
+              "value": "{semantic.Color.Text.Success.Rich}",
               "type": "color"
             },
             "Warning": {
-              "value": "{semantic.Color.Status.WarningStrong}",
+              "value": "{semantic.Color.Text.Warning.Rich}",
               "type": "color"
             },
             "Disabled": {
-              "value": "{semantic.Color.Text.Moderate}",
+              "value": "{semantic.Color.Text.Default.Secondary}",
               "type": "color"
             }
           },
           "Icon": {
             "Success": {
-              "value": "{semantic.Color.Status.SuccessStrong}",
+              "value": "{semantic.Color.Icon.Success.Rich}",
               "type": "color"
             },
             "Warning": {
-              "value": "{semantic.Color.Status.WarningStrong}",
+              "value": "{semantic.Color.Icon.Warning.Rich}",
               "type": "color"
             },
             "Error": {
-              "value": "{semantic.Color.Status.ErrorStrong}",
+              "value": "{semantic.Color.Icon.Danger.Rich}",
               "type": "color"
             }
           }
@@ -1111,7 +1111,7 @@
       "Image": {
         "Border": {
           "Default": {
-            "value": "{semantic.Color.Border.Strong}",
+            "value": "{semantic.Color.Border.Intense}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1156,7 +1156,7 @@
         },
         "Text": {
           "SubTitle": {
-            "value": "{semantic.Color.Text.InverseSubtle}",
+            "value": "{semantic.Color.Text.Default.Subtle}",
             "type": "color"
           },
           "Title": {
@@ -1189,7 +1189,7 @@
               "type": "color"
             },
             "Foreground": {
-              "value": "{semantic.Color.Surface.Strong01}",
+              "value": "{semantic.Color.Background.Primary.Brand}",
               "type": "color"
             }
           }
@@ -1197,11 +1197,11 @@
         "Default": {
           "Surface": {
             "Background": {
-              "value": "{semantic.Color.Surface.Subtle07}",
+              "value": "{semantic.Color.Background.UIElement.Moderate}",
               "type": "color"
             },
             "Foreground": {
-              "value": "{semantic.Color.Surface.SubtleNeutral}",
+              "value": "{semantic.Color.Background.UIElement.Faded}",
               "type": "color"
             }
           }
@@ -1211,11 +1211,11 @@
         "Active": {
           "Surface": {
             "Background": {
-              "value": "{semantic.Color.Surface.Strong02}",
+              "value": "{semantic.Color.Background.Primary.Brand}",
               "type": "color"
             },
             "Foreground": {
-              "value": "{semantic.Color.Surface.SubtleNeutral}",
+              "value": "{semantic.Color.Background.UIElement.Faded}",
               "type": "color"
             }
           }
@@ -1223,11 +1223,11 @@
         "Default": {
           "Surface": {
             "Background": {
-              "value": "{semantic.Color.Surface.Subtle07}",
+              "value": "{semantic.Color.Background.UIElement.Moderate}",
               "type": "color"
             },
             "Foreground": {
-              "value": "{semantic.Color.Surface.SubtleNeutral}",
+              "value": "{semantic.Color.Background.UIElement.Faded}",
               "type": "color"
             }
           }
