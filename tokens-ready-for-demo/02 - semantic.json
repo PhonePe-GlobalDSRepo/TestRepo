@@ -389,6 +389,13 @@
             "type": "color",
             "description": "Used for tags showing status"
           }
+        },
+        "Info": {
+          "Rich": {
+            "value": "{base.Color.Blue.700}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         }
       },
       "Icon": {
@@ -438,6 +445,13 @@
         "Danger": {
           "Rich": {
             "value": "{base.Color.Red.900}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
+        },
+        "Info": {
+          "Rich": {
+            "value": "{base.Color.Blue.700}",
             "type": "color",
             "description": "Used for tags showing status"
           }
