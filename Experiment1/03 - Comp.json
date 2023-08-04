@@ -701,25 +701,25 @@
             "type": "color"
           },
           "Error": {
-            "value": "{semantic.Color.Status.ErrorStrong}",
+            "value": "{semantic.Color.Icon.Danger.Rich}",
             "type": "color"
           },
           "Warning": {
-            "value": "{semantic.Color.Status.WarningStrong}",
+            "value": "{semantic.Color.Icon.Warning.Rich}",
             "type": "color"
           },
           "Success": {
-            "value": "{semantic.Color.Status.SuccessStrong}",
+            "value": "{semantic.Color.Icon.Success.Rich}",
             "type": "color"
           }
         },
         "Border": {
           "Warning": {
-            "value": "{semantic.Color.Status.WarningStrong}",
+            "value": "{semantic.Color.Border.Warning.Rich}",
             "type": "color"
           },
           "Success": {
-            "value": "{semantic.Color.Status.SuccessStrong}",
+            "value": "{semantic.Color.Border.Success.Rich}",
             "type": "color"
           },
           "Default": {
@@ -731,7 +731,7 @@
             "type": "color"
           },
           "Error": {
-            "value": "{semantic.Color.Status.ErrorStrong}",
+            "value": "{semantic.Color.Border.Danger.Rich}",
             "type": "color"
           }
         }
