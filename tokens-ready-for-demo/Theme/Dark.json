@@ -241,15 +241,15 @@
       "Text": {
         "Default": {
           "Primary": {
-            "value": "{base.Color.Grey.900}",
+            "value": "{base.Color.DeepGrey.100}",
             "type": "color"
           },
           "Secondary": {
-            "value": "{base.Color.Grey.700}",
+            "value": "{base.Color.DeepGrey.300}",
             "type": "color"
           },
           "Disabled": {
-            "value": "{base.Color.Grey.500}",
+            "value": "{base.Color.DeepGrey.400}",
             "type": "color"
           },
           "Muted": {
