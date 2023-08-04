@@ -745,7 +745,7 @@
       "Color": {
         "Surface": {
           "Default": {
-            "value": "{semantic.Color.Background.UIElement.F5F5F5}",
+            "value": "{semantic.Color.Background.UIElement.Faded}",
             "type": "color"
           },
           "VerticalBar": {
@@ -769,7 +769,7 @@
         },
         "Border": {
           "Default": {
-            "value": "{semantic.Color.Border.Faded}",
+            "value": "{semantic.Color.Border.Default.Subtle}",
             "type": "color"
           }
         }
