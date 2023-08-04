@@ -167,6 +167,10 @@
             "value": "{base.Color.Grey.200}",
             "type": "color"
           },
+          "F5F5F5": {
+            "value": "{base.Color.Grey.100}",
+            "type": "color"
+          },
           "Faded": {
             "value": "{base.Color.Neutral.White}",
             "type": "color"

@@ -745,31 +745,31 @@
       "Color": {
         "Surface": {
           "Default": {
-            "value": "{semantic.Color.Surface.Subtle08}",
+            "value": "{semantic.Color.Background.UIElement.F5F5F5}",
             "type": "color"
           },
           "VerticalBar": {
-            "value": "{semantic.Color.Surface.Strong03}",
+            "value": "{semantic.Color.Background.Accent.RichOrange}",
             "type": "color"
           }
         },
         "Text": {
           "Body": {
-            "value": "{semantic.Color.Text.Moderate}",
+            "value": "{semantic.Color.Text.Default.Secondary}",
             "type": "color"
           },
           "Action": {
-            "value": "{semantic.Color.Text.Brand}",
+            "value": "{semantic.Color.Text.Interaction.Link}",
             "type": "color"
           },
           "Title": {
-            "value": "{semantic.Color.Surface.Strong03}",
+            "value": "{semantic.Color.Text.Accent.RichOrange}",
             "type": "color"
           }
         },
         "Border": {
           "Default": {
-            "value": "{semantic.Color.Surface.Subtle07}",
+            "value": "{semantic.Color.Border.Faded}",
             "type": "color"
           }
         }
