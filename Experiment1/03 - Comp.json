@@ -4,7 +4,7 @@
       "Color": {
         "Surface": {
           "Background01": {
-            "value": "{semantic.Color.Background.Primary.Brand}",
+            "value": "{semantic.Color.Background.Brand.Primary}",
             "type": "color"
           },
           "Background02": {
@@ -36,7 +36,7 @@
         },
         "Border": {
           "Default": {
-            "value": "{semantic.Color.Border.Intense}",
+            "value": "{semantic.Color.Border.Default.Intense}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -49,7 +49,7 @@
             }
           },
           "Inverse": {
-            "value": "{semantic.Color.Border.Soft}",
+            "value": "{semantic.Color.Border.Default.Soft}",
             "type": "color"
           }
         }
@@ -92,7 +92,7 @@
         "Color": {
           "Surface": {
             "IconBackground": {
-              "value": "{semantic.Color.Background.Primary.Brand}",
+              "value": "{semantic.Color.Background.Brand.Primary}",
               "type": "color"
             }
           },
@@ -118,11 +118,11 @@
             "Color": {
               "Surface": {
                 "Default": {
-                  "value": "{semantic.Color.Background.Primary.Brand}",
+                  "value": "{semantic.Color.Background.Brand.Primary}",
                   "type": "color"
                 },
                 "Pressed": {
-                  "value": "{semantic.Color.Background.Primary.Brand}",
+                  "value": "{semantic.Color.Background.Brand.Primary}",
                   "type": "color"
                 }
               },
@@ -168,7 +168,7 @@
               },
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Primary}",
+                  "value": "{semantic.Color.Border.Brand.Primary}",
                   "type": "color"
                 }
               }
@@ -184,7 +184,7 @@
               },
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Emphasis}",
+                  "value": "{semantic.Color.Border.Default.Emphasis}",
                   "type": "color"
                 }
               }
@@ -216,7 +216,7 @@
               },
               "Icon": {
                 "Default": {
-                  "value": "{semantic.Color.Icon.Default.Primary}",
+                  "value": "{semantic.Color.Icon.Brand.Primary}",
                   "type": "color"
                 },
                 "Danger": {
@@ -300,7 +300,7 @@
               },
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Soft}",
+                  "value": "{semantic.Color.Border.Default.Soft}",
                   "type": "color"
                 }
               }
@@ -316,7 +316,7 @@
               },
               "Border": {
                 "Default": {
-                  "value": "{semantic.Color.Border.Emphasis}",
+                  "value": "{semantic.Color.Border.Default.Emphasis}",
                   "type": "color"
                 }
               }
@@ -437,7 +437,7 @@
             },
             "Border": {
               "Default": {
-                "value": "{semantic.Color.Border.Subtle}",
+                "value": "{semantic.Color.Border.Default.Moderate}",
                 "type": "color"
               }
             }
@@ -465,7 +465,7 @@
             },
             "Border": {
               "Default": {
-                "value": "{semantic.Color.Border.Active}",
+                "value": "{semantic.Color.Border.Default.Active}",
                 "type": "color"
               }
             }
@@ -495,7 +495,7 @@
             },
             "Border": {
               "Default": {
-                "value": "{semantic.Color.Border.Subtle}",
+                "value": "{semantic.Color.Border.Default.Moderate}",
                 "type": "color"
               }
             }
@@ -523,7 +523,7 @@
             },
             "Border": {
               "Default": {
-                "value": "{semantic.Color.Border.Active}",
+                "value": "{semantic.Color.Border.Default.Active}",
                 "type": "color"
               }
             }
@@ -535,7 +535,7 @@
       "Color": {
         "Surface": {
           "Default": {
-            "value": "{semantic.Color.Background.Primary.Brand}",
+            "value": "{semantic.Color.Background.Brand.Primary}",
             "type": "color"
           }
         },
@@ -570,7 +570,7 @@
           },
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Subtle}",
+              "value": "{semantic.Color.Border.Default.Moderate}",
               "type": "color"
             }
           }
@@ -598,7 +598,7 @@
           },
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Active}",
+              "value": "{semantic.Color.Border.Default.Active}",
               "type": "color"
             }
           }
@@ -626,7 +626,7 @@
           },
           "Border": {
             "Default": {
-              "value": "{semantic.Color.Border.Faded}",
+              "value": "{semantic.Color.Border.Default.Subtle}",
               "type": "color"
             }
           }
@@ -697,7 +697,7 @@
             "type": "color"
           },
           "Action": {
-            "value": "{semantic.Color.Icon.Default.Primary}",
+            "value": "{semantic.Color.Icon.Brand.Primary}",
             "type": "color"
           },
           "Disabled": {
@@ -719,11 +719,11 @@
         },
         "Border": {
           "Default": {
-            "value": "{semantic.Color.Border.Emphasis}",
+            "value": "{semantic.Color.Border.Default.Emphasis}",
             "type": "color"
           },
           "Active": {
-            "value": "{semantic.Color.Border.Primary}",
+            "value": "{semantic.Color.Border.Brand.Primary}",
             "type": "color"
           },
           "Success": {
