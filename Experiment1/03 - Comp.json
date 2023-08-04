@@ -209,7 +209,7 @@
                   "value": "{semantic.Color.Text.Brand.Primary}",
                   "type": "color"
                 },
-                "Destructive": {
+                "Danger": {
                   "value": "{semantic.Color.Text.Danger.Rich}",
                   "type": "color"
                 }
@@ -219,7 +219,7 @@
                   "value": "{semantic.Color.Icon.Default.Primary}",
                   "type": "color"
                 },
-                "Destructive": {
+                "Danger": {
                   "value": "{semantic.Color.Icon.Danger.Rich}",
                   "type": "color"
                 }
@@ -686,7 +686,7 @@
             "value": "{semantic.Color.Text.Warning.Rich}",
             "type": "color"
           },
-          "Error": {
+          "Danger": {
             "value": "{semantic.Color.Text.Danger.Rich}",
             "type": "color"
           }
@@ -712,7 +712,7 @@
             "value": "{semantic.Color.Icon.Warning.Rich}",
             "type": "color"
           },
-          "Error": {
+          "Danger": {
             "value": "{semantic.Color.Icon.Danger.Rich}",
             "type": "color"
           }
@@ -734,7 +734,7 @@
             "value": "{semantic.Color.Border.Warning.Rich}",
             "type": "color"
           },
-          "Error": {
+          "Danger": {
             "value": "{semantic.Color.Border.Danger.Rich}",
             "type": "color"
           }
@@ -994,7 +994,7 @@
             "value": "{semantic.Color.Background.Warning.Rich}",
             "type": "color"
           },
-          "Error": {
+          "Danger": {
             "value": "{semantic.Color.Background.Danger.Rich}",
             "type": "color"
           }
@@ -1083,7 +1083,7 @@
               "value": "{semantic.Color.Text.Warning.Rich}",
               "type": "color"
             },
-            "Error": {
+            "Danger": {
               "value": "{semantic.Color.Text.Danger.Rich}",
               "type": "color"
             },
@@ -1101,7 +1101,7 @@
               "value": "{semantic.Color.Icon.Warning.Rich}",
               "type": "color"
             },
-            "Error": {
+            "Danger": {
               "value": "{semantic.Color.Icon.Danger.Rich}",
               "type": "color"
             }
@@ -1145,7 +1145,7 @@
             "value": "{semantic.Color.Background.Warning.Rich}",
             "type": "color"
           },
-          "Error": {
+          "Danger": {
             "value": "{semantic.Color.Background.Danger.Rich}",
             "type": "color"
           },
