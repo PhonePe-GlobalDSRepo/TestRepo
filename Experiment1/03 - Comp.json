@@ -670,6 +670,10 @@
             "value": "{semantic.Color.Text.Default.Secondary}",
             "type": "color"
           },
+          "Prefilled": {
+            "value": "{semantic.Color.Text.Default.Secondary}",
+            "type": "color"
+          },
           "Placeholder": {
             "value": "{semantic.Color.Text.Default.Disabled}",
             "type": "color"
@@ -689,7 +693,7 @@
         },
         "Icon": {
           "Default": {
-            "value": "{semantic.Color.Icon.Default.Moderate}",
+            "value": "{semantic.Color.Icon.Default.Emphasis}",
             "type": "color"
           },
           "Action": {
@@ -697,7 +701,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "{semantic.Color.Icon.Default.Subtle}",
+            "value": "{semantic.Color.Icon.Default.Moderate}",
             "type": "color"
           },
           "Error": {
