@@ -45,8 +45,17 @@
             "type": "color"
           },
           "Faded": {
-            "value": "{base.Color.Orange.50}",
-            "type": "color"
+            "value": "{base.Color.Orange.900}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.4",
+                  "space": "lch"
+                }
+              }
+            }
           }
         },
         "Danger": {
@@ -55,8 +64,17 @@
             "type": "color"
           },
           "Faded": {
-            "value": "{base.Color.Red.50}",
-            "type": "color"
+            "value": "{base.Color.Red.800}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.4",
+                  "space": "lch"
+                }
+              }
+            }
           }
         },
         "Information": {
@@ -65,8 +83,17 @@
             "type": "color"
           },
           "Faded": {
-            "value": "{base.Color.Blue.50}",
-            "type": "color"
+            "value": "{base.Color.Blue.700}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.4",
+                  "space": "lch"
+                }
+              }
+            }
           }
         },
         "Accent": {
@@ -165,17 +192,17 @@
         },
         "Surface": {
           "Layer0": {
-            "value": "{base.Color.Purple.100}",
+            "value": "{base.Color.DeepGrey.900}",
             "type": "color",
             "description": "Used for app background"
           },
           "Layer1": {
-            "value": "{base.Color.Neutral.White}",
+            "value": "{base.Color.DeepGrey.800}",
             "type": "color",
             "description": "Used for primary cards "
           },
           "Layer2": {
-            "value": "{base.Color.Neutral.White}",
+            "value": "{base.Color.DeepGrey.700}",
             "type": "color",
             "description": "Used for tertiary layers like dialog box, action menu, bottom sheet."
           }
