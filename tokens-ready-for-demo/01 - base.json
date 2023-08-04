@@ -261,7 +261,7 @@
       }
     },
     "Elevation": {
-      "YTop": {
+      "Top": {
         "M": {
           "value": {
             "x": "0",
@@ -285,7 +285,7 @@
           "type": "boxShadow"
         }
       },
-      "YBottom": {
+      "Bottom": {
         "S": {
           "value": {
             "x": "0",
