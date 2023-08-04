@@ -801,7 +801,7 @@
       "Color": {
         "Surface": {
           "Default": {
-            "value": "{semantic.Color.Surface.StrongNeutral}",
+            "value": "{semantic.Color.Background.UIElement.Intense}",
             "type": "color"
           }
         }
