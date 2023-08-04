@@ -325,6 +325,12 @@
             "type": "color",
             "description": "Used in form elements to show active text or any selected state."
           }
+        },
+        "Brand": {
+          "Primary": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          }
         }
       },
       "Border": {
@@ -350,6 +356,10 @@
           "value": "{base.Color.Grey.400}",
           "type": "color"
         },
+        "Faded": {
+          "value": "{base.Color.Grey.300}",
+          "type": "color"
+        },
         "Soft": {
           "value": "{base.Color.Neutral.White}",
           "type": "color",
@@ -357,30 +367,53 @@
         }
       },
       "Icon": {
-        "Primary": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
+        "Default": {
+          "Primary": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Rich": {
+            "value": "{base.Color.Grey.900}",
+            "type": "color"
+          },
+          "Emphasis": {
+            "value": "{base.Color.Grey.800}",
+            "type": "color"
+          },
+          "Moderate": {
+            "value": "{base.Color.Grey.500}",
+            "type": "color"
+          },
+          "Subtle": {
+            "value": "{base.Color.Grey.400}",
+            "type": "color"
+          },
+          "Soft": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color",
+            "description": "Used for dark surfaces"
+          }
         },
-        "Rich": {
-          "value": "{base.Color.Grey.900}",
-          "type": "color"
+        "Success": {
+          "Rich": {
+            "value": "{base.Color.Green.800}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         },
-        "Emphasis": {
-          "value": "{base.Color.Grey.800}",
-          "type": "color"
+        "Warning": {
+          "Rich": {
+            "value": "{base.Color.Orange.900}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         },
-        "Moderate": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "Subtle": {
-          "value": "{base.Color.Grey.400}",
-          "type": "color"
-        },
-        "Soft": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Used for dark surfaces"
+        "Danger": {
+          "Rich": {
+            "value": "{base.Color.Red.900}",
+            "type": "color",
+            "description": "Used for tags showing status"
+          }
         }
       }
     },
