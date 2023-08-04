@@ -4,23 +4,23 @@
       "Color": {
         "Surface": {
           "Background01": {
-            "value": "{semantic.Color.Background.Accent.RichPink}",
+            "value": "{semantic.Color.Background.Primary.Brand}",
             "type": "color"
           },
           "Background02": {
-            "value": "{semantic.Color.Surface.Strong03}",
+            "value": "{semantic.Color.Background.Accent.RichBlue}",
             "type": "color"
           },
           "Background03": {
-            "value": "{semantic.Color.Surface.Strong04}",
+            "value": "{semantic.Color.Background.Accent.RichGreen}",
             "type": "color"
           },
           "Background04": {
-            "value": "{semantic.Color.Surface.Strong04}",
+            "value": "{semantic.Color.Background.Accent.RichPink}",
             "type": "color"
           },
           "Background05": {
-            "value": "{semantic.Color.Surface.Strong05}",
+            "value": "{semantic.Color.Background.Accent.RichOrange}",
             "type": "color"
           },
           "Default": {
@@ -1021,27 +1021,27 @@
       "Default": {
         "Color": {
           "Surface": {
-            "Accent01": {
+            "Background01": {
               "value": "{semantic.Color.Background.Accent.RichRed}",
               "type": "color"
             },
-            "Accent02": {
+            "Background02": {
               "value": "{semantic.Color.Background.Accent.RichGreen}",
               "type": "color"
             },
-            "Accent03": {
+            "Background03": {
               "value": "{semantic.Color.Background.Accent.RichOrange}",
               "type": "color"
             },
-            "Accent04": {
+            "Background04": {
               "value": "{semantic.Color.Background.Accent.RichBlue}",
               "type": "color"
             },
-            "Accent05": {
+            "Background05": {
               "value": "{semantic.Color.Background.Accent.RichPink}",
               "type": "color"
             },
-            "Accen06": {
+            "Background06": {
               "value": "{semantic.Color.Background.UIElement.Rich}",
               "type": "color"
             }
