@@ -821,7 +821,7 @@
         },
         "Text": {
           "Completed": {
-            "value": "{semantic.Color.Status.SuccessStrong}",
+            "value": "{semantic.Color.Text.Accent.RichGreen}",
             "type": "color"
           }
         }
@@ -841,7 +841,7 @@
         },
         "Text": {
           "Completed": {
-            "value": "{semantic.Color.Surface.Strong02}",
+            "value": "{semantic.Color.Text.Accent.RichGreen}",
             "type": "color"
           },
           "Muted": {
@@ -1001,7 +1001,7 @@
         },
         "Text": {
           "Button": {
-            "value": "{semantic.Color.Surface.Subtle10}",
+            "value": "{semantic.Color.Text.Interaction.RichLightPurple}",
             "type": "color"
           },
           "Default": {
@@ -1022,27 +1022,27 @@
         "Color": {
           "Surface": {
             "Accent01": {
-              "value": "{semantic.Color.Surface.Strong04}",
+              "value": "{semantic.Color.Background.Accent.RichRed}",
               "type": "color"
             },
             "Accent02": {
-              "value": "{semantic.Color.Surface.Strong02}",
+              "value": "{semantic.Color.Background.Accent.RichGreen}",
               "type": "color"
             },
             "Accent03": {
-              "value": "{semantic.Color.Surface.Strong03}",
+              "value": "{semantic.Color.Background.Accent.RichOrange}",
               "type": "color"
             },
             "Accent04": {
-              "value": "{semantic.Color.Surface.Subtle06}",
+              "value": "{semantic.Color.Background.Accent.RichBlue}",
               "type": "color"
             },
             "Accent05": {
-              "value": "{semantic.Color.Surface.Strong05}",
+              "value": "{semantic.Color.Background.Accent.RichPink}",
               "type": "color"
             },
             "Accen06": {
-              "value": "{semantic.Color.Surface.Strong06}",
+              "value": "{semantic.Color.Background.UIElement.Rich}",
               "type": "color"
             }
           },
