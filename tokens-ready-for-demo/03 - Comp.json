@@ -745,7 +745,7 @@
       "Color": {
         "Surface": {
           "Default": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "value": "{semantic.Color.Background.Accent.FadedGrey}",
             "type": "color"
           },
           "VerticalBar": {
