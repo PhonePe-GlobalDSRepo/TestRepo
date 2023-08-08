@@ -1,63 +1,59 @@
 {
   "component": {
     "Avatar": {
-      "Color": {
-        "Bg": {
-          "01": {
-            "value": "{semantic.Color.Background.Brand.Primary}",
-            "type": "color"
-          },
-          "02": {
-            "value": "{semantic.Color.Background.Accent.RichBlue}",
-            "type": "color"
-          },
-          "03": {
-            "value": "{semantic.Color.Background.Accent.RichGreen}",
-            "type": "color"
-          },
-          "04": {
-            "value": "{semantic.Color.Background.Accent.RichPink}",
-            "type": "color"
-          },
-          "05": {
-            "value": "{semantic.Color.Background.Accent.RichOrange}",
-            "type": "color"
-          }
+      "Bg": {
+        "Color01": {
+          "value": "{semantic.Color.Background.Brand.Primary}",
+          "type": "color"
         },
-        "Text": {
-          "Default": {
-            "value": "{semantic.Color.Text.Neutral.White}",
-            "type": "color"
-          }
+        "Color02": {
+          "value": "{semantic.Color.Background.Accent.RichBlue}",
+          "type": "color"
         },
-        "Border": {
-          "Default": {
-            "value": "{semantic.Color.Border.Default.Intense}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.1",
-                  "space": "srgb"
-                }
+        "Color03": {
+          "value": "{semantic.Color.Background.Accent.RichGreen}",
+          "type": "color"
+        },
+        "Color04": {
+          "value": "{semantic.Color.Background.Accent.RichPink}",
+          "type": "color"
+        },
+        "Color05": {
+          "value": "{semantic.Color.Background.Accent.RichOrange}",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "DefaultColor": {
+          "value": "{semantic.Color.Text.Neutral.White}",
+          "type": "color"
+        }
+      },
+      "Border": {
+        "DefaultColor": {
+          "value": "{semantic.Color.Border.Default.Intense}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "srgb"
               }
             }
-          },
-          "Inverse": {
-            "value": "{semantic.Color.Border.Default.Soft}",
-            "type": "color"
           }
+        },
+        "InverseColor": {
+          "value": "{semantic.Color.Border.Default.Soft}",
+          "type": "color"
         }
       }
     },
     "BottomNavigationBar": {
-      "Color": {
-        "Bg": {
-          "Default": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
-            "type": "color"
-          }
+      "Bg": {
+        "DefaultColor": {
+          "value": "{semantic.Color.Background.UIElement.Faded}",
+          "type": "color"
         }
       }
     },
