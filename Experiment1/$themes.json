@@ -6,8 +6,8 @@
     "selectedTokenSets": {
       "01 - base": "source",
       "02 - semantic": "source",
-      "03 - Comp": "source",
-      "Theme/Light": "enabled"
+      "Theme/Light": "enabled",
+      "03 - component": "source"
     },
     "group": "Theme"
   },
@@ -18,8 +18,8 @@
     "selectedTokenSets": {
       "01 - base": "source",
       "02 - semantic": "source",
-      "03 - Comp": "source",
-      "Theme/Dark": "enabled"
+      "Theme/Dark": "enabled",
+      "03 - component": "source"
     },
     "group": "Theme"
   }
