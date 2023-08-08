@@ -1128,7 +1128,7 @@
     },
     "TitleBar": {
       "Color": {
-        "Surface": {
+        "Bg": {
           "Default": {
             "value": "{semantic.Color.Background.Brand.Primary}",
             "type": "color"
@@ -1183,24 +1183,28 @@
     "Toggle": {
       "Android": {
         "Active": {
-          "Surface": {
-            "Background": {
+          "Bg": {
+            "Default": {
               "value": "{semantic.Color.Surface.Subtle09}",
               "type": "color"
-            },
-            "Foreground": {
+            }
+          },
+          "Fg": {
+            "Default": {
               "value": "{semantic.Color.Background.Brand.Primary}",
               "type": "color"
             }
           }
         },
         "Default": {
-          "Surface": {
-            "Background": {
+          "Bg": {
+            "Default": {
               "value": "{semantic.Color.Background.UIElement.Moderate}",
               "type": "color"
-            },
-            "Foreground": {
+            }
+          },
+          "Fg": {
+            "Default": {
               "value": "{semantic.Color.Background.UIElement.Faded}",
               "type": "color"
             }
@@ -1209,24 +1213,28 @@
       },
       "IOS": {
         "Active": {
-          "Surface": {
-            "Background": {
+          "Bg": {
+            "Default": {
               "value": "{semantic.Color.Background.Brand.Primary}",
               "type": "color"
-            },
-            "Foreground": {
+            }
+          },
+          "Fg": {
+            "Default": {
               "value": "{semantic.Color.Background.UIElement.Faded}",
               "type": "color"
             }
           }
         },
         "Default": {
-          "Surface": {
-            "Background": {
+          "Bg": {
+            "Default": {
               "value": "{semantic.Color.Background.UIElement.Moderate}",
               "type": "color"
-            },
-            "Foreground": {
+            }
+          },
+          "Fg": {
+            "Default": {
               "value": "{semantic.Color.Background.UIElement.Faded}",
               "type": "color"
             }
@@ -1236,7 +1244,7 @@
     },
     "Tooltip": {
       "Color": {
-        "Surface": {
+        "Bg": {
           "Default": {
             "value": "{semantic.Color.Background.UIElement.Vivid}",
             "type": "color"
