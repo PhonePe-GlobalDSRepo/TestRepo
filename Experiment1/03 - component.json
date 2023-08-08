@@ -50,11 +50,9 @@
       }
     },
     "BottomNavigationBar": {
-      "Bg": {
-        "DefaultColor": {
-          "value": "{semantic.Color.Background.UIElement.Faded}",
-          "type": "color"
-        }
+      "BgColor": {
+        "value": "{semantic.Color.Background.UIElement.Faded}",
+        "type": "color"
       }
     },
     "BottomNavigationItem": {
@@ -1057,89 +1055,65 @@
     "Toggle": {
       "Android": {
         "Active": {
-          "Bg": {
-            "Default": {
-              "value": "{semantic.Color.Background.UIElement.Moderate}",
-              "type": "color"
-            }
+          "BgColor": {
+            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "type": "color"
           },
-          "Fg": {
-            "Default": {
-              "value": "{semantic.Color.Background.Accent.RichGreen}",
-              "type": "color"
-            }
+          "FgColor": {
+            "value": "{semantic.Color.Background.Accent.RichGreen}",
+            "type": "color"
           }
         },
         "Default": {
-          "Bg": {
-            "Default": {
-              "value": "{semantic.Color.Background.UIElement.Moderate}",
-              "type": "color"
-            }
+          "BgColor": {
+            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "type": "color"
           },
-          "Fg": {
-            "Default": {
-              "value": "{semantic.Color.Background.UIElement.Faded}",
-              "type": "color"
-            }
+          "FgColor": {
+            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "type": "color"
           }
         },
         "Disabled": {
-          "Bg": {
-            "Default": {
-              "value": "{semantic.Color.Background.UIElement.Moderate}",
-              "type": "color"
-            }
+          "BgColor": {
+            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "type": "color"
           },
-          "Fg": {
-            "Default": {
-              "value": "{semantic.Color.Background.UIElement.Rich}",
-              "type": "color"
-            }
+          "FgColor": {
+            "value": "{semantic.Color.Background.UIElement.Rich}",
+            "type": "color"
           }
         }
       },
       "IOS": {
         "Active": {
-          "Bg": {
-            "Default": {
-              "value": "{semantic.Color.Background.Accent.RichGreen}",
-              "type": "color"
-            }
+          "BgColor": {
+            "value": "{semantic.Color.Background.Accent.RichGreen}",
+            "type": "color"
           },
-          "Fg": {
-            "Default": {
-              "value": "{semantic.Color.Background.UIElement.Faded}",
-              "type": "color"
-            }
+          "FgColor": {
+            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "type": "color"
           }
         },
         "Default": {
-          "Bg": {
-            "Default": {
-              "value": "{semantic.Color.Background.UIElement.Moderate}",
-              "type": "color"
-            }
+          "BgColor": {
+            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "type": "color"
           },
-          "Fg": {
-            "Default": {
-              "value": "{semantic.Color.Background.UIElement.Faded}",
-              "type": "color"
-            }
+          "FgColor": {
+            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "type": "color"
           }
         },
         "Disabled": {
-          "Bg": {
-            "Default": {
-              "value": "{semantic.Color.Background.UIElement.Moderate}",
-              "type": "color"
-            }
+          "BgColor": {
+            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "type": "color"
           },
-          "Fg": {
-            "Default": {
-              "value": "{semantic.Color.Background.UIElement.Rich}",
-              "type": "color"
-            }
+          "FgColor": {
+            "value": "{semantic.Color.Background.UIElement.Rich}",
+            "type": "color"
           }
         }
       }
