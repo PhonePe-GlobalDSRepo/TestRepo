@@ -1160,7 +1160,7 @@
             "type": "color"
           },
           "SubTitle": {
-            "value": "{semantic.Color.Text.Default.Subtle}",
+            "value": "{base.Color.DeepPurple.50}",
             "type": "color"
           },
           "InverseTitle": {
