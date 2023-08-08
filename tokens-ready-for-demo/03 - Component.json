@@ -1098,7 +1098,7 @@
       },
       "Status": {
         "Color": {
-          "Surface": {
+          "Bg": {
             "Success": {
               "value": "{semantic.Color.Background.Success.Faded}",
               "type": "color"
