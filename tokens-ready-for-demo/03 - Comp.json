@@ -2,29 +2,25 @@
   "component": {
     "Avatar": {
       "Color": {
-        "Surface": {
-          "Background01": {
+        "Bg": {
+          "01": {
             "value": "{semantic.Color.Background.Brand.Primary}",
             "type": "color"
           },
-          "Background02": {
+          "02": {
             "value": "{semantic.Color.Background.Accent.RichBlue}",
             "type": "color"
           },
-          "Background03": {
+          "03": {
             "value": "{semantic.Color.Background.Accent.RichGreen}",
             "type": "color"
           },
-          "Background04": {
+          "04": {
             "value": "{semantic.Color.Background.Accent.RichPink}",
             "type": "color"
           },
-          "Background05": {
+          "05": {
             "value": "{semantic.Color.Background.Accent.RichOrange}",
-            "type": "color"
-          },
-          "Default": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
             "type": "color"
           }
         },
@@ -57,7 +53,7 @@
     },
     "BottomNavigationBar": {
       "Color": {
-        "Surface": {
+        "Bg": {
           "Default": {
             "value": "{semantic.Color.Background.UIElement.Faded}",
             "type": "color"
@@ -68,8 +64,8 @@
     "BottomNavigationItem": {
       "Default": {
         "Color": {
-          "Surface": {
-            "IconBackground": {
+          "Bg": {
+            "IconContainer": {
               "value": "{semantic.Color.Background.UIElement.Rich}",
               "type": "color"
             }
@@ -90,8 +86,8 @@
       },
       "Active": {
         "Color": {
-          "Surface": {
-            "IconBackground": {
+          "Bg": {
+            "IconContainer": {
               "value": "{semantic.Color.Background.Brand.Primary}",
               "type": "color"
             }
@@ -116,7 +112,7 @@
         "Primary": {
           "Active": {
             "Color": {
-              "Surface": {
+              "Bg": {
                 "Default": {
                   "value": "{semantic.Color.Background.Brand.Primary}",
                   "type": "color"
@@ -136,7 +132,7 @@
           },
           "Disabled": {
             "Color": {
-              "Surface": {
+              "Bg": {
                 "Default": {
                   "value": "{semantic.Color.Background.UIElement.Moderate}",
                   "type": "color"
@@ -154,7 +150,7 @@
         "Secondary": {
           "Active": {
             "Color": {
-              "Surface": {
+              "Bg": {
                 "Pressed": {
                   "value": "{semantic.Color.Background.Interaction.IS02}",
                   "type": "color"
@@ -194,7 +190,7 @@
         "Tertiary": {
           "Active": {
             "Color": {
-              "Surface": {
+              "Bg": {
                 "DefaultPressed": {
                   "value": "{semantic.Color.Background.Interaction.IS02}",
                   "type": "color"
@@ -248,7 +244,7 @@
         "Primary": {
           "Active": {
             "Color": {
-              "Surface": {
+              "Bg": {
                 "Default": {
                   "value": "{semantic.Color.Background.UIElement.Faded}",
                   "type": "color"
@@ -268,7 +264,7 @@
           },
           "Disabled": {
             "Color": {
-              "Surface": {
+              "Bg": {
                 "Default": {
                   "value": "{semantic.Color.Background.UIElement.Moderate}",
                   "type": "color"
@@ -286,7 +282,7 @@
         "Secondary": {
           "Active": {
             "Color": {
-              "Surface": {
+              "Bg": {
                 "Pressed": {
                   "value": "{semantic.Color.Background.UIElement.Faded}",
                   "type": "color"
@@ -326,7 +322,7 @@
         "Tertiary": {
           "Active": {
             "Color": {
-              "Surface": {
+              "Bg": {
                 "Pressed": {
                   "value": "{semantic.Color.Background.UIElement.Faded}",
                   "type": "color"
@@ -368,7 +364,7 @@
     "CarouselIndicator": {
       "Default": {
         "Color": {
-          "Surface": {
+          "Bg": {
             "Active": {
               "value": "{semantic.Color.Background.UIElement.Vivid}",
               "type": "color"
@@ -391,7 +387,7 @@
       },
       "Inverse": {
         "Color": {
-          "Surface": {
+          "Bg": {
             "Active": {
               "value": "{semantic.Color.Background.UIElement.Faded}",
               "type": "color"
@@ -417,7 +413,7 @@
       "SingleSelect": {
         "Default": {
           "Color": {
-            "Surface": {
+            "Bg": {
               "Default": {
                 "value": "{semantic.Color.Background.UIElement.Faded}",
                 "type": "color"
@@ -445,7 +441,7 @@
         },
         "Active": {
           "Color": {
-            "Surface": {
+            "Bg": {
               "Default": {
                 "value": "{semantic.Color.Background.Accent.RichGreen}",
                 "type": "color"
@@ -475,7 +471,7 @@
       "MultiSelect": {
         "Default": {
           "Color": {
-            "Surface": {
+            "Bg": {
               "Default": {
                 "value": "{semantic.Color.Background.UIElement.Faded}",
                 "type": "color"
@@ -503,7 +499,7 @@
         },
         "Active": {
           "Color": {
-            "Surface": {
+            "Bg": {
               "Default": {
                 "value": "{semantic.Color.Background.Accent.FadedGreen}",
                 "type": "color"
@@ -533,7 +529,7 @@
     },
     "FAB": {
       "Color": {
-        "Surface": {
+        "Bg": {
           "Default": {
             "value": "{semantic.Color.Background.Brand.Primary}",
             "type": "color"
@@ -550,7 +546,7 @@
     "Filter": {
       "Default": {
         "Color": {
-          "Surface": {
+          "Bg": {
             "Default": {
               "value": "{semantic.Color.Background.UIElement.Faded}",
               "type": "color"
@@ -578,7 +574,7 @@
       },
       "Active": {
         "Color": {
-          "Surface": {
+          "Bg": {
             "Default": {
               "value": "{semantic.Color.Background.Accent.FadedGreen}",
               "type": "color"
@@ -606,7 +602,7 @@
       },
       "Disabled": {
         "Color": {
-          "Surface": {
+          "Bg": {
             "Default": {
               "value": "{semantic.Color.Background.UIElement.Moderate}",
               "type": "color"
@@ -635,7 +631,7 @@
     },
     "InputField": {
       "Color": {
-        "Surface": {
+        "Bg": {
           "Default": {
             "value": "{semantic.Color.Background.UIElement.Faded}",
             "type": "color"
@@ -743,7 +739,7 @@
     },
     "Notes": {
       "Color": {
-        "Surface": {
+        "Bg": {
           "Default": {
             "value": "{semantic.Color.Background.Accent.FadedGrey}",
             "type": "color"
@@ -777,7 +773,7 @@
     },
     "NotificationBadge": {
       "Color": {
-        "Surface": {
+        "Bg": {
           "Default": {
             "value": "{semantic.Color.Background.Accent.RichGreen}",
             "type": "color"
@@ -799,7 +795,7 @@
     },
     "Overlay": {
       "Color": {
-        "Surface": {
+        "Bg": {
           "Default": {
             "value": "{semantic.Color.Background.UIElement.Intense}",
             "type": "color"
@@ -809,12 +805,14 @@
     },
     "ProgressBar": {
       "Color": {
-        "Surface": {
-          "Background": {
+        "Bg": {
+          "Default": {
             "value": "{semantic.Color.Background.UIElement.Moderate}",
             "type": "color"
-          },
-          "Foreground": {
+          }
+        },
+        "Fg": {
+          "Default": {
             "value": "{semantic.Color.Background.Accent.RichGreen}",
             "type": "color"
           }
@@ -829,12 +827,14 @@
     },
     "ProgressTracker": {
       "Color": {
-        "Surface": {
-          "Background": {
+        "Bg": {
+          "Default": {
             "value": "{semantic.Color.Background.UIElement.Moderate}",
             "type": "color"
-          },
-          "Foreground": {
+          }
+        },
+        "Fg": {
+          "Default": {
             "value": "{semantic.Color.Background.Accent.RichGreen}",
             "type": "color"
           }
@@ -854,7 +854,7 @@
     "Search": {
       "Default": {
         "Color": {
-          "Surface": {
+          "Bg": {
             "Default": {
               "value": "{semantic.Color.Background.UIElement.Faded}",
               "type": "color"
@@ -882,12 +882,12 @@
       },
       "Active": {
         "Color": {
-          "Surface": {
+          "Bg": {
             "Default": {
               "value": "{semantic.Color.Background.UIElement.Faded}",
               "type": "color"
             },
-            "IconBackground": {
+            "IconContainer": {
               "value": "{semantic.Color.Background.UIElement.Moderate}",
               "type": "color"
             }
@@ -981,7 +981,7 @@
     },
     "Snackbar": {
       "Color": {
-        "Surface": {
+        "Bg": {
           "Default": {
             "value": "{semantic.Color.Background.UIElement.Vivid}",
             "type": "color"
@@ -1020,28 +1020,28 @@
     "Tags": {
       "Default": {
         "Color": {
-          "Surface": {
-            "Background01": {
+          "Bg": {
+            "01": {
               "value": "{semantic.Color.Background.Accent.RichRed}",
               "type": "color"
             },
-            "Background02": {
+            "02": {
               "value": "{semantic.Color.Background.Accent.RichGreen}",
               "type": "color"
             },
-            "Background03": {
+            "03": {
               "value": "{semantic.Color.Background.Accent.RichOrange}",
               "type": "color"
             },
-            "Background04": {
+            "04": {
               "value": "{semantic.Color.Background.Accent.RichBlue}",
               "type": "color"
             },
-            "Background05": {
+            "05": {
               "value": "{semantic.Color.Background.Accent.RichPink}",
               "type": "color"
             },
-            "Background06": {
+            "06": {
               "value": "{semantic.Color.Background.UIElement.Rich}",
               "type": "color"
             }
