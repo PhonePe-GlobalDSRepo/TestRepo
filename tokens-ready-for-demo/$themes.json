@@ -4,10 +4,10 @@
     "name": "Light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "01 - base": "source",
-      "02 - semantic": "source",
-      "03 - Comp": "source",
-      "Theme/Light": "source"
+      "Theme/Light": "source",
+      "01 - Base": "source",
+      "02 - Semantic": "source",
+      "03 - Component": "source"
     },
     "group": "Theme"
   },
@@ -16,10 +16,10 @@
     "name": "Dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "01 - base": "source",
-      "02 - semantic": "source",
-      "03 - Comp": "source",
-      "Theme/Dark": "source"
+      "Theme/Dark": "source",
+      "01 - Base": "source",
+      "02 - Semantic": "source",
+      "03 - Component": "source"
     },
     "group": "Theme"
   },
@@ -28,10 +28,10 @@
     "name": "Deep Purple",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "01 - base": "source",
-      "02 - semantic": "source",
-      "03 - Comp": "source",
-      "Theme/Deep Purple": "source"
+      "Theme/Deep Purple": "source",
+      "01 - Base": "source",
+      "02 - Semantic": "source",
+      "03 - Component": "source"
     },
     "group": "Theme"
   }
