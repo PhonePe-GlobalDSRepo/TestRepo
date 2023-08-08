@@ -1017,6 +1017,48 @@
         }
       }
     },
+    "StatusBar": {
+      "Color": {
+        "Bg": {
+          "Default": {
+            "value": "{semantic.Color.Background.Brand.Primary}",
+            "type": "color"
+          },
+          "Inverse": {
+            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "type": "color"
+          },
+          "Success": {
+            "value": "{semantic.Color.Background.Success.Rich}",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "{semantic.Color.Background.Warning.Rich}",
+            "type": "color"
+          },
+          "Danger": {
+            "value": "{semantic.Color.Background.Danger.Rich}",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "{semantic.Color.Background.UIElement.Rich}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Default": {
+            "value": "{semantic.Color.Text.Neutral.White}",
+            "type": "color"
+          }
+        },
+        "Icon": {
+          "Default": {
+            "value": "{semantic.Color.Icon.Default.Soft}",
+            "type": "color"
+          }
+        }
+      }
+    },
     "Tags": {
       "Default": {
         "Color": {
