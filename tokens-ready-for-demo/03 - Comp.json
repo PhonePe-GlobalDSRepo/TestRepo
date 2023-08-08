@@ -1185,13 +1185,13 @@
         "Active": {
           "Bg": {
             "Default": {
-              "value": "{semantic.Color.Surface.Subtle09}",
+              "value": "{semantic.Color.Background.UIElement.Moderate}",
               "type": "color"
             }
           },
           "Fg": {
             "Default": {
-              "value": "{semantic.Color.Background.Brand.Primary}",
+              "value": "{semantic.Color.Background.Accent.RichGreen}",
               "type": "color"
             }
           }
@@ -1206,6 +1206,20 @@
           "Fg": {
             "Default": {
               "value": "{semantic.Color.Background.UIElement.Faded}",
+              "type": "color"
+            }
+          }
+        },
+        "Disabled": {
+          "Bg": {
+            "Default": {
+              "value": "{semantic.Color.Background.UIElement.Moderate}",
+              "type": "color"
+            }
+          },
+          "Fg": {
+            "Default": {
+              "value": "{semantic.Color.Background.UIElement.Rich}",
               "type": "color"
             }
           }
@@ -1215,7 +1229,7 @@
         "Active": {
           "Bg": {
             "Default": {
-              "value": "{semantic.Color.Background.Brand.Primary}",
+              "value": "{semantic.Color.Background.Accent.RichGreen}",
               "type": "color"
             }
           },
@@ -1236,6 +1250,20 @@
           "Fg": {
             "Default": {
               "value": "{semantic.Color.Background.UIElement.Faded}",
+              "type": "color"
+            }
+          }
+        },
+        "Disabled": {
+          "Bg": {
+            "Default": {
+              "value": "{semantic.Color.Background.UIElement.Moderate}",
+              "type": "color"
+            }
+          },
+          "Fg": {
+            "Default": {
+              "value": "{semantic.Color.Background.UIElement.Rich}",
               "type": "color"
             }
           }
