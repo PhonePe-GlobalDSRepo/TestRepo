@@ -1369,6 +1369,12 @@
             "type": "color"
           }
         },
+        "Action": {
+          "Primary": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          }
+        },
         "Default": {
           "Rich": {
             "value": "{base.Color.Grey.900}",
