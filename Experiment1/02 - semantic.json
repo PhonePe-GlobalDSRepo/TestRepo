@@ -1006,100 +1006,100 @@
         }
       },
       "Success": {
-        "RichBgColor": {
+        "RichBg": {
           "value": "{base.Color.Green.800}",
           "type": "color"
         },
-        "FadedBgColor": {
+        "FadedBg": {
           "value": "{base.Color.Green.50}",
           "type": "color"
         },
-        "TextColor": {
+        "Text": {
           "value": "{base.Color.Green.800}",
           "type": "color",
           "description": "Used for tags showing status"
         },
-        "BorderColor": {
+        "Border": {
           "value": "{base.Color.Green.800}",
           "type": "color",
           "description": "Used for tags showing status"
         },
-        "IconColor": {
+        "Icon": {
           "value": "{base.Color.Green.800}",
           "type": "color",
           "description": "Used for tags showing status"
         }
       },
       "Warning": {
-        "RichBgColor": {
+        "RichBg": {
           "value": "{base.Color.Orange.900}",
           "type": "color"
         },
-        "FadedBgColor": {
+        "FadedBg": {
           "value": "{base.Color.Orange.50}",
           "type": "color"
         },
-        "TextColor": {
+        "Text": {
           "value": "{base.Color.Orange.900}",
           "type": "color",
           "description": "Used for tags showing status"
         },
-        "BorderColor": {
+        "Border": {
           "value": "{base.Color.Orange.900}",
           "type": "color",
           "description": "Used for tags showing status"
         },
-        "IconColor": {
+        "Icon": {
           "value": "{base.Color.Orange.900}",
           "type": "color",
           "description": "Used for tags showing status"
         }
       },
       "Danger": {
-        "RichBgColor": {
+        "RichBg": {
           "value": "{base.Color.Red.900}",
           "type": "color"
         },
-        "FadedBgColor": {
+        "FadedBg": {
           "value": "{base.Color.Red.50}",
           "type": "color"
         },
-        "TextColor": {
+        "Text": {
           "value": "{base.Color.Red.900}",
           "type": "color",
           "description": "Used for tags showing status"
         },
-        "BorderColor": {
+        "Border": {
           "value": "{base.Color.Red.900}",
           "type": "color",
           "description": "Used for tags showing status"
         },
-        "IconColor": {
+        "Icon": {
           "value": "{base.Color.Red.900}",
           "type": "color",
           "description": "Used for tags showing status"
         }
       },
       "Information": {
-        "RichBgColor": {
+        "RichBg": {
           "value": "{base.Color.Blue.700}",
           "type": "color"
         },
-        "FadedBgColor": {
+        "FadedBg": {
           "value": "{base.Color.Blue.50}",
           "type": "color"
         },
-        "TextColor": {
+        "Text": {
           "value": "{base.Color.Blue.700}",
           "type": "color",
           "description": "Used for tags showing status"
         },
-        "BorderColor": {
+        "Border": {
           "value": "{base.Color.Blue.700}",
           "type": "color",
           "description": "Used for tags showing status"
         },
-        "IconColor": {
+        "Icon": {
           "value": "{base.Color.Blue.700}",
           "type": "color",
           "description": "Used for tags showing status"
@@ -1238,30 +1238,30 @@
           }
         },
         "Action": {
-          "PrimaryDefaultColor": {
+          "PrimaryDefault": {
             "value": "{semantic.ColorCopy.Brand.Primary}",
             "type": "color"
           },
-          "PrimaryPressedColor": {
+          "PrimaryPressed": {
             "value": "{base.Color.Purple.700}",
             "type": "color"
           },
-          "InverseDefaultColor": {
+          "InverseDefault": {
             "value": "{base.Color.Neutral.White}",
             "type": "color",
             "description": "Used for Tertiary CTA hover or pressed UI"
           },
-          "InversePressedColor": {
+          "InversePressed": {
             "value": "{base.Color.Purple.100}",
             "type": "color",
             "description": "Used for Tertiary CTA hover or pressed UI"
           },
-          "DangerPressedColor": {
+          "DangerPressed": {
             "value": "{base.Color.Red.50}",
             "type": "color",
             "description": "Used for Tertiary CTA hover or pressed UI"
           },
-          "SelectionColor": {
+          "Selection": {
             "value": "{base.Color.Green.800}",
             "type": "color"
           }
@@ -1339,20 +1339,15 @@
           }
         },
         "Action": {
-          "PrimaryColor": {
+          "Primary": {
             "value": "{semantic.Color.Brand.Primary}",
             "type": "color",
             "description": "Used for Links or URLs"
           },
-          "SecondaryColor": {
+          "Secondary": {
             "value": "{base.Color.LightPurple.500}",
             "type": "color",
             "description": "Used for actions in the snackbar"
-          },
-          "SelectionColor": {
-            "value": "{base.Color.Green.800}",
-            "type": "color",
-            "description": "Used in form elements to show active text or any selected state."
           }
         },
         "Brand": {
@@ -1372,6 +1367,10 @@
         "Action": {
           "Primary": {
             "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          },
+          "Selection": {
+            "value": "{base.Color.Green.800}",
             "type": "color"
           }
         },
@@ -1441,12 +1440,12 @@
           }
         },
         "Action": {
-          "PrimaryColor": {
+          "Primary": {
             "value": "{semantic.Color.Brand.Primary}",
             "type": "color",
             "description": "Used for Links or URLs"
           },
-          "SelectionColor": {
+          "Selection": {
             "value": "{base.Color.Green.800}",
             "type": "color",
             "description": "Used in form elements to show active text or any selected state."
