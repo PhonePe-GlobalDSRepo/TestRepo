@@ -51,7 +51,7 @@
     },
     "BottomNavigationBar": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Faded}",
+        "value": "{semantic.Color.Background.UIElement.Soft}",
         "type": "color"
       }
     },

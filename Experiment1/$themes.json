@@ -22,5 +22,17 @@
       "03 - component": "source"
     },
     "group": "Theme"
+  },
+  {
+    "id": "fb8ee2d48c70639f334ffc74bc6be3f81d91bcab",
+    "name": "DeepPurple",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "01 - base": "source",
+      "02 - semantic": "source",
+      "03 - component": "source",
+      "Theme/DeepPurple": "enabled"
+    },
+    "group": "Theme"
   }
 ]
