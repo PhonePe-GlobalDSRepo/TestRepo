@@ -194,7 +194,7 @@
             "description": "Used background color active"
           },
           "Soft": {
-            "value": "{base.Color.Neutral.White}",
+            "value": "{base.Color.DeepGrey.800}",
             "type": "color",
             "description": "Used background color active"
           }

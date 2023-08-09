@@ -192,6 +192,10 @@
             "value": "{base.Color.DeepPurple.500}",
             "type": "color",
             "description": "Used background color active"
+          },
+          "Soft": {
+            "value": "{base.Color.DeepPurple.600}",
+            "type": "color"
           }
         },
         "Surface": {
