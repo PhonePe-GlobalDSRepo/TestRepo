@@ -446,7 +446,7 @@
     "InputField": {
       "Default": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Faded}",
+          "value": "{semantic.Color.Background.UIElement.Soft}",
           "type": "color"
         },
         "PrefilledBgColor": {
@@ -484,7 +484,7 @@
       },
       "Active": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Faded}",
+          "value": "{semantic.Color.Background.UIElement.Soft}",
           "type": "color"
         },
         "PrefilledBgColor": {
@@ -522,7 +522,7 @@
       },
       "Filled": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Faded}",
+          "value": "{semantic.Color.Background.UIElement.Soft}",
           "type": "color"
         },
         "PrefilledBgColor": {
@@ -560,7 +560,7 @@
       },
       "Danger": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Faded}",
+          "value": "{semantic.Color.Background.UIElement.Soft}",
           "type": "color"
         },
         "PrefilledBgColor": {
