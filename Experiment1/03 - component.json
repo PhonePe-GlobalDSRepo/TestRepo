@@ -24,7 +24,7 @@
         }
       },
       "Text": {
-        "DefaultColor": {
+        "Color": {
           "value": "{semantic.Color.Text.Neutral.White}",
           "type": "color"
         }
@@ -182,7 +182,7 @@
         "Primary": {
           "Active": {
             "BgColor": {
-              "value": "{semantic.Color.Background.UIElement.Faded}",
+              "value": "{semantic.Color.Background.UIElement.Soft}",
               "type": "color"
             },
             "PressedBgColor": {
@@ -303,7 +303,7 @@
       "SingleSelect": {
         "Default": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "value": "{semantic.Color.Background.UIElement.Soft}",
             "type": "color"
           },
           "TextColor": {
@@ -341,7 +341,7 @@
       "MultiSelect": {
         "Default": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "value": "{semantic.Color.Background.UIElement.Soft}",
             "type": "color"
           },
           "TextColor": {
@@ -383,14 +383,14 @@
         "type": "color"
       },
       "IconColor": {
-        "value": "{semantic.Color.Icon.Default.Soft}",
+        "value": "{semantic.Color.Icon.Neutral.White}",
         "type": "color"
       }
     },
     "Filter": {
       "Default": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Faded}",
+          "value": "{semantic.Color.Background.UIElement.Soft}",
           "type": "color"
         },
         "TextColor": {
@@ -680,7 +680,7 @@
     "Notes": {
       "Bg": {
         "DefaultColor": {
-          "value": "{semantic.Color.Background.Accent.FadedGrey}",
+          "value": "{semantic.ColorCopy.Background.UIElement.Faded}",
           "type": "color"
         },
         "VerticalBarColor": {
@@ -703,7 +703,7 @@
         }
       },
       "Border": {
-        "DefaultColor": {
+        "Color": {
           "value": "{semantic.Color.Border.Default.Subtle}",
           "type": "color"
         }
@@ -764,7 +764,7 @@
     "Search": {
       "Default": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Faded}",
+          "value": "{semantic.Color.Background.UIElement.Soft}",
           "type": "color"
         },
         "TextColor": {
@@ -782,7 +782,7 @@
       },
       "Active": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Faded}",
+          "value": "{semantic.Color.Background.UIElement.Soft}",
           "type": "color"
         },
         "IconContainerColor": {
@@ -875,8 +875,8 @@
           "value": "{semantic.Color.Background.UIElement.Vivid}",
           "type": "color"
         },
-        "TextColor": {
-          "value": "{semantic.Color.Text.Default.Soft}",
+        "TextColorT": {
+          "value": "{semantic.Color.Text.Neutral.White}",
           "type": "color"
         },
         "ButtonTextColor": {
@@ -894,7 +894,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default.Soft}",
+          "value": "{semantic.Color.Text.Neutral.White}",
           "type": "color"
         }
       },
@@ -904,7 +904,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default.Soft}",
+          "value": "{semantic.Color.Text.Neutral.White}",
           "type": "color"
         }
       },
@@ -914,7 +914,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default.Soft}",
+          "value": "{semantic.Color.Text.Neutral.White}",
           "type": "color"
         }
       }
@@ -930,13 +930,13 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Soft}",
+          "value": "{semantic.Color.Icon.Neutral.White}",
           "type": "color"
         }
       },
       "Inverse": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Faded}",
+          "value": "{semantic.Color.Background.UIElement.Soft}",
           "type": "color"
         },
         "TextColor": {
@@ -958,7 +958,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Soft}",
+          "value": "{semantic.Color.Icon.Neutral.White}",
           "type": "color"
         }
       },
@@ -972,7 +972,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Soft}",
+          "value": "{semantic.Color.Icon.Neutral.White}",
           "type": "color"
         }
       },
@@ -986,7 +986,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Soft}",
+          "value": "{semantic.Color.Icon.Neutral.White}",
           "type": "color"
         }
       },
@@ -1000,7 +1000,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Soft}",
+          "value": "{semantic.Color.Icon.Neutral.White}",
           "type": "color"
         }
       }
@@ -1035,7 +1035,7 @@
         },
         "Text": {
           "Color": {
-            "value": "{semantic.Color.Text.Default.Soft}",
+            "value": "{semantic.Color.Text.Neutral.White}",
             "type": "color"
           }
         }
@@ -1123,7 +1123,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Soft}",
+          "value": "{semantic.Color.Icon.Neutral.White}",
           "type": "color"
         }
       },
@@ -1154,8 +1154,8 @@
           "value": "{semantic.Color.Text.Default.Subtle}",
           "type": "color"
         },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Soft}",
+        "IconColorI": {
+          "value": "{semantic.Color.Icon.Neutral.White}",
           "type": "color"
         }
       },
@@ -1173,7 +1173,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Soft}",
+          "value": "{semantic.Color.Icon.Neutral.White}",
           "type": "color"
         }
       },
@@ -1191,7 +1191,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Soft}",
+          "value": "{semantic.Color.Icon.Neutral.White}",
           "type": "color"
         }
       },
@@ -1209,7 +1209,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Soft}",
+          "value": "{semantic.Color.Icon.Neutral.White}",
           "type": "color"
         }
       }
@@ -1232,7 +1232,7 @@
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "value": "{semantic.Color.Background.UIElement.Soft}",
             "type": "color"
           }
         },
@@ -1253,8 +1253,8 @@
             "value": "{semantic.Color.Background.Accent.RichGreen}",
             "type": "color"
           },
-          "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
+          "FgColorU": {
+            "value": "{semantic.Color.Background.UIElement.Soft}",
             "type": "color"
           }
         },
@@ -1264,7 +1264,7 @@
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "value": "{semantic.Color.Background.UIElement.Soft}",
             "type": "color"
           }
         },
@@ -1286,7 +1286,7 @@
         "type": "color"
       },
       "TextColor": {
-        "value": "{semantic.Color.Text.Default.Soft}",
+        "value": "{semantic.Color.Text.Neutral.White}",
         "type": "color"
       }
     }

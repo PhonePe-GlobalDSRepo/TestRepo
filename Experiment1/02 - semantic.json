@@ -474,6 +474,18 @@
             "type": "color",
             "description": "Used for tags showing status"
           }
+        },
+        "Neutral": {
+          "White": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color",
+            "description": "Used on dark backgrounds"
+          },
+          "Black": {
+            "value": "{base.Color.Grey.900}",
+            "type": "color",
+            "description": "Used on dark background mostly Brand Primary"
+          }
         }
       }
     },
