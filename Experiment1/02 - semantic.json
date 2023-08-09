@@ -475,24 +475,6 @@
             "description": "Used for tags showing status"
           }
         }
-      },
-      "Action": {
-        "Default": {
-          "BgColor": {
-            "value": "{semantic.Color.Brand.Primary}",
-            "type": "color"
-          },
-          "TextColor": {
-            "value": "{semantic.Color.Brand.Primary}",
-            "type": "color"
-          }
-        },
-        "Selection": {
-          "DefaultColor": {
-            "value": "{base.Color.Green.800}",
-            "type": "color"
-          }
-        }
       }
     },
     "FontSize": {
