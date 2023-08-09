@@ -475,6 +475,28 @@
             "description": "Used for tags showing status"
           }
         }
+      },
+      "Action": {
+        "Default": {
+          "BgColor": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          },
+          "TextColor": {
+            "value": "{semantic.Color.Brand.Primary}",
+            "type": "color"
+          }
+        },
+        "Danger": {
+          "DangerBgColor": {
+            "value": "{semantic.Color.Background.Danger.Rich}",
+            "type": "color"
+          },
+          "DangerTextColor": {
+            "value": "{semantic.Color.Background.Danger.Rich}",
+            "type": "color"
+          }
+        }
       }
     },
     "FontSize": {
