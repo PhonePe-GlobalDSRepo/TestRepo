@@ -804,57 +804,65 @@
       }
     },
     "Separator": {
-      "Item": {
-        "DefaultBorderColor": {
-          "value": "{semantic.Color.Border.Default.Intense}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.05",
-                "space": "srgb"
+      "Default": {
+        "Item": {
+          "BorderColor": {
+            "value": "{semantic.Color.Border.Default.Intense}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.05",
+                  "space": "srgb"
+                }
               }
             }
           }
         },
-        "InverseBorderColor": {
-          "value": "{semantic.Color.Border.Default.Soft}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.05",
-                "space": "srgb"
+        "Section": {
+          "BorderColor": {
+            "value": "{semantic.Color.Border.Default.Intense}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "srgb"
+                }
               }
             }
           }
         }
       },
-      "Section": {
-        "DefaultBorderColor": {
-          "value": "{semantic.Color.Border.Default.Intense}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.1",
-                "space": "srgb"
+      "Inverse": {
+        "Item": {
+          "BorderColor": {
+            "value": "{semantic.Color.Border.Default.Soft}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.05",
+                  "space": "srgb"
+                }
               }
             }
           }
         },
-        "InverseBorderColor": {
-          "value": "{semantic.Color.Border.Default.Soft}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.1",
-                "space": "srgb"
+        "Section": {
+          "BorderColor": {
+            "value": "{semantic.Color.Border.Default.Soft}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "srgb"
+                }
               }
             }
           }
@@ -1026,7 +1034,7 @@
           }
         },
         "Text": {
-          "DefaultColor": {
+          "Color": {
             "value": "{semantic.Color.Text.Default.Soft}",
             "type": "color"
           }
