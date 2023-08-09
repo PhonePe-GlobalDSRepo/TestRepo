@@ -231,6 +231,27 @@
         }
       },
       "Text": {
+        "Success": {
+          "Rich": {
+            "value": "{base.Color.Green.400}",
+            "type": "color",
+            "$extensions": {}
+          }
+        },
+        "Warning": {
+          "Rich": {
+            "value": "{base.Color.Orange.500}",
+            "type": "color",
+            "$extensions": {}
+          }
+        },
+        "Danger": {
+          "Rich": {
+            "value": "{base.Color.Red.200}",
+            "type": "color",
+            "$extensions": {}
+          }
+        },
         "Default": {
           "Primary": {
             "value": "{base.Color.DeepPurple.50}",
