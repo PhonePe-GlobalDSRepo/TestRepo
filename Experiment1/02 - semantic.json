@@ -487,13 +487,9 @@
             "type": "color"
           }
         },
-        "Danger": {
-          "DangerBgColor": {
-            "value": "{semantic.Color.Background.Danger.Rich}",
-            "type": "color"
-          },
-          "DangerTextColor": {
-            "value": "{semantic.Color.Background.Danger.Rich}",
+        "Selection": {
+          "DefaultColor": {
+            "value": "{base.Color.Green.800}",
             "type": "color"
           }
         }
