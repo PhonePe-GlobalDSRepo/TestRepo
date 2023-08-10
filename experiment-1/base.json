@@ -55,23 +55,23 @@
       }
     },
     "LetterSpacing": {
-      "ExtraTight": {
+      "None": {
         "value": "0%",
         "type": "letterSpacing"
       },
-      "Tight": {
+      "Normal": {
         "value": "1.5%",
         "type": "letterSpacing"
       },
-      "Medium": {
+      "Moderate": {
         "value": "2%",
         "type": "letterSpacing"
       },
-      "Loose": {
+      "Medium": {
         "value": "4%",
         "type": "letterSpacing"
       },
-      "ExtraLoose": {
+      "Loose": {
         "value": "12%",
         "type": "letterSpacing"
       }
@@ -243,11 +243,11 @@
       }
     },
     "BorderWidth": {
-      "Light": {
+      "Default": {
         "value": "1",
         "type": "borderWidth"
       },
-      "Regular": {
+      "Moderate": {
         "value": "1.5",
         "type": "borderWidth"
       },
@@ -255,20 +255,20 @@
         "value": "2",
         "type": "borderWidth"
       },
-      "Bold": {
+      "Heavy": {
         "value": "4",
         "type": "borderWidth"
       }
     },
     "Elevation": {
-      "YTop": {
+      "Top": {
         "M": {
           "value": {
             "x": "0",
             "y": "-4",
             "blur": "8",
             "spread": "0",
-            "color": "rgba(0,0,0,0.08)",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.08)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -279,20 +279,20 @@
             "y": "-24",
             "blur": "80",
             "spread": "0",
-            "color": "rgba(0,0,0,0.3)",
+            "color": "rgba( {base.Color.Neutral.Black} 0.3)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
         }
       },
-      "YBottom": {
+      "Bottom": {
         "S": {
           "value": {
             "x": "0",
             "y": "2",
             "blur": "2",
             "spread": "0",
-            "color": "rgba(0,0,0,0.04)",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.04)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -303,7 +303,7 @@
             "y": "4",
             "blur": "4",
             "spread": "0",
-            "color": "rgba(0,0,0,0.08)",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.08)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -314,7 +314,7 @@
             "y": "0",
             "blur": "16",
             "spread": "0",
-            "color": "rgba(0,0,0,0.16)",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.16)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -325,7 +325,7 @@
             "y": "24",
             "blur": "80",
             "spread": "0",
-            "color": "rgba(0,0,0,0.3)",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.3)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
