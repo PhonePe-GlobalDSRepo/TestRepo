@@ -987,11 +987,11 @@
             "type": "color"
           },
           "Success": {
-            "value": "{semantic.Color.Background.Success.Rich}",
+            "value": "{semantic.Color.Success.Rich}",
             "type": "color"
           },
           "Warning": {
-            "value": "{semantic.Color.Background.Warning.Rich}",
+            "value": "{semantic.Color.Warning.Rich}",
             "type": "color"
           },
           "Danger": {
@@ -1029,11 +1029,11 @@
             "type": "color"
           },
           "Success": {
-            "value": "{semantic.Color.Background.Success.Rich}",
+            "value": "{semantic.Color.Success.Rich}",
             "type": "color"
           },
           "Warning": {
-            "value": "{semantic.Color.Background.Warning.Rich}",
+            "value": "{semantic.Color.Warning.Rich}",
             "type": "color"
           },
           "Danger": {
@@ -1100,11 +1100,11 @@
         "Color": {
           "Bg": {
             "Success": {
-              "value": "{semantic.Color.Background.Success.Faded}",
+              "value": "{semantic.Color.Success.Faded}",
               "type": "color"
             },
             "Warning": {
-              "value": "{semantic.Color.Background.Warning.Faded}",
+              "value": "{semantic.Color.Warning.Faded}",
               "type": "color"
             },
             "Error": {
@@ -1180,11 +1180,11 @@
             "type": "color"
           },
           "Success": {
-            "value": "{semantic.Color.Background.Success.Rich}",
+            "value": "{semantic.Color.Success.Rich}",
             "type": "color"
           },
           "Warning": {
-            "value": "{semantic.Color.Background.Warning.Rich}",
+            "value": "{semantic.Color.Warning.Rich}",
             "type": "color"
           },
           "Danger": {

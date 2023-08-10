@@ -42,26 +42,6 @@
             "type": "color"
           }
         },
-        "Success": {
-          "Rich": {
-            "value": "{base.Color.Green.800}",
-            "type": "color"
-          },
-          "Faded": {
-            "value": "{base.Color.Green.50}",
-            "type": "color"
-          }
-        },
-        "Warning": {
-          "Rich": {
-            "value": "{base.Color.Orange.900}",
-            "type": "color"
-          },
-          "Faded": {
-            "value": "{base.Color.Orange.50}",
-            "type": "color"
-          }
-        },
         "Danger": {
           "Rich": {
             "value": "{base.Color.Red.900}",
@@ -227,6 +207,26 @@
             "type": "color",
             "description": "Used for Tertiary Destructive CTA hover or pressed UI"
           }
+        }
+      },
+      "Success": {
+        "Rich": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Faded": {
+          "value": "{base.Color.Green.50}",
+          "type": "color"
+        }
+      },
+      "Warning": {
+        "Rich": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color"
+        },
+        "Faded": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
         }
       },
       "Text": {
