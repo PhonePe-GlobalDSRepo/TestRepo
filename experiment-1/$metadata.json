@@ -1,6 +1,9 @@
 {
   "tokenSetOrder": [
     "base",
-    "semantic"
+    "semantic",
+    "Theme/Light",
+    "Theme/Dark",
+    "Theme/Deep Purple"
   ]
 }
