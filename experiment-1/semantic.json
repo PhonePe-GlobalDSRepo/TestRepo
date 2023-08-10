@@ -326,6 +326,10 @@
             "value": "{base.Color.LightPurple.500}",
             "type": "color",
             "description": "Used for overline heading"
+          },
+          "RichYellow": {
+            "value": "{base.Color.Yellow.200}",
+            "type": "color"
           }
         },
         "Interaction": {
