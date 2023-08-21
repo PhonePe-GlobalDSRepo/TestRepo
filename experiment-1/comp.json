@@ -55,7 +55,7 @@
       "Color": {
         "Bg": {
           "Default": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "value": "{semantic.Color.Background.Default.Faded}",
             "type": "color"
           }
         }
@@ -66,7 +66,7 @@
         "Color": {
           "Bg": {
             "IconContainer": {
-              "value": "{semantic.Color.Background.UIElement.Rich}",
+              "value": "{semantic.Color.Background.Default.Rich}",
               "type": "color"
             }
           },
@@ -134,7 +134,7 @@
             "Color": {
               "Bg": {
                 "Default": {
-                  "value": "{semantic.Color.Background.UIElement.Moderate}",
+                  "value": "{semantic.Color.Background.Default.Moderate}",
                   "type": "color"
                 }
               },
@@ -246,11 +246,11 @@
             "Color": {
               "Bg": {
                 "Default": {
-                  "value": "{semantic.Color.Background.UIElement.Faded}",
+                  "value": "{semantic.Color.Background.Default.Faded}",
                   "type": "color"
                 },
                 "Pressed": {
-                  "value": "{semantic.Color.Background.UIElement.Faded}",
+                  "value": "{semantic.Color.Background.Default.Faded}",
                   "type": "color"
                 }
               },
@@ -266,7 +266,7 @@
             "Color": {
               "Bg": {
                 "Default": {
-                  "value": "{semantic.Color.Background.UIElement.Moderate}",
+                  "value": "{semantic.Color.Background.Default.Moderate}",
                   "type": "color"
                 }
               },
@@ -284,7 +284,7 @@
             "Color": {
               "Bg": {
                 "Pressed": {
-                  "value": "{semantic.Color.Background.UIElement.Faded}",
+                  "value": "{semantic.Color.Background.Default.Faded}",
                   "type": "color"
                 }
               },
@@ -324,7 +324,7 @@
             "Color": {
               "Bg": {
                 "Pressed": {
-                  "value": "{semantic.Color.Background.UIElement.Faded}",
+                  "value": "{semantic.Color.Background.Default.Faded}",
                   "type": "color"
                 }
               },
@@ -366,11 +366,11 @@
         "Color": {
           "Bg": {
             "Active": {
-              "value": "{semantic.Color.Background.UIElement.Vivid}",
+              "value": "{semantic.Color.Background.Default.Vivid}",
               "type": "color"
             },
             "Inactive": {
-              "value": "{semantic.Color.Background.UIElement.Vivid}",
+              "value": "{semantic.Color.Background.Default.Vivid}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -389,11 +389,11 @@
         "Color": {
           "Bg": {
             "Active": {
-              "value": "{semantic.Color.Background.UIElement.Faded}",
+              "value": "{semantic.Color.Background.Default.Faded}",
               "type": "color"
             },
             "Inactive": {
-              "value": "{semantic.Color.Background.UIElement.Faded}",
+              "value": "{semantic.Color.Background.Default.Faded}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -415,7 +415,7 @@
           "Color": {
             "Bg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Soft}",
+                "value": "{semantic.Color.Background.Default.Soft}",
                 "type": "color"
               }
             },
@@ -473,7 +473,7 @@
           "Color": {
             "Bg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Soft}",
+                "value": "{semantic.Color.Background.Default.Soft}",
                 "type": "color"
               }
             },
@@ -548,7 +548,7 @@
         "Color": {
           "Bg": {
             "Default": {
-              "value": "{semantic.Color.Background.UIElement.Soft}",
+              "value": "{semantic.Color.Background.Default.Soft}",
               "type": "color"
             }
           },
@@ -604,7 +604,7 @@
         "Color": {
           "Bg": {
             "Default": {
-              "value": "{semantic.Color.Background.UIElement.Moderate}",
+              "value": "{semantic.Color.Background.Default.Moderate}",
               "type": "color"
             }
           },
@@ -633,19 +633,19 @@
       "Color": {
         "Bg": {
           "Default": {
-            "value": "{semantic.Color.Background.UIElement.Soft}",
+            "value": "{semantic.Color.Background.Default.Soft}",
             "type": "color"
           },
           "Disabled": {
-            "value": "{semantic.Color.Background.UIElement.Subtle}",
+            "value": "{semantic.Color.Background.Default.Subtle}",
             "type": "color"
           },
           "Prefilled": {
-            "value": "{semantic.Color.Background.UIElement.Subtle}",
+            "value": "{semantic.Color.Background.Default.Subtle}",
             "type": "color"
           },
           "DisabledPrefilled": {
-            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "value": "{semantic.Color.Background.Default.Moderate}",
             "type": "color"
           }
         },
@@ -797,7 +797,7 @@
       "Color": {
         "Bg": {
           "Default": {
-            "value": "{semantic.Color.Background.UIElement.Intense}",
+            "value": "{semantic.Color.Background.Default.Intense}",
             "type": "color"
           }
         }
@@ -807,7 +807,7 @@
       "Color": {
         "Bg": {
           "Default": {
-            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "value": "{semantic.Color.Background.Default.Moderate}",
             "type": "color"
           }
         },
@@ -829,7 +829,7 @@
       "Color": {
         "Bg": {
           "Default": {
-            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "value": "{semantic.Color.Background.Default.Moderate}",
             "type": "color"
           }
         },
@@ -856,7 +856,7 @@
         "Color": {
           "Bg": {
             "Default": {
-              "value": "{semantic.Color.Background.UIElement.Soft}",
+              "value": "{semantic.Color.Background.Default.Soft}",
               "type": "color"
             }
           },
@@ -884,11 +884,11 @@
         "Color": {
           "Bg": {
             "Default": {
-              "value": "{semantic.Color.Background.UIElement.Soft}",
+              "value": "{semantic.Color.Background.Default.Soft}",
               "type": "color"
             },
             "IconContainer": {
-              "value": "{semantic.Color.Background.UIElement.Moderate}",
+              "value": "{semantic.Color.Background.Default.Moderate}",
               "type": "color"
             }
           },
@@ -983,7 +983,7 @@
       "Color": {
         "Bg": {
           "Default": {
-            "value": "{semantic.Color.Background.UIElement.Vivid}",
+            "value": "{semantic.Color.Background.Default.Vivid}",
             "type": "color"
           },
           "Success": {
@@ -1025,7 +1025,7 @@
             "type": "color"
           },
           "Inverse": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "value": "{semantic.Color.Background.Default.Faded}",
             "type": "color"
           },
           "Success": {
@@ -1041,7 +1041,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "{semantic.Color.Background.UIElement.Rich}",
+            "value": "{semantic.Color.Background.Default.Rich}",
             "type": "color"
           }
         },
@@ -1084,7 +1084,7 @@
               "type": "color"
             },
             "06": {
-              "value": "{semantic.Color.Background.UIElement.Rich}",
+              "value": "{semantic.Color.Background.Default.Rich}",
               "type": "color"
             }
           },
@@ -1112,7 +1112,7 @@
               "type": "color"
             },
             "Disabled": {
-              "value": "{semantic.Color.Background.UIElement.Moderate}",
+              "value": "{semantic.Color.Background.Default.Moderate}",
               "type": "color"
             }
           },
@@ -1176,7 +1176,7 @@
             "type": "color"
           },
           "Inverse": {
-            "value": "{semantic.Color.Background.UIElement.Faded}",
+            "value": "{semantic.Color.Background.Default.Faded}",
             "type": "color"
           },
           "Success": {
@@ -1192,7 +1192,7 @@
             "type": "color"
           },
           "Disabled": {
-            "value": "{semantic.Color.Background.UIElement.Rich}",
+            "value": "{semantic.Color.Background.Default.Rich}",
             "type": "color"
           }
         },
@@ -1228,7 +1228,7 @@
           "Color": {
             "Bg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Moderate}",
+                "value": "{semantic.Color.Background.Default.Moderate}",
                 "type": "color"
               }
             },
@@ -1244,13 +1244,13 @@
           "Color": {
             "Bg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Moderate}",
+                "value": "{semantic.Color.Background.Default.Moderate}",
                 "type": "color"
               }
             },
             "Fg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Faded}",
+                "value": "{semantic.Color.Background.Default.Faded}",
                 "type": "color"
               }
             }
@@ -1260,13 +1260,13 @@
           "Color": {
             "Bg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Moderate}",
+                "value": "{semantic.Color.Background.Default.Moderate}",
                 "type": "color"
               }
             },
             "Fg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Rich}",
+                "value": "{semantic.Color.Background.Default.Rich}",
                 "type": "color"
               }
             }
@@ -1284,7 +1284,7 @@
             },
             "Fg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Faded}",
+                "value": "{semantic.Color.Background.Default.Faded}",
                 "type": "color"
               }
             }
@@ -1294,13 +1294,13 @@
           "Color": {
             "Bg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Moderate}",
+                "value": "{semantic.Color.Background.Default.Moderate}",
                 "type": "color"
               }
             },
             "Fg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Faded}",
+                "value": "{semantic.Color.Background.Default.Faded}",
                 "type": "color"
               }
             }
@@ -1310,13 +1310,13 @@
           "Color": {
             "Bg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Moderate}",
+                "value": "{semantic.Color.Background.Default.Moderate}",
                 "type": "color"
               }
             },
             "Fg": {
               "Default": {
-                "value": "{semantic.Color.Background.UIElement.Rich}",
+                "value": "{semantic.Color.Background.Default.Rich}",
                 "type": "color"
               }
             }
@@ -1328,7 +1328,7 @@
       "Color": {
         "Bg": {
           "Default": {
-            "value": "{semantic.Color.Background.UIElement.Vivid}",
+            "value": "{semantic.Color.Background.Default.Vivid}",
             "type": "color"
           }
         },
