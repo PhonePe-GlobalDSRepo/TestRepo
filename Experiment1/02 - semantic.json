@@ -128,10 +128,6 @@
         "type": "borderWidth",
         "description": "Used for default inpur fields,etc."
       },
-      "Moderate": {
-        "value": "{base.BorderWidth.Moderate}",
-        "type": "borderWidth"
-      },
       "Medium": {
         "value": "{base.BorderWidth.Medium}",
         "type": "borderWidth"
@@ -976,10 +972,6 @@
           }
         },
         "Default": {
-          "Active": {
-            "value": "{base.Color.Green.800}",
-            "type": "color"
-          },
           "Intense": {
             "value": "{base.Color.Neutral.Black}",
             "type": "color",
@@ -994,16 +986,16 @@
             "value": "{base.Color.Grey.400}",
             "type": "color"
           },
-          "Subtle": {
+          "Muted": {
             "value": "{base.Color.Grey.300}",
             "type": "color"
           },
-          "Faded": {
+          "Pale": {
             "value": "{base.Color.Grey.200}",
             "type": "color",
             "description": "Used as border for inpur field in disabled state"
           },
-          "Soft": {
+          "Pure": {
             "value": "{base.Color.Neutral.White}",
             "type": "color",
             "description": "Used with child avatars"

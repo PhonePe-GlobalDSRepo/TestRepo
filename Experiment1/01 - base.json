@@ -247,10 +247,6 @@
         "value": "1",
         "type": "borderWidth"
       },
-      "Moderate": {
-        "value": "1.5",
-        "type": "borderWidth"
-      },
       "Medium": {
         "value": "2",
         "type": "borderWidth"
