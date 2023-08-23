@@ -756,6 +756,11 @@
           "GreySubtle": {
             "value": "{base.Color.Grey.50}",
             "type": "color"
+          },
+          "PurpleBold": {
+            "value": "{base.Color.Purple.500}",
+            "type": "color",
+            "description": "Avatars"
           }
         },
         "UIElement": {
