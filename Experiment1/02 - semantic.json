@@ -568,11 +568,6 @@
           "type": "color",
           "description": "Ribbon and success title bar"
         },
-        "BorderBold": {
-          "value": "{base.Color.Green.800}",
-          "type": "color",
-          "description": "Chips, Filter"
-        },
         "BorderMuted": {
           "value": "{base.Color.Green.200}",
           "type": "color",
@@ -1030,6 +1025,38 @@
             "type": "color",
             "description": "Used in form elements to show active text or any selected state."
           }
+        }
+      },
+      "Selection": {
+        "BackgroundBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "description": "Date picker date bg, toggle, Toggle pill background"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Green.50}",
+          "type": "color",
+          "description": "Date picker date range background, Chips & filters background, Toggle circle background"
+        },
+        "TextBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "description": "Text color on progress bar"
+        },
+        "TextSubtle": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "description": "Date picker in dates, Chips "
+        },
+        "BorderBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "description": "Chips, Filter"
+        },
+        "Icon": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "description": "Checkbox, Radio button, Notification badge"
         }
       }
     }
