@@ -694,7 +694,8 @@
         "Brand": {
           "Primary": {
             "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color"
+            "type": "color",
+            "description": "Primary CTA, Primary Icons, Title bar"
           }
         },
         "Accent": {
@@ -706,11 +707,12 @@
             "value": "{base.Color.Pink.50}",
             "type": "color"
           },
-          "RichGreen": {
+          "GreenBold": {
             "value": "{base.Color.Green.800}",
-            "type": "color"
+            "type": "color",
+            "description": " Notification badge, Avatar icon child, Avatar bg color"
           },
-          "FadedGreen": {
+          "GreenSubtle": {
             "value": "{base.Color.Green.50}",
             "type": "color"
           },

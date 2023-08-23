@@ -11,7 +11,7 @@
           "type": "color"
         },
         "Color03": {
-          "value": "{semantic.Color.Background.Accent.RichGreen}",
+          "value": "{semantic.Color.Background.Accent.GreenBold}",
           "type": "color"
         },
         "Color04": {
@@ -295,7 +295,7 @@
         },
         "Active": {
           "BgColor": {
-            "value": "{semantic.Color.Background.Accent.RichGreen}",
+            "value": "{semantic.Color.Background.Accent.GreenBold}",
             "type": "color"
           },
           "BorderColor": {
@@ -333,7 +333,7 @@
         },
         "Active": {
           "BgColor": {
-            "value": "{semantic.Color.Background.Accent.FadedGreen}",
+            "value": "{semantic.Color.Background.Accent.GreenSubtle}",
             "type": "color"
           },
           "BorderColor": {
@@ -382,7 +382,7 @@
       },
       "Active": {
         "BgColor": {
-          "value": "{semantic.Color.Background.Accent.FadedGreen}",
+          "value": "{semantic.Color.Background.Accent.GreenSubtle}",
           "type": "color"
         },
         "BorderColor": {
@@ -645,7 +645,7 @@
     },
     "NotificationBadge": {
       "BgColor": {
-        "value": "{semantic.Color.Background.Accent.RichGreen}",
+        "value": "{semantic.Color.Background.Accent.GreenBold}",
         "type": "color"
       },
       "BorderColor": {
@@ -687,7 +687,7 @@
         "type": "color"
       },
       "FgColor": {
-        "value": "{semantic.Color.Background.Accent.RichGreen}",
+        "value": "{semantic.Color.Background.Accent.GreenBold}",
         "type": "color"
       },
       "EmphasisedTextColor": {
@@ -705,7 +705,7 @@
         "type": "color"
       },
       "FgColor": {
-        "value": "{semantic.Color.Background.Accent.RichGreen}",
+        "value": "{semantic.Color.Background.Accent.GreenBold}",
         "type": "color"
       },
       "CompletedTextColor": {
@@ -1001,7 +1001,7 @@
             "type": "color"
           },
           "Color02": {
-            "value": "{semantic.Color.Background.Accent.RichGreen}",
+            "value": "{semantic.Color.Background.Accent.GreenBold}",
             "type": "color"
           },
           "Color03": {
@@ -1194,7 +1194,7 @@
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.Accent.RichGreen}",
+            "value": "{semantic.Color.Background.Accent.GreenBold}",
             "type": "color"
           }
         },
@@ -1222,7 +1222,7 @@
       "IOS": {
         "Active": {
           "BgColor": {
-            "value": "{semantic.Color.Background.Accent.RichGreen}",
+            "value": "{semantic.Color.Background.Accent.GreenBold}",
             "type": "color"
           },
           "FgColorU": {
