@@ -662,7 +662,11 @@
         "value": "{semantic.Color.Background.Accent.RichPink}",
         "type": "color"
       },
-      "TextColor": {
+      "TitleTextColor": {
+        "value": "{semantic.Color.Text.Accent.RichGrey}",
+        "type": "color"
+      },
+      "BodyTextColor": {
         "value": "{semantic.Color.Text.Accent.RichGrey}",
         "type": "color"
       },
