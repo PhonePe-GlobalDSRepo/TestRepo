@@ -7,7 +7,7 @@
           "type": "color"
         },
         "Color02": {
-          "value": "{semantic.Color.Background.Accent.RichBlue}",
+          "value": "{semantic.Color.Background.Accent.BlueBold}",
           "type": "color"
         },
         "Color03": {
@@ -15,17 +15,21 @@
           "type": "color"
         },
         "Color04": {
-          "value": "{semantic.Color.Background.Accent.RichPink}",
+          "value": "{semantic.Color.Background.Accent.PinkBold}",
           "type": "color"
         },
         "Color05": {
-          "value": "{semantic.Color.Background.Accent.RichOrange}",
+          "value": "{semantic.Color.Background.Accent.OrangeBold}",
+          "type": "color"
+        },
+        "Color06": {
+          "value": "{semantic.Color.Background.Accent.RedBold}",
           "type": "color"
         }
       },
       "Text": {
         "Color": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+          "value": "{semantic.Color.Text.Default.TextOnDark}",
           "type": "color"
         }
       },
@@ -94,7 +98,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Neutral.White}",
+              "value": "{semantic.Color.Text.Default.TextOnDark}",
               "type": "color"
             }
           },
