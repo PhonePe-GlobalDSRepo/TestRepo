@@ -51,14 +51,14 @@
     },
     "BottomNavigationBar": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Soft}",
+        "value": "{semantic.Color.Background.UIElement.Pure}",
         "type": "color"
       }
     },
     "BottomNavigationItem": {
       "Default": {
         "IconBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Rich}",
+          "value": "{semantic.Color.Background.UIElement.Moderate}",
           "type": "color"
         },
         "IconColor": {
@@ -100,7 +100,7 @@
           },
           "Disabled": {
             "BgColor": {
-              "value": "{semantic.Color.Background.UIElement.Moderate}",
+              "value": "{semantic.Color.Background.UIElement.Muted}",
               "type": "color"
             },
             "TextColor": {
@@ -168,7 +168,7 @@
         "Primary": {
           "Active": {
             "BgColor": {
-              "value": "{semantic.Color.Background.UIElement.Soft}",
+              "value": "{semantic.Color.Background.UIElement.Pure}",
               "type": "color"
             },
             "TextColor": {
@@ -178,7 +178,7 @@
           },
           "Disabled": {
             "BgColor": {
-              "value": "{semantic.Color.Background.UIElement.Moderate}",
+              "value": "{semantic.Color.Background.UIElement.Muted}",
               "type": "color"
             },
             "TextColor": {
@@ -236,11 +236,11 @@
     "CarouselIndicator": {
       "Default": {
         "ActiveColor": {
-          "value": "{semantic.Color.Background.UIElement.Vivid}",
+          "value": "{semantic.Color.Background.UIElement.Deep}",
           "type": "color"
         },
         "InactiveColor": {
-          "value": "{semantic.Color.Background.UIElement.Vivid}",
+          "value": "{semantic.Color.Background.UIElement.Deep}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -277,7 +277,7 @@
       "SingleSelect": {
         "Default": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Soft}",
+            "value": "{semantic.Color.Background.UIElement.Pure}",
             "type": "color"
           },
           "BorderColor": {
@@ -315,7 +315,7 @@
       "MultiSelect": {
         "Default": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Soft}",
+            "value": "{semantic.Color.Background.UIElement.Pure}",
             "type": "color"
           },
           "BorderColor": {
@@ -364,7 +364,7 @@
     "Filter": {
       "Default": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Soft}",
+          "value": "{semantic.Color.Background.UIElement.Pure}",
           "type": "color"
         },
         "BorderColor": {
@@ -400,7 +400,7 @@
       },
       "Disabled": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Moderate}",
+          "value": "{semantic.Color.Background.UIElement.Muted}",
           "type": "color"
         },
         "BorderColor": {
@@ -420,7 +420,7 @@
     "InputField": {
       "Default": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Soft}",
+          "value": "{semantic.Color.Background.UIElement.Pure}",
           "type": "color"
         },
         "BorderColor": {
@@ -450,11 +450,11 @@
       },
       "Active": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Soft}",
+          "value": "{semantic.Color.Background.UIElement.Pure}",
           "type": "color"
         },
         "PrefilledBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Subtle}",
+          "value": "{semantic.Color.Background.UIElement.Pale}",
           "type": "color"
         },
         "LabelTextColor": {
@@ -488,11 +488,11 @@
       },
       "Filled": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Soft}",
+          "value": "{semantic.Color.Background.UIElement.Pure}",
           "type": "color"
         },
         "PrefilledBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Subtle}",
+          "value": "{semantic.Color.Background.UIElement.Pale}",
           "type": "color"
         },
         "LabelTextColor": {
@@ -526,11 +526,11 @@
       },
       "Danger": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Soft}",
+          "value": "{semantic.Color.Background.UIElement.Pure}",
           "type": "color"
         },
         "PrefilledBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Subtle}",
+          "value": "{semantic.Color.Background.UIElement.Pale}",
           "type": "color"
         },
         "LabelTextColor": {
@@ -568,11 +568,11 @@
       },
       "Disabled": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Subtle}",
+          "value": "{semantic.Color.Background.UIElement.Pale}",
           "type": "color"
         },
         "PrefilledBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Moderate}",
+          "value": "{semantic.Color.Background.UIElement.Muted}",
           "type": "color"
         },
         "LabelTextColor": {
@@ -606,11 +606,11 @@
       },
       "DisabledFilled": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Subtle}",
+          "value": "{semantic.Color.Background.UIElement.Pale}",
           "type": "color"
         },
         "PrefilledBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Moderate}",
+          "value": "{semantic.Color.Background.UIElement.Muted}",
           "type": "color"
         },
         "LabelTextColor": {
@@ -683,7 +683,7 @@
     },
     "ProgressBar": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Moderate}",
+        "value": "{semantic.Color.Background.UIElement.Muted}",
         "type": "color"
       },
       "FgColor": {
@@ -701,7 +701,7 @@
     },
     "ProgressTracker": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Moderate}",
+        "value": "{semantic.Color.Background.UIElement.Muted}",
         "type": "color"
       },
       "FgColor": {
@@ -752,7 +752,7 @@
     "Search": {
       "Default": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Soft}",
+          "value": "{semantic.Color.Background.UIElement.Pure}",
           "type": "color"
         },
         "BorderColor": {
@@ -770,11 +770,11 @@
       },
       "Active": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Soft}",
+          "value": "{semantic.Color.Background.UIElement.Pure}",
           "type": "color"
         },
         "IconBackgroundColor": {
-          "value": "{semantic.Color.Background.UIElement.Moderate}",
+          "value": "{semantic.Color.Background.UIElement.Muted}",
           "type": "color"
         },
         "TextColor": {
@@ -859,7 +859,7 @@
     },
     "Snackbar": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Vivid}",
+        "value": "{semantic.Color.Background.UIElement.Deep}",
         "type": "color"
       },
       "TextColor": {
@@ -1017,7 +1017,7 @@
             "type": "color"
           },
           "Color06": {
-            "value": "{semantic.Color.Background.UIElement.Rich}",
+            "value": "{semantic.Color.Background.UIElement.Moderate}",
             "type": "color"
           }
         },
@@ -1072,7 +1072,7 @@
       },
       "Disabled": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Moderate}",
+          "value": "{semantic.Color.Background.UIElement.Muted}",
           "type": "color"
         },
         "TextColor": {
@@ -1113,7 +1113,7 @@
       },
       "Inverse": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Soft}",
+          "value": "{semantic.Color.Background.UIElement.Pure}",
           "type": "color"
         },
         "TitleColor": {
@@ -1169,7 +1169,7 @@
       },
       "Disabled": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Rich}",
+          "value": "{semantic.Color.Background.UIElement.Moderate}",
           "type": "color"
         },
         "IconColor": {
@@ -1190,7 +1190,7 @@
       "Android": {
         "Active": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "value": "{semantic.Color.Background.UIElement.Muted}",
             "type": "color"
           },
           "FgColor": {
@@ -1200,21 +1200,21 @@
         },
         "Default": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "value": "{semantic.Color.Background.UIElement.Muted}",
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Soft}",
+            "value": "{semantic.Color.Background.UIElement.Pure}",
             "type": "color"
           }
         },
         "Disabled": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "value": "{semantic.Color.Background.UIElement.Muted}",
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Rich}",
+            "value": "{semantic.Color.Background.UIElement.Moderate}",
             "type": "color"
           }
         }
@@ -1226,27 +1226,27 @@
             "type": "color"
           },
           "FgColorU": {
-            "value": "{semantic.Color.Background.UIElement.Soft}",
+            "value": "{semantic.Color.Background.UIElement.Pure}",
             "type": "color"
           }
         },
         "Default": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "value": "{semantic.Color.Background.UIElement.Muted}",
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Soft}",
+            "value": "{semantic.Color.Background.UIElement.Pure}",
             "type": "color"
           }
         },
         "Disabled": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Moderate}",
+            "value": "{semantic.Color.Background.UIElement.Muted}",
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Rich}",
+            "value": "{semantic.Color.Background.UIElement.Moderate}",
             "type": "color"
           }
         }
@@ -1254,7 +1254,7 @@
     },
     "Tooltip": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Vivid}",
+        "value": "{semantic.Color.Background.UIElement.Deep}",
         "type": "color"
       },
       "TextColor": {
