@@ -531,12 +531,12 @@
     },
     "Color": {
       "Brand": {
-        "PrimaryBackground": {
+        "BackgroundPrimary": {
           "value": "{base.Color.Purple.500}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "PrimaryForeground": {
+        "ForegroundPrimary": {
           "value": "{base.Color.Purple.500}",
           "type": "color",
           "description": "Secondary & Tertiary CTA, Links, Icon "
@@ -548,109 +548,147 @@
         }
       },
       "Success": {
-        "RichBg": {
+        "BackgroundBold": {
           "value": "{base.Color.Green.800}",
-          "type": "color"
+          "type": "color",
+          "description": "Title bar, Progress tracker, progress bar, Ribbon"
         },
-        "FadedBg": {
+        "BackgroundSubtle": {
           "value": "{base.Color.Green.50}",
-          "type": "color"
+          "type": "color",
+          "description": "Chips background, Tags background like Active"
         },
-        "Text": {
+        "TextBold": {
           "value": "{base.Color.Green.800}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": " Text color on progress bar, Section message heading"
         },
-        "Border": {
+        "TextSubtle": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "description": "Ribbon and success title bar"
+        },
+        "BorderBold": {
           "value": "{base.Color.Green.800}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "Chips, Filter"
+        },
+        "BorderMuted": {
+          "value": "{base.Color.Green.200}",
+          "type": "color",
+          "description": "Section message"
         },
         "Icon": {
           "value": "{base.Color.Green.800}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "Stepper, success chat, section message heading, Kyc successful"
         }
       },
       "Warning": {
-        "RichBg": {
+        "BackgroundBold": {
           "value": "{base.Color.Orange.900}",
-          "type": "color"
+          "type": "color",
+          "description": "Title bar, Ribbon"
         },
-        "FadedBg": {
+        "SubtleBackground": {
           "value": "{base.Color.Orange.50}",
-          "type": "color"
+          "type": "color",
+          "description": "ags background like expired, Section message"
         },
-        "Text": {
+        "TextBold": {
           "value": "{base.Color.Orange.900}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "Tags, Showing progress in tracker, pending state"
         },
-        "Border": {
-          "value": "{base.Color.Orange.900}",
+        "TextSubtle": {
+          "value": "{base.Color.Orange.50}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "Ribbon, title bar"
+        },
+        "BorderSubtle": {
+          "value": "{base.Color.Orange.200}",
+          "type": "color",
+          "description": "Section message"
         },
         "Icon": {
           "value": "{base.Color.Orange.900}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "Section message heading, Pending state icon in timeline"
         }
       },
       "Danger": {
-        "RichBg": {
+        "BackgroundBold": {
           "value": "{base.Color.Red.900}",
-          "type": "color"
+          "type": "color",
+          "description": "Title bar, Ribbon"
         },
-        "FadedBg": {
+        "BackgroundSubtle": {
           "value": "{base.Color.Red.50}",
-          "type": "color"
+          "type": "color",
+          "description": "Tags background like expired, Section message"
         },
-        "Text": {
+        "TextBold": {
           "value": "{base.Color.Red.900}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "Input field, destructive button"
         },
-        "Border": {
+        "TextSubtle": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "description": "Ribbon, title bar"
+        },
+        "BorderBold": {
           "value": "{base.Color.Red.900}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "Border input field"
+        },
+        "BorderMuted": {
+          "value": "{base.Color.Red.200}",
+          "type": "color",
+          "description": "Section message"
         },
         "Icon": {
           "value": "{base.Color.Red.900}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "section message heading icon, Error or delete icon"
         }
       },
       "Information": {
-        "RichBg": {
+        "BackgroundBold": {
           "value": "{base.Color.Blue.700}",
-          "type": "color"
+          "type": "color",
+          "description": "Rewards & Refer icon background on home page"
         },
-        "FadedBg": {
+        "BackgroundSubtle": {
           "value": "{base.Color.Blue.50}",
-          "type": "color"
+          "type": "color",
+          "description": "Information for UPID bg on home page, section messages"
         },
-        "Text": {
+        "TextBold": {
           "value": "{base.Color.Blue.700}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "Section message"
         },
-        "Border": {
-          "value": "{base.Color.Blue.700}",
+        "TextSubtle": {
+          "value": "{base.Color.Blue.50}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "Tags"
+        },
+        "BorderMuted": {
+          "value": "{base.Color.Blue.200}",
+          "type": "color",
+          "description": "Section message"
         },
         "Icon": {
           "value": "{base.Color.Blue.700}",
           "type": "color",
-          "description": "Used for tags showing status"
+          "description": "Section message heading"
         }
       },
       "Background": {
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         },
@@ -882,7 +920,7 @@
         },
         "Action": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color",
             "description": "Used for Links or URLs"
           },
@@ -894,7 +932,7 @@
         },
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         }
@@ -902,13 +940,13 @@
       "Icon": {
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         },
         "Action": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           },
           "Selection": {
@@ -943,7 +981,7 @@
       "Border": {
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         },
@@ -983,7 +1021,7 @@
         },
         "Action": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color",
             "description": "Used for Links or URLs"
           },

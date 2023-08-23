@@ -38,7 +38,7 @@
       "Background": {
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         },
@@ -325,7 +325,7 @@
         },
         "Interaction": {
           "Link": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color",
             "description": "Used for Links or URLs"
           },
@@ -342,7 +342,7 @@
         },
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         }
@@ -350,7 +350,7 @@
       "Border": {
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         },
@@ -420,7 +420,7 @@
       "Icon": {
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         },
@@ -1108,7 +1108,7 @@
       "Background": {
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         },
@@ -1340,7 +1340,7 @@
         },
         "Action": {
           "PrimaryColor": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color",
             "description": "Used for Links or URLs"
           },
@@ -1357,7 +1357,7 @@
         },
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         }
@@ -1365,7 +1365,7 @@
       "Icon": {
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         },
@@ -1396,7 +1396,7 @@
       "Border": {
         "Brand": {
           "Primary": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color"
           }
         },
@@ -1436,7 +1436,7 @@
         },
         "Action": {
           "PrimaryColor": {
-            "value": "{semantic.Color.Brand.PrimaryBackground}",
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color",
             "description": "Used for Links or URLs"
           },
