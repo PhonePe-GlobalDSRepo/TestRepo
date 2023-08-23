@@ -971,7 +971,8 @@
         "Brand": {
           "Primary": {
             "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color"
+            "type": "color",
+            "description": "Input field, secondary CTA"
           }
         },
         "Default": {
@@ -1006,18 +1007,6 @@
             "value": "{base.Color.Neutral.White}",
             "type": "color",
             "description": "Used with child avatars"
-          }
-        },
-        "Action": {
-          "Primary": {
-            "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color",
-            "description": "Used for Links or URLs"
-          },
-          "Selection": {
-            "value": "{base.Color.Green.800}",
-            "type": "color",
-            "description": "Used in form elements to show active text or any selected state."
           }
         }
       },
