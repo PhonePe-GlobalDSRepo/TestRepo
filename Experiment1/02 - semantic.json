@@ -695,7 +695,7 @@
           "Primary": {
             "value": "{semantic.Color.Brand.BackgroundPrimary}",
             "type": "color",
-            "description": "Primary CTA, Primary Icons, Title bar"
+            "description": "Primary CTA, Primary Icons, Title bar, Icons of rewards & refer"
           }
         },
         "Accent": {
@@ -773,12 +773,12 @@
             "type": "color",
             "description": "Used for coachmark, tooltips, snackbars"
           },
-          "Moderate": {
+          "Emphasis": {
             "value": "{base.Color.Grey.500}",
             "type": "color",
             "description": "Title bar disabled"
           },
-          "Soft": {
+          "Moderate": {
             "value": "{base.Color.Grey.400}",
             "type": "color"
           },
@@ -832,25 +832,31 @@
         "Default": {
           "Primary": {
             "value": "{base.Color.Grey.900}",
-            "type": "color"
+            "type": "color",
+            "description": "High emphasis"
           },
           "Secondary": {
             "value": "{base.Color.Grey.700}",
             "type": "color"
           },
-          "Disabled": {
+          "Tertiary": {
             "value": "{base.Color.Grey.500}",
-            "type": "color"
+            "type": "color",
+            "description": "Low emphasis and can be used for disabled "
           },
-          "Muted": {
+          "Moderate": {
             "value": "{base.Color.Grey.400}",
             "type": "color"
           },
-          "Subtle": {
-            "value": "{base.Color.Grey.300}",
+          "Pale": {
+            "value": "{base.Color.Grey.200}",
             "type": "color"
           },
           "Soft": {
+            "value": "{base.Color.Grey.100}",
+            "type": "color"
+          },
+          "TextOnDark": {
             "value": "{base.Color.Neutral.White}",
             "type": "color"
           }
@@ -868,23 +874,33 @@
           }
         },
         "Accent": {
-          "RichRed": {
-            "value": "{base.Color.Red.900}",
+          "TextOnRedBold": {
+            "value": "{base.Color.Neutral.White}",
             "type": "color",
             "description": "Used for tags"
           },
-          "RichGreen": {
-            "value": "{base.Color.Green.800}",
+          "TextOnGreenBold": {
+            "value": "{base.Color.Neutral.White}",
             "type": "color",
             "description": "Used for tags"
           },
-          "RichBlue": {
-            "value": "{base.Color.Blue.700}",
+          "TextOnBlueBold": {
+            "value": "{base.Color.Neutral.White}",
             "type": "color",
             "description": "Used for tags"
           },
-          "RichOrange": {
-            "value": "{base.Color.Orange.900}",
+          "TextOnGreyBold": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color",
+            "description": "Used for tags"
+          },
+          "TextOnOrangeBold": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color",
+            "description": "Used for tags"
+          },
+          "TextOnPinkBold": {
+            "value": "{base.Color.Neutral.White}",
             "type": "color",
             "description": "Used for tags"
           },
@@ -893,28 +909,29 @@
             "type": "color",
             "description": "Used for tags"
           },
-          "RichLightPurple": {
-            "value": "{base.Color.LightPurple.500}",
+          "LightPurpleBold": {
+            "value": "{semantic.Color.Brand.Secondary}",
             "type": "color",
             "description": "Used for overline heading"
           }
         },
-        "Action": {
-          "Primary": {
-            "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color",
-            "description": "Used for Links or URLs"
-          },
+        "Brand": {
           "Secondary": {
-            "value": "{base.Color.LightPurple.500}",
+            "value": "{semantic.Color.Brand.Secondary}",
             "type": "color",
             "description": "Used for actions in the snackbar"
+          },
+          "PrimaryForeground": {
+            "value": "{semantic.Color.Brand.BackgroundPrimary}",
+            "type": "color",
+            "description": "Links & actionable items, Secondary & tertiary CTA, Active state"
           }
         },
-        "Brand": {
+        "NegativeAction": {
           "Primary": {
-            "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color"
+            "value": "{semantic.Color.Danger.TextBold}",
+            "type": "color",
+            "description": "Used for destructive CTA"
           }
         }
       },
@@ -922,35 +939,26 @@
         "Brand": {
           "Primary": {
             "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color"
+            "type": "color",
+            "description": "Can be used for actionable icons"
           }
         },
-        "Action": {
-          "Primary": {
-            "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color"
-          },
+        "Accent": {
           "Selection": {
             "value": "{base.Color.Green.800}",
             "type": "color"
           }
         },
         "Default": {
-          "Rich": {
-            "value": "{base.Color.Grey.900}",
-            "type": "color"
-          },
-          "Emphasis": {
+          "Primary": {
             "value": "{base.Color.Grey.800}",
-            "type": "color"
+            "type": "color",
+            "description": "Used for system icon high emphasis"
           },
-          "Moderate": {
+          "Secondary": {
             "value": "{base.Color.Grey.500}",
-            "type": "color"
-          },
-          "Subtle": {
-            "value": "{base.Color.Grey.400}",
-            "type": "color"
+            "type": "color",
+            "description": "Less emphasis"
           },
           "Soft": {
             "value": "{base.Color.Neutral.White}",
