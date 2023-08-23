@@ -699,11 +699,11 @@
           }
         },
         "Accent": {
-          "RichPink": {
+          "PinkBold": {
             "value": "{base.Color.Pink.600}",
             "type": "color"
           },
-          "FadedPink": {
+          "PinkSubtle": {
             "value": "{base.Color.Pink.50}",
             "type": "color"
           },
@@ -716,45 +716,45 @@
             "value": "{base.Color.Green.50}",
             "type": "color"
           },
-          "RichRed": {
+          "RedBold": {
             "value": "{base.Color.Red.900}",
             "type": "color"
           },
-          "FadedRed": {
+          "RedSubtle": {
             "value": "{base.Color.Red.50}",
             "type": "color"
           },
-          "RichOrange": {
+          "OrangeBold": {
             "value": "{base.Color.Orange.900}",
             "type": "color"
           },
-          "FadedOrange": {
+          "OrangeSubtle": {
             "value": "{base.Color.Orange.50}",
             "type": "color"
           },
-          "RichBlue": {
+          "BlueBold": {
             "value": "{base.Color.Blue.700}",
             "type": "color"
           },
-          "FadedBlue": {
+          "BlueSubtle": {
             "value": "{base.Color.Blue.50}",
             "type": "color"
           },
-          "RichYellow": {
+          "YellowBold": {
             "value": "{base.Color.Yellow.900}",
             "type": "color"
           },
-          "FadedYellow": {
+          "YellowSubtle": {
             "value": "{base.Color.Yellow.50}",
             "type": "color"
           },
-          "RichGrey": {
+          "GreyBold": {
             "value": "{base.Color.Grey.500}",
             "type": "color",
             "description": "Used for tags"
           },
-          "FadedGrey": {
-            "value": "{base.Color.Grey.100}",
+          "NeutralWhite": {
+            "value": "{base.Color.Neutral.White}",
             "type": "color"
           }
         },
