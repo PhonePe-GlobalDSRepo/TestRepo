@@ -702,7 +702,7 @@
           "description": "Section message heading"
         },
         "IconSubtle": {
-          "value": "{base.Color.Blue.700}",
+          "value": "{base.Color.Neutral.White}",
           "type": "color",
           "description": "Section message heading"
         }
@@ -784,24 +784,9 @@
             "description": "Avatars"
           }
         },
-        "UIElement": {
-          "Intense": {
-            "value": "{base.Color.Neutral.Black}",
-            "type": "color",
-            "description": "Black overlay"
-          },
-          "Deep": {
-            "value": "{base.Color.Grey.900}",
-            "type": "color",
-            "description": "Used for coachmark, tooltips, snackbars"
-          },
-          "Emphasis": {
-            "value": "{base.Color.Grey.500}",
-            "type": "color",
-            "description": "Title bar disabled"
-          },
-          "Moderate": {
-            "value": "{base.Color.Grey.400}",
+        "Greys": {
+          "Pure": {
+            "value": "{base.Color.Neutral.White}",
             "type": "color"
           },
           "Muted": {
@@ -813,9 +798,24 @@
             "type": "color",
             "description": "Chat bubble, Input field disabled"
           },
-          "Pure": {
-            "value": "{base.Color.Neutral.White}",
+          "Emphasis": {
+            "value": "{base.Color.Grey.500}",
+            "type": "color",
+            "description": "Title bar disabled"
+          },
+          "Moderate": {
+            "value": "{base.Color.Grey.400}",
             "type": "color"
+          },
+          "Deep": {
+            "value": "{base.Color.Grey.900}",
+            "type": "color",
+            "description": "Used for coachmark, tooltips, snackbars"
+          },
+          "Intense": {
+            "value": "{base.Color.Neutral.Black}",
+            "type": "color",
+            "description": "Black overlay"
           }
         },
         "Elevation": {
@@ -833,20 +833,6 @@
             "value": "{base.Color.Neutral.White}",
             "type": "color",
             "description": "Used for tertiary layers like dialog box, action menu, bottom sheet."
-          }
-        },
-        "Skeleton": {
-          "Skeleton1": {
-            "value": "{base.Color.Purple.100}",
-            "type": "color"
-          },
-          "Skeleton2": {
-            "value": "{base.Color.LightPurple.200}",
-            "type": "color"
-          },
-          "Skeleton3": {
-            "value": "{base.Color.Neutral.White}",
-            "type": "color"
           }
         }
       },
