@@ -29,7 +29,7 @@
       },
       "Text": {
         "Color": {
-          "value": "{semantic.Color.Text.Default.TextOnDark}",
+          "value": "{semantic.Color.Text.Inverse}",
           "type": "color"
         }
       },
@@ -70,7 +70,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default.Tertiary}",
+          "value": "{semantic.Color.Text.Tertiary}",
           "type": "color"
         }
       },
@@ -98,7 +98,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Default.TextOnDark}",
+              "value": "{semantic.Color.Text.Inverse}",
               "type": "color"
             }
           },
@@ -108,7 +108,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Default.Tertiary}",
+              "value": "{semantic.Color.Text.Tertiary}",
               "type": "color"
             }
           }
@@ -130,7 +130,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Default.Tertiary}",
+              "value": "{semantic.Color.Text.Tertiary}",
               "type": "color"
             }
           }
@@ -152,7 +152,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Default.Tertiary}",
+              "value": "{semantic.Color.Text.Tertiary}",
               "type": "color"
             }
           },
@@ -186,7 +186,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Default.Tertiary}",
+              "value": "{semantic.Color.Text.Tertiary}",
               "type": "color"
             }
           }
@@ -194,7 +194,7 @@
         "Secondary": {
           "Active": {
             "TextColor": {
-              "value": "{semantic.Color.Text.Default.TextOnDark}",
+              "value": "{semantic.Color.Text.Inverse}",
               "type": "color"
             },
             "BorderColor": {
@@ -204,7 +204,7 @@
           },
           "Disabled": {
             "TextColor": {
-              "value": "{semantic.Color.Text.Default.Tertiary}",
+              "value": "{semantic.Color.Text.Tertiary}",
               "type": "color"
             },
             "BorderColor": {
@@ -216,7 +216,7 @@
         "Tertiary": {
           "Active": {
             "TextColor": {
-              "value": "{semantic.Color.Text.Default.TextOnDark}",
+              "value": "{semantic.Color.Text.Inverse}",
               "type": "color"
             },
             "IconColor": {
@@ -226,7 +226,7 @@
           },
           "Disabled": {
             "TextColor": {
-              "value": "{semantic.Color.Text.Default.Tertiary}",
+              "value": "{semantic.Color.Text.Tertiary}",
               "type": "color"
             },
             "IconColor": {
@@ -293,7 +293,7 @@
             "type": "color"
           },
           "TextColor": {
-            "value": "{semantic.Color.Text.Default.Primary}",
+            "value": "{semantic.Color.Text.Default}",
             "type": "color"
           }
         },
@@ -311,7 +311,7 @@
             "type": "color"
           },
           "TextColor": {
-            "value": "{semantic.Color.Text.Default.TextOnDark}",
+            "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           }
         }
@@ -331,7 +331,7 @@
             "type": "color"
           },
           "TextColor": {
-            "value": "{semantic.Color.Text.Default.Primary}",
+            "value": "{semantic.Color.Text.Default}",
             "type": "color"
           }
         },
@@ -349,7 +349,7 @@
             "type": "color"
           },
           "TextColor": {
-            "value": "{semantic.Color.Text.Default.Primary}",
+            "value": "{semantic.Color.Text.Default}",
             "type": "color"
           }
         }
@@ -380,7 +380,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         }
       },
@@ -398,7 +398,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         }
       },
@@ -416,7 +416,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default.Tertiary}",
+          "value": "{semantic.Color.Text.Tertiary}",
           "type": "color"
         }
       }
@@ -432,7 +432,7 @@
           "type": "color"
         },
         "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Default.Secondary}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
         "IconColor": {
@@ -444,11 +444,11 @@
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Default.Tertiary}",
+          "value": "{semantic.Color.Text.Tertiary}",
           "type": "color"
         },
         "LabelTextColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         }
       },
@@ -462,19 +462,19 @@
           "type": "color"
         },
         "LabelTextColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         },
         "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Default.Secondary}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
         "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Default.Secondary}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
         "IconColor": {
@@ -500,19 +500,19 @@
           "type": "color"
         },
         "LabelTextColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         },
         "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Default.Secondary}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
         "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Default.Secondary}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
         "IconColor": {
@@ -542,7 +542,7 @@
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         },
         "DescriptionTextColor": {
@@ -550,7 +550,7 @@
           "type": "color"
         },
         "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Default.Secondary}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
         "IconColor": {
@@ -580,19 +580,19 @@
           "type": "color"
         },
         "LabelTextColor": {
-          "value": "{semantic.Color.Text.Default.Tertiary}",
+          "value": "{semantic.Color.Text.Tertiary}",
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Default.Tertiary}",
+          "value": "{semantic.Color.Text.Tertiary}",
           "type": "color"
         },
         "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Default.Tertiary}",
+          "value": "{semantic.Color.Text.Tertiary}",
           "type": "color"
         },
         "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Default.Secondary}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
         "IconColor": {
@@ -618,19 +618,19 @@
           "type": "color"
         },
         "LabelTextColor": {
-          "value": "{semantic.Color.Text.Default.Tertiary}",
+          "value": "{semantic.Color.Text.Tertiary}",
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         },
         "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Default.Tertiary}",
+          "value": "{semantic.Color.Text.Tertiary}",
           "type": "color"
         },
         "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Default.Secondary}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
         "IconColor": {
@@ -717,7 +717,7 @@
         "type": "color"
       },
       "MutedTextColor": {
-        "value": "{semantic.Color.Text.Default.Secondary}",
+        "value": "{semantic.Color.Text.Secondary}",
         "type": "color"
       }
     },
@@ -764,7 +764,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default.Tertiary}",
+          "value": "{semantic.Color.Text.Tertiary}",
           "type": "color"
         },
         "IconColor": {
@@ -782,7 +782,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         },
         "IconColor": {
@@ -1080,7 +1080,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default.Secondary}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         }
       },
@@ -1121,7 +1121,7 @@
           "type": "color"
         },
         "TitleColor": {
-          "value": "{semantic.Color.Text.Default.Primary}",
+          "value": "{semantic.Color.Text.Default}",
           "type": "color"
         },
         "IconColor": {
@@ -1185,7 +1185,7 @@
           "type": "color"
         },
         "SubTitleColor": {
-          "value": "{semantic.Color.Text.Default.Pale}",
+          "value": "{semantic.Color.Text.Pale}",
           "type": "color"
         }
       }
