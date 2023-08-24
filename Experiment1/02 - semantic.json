@@ -654,6 +654,10 @@
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
+        "PaleGrey": {
+          "value": "{base.Color.Grey.200}",
+          "type": "color"
+        },
         "Inverse": {
           "value": "{base.Color.Neutral.White}",
           "type": "color",
