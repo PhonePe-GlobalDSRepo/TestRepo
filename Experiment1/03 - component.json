@@ -3,26 +3,22 @@
     "Avatar": {
       "Bg": {
         "Color01": {
-          "value": "{semantic.Color.Background.Brand.Primary}",
-          "type": "color"
-        },
-        "Color02": {
           "value": "{semantic.Color.Background.Accent.BlueBold}",
           "type": "color"
         },
-        "Color03": {
+        "Color02": {
           "value": "{semantic.Color.Background.Accent.GreenBold}",
           "type": "color"
         },
-        "Color04": {
+        "Color03": {
           "value": "{semantic.Color.Background.Accent.PinkBold}",
           "type": "color"
         },
-        "Color05": {
+        "Color04": {
           "value": "{semantic.Color.Background.Accent.OrangeBold}",
           "type": "color"
         },
-        "Color06": {
+        "Color05": {
           "value": "{semantic.Color.Background.Accent.RedBold}",
           "type": "color"
         }
@@ -70,7 +66,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+          "value": "{semantic.Color.Text.LowEmphasis}",
           "type": "color"
         }
       },
@@ -84,7 +80,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Brand.PrimaryForeground}",
+          "value": "{semantic.Color.Text.Brand.Primary}",
           "type": "color"
         }
       }
@@ -108,7 +104,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Tertiary}",
+              "value": "{semantic.Color.Text.LowEmphasis}",
               "type": "color"
             }
           }
@@ -120,7 +116,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Brand.PrimaryForeground}",
+              "value": "{semantic.Color.Text.Brand.Primary}",
               "type": "color"
             }
           },
@@ -130,7 +126,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Tertiary}",
+              "value": "{semantic.Color.Text.LowEmphasis}",
               "type": "color"
             }
           }
@@ -142,7 +138,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Brand.PrimaryForeground}",
+              "value": "{semantic.Color.Text.Brand.Primary}",
               "type": "color"
             }
           },
@@ -152,7 +148,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Tertiary}",
+              "value": "{semantic.Color.Text.LowEmphasis}",
               "type": "color"
             }
           },
@@ -162,7 +158,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Brand.PrimaryForeground}",
+              "value": "{semantic.Color.Text.Brand.Primary}",
               "type": "color"
             }
           }
@@ -176,7 +172,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Brand.PrimaryForeground}",
+              "value": "{semantic.Color.Text.Brand.Primary}",
               "type": "color"
             }
           },
@@ -186,7 +182,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Tertiary}",
+              "value": "{semantic.Color.Text.LowEmphasis}",
               "type": "color"
             }
           }
@@ -204,7 +200,7 @@
           },
           "Disabled": {
             "TextColor": {
-              "value": "{semantic.Color.Text.Tertiary}",
+              "value": "{semantic.Color.Text.LowEmphasis}",
               "type": "color"
             },
             "BorderColor": {
@@ -226,7 +222,7 @@
           },
           "Disabled": {
             "TextColor": {
-              "value": "{semantic.Color.Text.Tertiary}",
+              "value": "{semantic.Color.Text.LowEmphasis}",
               "type": "color"
             },
             "IconColor": {
@@ -293,7 +289,7 @@
             "type": "color"
           },
           "TextColor": {
-            "value": "{semantic.Color.Text.Default}",
+            "value": "{semantic.Color.Text.HighEmphasis}",
             "type": "color"
           }
         },
@@ -331,7 +327,7 @@
             "type": "color"
           },
           "TextColor": {
-            "value": "{semantic.Color.Text.Default}",
+            "value": "{semantic.Color.Text.HighEmphasis}",
             "type": "color"
           }
         },
@@ -349,7 +345,7 @@
             "type": "color"
           },
           "TextColor": {
-            "value": "{semantic.Color.Text.Default}",
+            "value": "{semantic.Color.Text.HighEmphasis}",
             "type": "color"
           }
         }
@@ -380,7 +376,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         }
       },
@@ -398,7 +394,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         }
       },
@@ -416,7 +412,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+          "value": "{semantic.Color.Text.LowEmphasis}",
           "type": "color"
         }
       }
@@ -432,7 +428,7 @@
           "type": "color"
         },
         "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Text.MediumEmphasis}",
           "type": "color"
         },
         "IconColor": {
@@ -444,11 +440,11 @@
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+          "value": "{semantic.Color.Text.LowEmphasis}",
           "type": "color"
         },
         "LabelTextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         }
       },
@@ -462,19 +458,19 @@
           "type": "color"
         },
         "LabelTextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         },
         "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Text.MediumEmphasis}",
           "type": "color"
         },
         "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Text.MediumEmphasis}",
           "type": "color"
         },
         "IconColor": {
@@ -500,19 +496,19 @@
           "type": "color"
         },
         "LabelTextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         },
         "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Text.MediumEmphasis}",
           "type": "color"
         },
         "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Text.MediumEmphasis}",
           "type": "color"
         },
         "IconColor": {
@@ -542,7 +538,7 @@
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         },
         "DescriptionTextColor": {
@@ -550,7 +546,7 @@
           "type": "color"
         },
         "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Text.MediumEmphasis}",
           "type": "color"
         },
         "IconColor": {
@@ -580,19 +576,19 @@
           "type": "color"
         },
         "LabelTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+          "value": "{semantic.Color.Text.LowEmphasis}",
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+          "value": "{semantic.Color.Text.LowEmphasis}",
           "type": "color"
         },
         "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+          "value": "{semantic.Color.Text.LowEmphasis}",
           "type": "color"
         },
         "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Text.MediumEmphasis}",
           "type": "color"
         },
         "IconColor": {
@@ -618,19 +614,19 @@
           "type": "color"
         },
         "LabelTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+          "value": "{semantic.Color.Text.LowEmphasis}",
           "type": "color"
         },
         "InputTextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         },
         "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+          "value": "{semantic.Color.Text.LowEmphasis}",
           "type": "color"
         },
         "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Text.MediumEmphasis}",
           "type": "color"
         },
         "IconColor": {
@@ -675,7 +671,7 @@
         "type": "color"
       },
       "LinkColor": {
-        "value": "{semantic.Color.Text.Brand.PrimaryForeground}",
+        "value": "{semantic.Color.Text.Brand.Primary}",
         "type": "color"
       }
     },
@@ -717,7 +713,7 @@
         "type": "color"
       },
       "MutedTextColor": {
-        "value": "{semantic.Color.Text.Secondary}",
+        "value": "{semantic.Color.Text.MediumEmphasis}",
         "type": "color"
       }
     },
@@ -764,7 +760,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+          "value": "{semantic.Color.Text.LowEmphasis}",
           "type": "color"
         },
         "IconColor": {
@@ -782,7 +778,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         },
         "IconColor": {
@@ -1080,7 +1076,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Text.MediumEmphasis}",
           "type": "color"
         }
       },
@@ -1121,7 +1117,7 @@
           "type": "color"
         },
         "TitleColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.HighEmphasis}",
           "type": "color"
         },
         "IconColor": {

@@ -716,72 +716,63 @@
           }
         },
         "Accent": {
-          "PinkBold": {
+          "Accent1": {
             "value": "{base.Color.Pink.600}",
             "type": "color"
           },
-          "PinkSubtle": {
+          "Accent2": {
             "value": "{base.Color.Pink.50}",
             "type": "color"
           },
-          "GreenBold": {
+          "Accent3": {
             "value": "{base.Color.Green.800}",
             "type": "color",
             "description": " Notification badge, Avatar icon child, Avatar bg color"
           },
-          "GreenSubtle": {
+          "Accent4": {
             "value": "{base.Color.Green.50}",
             "type": "color"
           },
-          "RedBold": {
+          "Accent5": {
             "value": "{base.Color.Red.900}",
             "type": "color"
           },
-          "RedSubtle": {
+          "Accent6": {
             "value": "{base.Color.Red.50}",
             "type": "color"
           },
-          "OrangeBold": {
+          "Accent7": {
             "value": "{base.Color.Orange.900}",
             "type": "color"
           },
-          "OrangeSubtle": {
+          "Accent8": {
             "value": "{base.Color.Orange.50}",
             "type": "color"
           },
-          "BlueBold": {
+          "Accent9": {
             "value": "{base.Color.Blue.700}",
             "type": "color"
           },
-          "BlueSubtle": {
+          "Accent10": {
             "value": "{base.Color.Blue.50}",
             "type": "color"
           },
-          "YellowBold": {
+          "Accent11": {
             "value": "{base.Color.Yellow.900}",
             "type": "color"
           },
-          "YellowSubtle": {
+          "Accent12": {
             "value": "{base.Color.Yellow.50}",
             "type": "color"
           },
-          "GreyBold": {
+          "Accent13": {
             "value": "{base.Color.Grey.500}",
             "type": "color",
             "description": "Used for tags"
           },
-          "NeutralWhite": {
-            "value": "{base.Color.Neutral.White}",
-            "type": "color"
-          },
-          "GreySubtle": {
+          "Accent15": {
             "value": "{base.Color.Grey.50}",
             "type": "color"
-          },
-          "PurpleBold": {
-            "value": "{base.Color.Purple.500}",
-            "type": "color",
-            "description": "Avatars"
           }
         },
         "Greys": {
@@ -837,16 +828,16 @@
         }
       },
       "Text": {
-        "Default": {
+        "HighEmphasis": {
           "value": "{base.Color.Grey.900}",
           "type": "color",
           "description": "High emphasis"
         },
-        "Secondary": {
+        "MediumEmphasis": {
           "value": "{base.Color.Grey.700}",
           "type": "color"
         },
-        "Tertiary": {
+        "LowEmphasis": {
           "value": "{base.Color.Grey.500}",
           "type": "color",
           "description": "Low emphasis and can be used for disabled "
@@ -927,7 +918,7 @@
             "type": "color",
             "description": "Used for actions in the snackbar"
           },
-          "PrimaryForeground": {
+          "Primary": {
             "value": "{semantic.Color.Brand.Primary}",
             "type": "color",
             "description": "Links & actionable items, Secondary & tertiary CTA, Active state"
