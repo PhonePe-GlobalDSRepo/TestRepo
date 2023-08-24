@@ -925,13 +925,6 @@
             "type": "color",
             "description": "Links & actionable items, Secondary & tertiary CTA, Active state"
           }
-        },
-        "NegativeAction": {
-          "Primary": {
-            "value": "{semantic.Color.Danger.TextBold}",
-            "type": "color",
-            "description": "Used for destructive CTA"
-          }
         }
       },
       "Icon": {
