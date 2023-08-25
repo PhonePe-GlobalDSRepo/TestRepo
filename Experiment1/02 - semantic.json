@@ -736,7 +736,7 @@
           "description": "Primary CTA, Primary Icons, Title bar"
         },
         "TextBold": {
-          "value": "{base.Color.Green.500}",
+          "value": "{base.Color.Green.800}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
@@ -861,7 +861,7 @@
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "TextRich": {
+        "TextBold": {
           "value": "{base.Color.Blue.700}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"

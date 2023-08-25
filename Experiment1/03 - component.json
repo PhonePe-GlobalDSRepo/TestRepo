@@ -887,121 +887,121 @@
     "SectionMessage": {
       "Success": {
         "BgColor": {
-          "value": "{semantic.Color.Background.Success.Rich}",
+          "value": "{semantic.Color.Success.BackgroundSubtle}",
           "type": "color"
         },
-        "LeadingIconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
+        "IconLeadingColor": {
+          "value": "{semantic.Color.Success.IconBold}",
           "type": "color"
         },
-        "TrailingIconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
+        "IconTrailingColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
-        "TitleTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextTitleColor": {
+          "value": "{semantic.Color.Success.TextBold}",
           "type": "color"
         },
-        "BodyTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextBodyColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "LinkTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextLinkColor": {
+          "value": "{semantic.Color.Text.BrandPrimary}",
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+          "value": "{semantic.Color.Success.BorderSubtle}",
           "type": "color"
         }
       },
       "Warning": {
         "BgColor": {
-          "value": "{semantic.Color.Background.Success.Rich}",
+          "value": "{semantic.Color.Warning.BackgroundSubtle}",
           "type": "color"
         },
-        "LeadingIconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
+        "IconLeadingColor": {
+          "value": "{semantic.Color.Warning.IconBold}",
           "type": "color"
         },
-        "TrailingIconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
+        "IconTrailingColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
-        "TitleTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextTitleColor": {
+          "value": "{semantic.Color.Warning.TextBold}",
           "type": "color"
         },
-        "BodyTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextBodyColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "LinkTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
-          "type": "color"
-        },
-        "SeparatorColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Error": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.Success.Rich}",
-          "type": "color"
-        },
-        "LeadingIconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
-          "type": "color"
-        },
-        "TrailingIconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
-          "type": "color"
-        },
-        "TitleTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
-          "type": "color"
-        },
-        "BodyTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
-          "type": "color"
-        },
-        "LinkTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextLinkColor": {
+          "value": "{semantic.Color.Text.BrandPrimary}",
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+          "value": "{semantic.Color.Warning.BorderSubtle}",
           "type": "color"
         }
       },
       "Info": {
         "BgColor": {
-          "value": "{semantic.Color.Background.Success.Rich}",
+          "value": "{semantic.Color.Info.BackgroundSubtle}",
           "type": "color"
         },
-        "LeadingIconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
+        "IconLeadingColor": {
+          "value": "{semantic.Color.Info.IconBold}",
           "type": "color"
         },
-        "TrailingIconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
+        "IconTrailingColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
-        "TitleTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextTitleColor": {
+          "value": "{semantic.Color.Info.TextBold}",
           "type": "color"
         },
-        "BodyTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextBodyColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "LinkTextColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextLinkColor": {
+          "value": "{semantic.Color.Text.BrandPrimary}",
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+          "value": "{semantic.Color.Info.BorderSubtle}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BgColor": {
+          "value": "{semantic.Color.Danger.BackgroundSubtle}",
+          "type": "color"
+        },
+        "IconLeadingColor": {
+          "value": "{semantic.Color.Danger.IconBold}",
+          "type": "color"
+        },
+        "IconTrailingColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Danger.TextBold}",
+          "type": "color"
+        },
+        "TextBodyColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        },
+        "TextLinkColor": {
+          "value": "{semantic.Color.Text.BrandPrimary}",
+          "type": "color"
+        },
+        "SeparatorColor": {
+          "value": "{semantic.Color.Danger.BorderSubtle}",
           "type": "color"
         }
       }
