@@ -1,0 +1,943 @@
+{
+  "semantic": {
+    "TextDecoration": {
+      "None": {
+        "value": "{base.TextDecoration.None}",
+        "type": "textDecoration"
+      },
+      "Underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      },
+      "Strikethrough": {
+        "value": "{base.TextDecoration.Strikethrough}",
+        "type": "textDecoration"
+      }
+    },
+    "FontWeight": {
+      "Bold": {
+        "value": "{base.FontWeight.Bold}",
+        "type": "fontWeights"
+      },
+      "Regular": {
+        "value": "{base.FontWeight.Regular}",
+        "type": "fontWeights"
+      }
+    },
+    "FontSize": {
+      "8": {
+        "value": "{semantic.Size.8}",
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": "{semantic.Size.10}",
+        "type": "fontSizes"
+      },
+      "12": {
+        "value": "{semantic.Size.12}",
+        "type": "fontSizes"
+      },
+      "14": {
+        "value": "{semantic.Size.14}",
+        "type": "fontSizes"
+      },
+      "16": {
+        "value": "{semantic.Size.16}",
+        "type": "fontSizes"
+      },
+      "20": {
+        "value": "{semantic.Size.20}",
+        "type": "fontSizes"
+      },
+      "24": {
+        "value": "{semantic.Size.24}",
+        "type": "fontSizes"
+      },
+      "32": {
+        "value": "{semantic.Size.32}",
+        "type": "fontSizes"
+      }
+    },
+    "Spacing": {
+      "0": {
+        "value": "{semantic.Size.0}",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "{semantic.Size.4}",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "{semantic.Size.8}",
+        "type": "spacing"
+      },
+      "12": {
+        "value": "{semantic.Size.12}",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "{semantic.Size.16}",
+        "type": "spacing"
+      },
+      "24": {
+        "value": "{semantic.Size.24}",
+        "type": "spacing"
+      },
+      "32": {
+        "value": "{semantic.Size.32}",
+        "type": "spacing"
+      },
+      "40": {
+        "value": "{semantic.Size.40}",
+        "type": "spacing"
+      },
+      "48": {
+        "value": "{base.Spacing.48}",
+        "type": "spacing"
+      },
+      "56": {
+        "value": "{base.Spacing.56}",
+        "type": "spacing"
+      }
+    },
+    "BorderRadius": {
+      "0": {
+        "value": "{semantic.Size.0}",
+        "type": "borderRadius"
+      },
+      "4": {
+        "value": "{semantic.Size.4}",
+        "type": "borderRadius"
+      },
+      "8": {
+        "value": "{semantic.Size.8}",
+        "type": "borderRadius"
+      },
+      "12": {
+        "value": "{semantic.Size.12}",
+        "type": "borderRadius"
+      },
+      "16": {
+        "value": "{semantic.Size.16}",
+        "type": "borderRadius"
+      }
+    },
+    "BorderWidth": {
+      "Default": {
+        "value": "{base.BorderWidth.Default}",
+        "type": "borderWidth",
+        "description": "Used for default inpur fields,etc."
+      },
+      "Medium": {
+        "value": "{base.BorderWidth.Medium}",
+        "type": "borderWidth"
+      },
+      "Heavy": {
+        "value": "{base.BorderWidth.Heavy}",
+        "type": "borderWidth"
+      }
+    },
+    "Opacity": {
+      "0%": {
+        "value": "{base.Opacity.0%}",
+        "type": "opacity"
+      },
+      "5%": {
+        "value": "{base.Opacity.5%}",
+        "type": "opacity"
+      },
+      "10%": {
+        "value": "{base.Opacity.10%}",
+        "type": "opacity"
+      },
+      "40%": {
+        "value": "{base.Opacity.40%}",
+        "type": "opacity"
+      },
+      "70%": {
+        "value": "{base.Opacity.70%}",
+        "type": "opacity"
+      }
+    },
+    "FontFamily": {
+      "Roboto": {
+        "value": "{base.FontFamily.Roboto}",
+        "type": "fontFamilies"
+      },
+      "SFPro": {
+        "value": "{base.FontFamily.SFPro}",
+        "type": "fontFamilies"
+      }
+    },
+    "LineHeight": {
+      "125%": {
+        "value": "{base.LineHeight.125%}",
+        "type": "lineHeights"
+      },
+      "135%": {
+        "value": "{base.LineHeight.135%}",
+        "type": "lineHeights"
+      }
+    },
+    "LetterSpacing": {
+      "None": {
+        "value": "{base.LetterSpacing.None}",
+        "type": "letterSpacing"
+      },
+      "Normal": {
+        "value": "{base.LetterSpacing.Normal}",
+        "type": "letterSpacing",
+        "description": "Used for all the body text and heading upto 24px"
+      },
+      "Moderate": {
+        "value": "{base.LetterSpacing.Moderate}",
+        "type": "letterSpacing"
+      },
+      "Medium": {
+        "value": "{base.LetterSpacing.Medium}",
+        "type": "letterSpacing"
+      },
+      "Loose": {
+        "value": "{base.LetterSpacing.Loose}",
+        "type": "letterSpacing",
+        "description": "Used for overline text"
+      }
+    },
+    "Typography": {
+      "Heading": {
+        "H1": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.125%}",
+            "fontSize": "{semantic.FontSize.32}",
+            "letterSpacing": "{semantic.LetterSpacing.None}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "H2": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.125%}",
+            "fontSize": "{semantic.FontSize.24}",
+            "letterSpacing": "{semantic.LetterSpacing.None}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "H3": {
+          "value": {
+            "fontSize": "{semantic.FontSize.20}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "letterSpacing": "{semantic.LetterSpacing.Normal}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "H4": {
+          "value": {
+            "fontSize": "{semantic.FontSize.16}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "fontFamily": "{base.FontFamily.Roboto}",
+            "letterSpacing": "{semantic.LetterSpacing.Normal}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "H5": {
+          "value": {
+            "fontSize": "{semantic.FontSize.14}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "letterSpacing": "{semantic.LetterSpacing.Normal}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "H6": {
+          "value": {
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.12}",
+            "letterSpacing": "{semantic.LetterSpacing.Normal}",
+            "textCase": "{semantic.TextCase.None}",
+            "fontFamily": "{semantic.FontFamily.Roboto}"
+          },
+          "type": "typography"
+        },
+        "Overline": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.125%}",
+            "fontSize": "{semantic.FontSize.12}",
+            "letterSpacing": "{semantic.LetterSpacing.Loose}",
+            "textCase": "{semantic.TextCase.Uppercase}"
+          },
+          "type": "typography"
+        }
+      },
+      "Body": {
+        "XL": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{base.FontSize.16}",
+            "letterSpacing": "{semantic.LetterSpacing.Normal}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "L": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.14}",
+            "letterSpacing": "{semantic.LetterSpacing.Normal}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "M": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.12}",
+            "letterSpacing": "{semantic.LetterSpacing.Normal}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "S": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.10}",
+            "letterSpacing": "{semantic.LetterSpacing.Normal}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "XS": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.8}",
+            "letterSpacing": "{semantic.LetterSpacing.Medium}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        }
+      },
+      "Button": {
+        "Large": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.125%}",
+            "fontSize": "{semantic.FontSize.16}",
+            "letterSpacing": "{semantic.LetterSpacing.Medium}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        },
+        "Default": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.125%}",
+            "fontSize": "{semantic.FontSize.12}",
+            "letterSpacing": "{semantic.LetterSpacing.Moderate}",
+            "textCase": "{semantic.TextCase.None}"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "Elevation": {
+      "Top": {
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "-4",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.08)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "XL": {
+          "value": {
+            "x": "0",
+            "y": "-24",
+            "blur": "80",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.3)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "Bottom": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "2",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.04)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.08)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "L": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "16",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.16)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "XL": {
+          "value": {
+            "x": "0",
+            "y": "24",
+            "blur": "80",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.3)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    },
+    "Size": {
+      "0": {
+        "value": "{base.Size.0}",
+        "type": "sizing"
+      },
+      "1": {
+        "value": "{base.Size.1}",
+        "type": "sizing"
+      },
+      "2": {
+        "value": "{base.Size.2}",
+        "type": "sizing"
+      },
+      "4": {
+        "value": "{base.Size.4}",
+        "type": "sizing"
+      },
+      "8": {
+        "value": "{base.Size.8}",
+        "type": "sizing"
+      },
+      "10": {
+        "value": "{base.Size.10}",
+        "type": "sizing"
+      },
+      "12": {
+        "value": "{base.Size.12}",
+        "type": "sizing"
+      },
+      "14": {
+        "value": "{base.Size.14}",
+        "type": "sizing"
+      },
+      "16": {
+        "value": "{base.Size.16}",
+        "type": "sizing"
+      },
+      "20": {
+        "value": "{base.Size.20}",
+        "type": "sizing"
+      },
+      "24": {
+        "value": "{base.Size.24}",
+        "type": "sizing"
+      },
+      "32": {
+        "value": "{base.Size.32}",
+        "type": "sizing"
+      },
+      "40": {
+        "value": "{base.Size.40}",
+        "type": "sizing"
+      },
+      "48": {
+        "value": "{base.Size.48}",
+        "type": "sizing"
+      },
+      "56": {
+        "value": "{base.Size.56}",
+        "type": "sizing"
+      },
+      "64": {
+        "value": "{base.Size.64}",
+        "type": "sizing"
+      },
+      "72": {
+        "value": "{base.Size.72}",
+        "type": "sizing"
+      },
+      "96": {
+        "value": "{base.Size.96}",
+        "type": "sizing"
+      },
+      "128": {
+        "value": "{base.Size.128}",
+        "type": "sizing"
+      }
+    },
+    "TextCase": {
+      "None": {
+        "value": "{base.TextCase.None}",
+        "type": "textCase"
+      },
+      "Uppercase": {
+        "value": "{base.TextCase.Uppercase}",
+        "type": "textCase"
+      }
+    },
+    "Color": {
+      "Background": {
+        "BrandPrimary": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "AppBackground": {
+          "value": "{base.Color.Purple.100}",
+          "type": "color",
+          "description": "Secondary CTA, Secondary Icons, Title bar"
+        },
+        "PrimaryLayer": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "ElevatedLayer": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
+        },
+        "PaleGrey": {
+          "value": "{base.Color.Grey.200}",
+          "type": "color",
+          "description": "Secondary CTA, Secondary Icons, Title bar"
+        },
+        "MutedGrey": {
+          "value": "{base.Color.Grey.300}",
+          "type": "color"
+        },
+        "SoftGrey": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        },
+        "EmphasisGrey": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "DeepGrey": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
+        },
+        "IntenseGrey": {
+          "value": "{semantic.Color.Neutral.Black}",
+          "type": "color"
+        },
+        "PalePurple": {
+          "value": "{base.Color.Purple.200}",
+          "type": "color"
+        },
+        "MutedLightPurple": {
+          "value": "{base.Color.LightPurple.300}",
+          "type": "color"
+        },
+        "SubtleOrange": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
+        }
+      },
+      "Border": {
+        "BrandPrimary": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "EmphasisGrey": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color",
+          "description": "Secondary CTA, Secondary Icons, Title bar"
+        },
+        "ModerateDark": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color",
+          "description": "Secondary CTA, Secondary Icons, Title bar"
+        },
+        "PureWhite": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
+      "Icon": {
+        "BrandPrimary": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BrandSecondary": {
+          "value": "{base.Color.LightPurple.500}",
+          "type": "color"
+        },
+        "BoldGrey": {
+          "value": "{base.Color.Grey.800}",
+          "type": "color",
+          "description": "Secondary CTA, Secondary Icons, Title bar"
+        },
+        "EmphasisGrey": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color",
+          "description": "Secondary CTA, Secondary Icons, Title bar"
+        },
+        "PureWhite": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "BrandPrimary": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "Secondary": {
+          "value": "{base.Color.Grey.700}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "EmphasisGrey": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "ModerateGrey": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "PaleGrey": {
+          "value": "{base.Color.Grey.200}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        }
+      },
+      "Selection": {
+        "BackgroundBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Green.50}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BorderBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BorderSubtle": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconBold": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconSubtle": {
+          "value": "{base.Color.Grey.700}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconDisabled": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "TextBold": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
+        },
+        "TextDisabled": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "TextSubtle": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
+        },
+        "BackgroundDisabled": {
+          "value": "{base.Color.Grey.300}",
+          "type": "color"
+        },
+        "ForeGroundToggle": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
+      "Success": {
+        "BackgroundBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Green.50}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "TextBold": {
+          "value": "{base.Color.Green.500}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "TextSubtle": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BorderBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BorderSubtle": {
+          "value": "{base.Color.Green.200}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconSubtle": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        }
+      },
+      "Warning": {
+        "BackgroundBold": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "TextBold": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "TextSubtle": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BorderBold": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BorderSubtle": {
+          "value": "{base.Color.Orange.200}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconBold": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconSubtle": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        }
+      },
+      "Danger": {
+        "BackgroundBold": {
+          "value": "{base.Color.Red.900}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Red.50}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "TextBold": {
+          "value": "{base.Color.Red.900}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "TextSubtle": {
+          "value": "{base.Color.Red.50}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BorderBold": {
+          "value": "{base.Color.Red.900}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BorderSubtle": {
+          "value": "{base.Color.Red.200}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconBold": {
+          "value": "{base.Color.Red.900}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconSubtle": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        }
+      },
+      "Info": {
+        "BackgroundBold": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Blue.50}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "TextRich": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "TextSubtle": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BorderBold": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BorderSubtle": {
+          "value": "{base.Color.Blue.200}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconBold": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "IconSubtle": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        }
+      },
+      "Neutral": {
+        "Black": {
+          "value": "{base.Color.Neutral.Black}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "White": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        }
+      },
+      "Accent": {
+        "Accent1Bold": {
+          "value": "{base.Color.Pink.500}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "Accent1Moderate": {
+          "value": "{base.Color.Pink.200}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "Accent1Subtle": {
+          "value": "{base.Color.Pink.50}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "Accent2Bold": {
+          "value": "{base.Color.Yellow.500}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "Accent2Moderate": {
+          "value": "{base.Color.Yellow.200}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "YellowSubtle": {
+          "value": "{base.Color.Yellow.50}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        }
+      },
+      "Brand": {
+        "Primary": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

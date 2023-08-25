@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "01 - base",
+    "02 - semantic",
+    "03 - component",
+    "Theme/Light",
+    "Theme/Dark",
+    "Theme/DeepPurple"
+  ]
+}
