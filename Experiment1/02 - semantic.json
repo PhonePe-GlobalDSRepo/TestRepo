@@ -658,6 +658,10 @@
           "value": "{base.Color.Grey.200}",
           "type": "color"
         },
+        "SoftGrey": {
+          "value": "{base.Color.Grey.100}",
+          "type": "color"
+        },
         "Inverse": {
           "value": "{base.Color.Neutral.White}",
           "type": "color",

@@ -1132,89 +1132,105 @@
     "TitleBar": {
       "Default": {
         "BgColor": {
-          "value": "{semantic.Color.Background.Brand.Primary}",
+          "value": "{semantic.Color.Background.BrandPrimary}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
+          "value": "{semantic.Color.Icon.PureWhite}",
           "type": "color"
         },
-        "TitleColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.SoftGrey}",
           "type": "color"
         }
       },
       "Inverse": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pure}",
+          "value": "{semantic.Color.Background.PrimaryLayer}",
           "type": "color"
         },
-        "TitleColor": {
-          "value": "{semantic.Color.Text.Default}",
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Primary}",
+          "value": "{semantic.Color.Icon.BoldGrey}",
           "type": "color"
         }
       },
       "Success": {
         "BgColor": {
-          "value": "{semantic.Color.Background.Success.Rich}",
+          "value": "{semantic.Color.Success.BackgroundBold}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
+          "value": "{semantic.Color.Icon.PureWhite}",
           "type": "color"
         },
-        "TitleColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Warning": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.Warning.Rich}",
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
           "type": "color"
         },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
-          "type": "color"
-        },
-        "TitleColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Danger": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.Danger.Rich}",
-          "type": "color"
-        },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
-          "type": "color"
-        },
-        "TitleColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.SoftGrey}",
           "type": "color"
         }
       },
       "Disabled": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Emphasis}",
+          "value": "{semantic.Color.Background.EmphasisGrey}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
+          "value": "{semantic.Color.Icon.PureWhite}",
           "type": "color"
         },
-        "TitleColor": {
-          "value": "{semantic.Color.Text.Neutral.White}",
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
           "type": "color"
         },
         "SubTitleColor": {
-          "value": "{semantic.Color.Text.Pale}",
+          "value": "{semantic.Color.Text.SoftGrey}",
+          "type": "color"
+        }
+      },
+      "Warning": {
+        "BgColor": {
+          "value": "{semantic.Color.Warning.BackgroundBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.PureWhite}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.SoftGrey}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BgColor": {
+          "value": "{semantic.Color.Danger.BackgroundBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.PureWhite}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.SoftGrey}",
           "type": "color"
         }
       }
