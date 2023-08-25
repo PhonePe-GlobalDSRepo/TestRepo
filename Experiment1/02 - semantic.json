@@ -694,6 +694,11 @@
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
+        "IconActive": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
         "IconSubtle": {
           "value": "{base.Color.Grey.700}",
           "type": "color",

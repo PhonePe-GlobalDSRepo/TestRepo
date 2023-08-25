@@ -1239,31 +1239,31 @@
       "Android": {
         "Active": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Muted}",
+            "value": "{semantic.Color.Selection.BackgroundDisabled}",
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.Accent.GreenBold}",
+            "value": "{semantic.Color.Selection.BackgroundBold}",
             "type": "color"
           }
         },
         "Default": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Muted}",
+            "value": "{semantic.Color.Selection.BackgroundDisabled}",
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Pure}",
+            "value": "{semantic.Color.Selection.ForeGroundToggle}",
             "type": "color"
           }
         },
         "Disabled": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Muted}",
+            "value": "{semantic.Color.Selection.BackgroundDisabled}",
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Emphasis}",
+            "value": "{semantic.Color.Background.EmphasisGrey}",
             "type": "color"
           }
         }
@@ -1271,31 +1271,31 @@
       "IOS": {
         "Active": {
           "BgColor": {
-            "value": "{semantic.Color.Background.Accent.GreenBold}",
+            "value": "{semantic.Color.Selection.BackgroundBold}",
             "type": "color"
           },
-          "FgColorU": {
-            "value": "{semantic.Color.Background.UIElement.Pure}",
+          "FgColor": {
+            "value": "{semantic.Color.Selection.ForeGroundToggle}",
             "type": "color"
           }
         },
         "Default": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Muted}",
+            "value": "{semantic.Color.Selection.BackgroundSubtle}",
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Pure}",
+            "value": "{semantic.Color.Selection.ForeGroundToggle}",
             "type": "color"
           }
         },
         "Disabled": {
           "BgColor": {
-            "value": "{semantic.Color.Background.UIElement.Muted}",
+            "value": "{semantic.Color.Selection.BackgroundDisabled}",
             "type": "color"
           },
           "FgColor": {
-            "value": "{semantic.Color.Background.UIElement.Emphasis}",
+            "value": "{semantic.Color.Background.EmphasisGrey}",
             "type": "color"
           }
         }
@@ -1303,12 +1303,52 @@
     },
     "Tooltip": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Deep}",
+        "value": "{semantic.Color.Background.DeepGrey}",
         "type": "color"
       },
       "TextColor": {
-        "value": "{semantic.Color.Text.Neutral.White}",
+        "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
+      }
+    },
+    "Checkbox": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.IconActive}",
+          "type": "color"
+        }
+      },
+      "Default": {
+        "IconColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.IconDisabled}",
+          "type": "color"
+        }
+      }
+    },
+    "RadioButton": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.IconActive}",
+          "type": "color"
+        }
+      },
+      "Default": {
+        "IconColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.IconDisabled}",
+          "type": "color"
+        }
       }
     }
   }
