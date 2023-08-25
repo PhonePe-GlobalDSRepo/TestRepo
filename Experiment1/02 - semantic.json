@@ -703,6 +703,10 @@
           "value": "{base.Color.Grey.900}",
           "type": "color"
         },
+        "TextActive": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
         "TextDisabled": {
           "value": "{base.Color.Grey.500}",
           "type": "color"

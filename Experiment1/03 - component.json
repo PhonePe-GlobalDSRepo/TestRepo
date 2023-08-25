@@ -662,19 +662,19 @@
       }
     },
     "Notes": {
-      "Indicator": {
+      "IndicatorColor": {
         "value": "{semantic.Color.Accent.Accent1Bold}",
         "type": "color"
       },
-      "TextTitle": {
+      "TextTitleColor": {
         "value": "{semantic.Color.Accent.Accent1Bold}",
         "type": "color"
       },
-      "TextBody": {
+      "TextBodyColor": {
         "value": "{semantic.Color.Text.Secondary}",
         "type": "color"
       },
-      "TextLink": {
+      "TextLinkColor": {
         "value": "{semantic.Color.Text.BrandPrimary}",
         "type": "color"
       }
@@ -696,36 +696,36 @@
     },
     "ProgressBar": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Muted}",
+        "value": "{semantic.Color.Selection.BackgroundDisabled}",
         "type": "color"
       },
       "FgColor": {
-        "value": "{semantic.Color.Background.Accent.GreenBold}",
+        "value": "{semantic.Color.Selection.BackgroundBold}",
         "type": "color"
       },
-      "EmphasisedTextColor": {
-        "value": "{semantic.Color.Text.Accent.RichGreen}",
+      "TextActiveColor": {
+        "value": "{semantic.Color.Selection.TextActive}",
         "type": "color"
       },
-      "MutedTextColor": {
-        "value": "{semantic.Color.Text.Accent.RichGrey}",
+      "TextMutedColor": {
+        "value": "{semantic.Color.Text.Secondary}",
         "type": "color"
       }
     },
     "ProgressTracker": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Muted}",
+        "value": "{semantic.Color.Selection.BackgroundDisabled}",
         "type": "color"
       },
       "FgColor": {
-        "value": "{semantic.Color.Background.Accent.GreenBold}",
+        "value": "{semantic.Color.Selection.BackgroundBold}",
         "type": "color"
       },
-      "CompletedTextColor": {
-        "value": "{semantic.Color.Text.Accent.RichGreen}",
+      "TextCompletedColor": {
+        "value": "{semantic.Color.Selection.TextActive}",
         "type": "color"
       },
-      "MutedTextColor": {
+      "TextMutedColor": {
         "value": "{semantic.Color.Text.Secondary}",
         "type": "color"
       }
@@ -733,31 +733,31 @@
     "Ribbon": {
       "Success": {
         "BgColor": {
-          "value": "#",
+          "value": "{semantic.Color.Success.BackgroundBold}",
           "type": "color"
         },
         "TextColor": {
-          "value": "#",
+          "value": "{semantic.Color.Success.TextSubtle}",
           "type": "color"
         }
       },
       "Warning": {
         "BgColor": {
-          "value": "#",
+          "value": "{semantic.Color.Warning.BackgroundBold}",
           "type": "color"
         },
         "TextColor": {
-          "value": "#",
+          "value": "{semantic.Color.Warning.TextSubtle}",
           "type": "color"
         }
       },
       "Danger": {
         "BgColor": {
-          "value": "#",
+          "value": "{semantic.Color.Danger.BackgroundBold}",
           "type": "color"
         },
         "TextColor": {
-          "value": "#",
+          "value": "{semantic.Color.Danger.TextSubtle}",
           "type": "color"
         }
       }
@@ -765,41 +765,41 @@
     "Search": {
       "Default": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pure}",
+          "value": "{semantic.Color.Background.ElevatedLayer}",
           "type": "color"
         },
         "BorderColor": {
-          "value": "{semantic.Color.Border.Default.Moderate}",
+          "value": "{semantic.Color.Border.EmphasisGrey}",
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+          "value": "{semantic.Color.Text.EmphasisGrey}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Primary}",
+          "value": "{semantic.Color.Icon.BoldGrey}",
           "type": "color"
         }
       },
       "Active": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pure}",
+          "value": "{semantic.Color.Background.ElevatedLayer}",
           "type": "color"
         },
         "IconBackgroundColor": {
-          "value": "{semantic.Color.Background.UIElement.Muted}",
+          "value": "{semantic.Color.Background.MutedGrey}",
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Default}",
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Primary}",
+          "value": "{semantic.Color.Icon.BoldGrey}",
           "type": "color"
         },
         "BorderColor": {
-          "value": "{semantic.Color.Border.Brand.Primary}",
+          "value": "{semantic.Color.Border.BrandPrimary}",
           "type": "color"
         }
       }
@@ -808,7 +808,7 @@
       "Default": {
         "Item": {
           "BorderColor": {
-            "value": "{semantic.Color.Border.Default.Intense}",
+            "value": "{base.Color.Neutral.Black}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -823,7 +823,7 @@
         },
         "Section": {
           "BorderColor": {
-            "value": "{semantic.Color.Border.Default.Intense}",
+            "value": "{base.Color.Neutral.Black}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -840,7 +840,7 @@
       "Inverse": {
         "Item": {
           "BorderColor": {
-            "value": "{semantic.Color.Border.Default.Pure}",
+            "value": "{base.Color.Neutral.White}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -855,7 +855,7 @@
         },
         "Section": {
           "BorderColor": {
-            "value": "{semantic.Color.Border.Default.Pure}",
+            "value": "{base.Color.Neutral.White}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
