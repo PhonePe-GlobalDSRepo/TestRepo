@@ -1063,49 +1063,21 @@
       },
       "Success": {
         "BgColor": {
-          "value": "{semantic.Color.Background.Success.Faded}",
+          "value": "{semantic.Color.Success.BackgroundSubtle}",
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Success.Rich}",
+          "value": "{semantic.Color.Success.TextBold}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Success.Rich}",
-          "type": "color"
-        }
-      },
-      "Warning": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.Warning.Faded}",
-          "type": "color"
-        },
-        "TextColor": {
-          "value": "{semantic.Color.Text.Warning.Rich}",
-          "type": "color"
-        },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Warning.Rich}",
-          "type": "color"
-        }
-      },
-      "Danger": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.Danger.Faded}",
-          "type": "color"
-        },
-        "TextColor": {
-          "value": "{semantic.Color.Text.Danger.Rich}",
-          "type": "color"
-        },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Danger.Rich}",
+          "value": "{semantic.Color.Success.IconBold}",
           "type": "color"
         }
       },
       "Disabled": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Muted}",
+          "value": "{semantic.Color.Background.MutedGrey}",
           "type": "color"
         },
         "TextColor": {
@@ -1115,7 +1087,7 @@
       },
       "Image": {
         "BorderColor": {
-          "value": "{semantic.Color.Border.Default.Intense}",
+          "value": "{semantic.Color.Neutral.Black}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -1126,6 +1098,34 @@
               }
             }
           }
+        }
+      },
+      "Warning": {
+        "BgColor": {
+          "value": "{semantic.Color.Warning.BackgroundSubtle}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Warning.TextBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Warning.IconBold}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BgColor": {
+          "value": "{semantic.Color.Danger.BackgroundSubtle}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Danger.TextBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Danger.IconBold}",
+          "type": "color"
         }
       }
     },
