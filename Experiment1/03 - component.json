@@ -872,15 +872,15 @@
     },
     "Snackbar": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Deep}",
+        "value": "{semantic.Color.Background.DeepGrey}",
         "type": "color"
       },
       "TextColor": {
-        "value": "{semantic.Color.Text.Neutral.White}",
+        "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
       },
       "IconColor": {
-        "value": "{semantic.Color.Icon.Default.Soft}",
+        "value": "{semantic.Color.Icon.PureWhite}",
         "type": "color"
       }
     },
