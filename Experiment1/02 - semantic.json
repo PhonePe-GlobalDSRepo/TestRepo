@@ -532,18 +532,12 @@
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "AppBackground": {
-          "value": "{base.Color.Purple.100}",
-          "type": "color",
-          "description": "Secondary CTA, Secondary Icons, Title bar"
+        "PalePurple": {
+          "value": "{base.Color.Purple.200}",
+          "type": "color"
         },
-        "PrimaryLayer": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "ElevatedLayer": {
-          "value": "{semantic.Color.Neutral.White}",
+        "MutedLightPurple": {
+          "value": "{base.Color.LightPurple.300}",
           "type": "color"
         },
         "PaleGrey": {
@@ -571,16 +565,12 @@
           "value": "{semantic.Color.Neutral.Black}",
           "type": "color"
         },
-        "PalePurple": {
-          "value": "{base.Color.Purple.200}",
-          "type": "color"
-        },
-        "MutedLightPurple": {
-          "value": "{base.Color.LightPurple.300}",
-          "type": "color"
-        },
         "SubtleOrange": {
           "value": "{base.Color.Orange.50}",
+          "type": "color"
+        },
+        "White": {
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -600,7 +590,11 @@
           "type": "color",
           "description": "Secondary CTA, Secondary Icons, Title bar"
         },
-        "PureWhite": {
+        "MutedGrey": {
+          "value": "{base.Color.Grey.300}",
+          "type": "color"
+        },
+        "White": {
           "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
@@ -625,7 +619,7 @@
           "type": "color",
           "description": "Secondary CTA, Secondary Icons, Title bar"
         },
-        "PureWhite": {
+        "White": {
           "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
@@ -658,14 +652,14 @@
           "value": "{base.Color.Grey.200}",
           "type": "color"
         },
-        "SoftGrey": {
-          "value": "{base.Color.Grey.100}",
-          "type": "color"
-        },
         "Inverse": {
           "value": "{base.Color.Neutral.White}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "SoftGrey": {
+          "value": "{base.Color.Grey.100}",
+          "type": "color"
         }
       },
       "Selection": {
@@ -694,11 +688,6 @@
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "IconActive": {
-          "value": "{base.Color.Green.800}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
         "IconSubtle": {
           "value": "{base.Color.Grey.700}",
           "type": "color",
@@ -710,10 +699,6 @@
         },
         "TextBold": {
           "value": "{base.Color.Grey.900}",
-          "type": "color"
-        },
-        "TextActive": {
-          "value": "{base.Color.Green.800}",
           "type": "color"
         },
         "TextDisabled": {
@@ -745,7 +730,7 @@
           "description": "Primary CTA, Primary Icons, Title bar"
         },
         "TextBold": {
-          "value": "{base.Color.Green.800}",
+          "value": "{base.Color.Green.500}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
@@ -870,7 +855,7 @@
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "TextBold": {
+        "TextRich": {
           "value": "{base.Color.Blue.700}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
@@ -914,40 +899,83 @@
         }
       },
       "Accent": {
-        "Accent1Bold": {
+        "Accent1": {
+          "value": "{base.Color.Pink.600}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "Accent2": {
           "value": "{base.Color.Pink.500}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "Accent1Moderate": {
+        "Accent3": {
           "value": "{base.Color.Pink.200}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "Accent1Subtle": {
+        "Accent4": {
           "value": "{base.Color.Pink.50}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "Accent2Bold": {
+        "Accent5": {
           "value": "{base.Color.Yellow.500}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "Accent2Moderate": {
+        "Accent6": {
           "value": "{base.Color.Yellow.200}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "YellowSubtle": {
+        "Accent7": {
           "value": "{base.Color.Yellow.50}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "Accent8": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color"
+        },
+        "Accent9": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color"
+        },
+        "Accent10": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Accent11": {
+          "value": "{base.Color.Red.900}",
+          "type": "color"
+        },
+        "Accent12": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color"
+        },
+        "Accent13": {
+          "value": "{base.Color.Pink.400}",
+          "type": "color"
         }
       },
       "Brand": {
         "Primary": {
           "value": "{base.Color.Purple.500}",
+          "type": "color"
+        }
+      },
+      "Surface": {
+        "AppBackground": {
+          "value": "{base.Color.Purple.50}",
+          "type": "color"
+        },
+        "PrimaryLayer": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "ElevatedLayer": {
+          "value": "{base.Color.Neutral.White}",
           "type": "color"
         }
       }
