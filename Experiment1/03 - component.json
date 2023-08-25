@@ -1010,33 +1010,53 @@
       "Default": {
         "Bg": {
           "Color01": {
-            "value": "{semantic.Color.Background.Accent.RichRed}",
+            "value": "{base.Color.Red.800}",
             "type": "color"
           },
           "Color02": {
-            "value": "{semantic.Color.Background.Accent.GreenBold}",
+            "value": "{base.Color.Green.800}",
             "type": "color"
           },
           "Color03": {
-            "value": "{semantic.Color.Background.Accent.RichOrange}",
+            "value": "{base.Color.Orange.900}",
             "type": "color"
           },
           "Color04": {
-            "value": "{semantic.Color.Background.Accent.RichBlue}",
+            "value": "{base.Color.Blue.700}",
             "type": "color"
           },
           "Color05": {
-            "value": "{semantic.Color.Background.Accent.RichPink}",
+            "value": "{semantic.Color.Accent.Accent1Bold}",
             "type": "color"
           },
           "Color06": {
-            "value": "{semantic.Color.Background.UIElement.Emphasis}",
+            "value": "{semantic.Color.Background.EmphasisGrey}",
             "type": "color"
           }
         },
         "Text": {
-          "Color": {
-            "value": "{semantic.Color.Text.Neutral.White}",
+          "Color01": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          },
+          "Color02": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          },
+          "Color03": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          },
+          "Color04": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          },
+          "Color05": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          },
+          "Color06": {
+            "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           }
         }
