@@ -902,17 +902,34 @@
       },
       "Accent": {
         "Accent1Bold": {
-          "value": "{base.Color.Pink.600}",
+          "value": "{base.Color.Pink.500}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "Accent2Emphasis": {
-          "value": "{base.Color.Yellow.500}",
-          "type": "color"
+        "Accent1Moderate": {
+          "value": "{base.Color.Pink.200}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "Accent2Subtle": {
+        "Accent1Subtle": {
+          "value": "{base.Color.Pink.50}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "Accent2Bold": {
+          "value": "{base.Color.Yellow.500}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "Accent2Moderate": {
+          "value": "{base.Color.Yellow.200}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "YellowSubtle": {
           "value": "{base.Color.Yellow.50}",
-          "type": "color"
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
         }
       },
       "Brand": {

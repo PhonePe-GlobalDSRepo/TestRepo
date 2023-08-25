@@ -662,27 +662,36 @@
       }
     },
     "Notes": {
-      "IndicatorColor": {
-        "value": "{semantic.Color.Background.Accent.RichPink}",
+      "Indicator": {
+        "value": "{semantic.Color.Accent.Accent1Bold}",
         "type": "color"
       },
-      "TitleTextColor": {
-        "value": "{semantic.Color.Text.Accent.RichGrey}",
+      "TextTitle": {
+        "value": "{semantic.Color.Accent.Accent1Bold}",
         "type": "color"
       },
-      "BodyTextColor": {
-        "value": "{semantic.Color.Text.Accent.RichGrey}",
+      "TextBody": {
+        "value": "{semantic.Color.Text.Secondary}",
         "type": "color"
       },
-      "LinkColor": {
-        "value": "{semantic.Color.Text.Brand.PrimaryForeground}",
+      "TextLink": {
+        "value": "{semantic.Color.Text.BrandPrimary}",
         "type": "color"
       }
     },
     "Overlay": {
       "BgColor": {
-        "value": "{semantic.Color.Background.UIElement.Intense}",
-        "type": "color"
+        "value": "{semantic.Color.Neutral.Black}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.7",
+              "space": "lch"
+            }
+          }
+        }
       }
     },
     "ProgressBar": {
