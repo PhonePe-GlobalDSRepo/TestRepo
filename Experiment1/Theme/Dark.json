@@ -391,19 +391,19 @@
       },
       "Disabled": {
         "Background": {
-          "value": "{base.Color.Grey.300}",
+          "value": "{base.Color.DeepGrey.600}",
           "type": "color"
         },
         "Border": {
-          "value": "{base.Color.Grey.500}",
+          "value": "{base.Color.DeepGrey.500}",
           "type": "color"
         },
         "Text": {
-          "value": "{base.Color.Grey.500}",
+          "value": "{base.Color.DeepGrey.400}",
           "type": "color"
         },
         "Icon": {
-          "value": "{base.Color.Grey.500}",
+          "value": "{base.Color.DeepGrey.400}",
           "type": "color"
         }
       }
