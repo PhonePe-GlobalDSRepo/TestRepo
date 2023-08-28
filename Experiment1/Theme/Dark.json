@@ -69,31 +69,28 @@
       },
       "Text": {
         "BrandPrimary": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "Primary": {
-          "value": "{base.Color.Grey.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{base.Color.DeepGrey.100}",
+          "type": "color"
         },
         "Secondary": {
-          "value": "{base.Color.Grey.700}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{base.Color.DeepGrey.300}",
+          "type": "color"
         },
         "Muted": {
-          "value": "{base.Color.Grey.500}",
+          "value": "{base.Color.DeepGrey.400}",
           "type": "color"
         },
         "SoftGrey": {
-          "value": "{base.Color.Grey.100}",
+          "value": "{base.Color.DeepGrey.300}",
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{base.Color.DeepGrey.100}",
+          "type": "color"
         }
       },
       "Selection": {
