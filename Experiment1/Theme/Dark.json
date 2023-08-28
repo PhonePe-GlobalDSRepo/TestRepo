@@ -96,12 +96,21 @@
       "Selection": {
         "BackgroundBold": {
           "value": "{base.Color.Green.800}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {}
         },
         "BackgroundSubtle": {
-          "value": "{base.Color.Green.50}",
+          "value": "{base.Color.Green.800}",
           "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
         },
         "Border": {
           "value": "{base.Color.Green.800}",
@@ -122,15 +131,24 @@
           "type": "color"
         },
         "BackgroundSubtle": {
-          "value": "{base.Color.Green.50}",
-          "type": "color"
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
         },
         "TextBold": {
-          "value": "{base.Color.Green.800}",
+          "value": "{base.Color.Green.300}",
           "type": "color"
         },
         "TextSubtle": {
-          "value": "{base.Color.Neutral.White}",
+          "value": "{base.Color.Green.50}",
           "type": "color"
         },
         "BorderBold": {
@@ -138,15 +156,24 @@
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{base.Color.Green.200}",
-          "type": "color"
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
         },
         "IconBold": {
-          "value": "{base.Color.Green.800}",
+          "value": "{base.Color.Green.300}",
           "type": "color"
         },
         "IconSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{base.Color.Green.50}",
           "type": "color"
         }
       },
