@@ -549,7 +549,7 @@
           "value": "{base.Color.Grey.900}",
           "type": "color"
         },
-        "Pure": {
+        "Inverse": {
           "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
@@ -570,7 +570,7 @@
           "type": "color",
           "description": "Secondary CTA, Secondary Icons, Title bar"
         },
-        "Pure": {
+        "Inverse": {
           "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
@@ -595,7 +595,7 @@
           "type": "color",
           "description": "Secondary CTA, Secondary Icons, Title bar"
         },
-        "Pure": {
+        "Inverse": {
           "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
