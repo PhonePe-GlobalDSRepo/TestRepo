@@ -39,6 +39,10 @@
         "ModerateDark": {
           "value": "{base.Color.DeepGrey.500}",
           "type": "color"
+        },
+        "Inverse": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
         }
       },
       "Icon": {
@@ -51,17 +55,15 @@
           "type": "color"
         },
         "BoldGrey": {
-          "value": "{base.Color.Grey.800}",
-          "type": "color",
-          "description": "Secondary CTA, Secondary Icons, Title bar"
+          "value": "{base.Color.DeepGrey.100}",
+          "type": "color"
         },
         "EmphasisGrey": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color",
-          "description": "Secondary CTA, Secondary Icons, Title bar"
+          "value": "{base.Color.DeepGrey.400}",
+          "type": "color"
         },
         "Inverse": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{base.Color.DeepGrey.100}",
           "type": "color"
         }
       },
