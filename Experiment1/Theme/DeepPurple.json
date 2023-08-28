@@ -1,366 +1,506 @@
 {
   "semantic": {
     "Color": {
-      "Brand": {
-        "Primary": {
-          "value": "{base.Color.Purple.400}",
+      "Background": {
+        "BrandPrimary": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "PaleGrey": {
+          "value": "{base.Color.DeepPurple.500}",
+          "type": "color"
+        },
+        "MutedGrey": {
+          "value": "{base.Color.DeepPurple.400}",
+          "type": "color"
+        },
+        "EmphasisGrey": {
+          "value": "{base.Color.DeepPurple.600}",
+          "type": "color"
+        },
+        "DeepGrey": {
+          "value": "{base.Color.DeepPurple.500}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{base.Color.DeepPurple.600}",
           "type": "color"
         }
       },
-      "Background": {
-        "Brand": {
-          "Primary": {
-            "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color"
-          }
-        },
-        "Success": {
-          "Faded": {
-            "value": "{base.Color.Green.800}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.4",
-                  "space": "lch"
-                }
-              }
-            }
-          }
-        },
-        "Warning": {
-          "Faded": {
-            "value": "{base.Color.Orange.900} ",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "space": "lch",
-                  "value": ".4"
-                }
-              }
-            }
-          }
-        },
-        "Danger": {
-          "Faded": {
-            "value": "{base.Color.Red.900}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.4",
-                  "space": "lch"
-                }
-              }
-            }
-          }
-        },
-        "Information": {
-          "Faded": {
-            "value": "{base.Color.Blue.700}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "space": "lch",
-                  "value": "0.4"
-                }
-              }
-            }
-          }
-        },
-        "Accent": {
-          "FadedPink": {
-            "value": "{base.Color.Pink.600}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "space": "lch",
-                  "value": "0.4"
-                }
-              }
-            }
-          },
-          "FadedGreen": {
-            "value": "{base.Color.Green.800} ",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "space": "lch",
-                  "value": "0.4"
-                }
-              }
-            }
-          },
-          "FadedRed": {
-            "value": "{base.Color.Red.900}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "space": "lch",
-                  "value": "0.4"
-                }
-              }
-            }
-          },
-          "FadedOrange": {
-            "value": "{base.Color.Orange.900} ",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "space": "lch",
-                  "value": "0.4"
-                }
-              }
-            }
-          },
-          "FadedBlue": {
-            "value": "{base.Color.Blue.700}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "space": "lch",
-                  "value": "0.4"
-                }
-              }
-            }
-          },
-          "FadedYellow": {
-            "value": "{base.Color.Yellow.900} ",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "space": "lch",
-                  "value": "0.4"
-                }
-              }
-            }
-          },
-          "RichGrey": {
-            "value": "{base.Color.DeepPurple.500}",
-            "type": "color"
-          },
-          "FadedGrey": {
-            "value": "{base.Color.DeepPurple.500}",
-            "type": "color"
-          }
-        },
-        "UIElement": {
-          "Vivid": {
-            "value": "{base.Color.DeepPurple.500}",
-            "type": "color",
-            "description": "Used for coachmark, tooltips, etc."
-          },
-          "Rich": {
-            "value": "{base.Color.DeepPurple.400}",
-            "type": "color"
-          },
-          "Emphasis": {
-            "value": "{base.Color.DeepPurple.400}",
-            "type": "color"
-          },
-          "Moderate": {
-            "value": "{base.Color.DeepPurple.500}",
-            "type": "color"
-          },
-          "Subtle": {
-            "value": "{base.Color.DeepPurple.400}",
-            "type": "color"
-          },
-          "Faded": {
-            "value": "{base.Color.DeepPurple.500}",
-            "type": "color"
-          },
-          "SubtlePurple": {
-            "value": "{base.Color.DeepPurple.500}",
-            "type": "color",
-            "description": "Used background color active"
-          },
-          "Soft": {
-            "value": "{base.Color.DeepPurple.600}",
-            "type": "color"
-          }
-        },
-        "Surface": {
-          "Layer0": {
-            "value": "{base.Color.DeepPurple.700}",
-            "type": "color",
-            "description": "Used for app background"
-          },
-          "Layer1": {
-            "value": "{base.Color.DeepPurple.600}",
-            "type": "color",
-            "description": "Used for primary cards "
-          },
-          "Layer2": {
-            "value": "{base.Color.DeepPurple.500}",
-            "type": "color",
-            "description": "Used for tertiary layers like dialog box, action menu, bottom sheet."
-          }
-        },
-        "Skeleton": {
-          "Emaphsis": {
-            "value": "{base.Color.DeepPurple.600}",
-            "type": "color"
-          },
-          "Moderate": {
-            "value": "{base.Color.DeepPurple.500}",
-            "type": "color"
-          },
-          "Soft": {
-            "value": "{base.Color.Neutral.White}",
-            "type": "color"
-          }
-        }
-      },
-      "Text": {
-        "Success": {
-          "Rich": {
-            "value": "{base.Color.Green.400}",
-            "type": "color",
-            "$extensions": {}
-          }
-        },
-        "Warning": {
-          "Rich": {
-            "value": "{base.Color.Orange.500}",
-            "type": "color",
-            "$extensions": {}
-          }
-        },
-        "Danger": {
-          "Rich": {
-            "value": "{base.Color.Red.200}",
-            "type": "color",
-            "$extensions": {}
-          }
-        },
-        "Default": {
-          "Primary": {
-            "value": "{base.Color.DeepPurple.50}",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "{base.Color.DeepPurple.100}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "{base.Color.DeepPurple.200}",
-            "type": "color"
-          },
-          "Muted": {
-            "value": "{base.Color.DeepPurple.200}",
-            "type": "color"
-          },
-          "Subtle": {
-            "value": "{base.Color.DeepPurple.200}",
-            "type": "color"
-          }
-        },
-        "Accent": {
-          "RichGrey": {
-            "value": "{base.Color.DeepPurple.200}",
-            "type": "color",
-            "description": "Used for tags"
-          },
-          "RichLightPurple": {
-            "value": "{base.Color.Purple.300}",
-            "type": "color",
-            "description": "Used for overline heading"
-          }
-        },
-        "Interaction": {
-          "Link": {
-            "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color",
-            "description": "Used for Links or URLs"
-          },
-          "Action": {
-            "value": "{base.Color.Purple.400}",
-            "type": "color",
-            "description": "Used for actions in the snackbar"
-          }
-        },
-        "Brand": {
-          "Primary": {
-            "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color"
-          }
-        }
-      },
       "Border": {
-        "Brand": {
-          "Primary": {
-            "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color"
-          }
+        "BrandPrimary": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
         },
-        "Default": {
-          "Intense": {
-            "value": "{base.Color.DeepPurple.50}",
-            "type": "color"
-          },
-          "Emphasis": {
-            "value": "{base.Color.DeepPurple.300}",
-            "type": "color",
-            "description": "Used for input field border"
-          },
-          "Moderate": {
-            "value": "{base.Color.DeepPurple.300}",
-            "type": "color"
-          },
-          "Subtle": {
-            "value": "{base.Color.DeepPurple.400}",
-            "type": "color"
-          },
-          "Faded": {
-            "value": "{base.Color.DeepPurple.400}",
-            "type": "color",
-            "description": "Used as border for inpur field in disabled state"
-          },
-          "Soft": {
-            "value": "{base.Color.DeepPurple.600}",
-            "type": "color"
-          }
+        "EmphasisGrey": {
+          "value": "{base.Color.DeepGrey.500}",
+          "type": "color"
+        },
+        "ModerateDark": {
+          "value": "{base.Color.DeepGrey.500}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
         }
       },
       "Icon": {
-        "Brand": {
-          "Primary": {
-            "value": "{semantic.Color.Brand.BackgroundPrimary}",
-            "type": "color"
+        "BrandPrimary": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "BrandSecondary": {
+          "value": "{base.Color.LightPurple.500}",
+          "type": "color"
+        },
+        "BoldGrey": {
+          "value": "{base.Color.DeepGrey.100}",
+          "type": "color"
+        },
+        "EmphasisGrey": {
+          "value": "{base.Color.DeepGrey.400}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{base.Color.DeepGrey.100}",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "BrandPrimary": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "{base.Color.DeepPurple.400}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.DeepGrey.300}",
+          "type": "color"
+        },
+        "Muted": {
+          "value": "{base.Color.DeepGrey.400}",
+          "type": "color"
+        },
+        "SoftGrey": {
+          "value": "{base.Color.DeepGrey.300}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{base.Color.DeepGrey.100}",
+          "type": "color"
+        }
+      },
+      "Selection": {
+        "BackgroundBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "$extensions": {}
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
           }
         },
-        "Default": {
-          "Rich": {
-            "value": "{base.Color.DeepPurple.50}",
-            "type": "color"
-          },
-          "Emphasis": {
-            "value": "{base.Color.DeepPurple.100}",
-            "type": "color"
-          },
-          "Moderate": {
-            "value": "{base.Color.DeepPurple.200}",
-            "type": "color"
+        "Border": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        }
+      },
+      "Success": {
+        "BackgroundBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
           }
+        },
+        "TextBold": {
+          "value": "{base.Color.Green.300}",
+          "type": "color"
+        },
+        "TextSubtle": {
+          "value": "{base.Color.Green.50}",
+          "type": "color"
+        },
+        "BorderBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "BorderSubtle": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "IconBold": {
+          "value": "{base.Color.Green.300}",
+          "type": "color"
+        },
+        "IconSubtle": {
+          "value": "{base.Color.Green.50}",
+          "type": "color"
+        }
+      },
+      "Warning": {
+        "BackgroundBold": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "TextBold": {
+          "value": "{base.Color.Orange.300}",
+          "type": "color"
+        },
+        "TextSubtle": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
+        },
+        "BorderBold": {
+          "value": "{base.Color.Orange.300}",
+          "type": "color"
+        },
+        "BorderSubtle": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "IconBold": {
+          "value": "{base.Color.Orange.300}",
+          "type": "color"
+        },
+        "IconSubtle": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BackgroundBold": {
+          "value": "{base.Color.Red.900}",
+          "type": "color"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Red.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "TextBold": {
+          "value": "{base.Color.Red.300}",
+          "type": "color"
+        },
+        "TextSubtle": {
+          "value": "{base.Color.Red.50}",
+          "type": "color"
+        },
+        "BorderBold": {
+          "value": "{base.Color.Red.300}",
+          "type": "color"
+        },
+        "BorderSubtle": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "IconBold": {
+          "value": "{base.Color.Red.300}",
+          "type": "color"
+        },
+        "IconSubtle": {
+          "value": "{base.Color.Red.50}",
+          "type": "color"
+        }
+      },
+      "Info": {
+        "BackgroundBold": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "TextBold": {
+          "value": "{base.Color.Blue.300}",
+          "type": "color"
+        },
+        "TextSubtle": {
+          "value": "{base.Color.Blue.50}",
+          "type": "color"
+        },
+        "BorderBold": {
+          "value": "{base.Color.Blue.300}",
+          "type": "color"
+        },
+        "BorderSubtle": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "IconBold": {
+          "value": "{base.Color.Blue.300}",
+          "type": "color"
+        },
+        "IconSubtle": {
+          "value": "{base.Color.Blue.50}",
+          "type": "color"
+        }
+      },
+      "Neutral": {
+        "Black": {
+          "value": "{base.Color.Neutral.Black}",
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
+        },
+        "White": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
+      "Accent": {
+        "Accent1": {
+          "value": "{base.Color.Pink.600}",
+          "type": "color"
+        },
+        "Accent2": {
+          "value": "{base.Color.Pink.600}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "Accent3": {
+          "value": "{base.Color.Yellow.500}",
+          "type": "color"
+        },
+        "Accent4": {
+          "value": "{base.Color.Yellow.200}",
+          "type": "color",
+          "description": "Try not use this color"
+        },
+        "Accent5": {
+          "value": "{base.Color.Yellow.50}",
+          "type": "color"
+        },
+        "Accent6": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color"
+        },
+        "Accent7": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "Accent8": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color"
+        },
+        "Accent9": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "Accent10": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Accent11": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "Accent12": {
+          "value": "{base.Color.Red.900}",
+          "type": "color"
+        },
+        "Accent13": {
+          "value": "{base.Color.Red.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "Accent14": {
+          "value": "{base.Color.Purple.700}",
+          "type": "color"
+        },
+        "Accent15": {
+          "value": "{base.Color.DeepGrey.700}",
+          "type": "color"
+        },
+        "Accent16": {
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color"
+        },
+        "Accent17": {
+          "value": "{base.Color.Pink.300}",
+          "type": "color"
+        }
+      },
+      "Brand": {
+        "Primary": {
+          "value": "{base.Color.Purple.300}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.LightPurple.500}",
+          "type": "color"
+        }
+      },
+      "Surface": {
+        "AppBackground": {
+          "value": "{base.Color.DeepPurple.700}",
+          "type": "color"
+        },
+        "PrimaryLayer": {
+          "value": "{base.Color.DeepPurple.600}",
+          "type": "color"
+        },
+        "ElevatedLayer": {
+          "value": "{base.Color.DeepPurple.500}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "Background": {
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color"
+        },
+        "Border": {
+          "value": "{base.Color.DeepGrey.500}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{base.Color.DeepGrey.400}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{base.Color.DeepGrey.400}",
+          "type": "color"
         }
       }
     }
