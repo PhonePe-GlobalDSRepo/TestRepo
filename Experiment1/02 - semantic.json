@@ -691,101 +691,72 @@
       "Selection": {
         "BackgroundBold": {
           "value": "{base.Color.Green.800}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BackgroundSubtle": {
           "value": "{base.Color.Green.50}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "BorderBold": {
-          "value": "{base.Color.Green.800}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "IconActive": {
-          "value": "{base.Color.Green.800}",
+        "Border": {
+          "value": "{semantic.Color.Selection.BackgroundBold}",
           "type": "color"
         },
-        "TextActive": {
-          "value": "{base.Color.Green.800}",
+        "Icon": {
+          "value": "{semantic.Color.Selection.BackgroundBold}",
           "type": "color"
         },
-        "TextDisabled": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "TextSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
-          "type": "color"
-        },
-        "BackgroundDisabled": {
-          "value": "{base.Color.Grey.300}",
-          "type": "color"
-        },
-        "ForeGroundToggle": {
-          "value": "{semantic.Color.Neutral.White}",
+        "Text": {
+          "value": "{semantic.Color.Selection.BackgroundBold}",
           "type": "color"
         }
       },
       "Success": {
         "BackgroundBold": {
           "value": "{base.Color.Green.800}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BackgroundSubtle": {
           "value": "{base.Color.Green.50}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "TextBold": {
-          "value": "{base.Color.Green.500}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{base.Color.Green.800}",
+          "type": "color"
         },
         "TextSubtle": {
           "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BorderBold": {
           "value": "{base.Color.Green.800}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BorderSubtle": {
           "value": "{base.Color.Green.200}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "IconBold": {
           "value": "{base.Color.Green.800}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "IconSubtle": {
           "value": "{semantic.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         }
       },
       "Warning": {
         "BackgroundBold": {
           "value": "{base.Color.Orange.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BackgroundSubtle": {
           "value": "{base.Color.Orange.50}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "TextBold": {
           "value": "{base.Color.Orange.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "TextSubtle": {
           "value": "{base.Color.Neutral.White}",
@@ -794,65 +765,53 @@
         },
         "BorderBold": {
           "value": "{base.Color.Orange.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BorderSubtle": {
           "value": "{base.Color.Orange.200}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "IconBold": {
           "value": "{base.Color.Orange.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "IconSubtle": {
           "value": "{semantic.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         }
       },
       "Danger": {
         "BackgroundBold": {
           "value": "{base.Color.Red.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BackgroundSubtle": {
           "value": "{base.Color.Red.50}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "TextBold": {
           "value": "{base.Color.Red.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "TextSubtle": {
-          "value": "{base.Color.Red.50}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{semantic.Color.Icon.Neutral.White}",
+          "type": "color"
         },
         "BorderBold": {
           "value": "{base.Color.Red.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BorderSubtle": {
           "value": "{base.Color.Red.200}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "IconBold": {
           "value": "{base.Color.Red.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "IconSubtle": {
           "value": "{semantic.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         }
       },
       "Info": {

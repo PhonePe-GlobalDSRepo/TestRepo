@@ -287,7 +287,7 @@
             "type": "color"
           },
           "BorderColor": {
-            "value": "{semantic.Color.Selection.BorderBold}",
+            "value": "{semantic.Color.Selection.Border}",
             "type": "color"
           },
           "IconColor": {
@@ -325,7 +325,7 @@
             "type": "color"
           },
           "BorderColor": {
-            "value": "{semantic.Color.Selection.BorderBold}",
+            "value": "{semantic.Color.Selection.Border}",
             "type": "color"
           },
           "IconColor": {
@@ -374,7 +374,7 @@
           "type": "color"
         },
         "BorderColor": {
-          "value": "{semantic.Color.Selection.BorderBold}",
+          "value": "{semantic.Color.Selection.Border}",
           "type": "color"
         },
         "IconColor": {
@@ -688,7 +688,7 @@
         "type": "color"
       },
       "TextActiveColor": {
-        "value": "{semantic.Color.Selection.TextActive}",
+        "value": "{semantic.Color.Selection.Text}",
         "type": "color"
       },
       "TextMutedColor": {
@@ -706,7 +706,7 @@
         "type": "color"
       },
       "TextCompletedColor": {
-        "value": "{semantic.Color.Selection.TextActive}",
+        "value": "{semantic.Color.Selection.Text}",
         "type": "color"
       },
       "TextMutedColor": {
@@ -1298,7 +1298,7 @@
     "Checkbox": {
       "Active": {
         "IconColor": {
-          "value": "{semantic.Color.Selection.IconActive}",
+          "value": "{semantic.Color.Selection.Icon}",
           "type": "color"
         }
       },
@@ -1318,7 +1318,7 @@
     "RadioButton": {
       "Active": {
         "IconColor": {
-          "value": "{semantic.Color.Selection.IconActive}",
+          "value": "{semantic.Color.Selection.Icon}",
           "type": "color"
         }
       },
