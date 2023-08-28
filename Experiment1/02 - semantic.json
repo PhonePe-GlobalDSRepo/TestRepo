@@ -554,65 +554,6 @@
           "type": "color"
         }
       },
-      "Accent": {
-        "PalePurple": {
-          "value": "{base.Color.Purple.200}",
-          "type": "color"
-        },
-        "MutedLightPurple": {
-          "value": "{base.Color.LightPurple.300}",
-          "type": "color"
-        },
-        "SubtleOrange": {
-          "value": "{base.Color.Orange.50}",
-          "type": "color"
-        },
-        "Accent1": {
-          "value": "{base.Color.Pink.600}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "Accent4": {
-          "value": "{base.Color.Pink.50}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "Accent5": {
-          "value": "{base.Color.Yellow.500}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "Accent6": {
-          "value": "{base.Color.Yellow.200}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "Accent7": {
-          "value": "{base.Color.Yellow.50}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "Accent8": {
-          "value": "{base.Color.Orange.900}",
-          "type": "color"
-        },
-        "Accent9": {
-          "value": "{base.Color.Blue.700}",
-          "type": "color"
-        },
-        "Accent10": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "Accent11": {
-          "value": "{base.Color.Red.900}",
-          "type": "color"
-        },
-        "Accent12": {
-          "value": "{base.Color.Purple.500}",
-          "type": "color"
-        }
-      },
       "Border": {
         "BrandPrimary": {
           "value": "{base.Color.Purple.500}",
@@ -699,15 +640,15 @@
           "description": "Primary CTA, Primary Icons, Title bar"
         },
         "Border": {
-          "value": "{semantic.Color.Selection.BackgroundBold}",
+          "value": "{base.Color.Green.800}",
           "type": "color"
         },
         "Icon": {
-          "value": "{semantic.Color.Selection.BackgroundBold}",
+          "value": "{base.Color.Green.800}",
           "type": "color"
         },
         "Text": {
-          "value": "{semantic.Color.Selection.BackgroundBold}",
+          "value": "{base.Color.Green.800}",
           "type": "color"
         }
       },
@@ -825,10 +766,9 @@
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "TextRich": {
+        "TextBold": {
           "value": "{base.Color.Blue.700}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "TextSubtle": {
           "value": "{semantic.Color.Neutral.White}",
@@ -864,6 +804,73 @@
         },
         "White": {
           "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
+      "Accent": {
+        "Accent1": {
+          "value": "{base.Color.Pink.600}",
+          "type": "color"
+        },
+        "Accent2": {
+          "value": "{base.Color.Pink.50}",
+          "type": "color"
+        },
+        "Accent3": {
+          "value": "{base.Color.Yellow.500}",
+          "type": "color"
+        },
+        "Accent4": {
+          "value": "{base.Color.Yellow.200}",
+          "type": "color",
+          "description": "Try not use this color"
+        },
+        "Accent5": {
+          "value": "{base.Color.Yellow.50}",
+          "type": "color"
+        },
+        "Accent6": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color"
+        },
+        "Accent7": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
+        },
+        "Accent8": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color"
+        },
+        "Accent9": {
+          "value": "{base.Color.Blue.50}",
+          "type": "color"
+        },
+        "Accent10": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Accent11": {
+          "value": "{base.Color.Green.50}",
+          "type": "color"
+        },
+        "Accent12": {
+          "value": "{base.Color.Red.900}",
+          "type": "color"
+        },
+        "Accent13": {
+          "value": "{base.Color.Red.50}",
+          "type": "color"
+        },
+        "Accent14": {
+          "value": "{base.Color.Purple.700}",
+          "type": "color"
+        },
+        "Accent15": {
+          "value": "{base.Color.Purple.200}",
+          "type": "color"
+        },
+        "Accent16": {
+          "value": "{base.Color.LightPurple.300}",
           "type": "color"
         }
       },

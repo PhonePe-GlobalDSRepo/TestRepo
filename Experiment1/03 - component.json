@@ -3,11 +3,11 @@
     "Avatar": {
       "Bg": {
         "Color01": {
-          "value": "{semantic.Color.Accent.Accent12}",
+          "value": "{semantic.Color.Accent.Accent14}",
           "type": "color"
         },
         "Color02": {
-          "value": "{semantic.Color.Accent.Accent11}",
+          "value": "{semantic.Color.Accent.Accent12}",
           "type": "color"
         },
         "Color03": {
@@ -15,11 +15,11 @@
           "type": "color"
         },
         "Color04": {
-          "value": "{semantic.Color.Accent.Accent9}",
+          "value": "{semantic.Color.Accent.Accent8}",
           "type": "color"
         },
         "Color05": {
-          "value": "{semantic.Color.Accent.Accent8}",
+          "value": "{semantic.Color.Accent.Accent6}",
           "type": "color"
         },
         "Color06": {
