@@ -70,7 +70,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.EmphasisGrey}",
+          "value": "{semantic.Color.Text.Muted}",
           "type": "color"
         }
       },
@@ -108,7 +108,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "value": "{semantic.Color.Text.Muted}",
               "type": "color"
             }
           }
@@ -130,7 +130,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "value": "{semantic.Color.Text.Muted}",
               "type": "color"
             }
           }
@@ -152,7 +152,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "value": "{semantic.Color.Text.Muted}",
               "type": "color"
             }
           },
@@ -186,7 +186,7 @@
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "value": "{semantic.Color.Text.Muted}",
               "type": "color"
             }
           }
@@ -204,7 +204,7 @@
           },
           "Disabled": {
             "TextColor": {
-              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "value": "{semantic.Color.Text.Muted}",
               "type": "color"
             },
             "BorderColor": {
@@ -226,7 +226,7 @@
           },
           "Disabled": {
             "TextColor": {
-              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "value": "{semantic.Color.Text.Muted}",
               "type": "color"
             },
             "IconColor": {
@@ -291,7 +291,7 @@
             "type": "color"
           },
           "IconColor": {
-            "value": "{semantic.Color.Icon.White}",
+            "value": "{semantic.Color.Icon.Pure}",
             "type": "color"
           },
           "TextColor": {
@@ -345,7 +345,7 @@
         "type": "color"
       },
       "IconColor": {
-        "value": "{semantic.Color.Icon.White}",
+        "value": "{semantic.Color.Icon.Pure}",
         "type": "color"
       }
     },
@@ -400,7 +400,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.EmphasisGrey}",
+          "value": "{semantic.Color.Text.Muted}",
           "type": "color"
         }
       }
@@ -757,7 +757,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.EmphasisGrey}",
+          "value": "{semantic.Color.Text.Muted}",
           "type": "color"
         },
         "IconColor": {

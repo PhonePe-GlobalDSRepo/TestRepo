@@ -654,7 +654,7 @@
           "type": "color",
           "description": "Secondary CTA, Secondary Icons, Title bar"
         },
-        "White": {
+        "Pure": {
           "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
@@ -674,27 +674,18 @@
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "EmphasisGrey": {
+        "Muted": {
           "value": "{base.Color.Grey.500}",
           "type": "color"
         },
-        "ModerateGrey": {
-          "value": "{base.Color.Grey.400}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "PaleGrey": {
-          "value": "{base.Color.Grey.200}",
+        "SoftGrey": {
+          "value": "{base.Color.Grey.100}",
           "type": "color"
         },
         "Inverse": {
           "value": "{base.Color.Neutral.White}",
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "SoftGrey": {
-          "value": "{base.Color.Grey.100}",
-          "type": "color"
         }
       },
       "Selection": {
@@ -929,8 +920,7 @@
         },
         "White": {
           "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         }
       },
       "Brand": {
@@ -954,6 +944,24 @@
         },
         "ElevatedLayer": {
           "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "Background": {
+          "value": "{base.Color.Grey.300}",
+          "type": "color"
+        },
+        "Border": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{base.Color.Grey.500}",
           "type": "color"
         }
       }
