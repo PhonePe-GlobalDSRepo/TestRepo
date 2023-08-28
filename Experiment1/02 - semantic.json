@@ -528,9 +528,8 @@
     "Color": {
       "Background": {
         "BrandPrimary": {
-          "value": "{base.Color.Purple.500}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{base.Color.Purple.300}",
+          "type": "color"
         },
         "PaleGrey": {
           "value": "{base.Color.Grey.200}",
