@@ -63,7 +63,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         }
       },
@@ -73,15 +73,15 @@
           "type": "color"
         },
         "Primary": {
-          "value": "{base.Color.DeepPurple.400}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         },
         "Secondary": {
-          "value": "{base.Color.DeepGrey.300}",
+          "value": "{base.Color.DeepPurple.100}",
           "type": "color"
         },
         "Muted": {
-          "value": "{base.Color.DeepGrey.400}",
+          "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         },
         "SoftGrey": {
