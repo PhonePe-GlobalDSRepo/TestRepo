@@ -528,7 +528,7 @@
     "Color": {
       "Background": {
         "BrandPrimary": {
-          "value": "{base.Color.Purple.300}",
+          "value": "{base.Color.Purple.500}",
           "type": "color"
         },
         "PaleGrey": {

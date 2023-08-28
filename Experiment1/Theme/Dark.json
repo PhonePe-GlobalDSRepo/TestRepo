@@ -29,30 +29,22 @@
       },
       "Border": {
         "BrandPrimary": {
-          "value": "{base.Color.Purple.500}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
         },
         "EmphasisGrey": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color",
-          "description": "Secondary CTA, Secondary Icons, Title bar"
+          "value": "{base.Color.DeepGrey.500}",
+          "type": "color"
         },
         "ModerateDark": {
-          "value": "{base.Color.Grey.400}",
-          "type": "color",
-          "description": "Secondary CTA, Secondary Icons, Title bar"
-        },
-        "Inverse": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{base.Color.DeepGrey.500}",
           "type": "color"
         }
       },
       "Icon": {
         "BrandPrimary": {
-          "value": "{base.Color.Purple.500}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
         },
         "BrandSecondary": {
           "value": "{base.Color.LightPurple.500}",
@@ -350,6 +342,10 @@
       "Brand": {
         "Primary": {
           "value": "{base.Color.Purple.300}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.LightPurple.500}",
           "type": "color"
         }
       },
