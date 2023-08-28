@@ -33,11 +33,11 @@
           "type": "color"
         },
         "EmphasisGrey": {
-          "value": "{base.Color.DeepGrey.500}",
+          "value": "{base.Color.DeepPurple.300}",
           "type": "color"
         },
         "ModerateDark": {
-          "value": "{base.Color.DeepGrey.500}",
+          "value": "{base.Color.DeepPurple.300}",
           "type": "color"
         },
         "Inverse": {
@@ -55,11 +55,11 @@
           "type": "color"
         },
         "BoldGrey": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         },
         "EmphasisGrey": {
-          "value": "{base.Color.DeepGrey.400}",
+          "value": "{base.Color.DeepPurple.400}",
           "type": "color"
         },
         "Inverse": {
