@@ -15,15 +15,15 @@
           "type": "color"
         },
         "EmphasisGrey": {
-          "value": "{base.Color.Grey.500}",
+          "value": "{base.Color.DeepGrey.800}",
           "type": "color"
         },
         "DeepGrey": {
-          "value": "{base.Color.Grey.900}",
+          "value": "{base.Color.DeepGrey.700}",
           "type": "color"
         },
         "Inverse": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{base.Color.DeepGrey.700}",
           "type": "color"
         }
       },
