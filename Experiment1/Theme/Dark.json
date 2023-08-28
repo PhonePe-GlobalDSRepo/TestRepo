@@ -183,32 +183,49 @@
           "type": "color"
         },
         "BackgroundSubtle": {
-          "value": "{base.Color.Orange.50}",
-          "type": "color"
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
         },
         "TextBold": {
-          "value": "{base.Color.Orange.900}",
+          "value": "{base.Color.Orange.300}",
           "type": "color"
         },
         "TextSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
         },
         "BorderBold": {
-          "value": "{base.Color.Orange.900}",
+          "value": "{base.Color.Orange.300}",
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{base.Color.Orange.200}",
-          "type": "color"
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
         },
         "IconBold": {
-          "value": "{base.Color.Orange.900}",
+          "value": "{base.Color.Orange.300}",
           "type": "color"
         },
         "IconSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{base.Color.Orange.50}",
           "type": "color"
         }
       },
@@ -218,31 +235,49 @@
           "type": "color"
         },
         "BackgroundSubtle": {
-          "value": "{base.Color.Red.50}",
-          "type": "color"
+          "value": "{base.Color.Red.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
         },
         "TextBold": {
-          "value": "{base.Color.Red.900}",
+          "value": "{base.Color.Red.300}",
           "type": "color"
         },
         "TextSubtle": {
-          "value": "{semantic.Color.Icon.Neutral.White}",
+          "value": "{base.Color.Red.50}",
           "type": "color"
         },
         "BorderBold": {
-          "value": "{base.Color.Red.900}",
+          "value": "{base.Color.Red.300}",
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{base.Color.Red.200}",
-          "type": "color"
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
         },
         "IconBold": {
-          "value": "{base.Color.Red.900}",
+          "value": "{base.Color.Red.300}",
           "type": "color"
         },
         "IconSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{base.Color.Red.50}",
           "type": "color"
         }
       },
@@ -253,38 +288,50 @@
           "description": "Primary CTA, Primary Icons, Title bar"
         },
         "BackgroundSubtle": {
-          "value": "{base.Color.Blue.50}",
+          "value": "{base.Color.Blue.700}",
           "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
         },
         "TextBold": {
-          "value": "{base.Color.Blue.700}",
+          "value": "{base.Color.Blue.300}",
           "type": "color"
         },
         "TextSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{base.Color.Blue.50}",
+          "type": "color"
         },
         "BorderBold": {
-          "value": "{base.Color.Blue.700}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{base.Color.Blue.300}",
+          "type": "color"
         },
         "BorderSubtle": {
-          "value": "{base.Color.Blue.200}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
         },
         "IconBold": {
-          "value": "{base.Color.Blue.700}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{base.Color.Blue.300}",
+          "type": "color"
         },
         "IconSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "value": "{base.Color.Blue.50}",
+          "type": "color"
         }
       },
       "Neutral": {
