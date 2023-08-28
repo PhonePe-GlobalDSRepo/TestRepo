@@ -251,7 +251,7 @@
       },
       "Inverse": {
         "ActiveColor": {
-          "value": "{semantic.Color.Background.White}",
+          "value": "{semantic.Color.Background.Pure}",
           "type": "color"
         },
         "InactiveColor": {
@@ -265,7 +265,7 @@
       "SingleSelect": {
         "Default": {
           "BgColor": {
-            "value": "{semantic.Color.Background.White}",
+            "value": "{semantic.Color.Background.Pure}",
             "type": "color"
           },
           "BorderColor": {
@@ -352,7 +352,7 @@
     "Filter": {
       "Default": {
         "BgColor": {
-          "value": "{semantic.Color.Background.White}",
+          "value": "{semantic.Color.Background.Pure}",
           "type": "color"
         },
         "BorderColor": {
@@ -408,7 +408,7 @@
     "InputField": {
       "Default": {
         "BgColor": {
-          "value": "{semantic.Color.Background.White}",
+          "value": "{semantic.Color.Background.Pure}",
           "type": "color"
         },
         "BorderColor": {
@@ -637,7 +637,7 @@
         "type": "color"
       },
       "BorderColor": {
-        "value": "{semantic.Color.Border.White}",
+        "value": "{semantic.Color.Border.Pure}",
         "type": "color"
       },
       "TextColor": {
