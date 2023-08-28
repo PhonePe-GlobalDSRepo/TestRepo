@@ -89,7 +89,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         }
       },
@@ -449,11 +449,11 @@
           "type": "color"
         },
         "Accent15": {
-          "value": "{base.Color.DeepGrey.700}",
+          "value": "{base.Color.DeepPurple.500}",
           "type": "color"
         },
         "Accent16": {
-          "value": "{base.Color.DeepGrey.600}",
+          "value": "{base.Color.DeepPurple.400}",
           "type": "color"
         },
         "Accent17": {
@@ -487,19 +487,19 @@
       },
       "Disabled": {
         "Background": {
-          "value": "{base.Color.DeepGrey.600}",
+          "value": "{base.Color.DeepPurple.400}",
           "type": "color"
         },
         "Border": {
-          "value": "{base.Color.DeepGrey.500}",
+          "value": "{base.Color.DeepPurple.500}",
           "type": "color"
         },
         "Text": {
-          "value": "{base.Color.DeepGrey.400}",
+          "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         },
         "Icon": {
-          "value": "{base.Color.DeepGrey.400}",
+          "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         }
       }
