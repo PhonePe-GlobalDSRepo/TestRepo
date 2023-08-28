@@ -864,6 +864,10 @@
         "Accent16": {
           "value": "{base.Color.LightPurple.300}",
           "type": "color"
+        },
+        "Accent17": {
+          "value": "{base.Color.Pink.600}",
+          "type": "color"
         }
       },
       "Brand": {
