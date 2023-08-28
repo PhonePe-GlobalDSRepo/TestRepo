@@ -704,27 +704,12 @@
           "type": "color",
           "description": "Primary CTA, Primary Icons, Title bar"
         },
-        "BorderSubtle": {
-          "value": "{base.Color.Grey.400}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "IconBold": {
-          "value": "{base.Color.Grey.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "IconSubtle": {
-          "value": "{base.Color.Grey.700}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "IconDisabled": {
-          "value": "{base.Color.Grey.500}",
+        "IconActive": {
+          "value": "{base.Color.Green.800}",
           "type": "color"
         },
-        "TextBold": {
-          "value": "{base.Color.Grey.900}",
+        "TextActive": {
+          "value": "{base.Color.Green.800}",
           "type": "color"
         },
         "TextDisabled": {
