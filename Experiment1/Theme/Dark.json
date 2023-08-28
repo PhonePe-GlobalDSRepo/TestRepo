@@ -351,8 +351,17 @@
           "type": "color"
         },
         "Accent2": {
-          "value": "{base.Color.Pink.50}",
-          "type": "color"
+          "value": "{base.Color.Pink.600}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
         },
         "Accent3": {
           "value": "{base.Color.Yellow.500}",
@@ -372,43 +381,83 @@
           "type": "color"
         },
         "Accent7": {
-          "value": "{base.Color.Orange.50}",
-          "type": "color"
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
         },
         "Accent8": {
           "value": "{base.Color.Blue.700}",
           "type": "color"
         },
         "Accent9": {
-          "value": "{base.Color.Blue.50}",
-          "type": "color"
+          "value": "{base.Color.Blue.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
         },
         "Accent10": {
           "value": "{base.Color.Green.800}",
           "type": "color"
         },
         "Accent11": {
-          "value": "{base.Color.Green.50}",
-          "type": "color"
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "srgb"
+              }
+            }
+          }
         },
         "Accent12": {
           "value": "{base.Color.Red.900}",
           "type": "color"
         },
         "Accent13": {
-          "value": "{base.Color.Red.50}",
-          "type": "color"
+          "value": "{base.Color.Red.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "srgb"
+              }
+            }
+          }
         },
         "Accent14": {
           "value": "{base.Color.Purple.700}",
           "type": "color"
         },
         "Accent15": {
-          "value": "{base.Color.Purple.200}",
+          "value": "{base.Color.DeepGrey.700}",
           "type": "color"
         },
         "Accent16": {
-          "value": "{base.Color.LightPurple.300}",
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color"
+        },
+        "Accent17": {
+          "value": "{base.Color.Pink.300}",
           "type": "color"
         }
       },
