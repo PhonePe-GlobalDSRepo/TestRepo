@@ -625,8 +625,7 @@
         },
         "TextSubtle": {
           "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BorderBold": {
           "value": "{base.Color.Orange.900}",
@@ -682,13 +681,11 @@
       "Info": {
         "BackgroundBold": {
           "value": "{base.Color.Blue.700}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BackgroundSubtle": {
           "value": "{base.Color.Blue.50}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "TextBold": {
           "value": "{base.Color.Blue.700}",
@@ -696,28 +693,23 @@
         },
         "TextSubtle": {
           "value": "{semantic.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BorderBold": {
           "value": "{base.Color.Blue.700}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BorderSubtle": {
           "value": "{base.Color.Blue.200}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "IconBold": {
           "value": "{base.Color.Blue.700}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "IconSubtle": {
           "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         }
       },
       "Selection": {
@@ -727,8 +719,7 @@
         },
         "BackgroundSubtle": {
           "value": "{base.Color.Green.50}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "Border": {
           "value": "{base.Color.Green.800}",
@@ -782,8 +773,7 @@
       "Icon": {
         "BrandPrimary": {
           "value": "{base.Color.Purple.500}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "BrandSecondary": {
           "value": "{base.Color.LightPurple.500}",
@@ -795,8 +785,7 @@
         },
         "EmphasisGrey": {
           "value": "{base.Color.Grey.500}",
-          "type": "color",
-          "description": "Secondary CTA, Secondary Icons, Title bar"
+          "type": "color"
         },
         "Inverse": {
           "value": "{semantic.Color.Neutral.White}",
@@ -810,13 +799,11 @@
         },
         "Primary": {
           "value": "{base.Color.Grey.900}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "Secondary": {
           "value": "{base.Color.Grey.700}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "Muted": {
           "value": "{base.Color.Grey.500}",
@@ -828,15 +815,13 @@
         },
         "Inverse": {
           "value": "{base.Color.Neutral.White}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         }
       },
       "Neutral": {
         "Black": {
           "value": "{base.Color.Neutral.Black}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
+          "type": "color"
         },
         "White": {
           "value": "{base.Color.Neutral.White}",

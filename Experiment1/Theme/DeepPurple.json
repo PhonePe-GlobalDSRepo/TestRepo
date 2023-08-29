@@ -1,6 +1,30 @@
 {
   "semantic": {
     "Color": {
+      "Brand": {
+        "Primary": {
+          "value": "{base.Color.Purple.300}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.LightPurple.500}",
+          "type": "color"
+        }
+      },
+      "Surface": {
+        "AppBackground": {
+          "value": "{base.Color.DeepPurple.700}",
+          "type": "color"
+        },
+        "PrimaryLayer": {
+          "value": "{base.Color.DeepPurple.600}",
+          "type": "color"
+        },
+        "ElevatedLayer": {
+          "value": "{base.Color.DeepPurple.500}",
+          "type": "color"
+        }
+      },
       "Background": {
         "BrandPrimary": {
           "value": "{semantic.Color.Brand.Primary}",
@@ -24,104 +48,6 @@
         },
         "Inverse": {
           "value": "{base.Color.DeepPurple.600}",
-          "type": "color"
-        }
-      },
-      "Border": {
-        "BrandPrimary": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
-        },
-        "EmphasisGrey": {
-          "value": "{base.Color.DeepPurple.300}",
-          "type": "color"
-        },
-        "ModerateDark": {
-          "value": "{base.Color.DeepPurple.300}",
-          "type": "color"
-        },
-        "Inverse": {
-          "value": "{semantic.Color.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Icon": {
-        "BrandPrimary": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
-        },
-        "BrandSecondary": {
-          "value": "{base.Color.LightPurple.500}",
-          "type": "color"
-        },
-        "BoldGrey": {
-          "value": "{base.Color.DeepPurple.50}",
-          "type": "color"
-        },
-        "EmphasisGrey": {
-          "value": "{base.Color.DeepPurple.400}",
-          "type": "color"
-        },
-        "Inverse": {
-          "value": "{base.Color.DeepPurple.50}",
-          "type": "color"
-        }
-      },
-      "Text": {
-        "BrandPrimary": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
-        },
-        "Primary": {
-          "value": "{base.Color.DeepPurple.50}",
-          "type": "color"
-        },
-        "Secondary": {
-          "value": "{base.Color.DeepPurple.100}",
-          "type": "color"
-        },
-        "Muted": {
-          "value": "{base.Color.DeepPurple.200}",
-          "type": "color"
-        },
-        "SoftGrey": {
-          "value": "{base.Color.DeepGrey.300}",
-          "type": "color"
-        },
-        "Inverse": {
-          "value": "{base.Color.DeepPurple.50}",
-          "type": "color"
-        }
-      },
-      "Selection": {
-        "BackgroundBold": {
-          "value": "{base.Color.Green.800}",
-          "type": "color",
-          "$extensions": {}
-        },
-        "BackgroundSubtle": {
-          "value": "{base.Color.Green.800}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.4",
-                "space": "lch"
-              }
-            }
-          }
-        },
-        "Border": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "Text": {
-          "value": "{base.Color.Green.800}",
           "type": "color"
         }
       },
@@ -334,6 +260,122 @@
           "type": "color"
         }
       },
+      "Selection": {
+        "BackgroundBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "$extensions": {}
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Green.800}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "Border": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "Background": {
+          "value": "{base.Color.DeepPurple.400}",
+          "type": "color"
+        },
+        "Border": {
+          "value": "{base.Color.DeepPurple.500}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{base.Color.DeepPurple.200}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{base.Color.DeepPurple.200}",
+          "type": "color"
+        }
+      },
+      "Border": {
+        "BrandPrimary": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "EmphasisGrey": {
+          "value": "{base.Color.DeepPurple.300}",
+          "type": "color"
+        },
+        "ModerateDark": {
+          "value": "{base.Color.DeepPurple.300}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
+      "Icon": {
+        "BrandPrimary": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "BrandSecondary": {
+          "value": "{base.Color.LightPurple.500}",
+          "type": "color"
+        },
+        "BoldGrey": {
+          "value": "{base.Color.DeepPurple.50}",
+          "type": "color"
+        },
+        "EmphasisGrey": {
+          "value": "{base.Color.DeepPurple.400}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{base.Color.DeepPurple.50}",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "BrandPrimary": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "{base.Color.DeepPurple.50}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.DeepPurple.100}",
+          "type": "color"
+        },
+        "Muted": {
+          "value": "{base.Color.DeepPurple.200}",
+          "type": "color"
+        },
+        "SoftGrey": {
+          "value": "{base.Color.DeepGrey.300}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{base.Color.DeepPurple.50}",
+          "type": "color"
+        }
+      },
       "Neutral": {
         "Black": {
           "value": "{base.Color.Neutral.Black}",
@@ -458,48 +500,6 @@
         },
         "Accent17": {
           "value": "{base.Color.Pink.300}",
-          "type": "color"
-        }
-      },
-      "Brand": {
-        "Primary": {
-          "value": "{base.Color.Purple.300}",
-          "type": "color"
-        },
-        "Secondary": {
-          "value": "{base.Color.LightPurple.500}",
-          "type": "color"
-        }
-      },
-      "Surface": {
-        "AppBackground": {
-          "value": "{base.Color.DeepPurple.700}",
-          "type": "color"
-        },
-        "PrimaryLayer": {
-          "value": "{base.Color.DeepPurple.600}",
-          "type": "color"
-        },
-        "ElevatedLayer": {
-          "value": "{base.Color.DeepPurple.500}",
-          "type": "color"
-        }
-      },
-      "Disabled": {
-        "Background": {
-          "value": "{base.Color.DeepPurple.400}",
-          "type": "color"
-        },
-        "Border": {
-          "value": "{base.Color.DeepPurple.500}",
-          "type": "color"
-        },
-        "Text": {
-          "value": "{base.Color.DeepPurple.200}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         }
       }
