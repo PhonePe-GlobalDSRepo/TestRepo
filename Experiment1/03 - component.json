@@ -2,23 +2,23 @@
   "component": {
     "Avatar": {
       "Background": {
-        "Color02": {
+        "Color01": {
           "value": "{semantic.Color.Accent.Accent12}",
           "type": "color"
         },
-        "Color03": {
+        "Color02": {
           "value": "{semantic.Color.Accent.Accent10}",
           "type": "color"
         },
-        "Color04": {
+        "Color03": {
           "value": "{semantic.Color.Accent.Accent8}",
           "type": "color"
         },
-        "Color05": {
+        "Color04": {
           "value": "{semantic.Color.Accent.Accent6}",
           "type": "color"
         },
-        "Color06": {
+        "Color05": {
           "value": "{semantic.Color.Accent.Accent1}",
           "type": "color"
         }
