@@ -1,7 +1,7 @@
 {
   "component": {
     "Avatar": {
-      "Bg": {
+      "Background": {
         "Color02": {
           "value": "{semantic.Color.Accent.Accent12}",
           "type": "color"
@@ -50,14 +50,14 @@
       }
     },
     "BottomNavigationBar": {
-      "BgColor": {
+      "BackgroundColor": {
         "value": "{semantic.Color.Surface.ElevatedLayer}",
         "type": "color"
       }
     },
     "BottomNavigationItem": {
       "Default": {
-        "IconBgColor": {
+        "IconBackgroundColor": {
           "value": "{semantic.Color.Background.EmphasisGrey}",
           "type": "color"
         },
@@ -71,7 +71,7 @@
         }
       },
       "Active": {
-        "IconBgColor": {
+        "IconBackgroundColor": {
           "value": "{semantic.Color.Background.BrandPrimary}",
           "type": "color"
         },
@@ -89,7 +89,7 @@
       "Default": {
         "Primary": {
           "Active": {
-            "BgColor": {
+            "BackgroundColor": {
               "value": "{semantic.Color.Background.BrandPrimary}",
               "type": "color"
             },
@@ -99,7 +99,7 @@
             }
           },
           "Disabled": {
-            "BgColor": {
+            "BackgroundColor": {
               "value": "{semantic.Color.Background.MutedGrey}",
               "type": "color"
             },
@@ -167,7 +167,7 @@
       "Inverse": {
         "Primary": {
           "Active": {
-            "BgColor": {
+            "BackgroundColor": {
               "value": "{semantic.Color.Background.Inverse}",
               "type": "color"
             },
@@ -177,7 +177,7 @@
             }
           },
           "Disabled": {
-            "BgColor": {
+            "BackgroundColor": {
               "value": "{semantic.Color.Background.MutedGrey}",
               "type": "color"
             },
@@ -235,11 +235,11 @@
     },
     "CarouselIndicator": {
       "Default": {
-        "ActiveColor": {
+        "BackgroundActiveColor": {
           "value": "{semantic.Color.Background.DeepGrey}",
           "type": "color"
         },
-        "InactiveColor": {
+        "BackgroundInactiveColor": {
           "value": "{semantic.Color.Background.EmphasisGrey}",
           "type": "color",
           "$extensions": {
@@ -254,11 +254,11 @@
         }
       },
       "Inverse": {
-        "ActiveColor": {
+        "BackgroundActiveColor": {
           "value": "{semantic.Color.Background.Inverse}",
           "type": "color"
         },
-        "InactiveColor": {
+        "BackgroundInactiveColor": {
           "value": "{semantic.Color.Background.EmphasisGrey}",
           "type": "color",
           "$extensions": {
@@ -276,7 +276,7 @@
     "Chips": {
       "SingleSelect": {
         "Default": {
-          "BgColor": {
+          "BackgroundColor": {
             "value": "{semantic.Color.Surface.PrimaryLayer}",
             "type": "color"
           },
@@ -294,7 +294,7 @@
           }
         },
         "Active": {
-          "BgColor": {
+          "BackgroundColor": {
             "value": "{semantic.Color.Selection.BackgroundSubtle}",
             "type": "color"
           },
@@ -314,7 +314,7 @@
       },
       "MultiSelect": {
         "Default": {
-          "BgColor": {
+          "BackgroundColor": {
             "value": "{semantic.Color.Surface.PrimaryLayer}",
             "type": "color"
           },
@@ -332,7 +332,7 @@
           }
         },
         "Active": {
-          "BgColor": {
+          "BackgroundColor": {
             "value": "{semantic.Color.Selection.BackgroundSubtle}",
             "type": "color"
           },
@@ -352,7 +352,7 @@
       }
     },
     "FAB": {
-      "BgColor": {
+      "BackgroundColor": {
         "value": "{semantic.Color.Background.BrandPrimary}",
         "type": "color"
       },
@@ -363,8 +363,8 @@
     },
     "Filter": {
       "Default": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.Inverse}",
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
         "BorderColor": {
@@ -381,7 +381,7 @@
         }
       },
       "Active": {
-        "BgColor": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Selection.BackgroundSubtle}",
           "type": "color"
         },
@@ -399,12 +399,8 @@
         }
       },
       "Disabled": {
-        "BgColor": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Background.MutedGrey}",
-          "type": "color"
-        },
-        "BorderColor": {
-          "value": "{semantic.Color.Border.MutedGrey}",
           "type": "color"
         },
         "IconColor": {
@@ -419,8 +415,8 @@
     },
     "InputField": {
       "Default": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.Inverse}",
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
         "BorderColor": {
@@ -432,15 +428,15 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "value": "{semantic.Color.Icon.BoldGrey}",
           "type": "color"
         },
         "ActionIconColor": {
           "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
-        "InputTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
+        "TextPlaceholderColor": {
+          "value": "{semantic.Color.Text.Muted}",
           "type": "color"
         },
         "LabelTextColor": {

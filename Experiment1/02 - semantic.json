@@ -582,8 +582,7 @@
         },
         "BoldGrey": {
           "value": "{base.Color.Grey.800}",
-          "type": "color",
-          "description": "Secondary CTA, Secondary Icons, Title bar"
+          "type": "color"
         },
         "EmphasisGrey": {
           "value": "{base.Color.Grey.500}",
