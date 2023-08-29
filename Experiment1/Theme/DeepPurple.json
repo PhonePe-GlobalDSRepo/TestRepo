@@ -64,7 +64,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.4",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -89,7 +89,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.1",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -116,7 +116,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.4",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -141,7 +141,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.1",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -168,7 +168,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.4",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -193,7 +193,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.1",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -221,7 +221,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.4",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -246,7 +246,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.1",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -274,7 +274,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.4",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -400,7 +400,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.4",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -430,7 +430,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.4",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -447,7 +447,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.4",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
