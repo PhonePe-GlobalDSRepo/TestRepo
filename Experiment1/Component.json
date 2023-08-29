@@ -1,52 +1,46 @@
 {
   "component": {
     "Avatar": {
-      "Background": {
-        "Color01": {
-          "value": "{semantic.Color.Accent.Accent12}",
-          "type": "color"
-        },
-        "Color02": {
-          "value": "{semantic.Color.Accent.Accent10}",
-          "type": "color"
-        },
-        "Color03": {
-          "value": "{semantic.Color.Accent.Accent8}",
-          "type": "color"
-        },
-        "Color04": {
-          "value": "{semantic.Color.Accent.Accent6}",
-          "type": "color"
-        },
-        "Color05": {
-          "value": "{semantic.Color.Accent.Accent1}",
-          "type": "color"
-        }
+      "BackgroundColor01": {
+        "value": "{semantic.Color.Accent.Accent12}",
+        "type": "color"
       },
-      "Text": {
-        "Color": {
-          "value": "{semantic.Color.Text.Inverse}",
-          "type": "color"
-        }
+      "BackgroundColor02": {
+        "value": "{semantic.Color.Accent.Accent10}",
+        "type": "color"
       },
-      "Border": {
-        "DefaultColor": {
-          "value": "{semantic.Color.Neutral.Black}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.1",
-                "space": "srgb"
-              }
+      "BackgroundColor03": {
+        "value": "{semantic.Color.Accent.Accent8}",
+        "type": "color"
+      },
+      "BackgroundColor04": {
+        "value": "{semantic.Color.Accent.Accent6}",
+        "type": "color"
+      },
+      "BackgroundColor05": {
+        "value": "{semantic.Color.Accent.Accent1}",
+        "type": "color"
+      },
+      "TextColor": {
+        "value": "{semantic.Color.Text.Inverse}",
+        "type": "color"
+      },
+      "BorderDefaultColor": {
+        "value": "{semantic.Color.Neutral.Black}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.1",
+              "space": "srgb"
             }
           }
-        },
-        "InverseColor": {
-          "value": "{semantic.Color.Border.Inverse}",
-          "type": "color"
         }
+      },
+      "BorderInverseColor": {
+        "value": "{semantic.Color.Border.Inverse}",
+        "type": "color"
       }
     },
     "BottomNavigationBar": {
@@ -991,31 +985,29 @@
           "value": "{semantic.Color.Background.EmphasisGrey}",
           "type": "color"
         },
-        "Text": {
-          "TextColor01": {
-            "value": "{semantic.Color.Text.Inverse}",
-            "type": "color"
-          },
-          "TextColor02": {
-            "value": "{semantic.Color.Text.Inverse}",
-            "type": "color"
-          },
-          "TextColor03": {
-            "value": "{semantic.Color.Text.Inverse}",
-            "type": "color"
-          },
-          "TextColor04": {
-            "value": "{semantic.Color.Text.Inverse}",
-            "type": "color"
-          },
-          "TextColor05": {
-            "value": "{semantic.Color.Text.Inverse}",
-            "type": "color"
-          },
-          "TextColor06": {
-            "value": "{semantic.Color.Text.Inverse}",
-            "type": "color"
-          }
+        "TextColor01": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextColor02": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextColor03": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextColor04": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextColor05": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextColor06": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
         }
       },
       "Success": {
