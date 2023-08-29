@@ -1275,7 +1275,7 @@
       },
       "Disabled": {
         "IconColor": {
-          "value": "{semantic.Color.Selection.IconDisabled}",
+          "value": "{semantic.Color.Icon.EmphasisGrey}",
           "type": "color"
         }
       }
@@ -1295,7 +1295,7 @@
       },
       "Disabled": {
         "IconColor": {
-          "value": "{semantic.Color.Selection.IconDisabled}",
+          "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
         }
       }
