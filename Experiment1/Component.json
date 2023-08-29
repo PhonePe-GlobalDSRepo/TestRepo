@@ -94,11 +94,11 @@
           },
           "Disabled": {
             "BackgroundColor": {
-              "value": "{semantic.Color.Background.MutedGrey}",
+              "value": "{semantic.Color.Disabled.Background}",
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Muted}",
+              "value": "{semantic.Color.Disabled.Text}",
               "type": "color"
             }
           }
@@ -116,11 +116,11 @@
           },
           "Disabled": {
             "BorderColor": {
-              "value": "{semantic.Color.Border.EmphasisGrey}",
+              "value": "{semantic.Color.Disabled.Border}",
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Muted}",
+              "value": "{semantic.Color.Disabled.Text}",
               "type": "color"
             }
           }
@@ -138,11 +138,11 @@
           },
           "Disabled": {
             "IconColor": {
-              "value": "{semantic.Color.Icon.EmphasisGrey}",
+              "value": "{semantic.Color.Disabled.Icon}",
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Muted}",
+              "value": "{semantic.Color.Disabled.Text}",
               "type": "color"
             }
           },
@@ -172,11 +172,11 @@
           },
           "Disabled": {
             "BackgroundColor": {
-              "value": "{semantic.Color.Background.MutedGrey}",
+              "value": "{semantic.Color.Disabled.Background}",
               "type": "color"
             },
             "TextColor": {
-              "value": "{semantic.Color.Text.Muted}",
+              "value": "{semantic.Color.Disabled.Text}",
               "type": "color"
             }
           }
@@ -194,11 +194,11 @@
           },
           "Disabled": {
             "TextColor": {
-              "value": "{semantic.Color.Text.Muted}",
+              "value": "{semantic.Color.Disabled.Text}",
               "type": "color"
             },
             "BorderColor": {
-              "value": "{semantic.Color.Border.EmphasisGrey}",
+              "value": "{semantic.Color.Disabled.Border}",
               "type": "color"
             }
           }
@@ -216,11 +216,11 @@
           },
           "Disabled": {
             "TextColor": {
-              "value": "{semantic.Color.Text.Muted}",
+              "value": "{semantic.Color.Disabled.Text}",
               "type": "color"
             },
             "IconColor": {
-              "value": "{semantic.Color.Icon.EmphasisGrey}",
+              "value": "{semantic.Color.Disabled.Icon}",
               "type": "color"
             }
           }
