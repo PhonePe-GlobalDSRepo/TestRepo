@@ -419,34 +419,57 @@
           "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
-        "BorderColor": {
-          "value": "{semantic.Color.Border.EmphasisGrey}",
-          "type": "color"
+        "BackgroundPrefilledColor": {
+          "value": "{semantic.Color.Background.PaleGrey}",
+          "type": "color",
+          "description": "Used only for Adhaar and Card inputs"
         },
-        "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
-          "type": "color"
-        },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.BoldGrey}",
-          "type": "color"
-        },
-        "ActionIconColor": {
-          "value": "{semantic.Color.Icon.BrandPrimary}",
+        "TextLabelColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
         "TextPlaceholderColor": {
           "value": "{semantic.Color.Text.Muted}",
           "type": "color"
         },
-        "LabelTextColor": {
-          "value": "{semantic.Color.Text.Primary}",
+        "TextPrefilledColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color",
+          "description": "Used only for Adhaar and Card inputs"
+        },
+        "TextDescriptionColor": {
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
+        },
+        "IconDefaultColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
+          "type": "color"
+        },
+        "IconActiveColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.EmphasisGrey}",
+          "type": "color"
+        },
+        "BorderSeperator": {
+          "value": "{semantic.Color.Neutral.Black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "srgb"
+              }
+            }
+          }
         }
       },
       "Active": {
         "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pure}",
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
         "PrefilledBgColor": {
