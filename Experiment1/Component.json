@@ -687,7 +687,7 @@
     },
     "Ribbon": {
       "Success": {
-        "BgColor": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Success.BackgroundBold}",
           "type": "color"
         },
@@ -697,7 +697,7 @@
         }
       },
       "Warning": {
-        "BgColor": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Warning.BackgroundBold}",
           "type": "color"
         },
@@ -707,7 +707,7 @@
         }
       },
       "Danger": {
-        "BgColor": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Danger.BackgroundBold}",
           "type": "color"
         },
@@ -719,12 +719,12 @@
     },
     "Search": {
       "Default": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.ElevatedLayer}",
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
           "type": "color"
         },
         "BorderColor": {
-          "value": "{semantic.Color.Border.EmphasisGrey}",
+          "value": "{semantic.Color.Border.ModerateGrey}",
           "type": "color"
         },
         "TextColor": {
@@ -737,8 +737,8 @@
         }
       },
       "Active": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.ElevatedLayer}",
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
           "type": "color"
         },
         "IconBackgroundColor": {
@@ -826,8 +826,12 @@
       }
     },
     "Snackbar": {
-      "BgColor": {
+      "BackgroundColor": {
         "value": "{semantic.Color.Background.DeepGrey}",
+        "type": "color"
+      },
+      "TextLinkColor": {
+        "value": "{semantic.Color.Text.BrandPrimary}",
         "type": "color"
       },
       "TextColor": {
@@ -835,21 +839,21 @@
         "type": "color"
       },
       "IconColor": {
-        "value": "{semantic.Color.Icon.PureWhite}",
+        "value": "{semantic.Color.Icon.Inverse}",
         "type": "color"
       }
     },
     "SectionMessage": {
       "Success": {
-        "BgColor": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Success.BackgroundSubtle}",
           "type": "color"
         },
-        "IconLeadingColor": {
+        "IconColor": {
           "value": "{semantic.Color.Success.IconBold}",
           "type": "color"
         },
-        "IconTrailingColor": {
+        "IconActiveColor": {
           "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
@@ -871,15 +875,15 @@
         }
       },
       "Warning": {
-        "BgColor": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Warning.BackgroundSubtle}",
           "type": "color"
         },
-        "IconLeadingColor": {
+        "IconColor": {
           "value": "{semantic.Color.Warning.IconBold}",
           "type": "color"
         },
-        "IconTrailingColor": {
+        "IconActiveColor": {
           "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
@@ -901,15 +905,15 @@
         }
       },
       "Info": {
-        "BgColor": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Info.BackgroundSubtle}",
           "type": "color"
         },
-        "IconLeadingColor": {
+        "IconColor": {
           "value": "{semantic.Color.Info.IconBold}",
           "type": "color"
         },
-        "IconTrailingColor": {
+        "IconActiveColor": {
           "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
@@ -931,15 +935,15 @@
         }
       },
       "Danger": {
-        "BgColor": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Danger.BackgroundSubtle}",
           "type": "color"
         },
-        "IconLeadingColor": {
+        "IconColor": {
           "value": "{semantic.Color.Danger.IconBold}",
           "type": "color"
         },
-        "IconTrailingColor": {
+        "IconActiveColor": {
           "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
@@ -963,54 +967,52 @@
     },
     "Tags": {
       "Default": {
-        "Bg": {
-          "Color01": {
-            "value": "{base.Color.Red.800}",
-            "type": "color"
-          },
-          "Color02": {
-            "value": "{base.Color.Green.800}",
-            "type": "color"
-          },
-          "Color03": {
-            "value": "{base.Color.Orange.900}",
-            "type": "color"
-          },
-          "Color04": {
-            "value": "{base.Color.Blue.700}",
-            "type": "color"
-          },
-          "Color05": {
-            "value": "{semantic.Color.Accent.Accent1Bold}",
-            "type": "color"
-          },
-          "Color06": {
-            "value": "{semantic.Color.Background.EmphasisGrey}",
-            "type": "color"
-          }
+        "BackgroundColor01": {
+          "value": "{base.Color.Red.800}",
+          "type": "color"
+        },
+        "BackgroundColor02": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "BackgroundColor03": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color"
+        },
+        "BackgroundColor04": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color"
+        },
+        "BackgroundColor05": {
+          "value": "{semantic.Color.Accent.Accent1}",
+          "type": "color"
+        },
+        "BackgroundColor06": {
+          "value": "{semantic.Color.Background.EmphasisGrey}",
+          "type": "color"
         },
         "Text": {
-          "Color01": {
+          "TextColor01": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           },
-          "Color02": {
+          "TextColor02": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           },
-          "Color03": {
+          "TextColor03": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           },
-          "Color04": {
+          "TextColor04": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           },
-          "Color05": {
+          "TextColor05": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           },
-          "Color06": {
+          "TextColor06": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           }
