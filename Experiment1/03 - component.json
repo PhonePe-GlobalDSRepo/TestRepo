@@ -419,11 +419,6 @@
           "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
-        "BackgroundPrefilledColor": {
-          "value": "{semantic.Color.Background.PaleGrey}",
-          "type": "color",
-          "description": "Used only for Adhaar and Card inputs"
-        },
         "TextLabelColor": {
           "value": "{semantic.Color.Text.Primary}",
           "type": "color"
@@ -431,11 +426,6 @@
         "TextPlaceholderColor": {
           "value": "{semantic.Color.Text.Muted}",
           "type": "color"
-        },
-        "TextPrefilledColor": {
-          "value": "{semantic.Color.Text.Secondary}",
-          "type": "color",
-          "description": "Used only for Adhaar and Card inputs"
         },
         "TextDescriptionColor": {
           "value": "{semantic.Color.Text.Secondary}",
@@ -470,6 +460,30 @@
               }
             }
           }
+        }
+      },
+      "Prefilled": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Background.PaleGrey}",
+          "type": "color",
+          "description": "Used for Adhaar and Card input fields. "
+        },
+        "TextLabelColor": {
+          "value": "{semantic.Color.Text.Muted}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color",
+          "description": "Used only for Adhaar and Card inputs"
+        },
+        "TextDescriptionColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.EmphasisGrey}",
+          "type": "color"
         }
       },
       "Active": {
