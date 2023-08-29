@@ -603,26 +603,26 @@
       }
     },
     "NotificationBadge": {
-      "BgColor": {
+      "BackgroundColor": {
         "value": "{semantic.Color.Success.BackgroundBold}",
-        "type": "color"
-      },
-      "BorderColor": {
-        "value": "{semantic.Color.Border.Inverse}",
         "type": "color"
       },
       "TextColor": {
         "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
+      },
+      "BorderColor": {
+        "value": "{semantic.Color.Surface.PrimaryLayer}",
+        "type": "color"
       }
     },
     "Notes": {
       "IndicatorColor": {
-        "value": "{semantic.Color.Accent.Accent13}",
+        "value": "{semantic.Color.Accent.Accent1}",
         "type": "color"
       },
       "TextTitleColor": {
-        "value": "{semantic.Color.Accent.Accent13}",
+        "value": "{semantic.Color.Accent.Accent1}",
         "type": "color"
       },
       "TextBodyColor": {
@@ -650,11 +650,11 @@
       }
     },
     "ProgressBar": {
-      "BgColor": {
-        "value": "{semantic.Color.Selection.BackgroundDisabled}",
+      "BackgroundColor": {
+        "value": "{semantic.Color.Background.MutedGrey}",
         "type": "color"
       },
-      "FgColor": {
+      "ForegroundColor": {
         "value": "{semantic.Color.Selection.BackgroundBold}",
         "type": "color"
       },
@@ -668,15 +668,15 @@
       }
     },
     "ProgressTracker": {
-      "BgColor": {
-        "value": "{semantic.Color.Selection.BackgroundDisabled}",
+      "BackgroundColor": {
+        "value": "{semantic.Color.Background.MutedGrey}",
         "type": "color"
       },
-      "FgColor": {
+      "ForegroundColor": {
         "value": "{semantic.Color.Selection.BackgroundBold}",
         "type": "color"
       },
-      "TextCompletedColor": {
+      "TextActiveColor": {
         "value": "{semantic.Color.Selection.Text}",
         "type": "color"
       },
