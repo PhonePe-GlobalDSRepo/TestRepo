@@ -730,6 +730,24 @@
           "type": "color"
         }
       },
+      "Disabled": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Background.PaleGrey}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "TextPlaceholderColor": {
+          "value": "{semantic.Color.Disabled.Text}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Disabled.Icon}",
+          "type": "color"
+        }
+      },
       "Active": {
         "BackgroundColor": {
           "value": "{semantic.Color.Surface.ElevatedLayer}",
@@ -1054,11 +1072,11 @@
       },
       "Disabled": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Background.MutedGrey}",
+          "value": "{semantic.Color.Disabled.Background}",
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Disabled.Text}",
           "type": "color"
         }
       },
