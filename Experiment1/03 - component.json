@@ -441,13 +441,18 @@
           "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        },
         "IconDefaultColor": {
           "value": "{semantic.Color.Icon.BoldGrey}",
           "type": "color"
         },
         "IconActiveColor": {
           "value": "{semantic.Color.Icon.BrandPrimary}",
-          "type": "color"
+          "type": "color",
+          "description": "Used for actionable icons which wil be placed on the right"
         },
         "BorderColor": {
           "value": "{semantic.Color.Border.EmphasisGrey}",
