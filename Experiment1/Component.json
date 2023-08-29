@@ -447,19 +447,6 @@
         "BorderColor": {
           "value": "{semantic.Color.Border.EmphasisGrey}",
           "type": "color"
-        },
-        "BorderSeperator": {
-          "value": "{semantic.Color.Neutral.Black}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.1",
-                "space": "srgb"
-              }
-            }
-          }
         }
       },
       "Prefilled": {
@@ -478,205 +465,139 @@
           "description": "Used only for Adhaar and Card inputs"
         },
         "TextDescriptionColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Text.Muted}",
           "type": "color"
         },
-        "IconColor": {
+        "IconActiveColor": {
+          "value": "{semantic.Color.Icon.EmphasisGrey}",
+          "type": "color"
+        },
+        "IconDefaultColor": {
+          "value": "{semantic.Color.Icon.EmphasisGrey}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Background.PaleGrey}",
+          "type": "color"
+        },
+        "TextLabelColor": {
+          "value": "{semantic.Color.Text.Muted}",
+          "type": "color"
+        },
+        "TextPlaceholderColor": {
+          "value": "{semantic.Color.Text.Muted}",
+          "type": "color"
+        },
+        "TextDescriptionColor": {
+          "value": "{semantic.Color.Text.Muted}",
+          "type": "color"
+        },
+        "IconDefaultColor": {
+          "value": "{semantic.Color.Icon.EmphasisGrey}",
+          "type": "color"
+        },
+        "IconActiveColor": {
           "value": "{semantic.Color.Icon.EmphasisGrey}",
           "type": "color"
         }
       },
       "Active": {
-        "BgColor": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
-        "PrefilledBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pale}",
+        "TextLabelColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "LabelTextColor": {
-          "value": "{semantic.Color.Text.Default}",
+        "TextColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "InputTextColor": {
-          "value": "{semantic.Color.Text.Default}",
-          "type": "color"
-        },
-        "DescriptionTextColor": {
+        "TextDescriptionColor": {
           "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
-        "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+        "IconDefaultColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
           "type": "color"
         },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Primary}",
-          "type": "color"
-        },
-        "ActionIconColor": {
-          "value": "{semantic.Color.Icon.Brand.Primary}",
+        "IconActiveColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
         "BorderColor": {
-          "value": "{semantic.Color.Border.Brand.Primary}",
+          "value": "{semantic.Color.Border.BrandPrimary}",
           "type": "color"
         }
       },
-      "Filled": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pure}",
+      "Error": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
-        "PrefilledBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pale}",
+        "TextLabelColor": {
+          "value": "{semantic.Color.Danger.TextBold}",
           "type": "color"
         },
-        "LabelTextColor": {
-          "value": "{semantic.Color.Text.Default}",
+        "TextInputColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "InputTextColor": {
-          "value": "{semantic.Color.Text.Default}",
+        "TextColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+        "TextDescriptionColor": {
+          "value": "{semantic.Color.Danger.TextBold}",
           "type": "color"
         },
-        "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+        "IconDefaultColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
           "type": "color"
         },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Primary}",
-          "type": "color"
-        },
-        "ActionIconColor": {
-          "value": "{semantic.Color.Icon.Brand.Primary}",
+        "IconDescriptionColor": {
+          "value": "{semantic.Color.Danger.IconBold}",
           "type": "color"
         },
         "BorderColor": {
-          "value": "{semantic.Color.Border.Default.Emphasis}",
+          "value": "{semantic.Color.Danger.BorderBold}",
+          "type": "color"
+        },
+        "IconActiveColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         }
       },
-      "Danger": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pure}",
+      "Success": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
-        "PrefilledBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pale}",
+        "TextLabelColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "LabelTextColor": {
-          "value": "{semantic.Color.Text.Danger.Rich}",
+        "TextInputColor": {
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "InputTextColor": {
-          "value": "{semantic.Color.Text.Default}",
-          "type": "color"
-        },
-        "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Danger.Rich}",
-          "type": "color"
-        },
-        "PrefilledTextColor": {
+        "TextDescriptionColor": {
           "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Primary}",
+        "TextSuccessColor": {
+          "value": "{semantic.Color.Success.TextBold}",
           "type": "color"
         },
-        "ActionIconColor": {
-          "value": "{semantic.Color.Icon.Brand.Primary}",
-          "type": "color"
-        },
-        "DangerIconColor": {
-          "value": "{semantic.Color.Icon.Danger.Rich}",
+        "IconSuccessColor": {
+          "value": "{semantic.Color.Success.IconBold}",
           "type": "color"
         },
         "BorderColor": {
-          "value": "{semantic.Color.Border.Danger.Rich}",
-          "type": "color"
-        }
-      },
-      "Disabled": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pale}",
-          "type": "color"
-        },
-        "PrefilledBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Muted}",
-          "type": "color"
-        },
-        "LabelTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
-          "type": "color"
-        },
-        "InputTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
-          "type": "color"
-        },
-        "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
-          "type": "color"
-        },
-        "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
-          "type": "color"
-        },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Secondary}",
-          "type": "color"
-        },
-        "ActionIconColor": {
-          "value": "{semantic.Color.Icon.Default.Secondary}",
-          "type": "color"
-        },
-        "BorderColor": {
-          "value": "{semantic.Color.Border.Default.Pale}",
-          "type": "color"
-        }
-      },
-      "DisabledFilled": {
-        "BgColor": {
-          "value": "{semantic.Color.Background.UIElement.Pale}",
-          "type": "color"
-        },
-        "PrefilledBgColor": {
-          "value": "{semantic.Color.Background.UIElement.Muted}",
-          "type": "color"
-        },
-        "LabelTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
-          "type": "color"
-        },
-        "InputTextColor": {
-          "value": "{semantic.Color.Text.Default}",
-          "type": "color"
-        },
-        "DescriptionTextColor": {
-          "value": "{semantic.Color.Text.Tertiary}",
-          "type": "color"
-        },
-        "PrefilledTextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
-          "type": "color"
-        },
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Default.Secondary}",
-          "type": "color"
-        },
-        "ActionIconColor": {
-          "value": "{semantic.Color.Icon.Default.Secondary}",
-          "type": "color"
-        },
-        "BorderColor": {
-          "value": "{semantic.Color.Border.Default.Pale}",
+          "value": "{semantic.Color.Border.EmphasisGrey}",
           "type": "color"
         }
       }
