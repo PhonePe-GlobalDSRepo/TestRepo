@@ -1208,7 +1208,7 @@
         },
         "Disabled": {
           "BackgroundColor": {
-            "value": "{semantic.Color.Background.MutedGrey}",
+            "value": "{semantic.Color.Disabled.Background}",
             "type": "color"
           },
           "ForegroundColor": {
@@ -1240,7 +1240,7 @@
         },
         "Disabled": {
           "BackgroundColor": {
-            "value": "{semantic.Color.Background.MutedGrey}",
+            "value": "{semantic.Color.Disabled.Background}",
             "type": "color"
           },
           "ForegroundColor": {
@@ -1275,7 +1275,7 @@
       },
       "Disabled": {
         "IconColor": {
-          "value": "{semantic.Color.Icon.EmphasisGrey}",
+          "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
         }
       }
