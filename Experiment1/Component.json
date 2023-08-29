@@ -394,15 +394,15 @@
       },
       "Disabled": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Background.MutedGrey}",
+          "value": "{semantic.Color.Disabled.Background}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.EmphasisGrey}",
+          "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Muted}",
+          "value": "{semantic.Color.Disabled.Text}",
           "type": "color"
         }
       }
@@ -477,23 +477,23 @@
           "type": "color"
         },
         "TextLabelColor": {
-          "value": "{semantic.Color.Text.Muted}",
+          "value": "{semantic.Color.Disabled.Text}",
           "type": "color"
         },
         "TextPlaceholderColor": {
-          "value": "{semantic.Color.Text.Muted}",
+          "value": "{semantic.Color.Disabled.Text}",
           "type": "color"
         },
         "TextDescriptionColor": {
-          "value": "{semantic.Color.Text.Muted}",
+          "value": "{semantic.Color.Disabled.Text}",
           "type": "color"
         },
         "IconDefaultColor": {
-          "value": "{semantic.Color.Icon.EmphasisGrey}",
+          "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
         },
         "IconActiveColor": {
-          "value": "{semantic.Color.Icon.EmphasisGrey}",
+          "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
         }
       },
