@@ -528,6 +528,42 @@
           }
         }
       }
+    },
+    "BottomNavigationBar": {
+      "BackgroundColor": {
+        "value": "{base.Color.Purple.800}",
+        "type": "color"
+      }
+    },
+    "BottomNavigationItem": {
+      "Default": {
+        "IconBackgroundColor": {
+          "value": "{base.Color.Purple.600}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{base.Color.DeepPurple.100}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        }
+      },
+      "Active": {
+        "IconBackgroundColor": {
+          "value": "{base.Color.DeepPurple.50}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{base.Color.Purple.800}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        }
+      }
     }
   }
 }
