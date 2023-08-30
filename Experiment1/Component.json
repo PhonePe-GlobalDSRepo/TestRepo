@@ -414,6 +414,10 @@
           "value": "{semantic.Color.Disabled.Background}",
           "type": "color"
         },
+        "BorderColor": {
+          "value": "{semantic.Color.Disabled.Background}",
+          "type": "color"
+        },
         "IconColor": {
           "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
