@@ -378,11 +378,11 @@
       },
       "Neutral": {
         "Intense": {
-          "value": "{base.Color.Neutral.White}",
+          "value": "{base.Color.Neutral.Black}",
           "type": "color"
         },
         "Pure": {
-          "value": "{base.Color.Neutral.Black}",
+          "value": "{base.Color.Neutral.White}",
           "type": "color"
         }
       },
