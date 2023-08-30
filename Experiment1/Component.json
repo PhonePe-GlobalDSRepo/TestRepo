@@ -128,7 +128,7 @@
         "Tertiary": {
           "Active": {
             "IconColor": {
-              "value": "{semantic.Color.Icon.Brand}",
+              "value": "{semantic.Color.Icon.BrandPrimary}",
               "type": "color"
             },
             "TextColor": {
@@ -434,7 +434,7 @@
           "type": "color"
         },
         "IconActiveColor": {
-          "value": "{semantic.Color.Icon.Brand}",
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color",
           "description": "Used for actionable icons which wil be placed on the right"
         },
@@ -527,7 +527,7 @@
           "type": "color"
         },
         "IconActiveColor": {
-          "value": "{semantic.Color.Icon.Brand}",
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
         "BorderColor": {
@@ -569,7 +569,7 @@
           "type": "color"
         },
         "IconActiveColor": {
-          "value": "{semantic.Color.Icon.Brand}",
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         }
       },
@@ -874,7 +874,7 @@
           "type": "color"
         },
         "IconActiveColor": {
-          "value": "{semantic.Color.Icon.Brand}",
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
         "TextTitleColor": {
@@ -904,7 +904,7 @@
           "type": "color"
         },
         "IconActiveColor": {
-          "value": "{semantic.Color.Icon.Brand}",
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
         "TextTitleColor": {
@@ -934,7 +934,7 @@
           "type": "color"
         },
         "IconActiveColor": {
-          "value": "{semantic.Color.Icon.Brand}",
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
         "TextTitleColor": {
@@ -964,7 +964,7 @@
           "type": "color"
         },
         "IconActiveColor": {
-          "value": "{semantic.Color.Icon.Brand}",
+          "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
         "TextTitleColor": {

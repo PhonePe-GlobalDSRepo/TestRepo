@@ -46,7 +46,7 @@
         }
       },
       "Icon": {
-        "Brand": {
+        "BrandPrimary": {
           "value": "{base.Color.Purple.500}",
           "type": "color"
         },
@@ -68,7 +68,7 @@
         }
       },
       "Text": {
-        "BrandPrimary": {
+        "Brand": {
           "value": "{base.Color.Purple.500}",
           "type": "color"
         },

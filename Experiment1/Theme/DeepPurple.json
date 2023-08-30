@@ -311,7 +311,7 @@
         }
       },
       "Border": {
-        "BrandPrimary": {
+        "Brand": {
           "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },

@@ -771,7 +771,7 @@
         }
       },
       "Icon": {
-        "Brand": {
+        "BrandPrimary": {
           "value": "{base.Color.Purple.500}",
           "type": "color"
         },
