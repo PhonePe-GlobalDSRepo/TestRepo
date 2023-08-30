@@ -454,7 +454,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+          "value": "{semantic.Color.Disabled.Text}",
           "type": "color",
           "description": "Used only for Adhaar and Card inputs"
         },
