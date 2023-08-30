@@ -26,23 +26,23 @@
         }
       },
       "Background": {
-        "BrandPrimary": {
+        "Brand": {
           "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
-        "PaleGrey": {
+        "Pale": {
           "value": "{base.Color.DeepPurple.500}",
           "type": "color"
         },
-        "MutedGrey": {
+        "Muted": {
           "value": "{base.Color.DeepPurple.400}",
           "type": "color"
         },
-        "EmphasisGrey": {
+        "Emphasis": {
           "value": "{base.Color.DeepPurple.600}",
           "type": "color"
         },
-        "DeepGrey": {
+        "Deep": {
           "value": "{base.Color.DeepPurple.500}",
           "type": "color"
         },
@@ -82,7 +82,7 @@
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -134,7 +134,7 @@
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -186,7 +186,7 @@
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -239,7 +239,7 @@
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -315,16 +315,16 @@
           "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
-        "EmphasisGrey": {
+        "Emphasis": {
           "value": "{base.Color.DeepPurple.300}",
           "type": "color"
         },
-        "ModerateDark": {
+        "Moderate": {
           "value": "{base.Color.DeepPurple.300}",
           "type": "color"
         },
         "Inverse": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color"
         }
       },
@@ -337,11 +337,11 @@
           "value": "{base.Color.LightPurple.500}",
           "type": "color"
         },
-        "BoldGrey": {
+        "Bold": {
           "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         },
-        "EmphasisGrey": {
+        "Emphasis": {
           "value": "{base.Color.DeepPurple.400}",
           "type": "color"
         },
@@ -351,7 +351,7 @@
         }
       },
       "Text": {
-        "BrandPrimary": {
+        "Brand": {
           "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
@@ -377,13 +377,12 @@
         }
       },
       "Neutral": {
-        "Black": {
-          "value": "{base.Color.Neutral.Black}",
-          "type": "color",
-          "description": "Primary CTA, Primary Icons, Title bar"
-        },
-        "White": {
+        "Intense": {
           "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "Pure": {
+          "value": "{base.Color.Neutral.Black}",
           "type": "color"
         }
       },
