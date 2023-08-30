@@ -410,11 +410,21 @@
         "Accent4": {
           "value": "{base.Color.Yellow.200}",
           "type": "color",
-          "description": "Try not use this color"
+          "description": "Try not use this color",
+          "$extensions": {}
         },
         "Accent5": {
-          "value": "{base.Color.Yellow.50}",
-          "type": "color"
+          "value": "{base.Color.Yellow.700}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "srgb"
+              }
+            }
+          }
         },
         "Accent6": {
           "value": "{base.Color.Orange.900}",
