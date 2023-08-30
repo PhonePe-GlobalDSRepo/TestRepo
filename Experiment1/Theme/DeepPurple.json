@@ -564,6 +564,98 @@
           "type": "color"
         }
       }
+    },
+    "Button": {
+      "Default": {
+        "Primary": {
+          "Active": {
+            "BackgroundColor": {
+              "value": "{base.Color.Purple.400}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{base.Color.Purple.50}",
+              "type": "color"
+            }
+          }
+        },
+        "Secondary": {
+          "Disabled": {
+            "BorderColor": {
+              "value": "{base.Color.DeepPurple.200}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Inverse": {
+        "Primary": {
+          "Active": {
+            "BackgroundColor": {
+              "value": "{semantic.Color.Background.Inverse}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Text.Brand}",
+              "type": "color"
+            }
+          },
+          "Disabled": {
+            "BackgroundColor": {
+              "value": "{semantic.Color.Disabled.Background}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Disabled.Text}",
+              "type": "color"
+            }
+          }
+        },
+        "Secondary": {
+          "Active": {
+            "TextColor": {
+              "value": "{semantic.Color.Text.Inverse}",
+              "type": "color"
+            },
+            "BorderColor": {
+              "value": "{semantic.Color.Border.Inverse}",
+              "type": "color"
+            }
+          },
+          "Disabled": {
+            "TextColor": {
+              "value": "{semantic.Color.Disabled.Text}",
+              "type": "color"
+            },
+            "BorderColor": {
+              "value": "{semantic.Color.Disabled.Border}",
+              "type": "color"
+            }
+          }
+        },
+        "Tertiary": {
+          "Active": {
+            "TextColor": {
+              "value": "{semantic.Color.Text.Inverse}",
+              "type": "color"
+            },
+            "IconColor": {
+              "value": "{semantic.Color.Icon.Inverse}",
+              "type": "color"
+            }
+          },
+          "Disabled": {
+            "TextColor": {
+              "value": "{semantic.Color.Disabled.Text}",
+              "type": "color"
+            },
+            "IconColor": {
+              "value": "{semantic.Color.Disabled.Icon}",
+              "type": "color"
+            }
+          }
+        }
+      }
     }
   }
 }
