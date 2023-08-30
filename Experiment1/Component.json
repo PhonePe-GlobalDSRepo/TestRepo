@@ -21,6 +21,10 @@
         "value": "{semantic.Color.Accent.Accent1}",
         "type": "color"
       },
+      "BackgroundIconColor": {
+        "value": "{semantic.Color.Surface.PrimaryLayer}",
+        "type": "color"
+      },
       "TextColor": {
         "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
@@ -39,7 +43,7 @@
         }
       },
       "BorderInverseColor": {
-        "value": "{semantic.Color.Border.Inverse}",
+        "value": "{semantic.Color.Surface.PrimaryLayer}",
         "type": "color"
       }
     },
