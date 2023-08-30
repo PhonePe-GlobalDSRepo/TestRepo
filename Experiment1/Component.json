@@ -443,7 +443,7 @@
           "type": "color"
         }
       },
-      "Prefilled": {
+      "Prefilled Disabled": {
         "BackgroundColor": {
           "value": "{semantic.Color.Background.Pale}",
           "type": "color",
@@ -468,6 +468,10 @@
         },
         "IconDefaultColor": {
           "value": "{semantic.Color.Icon.Emphasis}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Background.Pale}",
           "type": "color"
         }
       },
@@ -494,6 +498,10 @@
         },
         "IconActiveColor": {
           "value": "{semantic.Color.Disabled.Icon}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Background.Pale}",
           "type": "color"
         }
       },
