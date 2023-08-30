@@ -656,6 +656,46 @@
           }
         }
       }
+    },
+    "CarouselIndicator": {
+      "Default": {
+        "BackgroundActiveColor": {
+          "value": "{base.Color.DeepPurple.50}",
+          "type": "color"
+        },
+        "BackgroundInactiveColor": {
+          "value": "{base.Color.DeepPurple.100}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "Inverse": {
+        "BackgroundActiveColor": {
+          "value": "{base.Color.DeepPurple.50}",
+          "type": "color"
+        },
+        "BackgroundInactiveColor": {
+          "value": "{base.Color.DeepPurple.100}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
