@@ -800,7 +800,7 @@
       "Default": {
         "Item": {
           "BorderColor": {
-            "value": "{base.Color.Neutral.Black}",
+            "value": "{semantic.Color.Neutral.Intense}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -815,7 +815,7 @@
         },
         "Section": {
           "BorderColor": {
-            "value": "{base.Color.Neutral.Black}",
+            "value": "{semantic.Color.Neutral.Intense}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -832,7 +832,7 @@
       "Inverse": {
         "Item": {
           "BorderColor": {
-            "value": "{base.Color.Neutral.White}",
+            "value": "{semantic.Color.Neutral.Pure}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -847,7 +847,7 @@
         },
         "Section": {
           "BorderColor": {
-            "value": "{base.Color.Neutral.White}",
+            "value": "{semantic.Color.Neutral.Pure}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
