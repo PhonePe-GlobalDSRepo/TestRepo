@@ -1002,6 +1002,39 @@
           "type": "color"
         }
       }
+    },
+    "Tags": {
+      "Default": {
+        "BackgroundColor06": {
+          "value": "{base.Color.DeepPurple.300}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        }
+      },
+      "Image": {
+        "BorderColor": {
+          "value": "{semantic.Color.Neutral.Intense}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

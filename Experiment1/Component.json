@@ -1101,7 +1101,7 @@
           "type": "color"
         },
         "TextColor": {
-          "value": "{semantic.Color.Disabled.Text}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         }
       },
@@ -1118,6 +1118,11 @@
               }
             }
           }
+        },
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
+          "type": "color",
+          "$extensions": {}
         }
       }
     },
