@@ -1142,7 +1142,7 @@
       },
       "Inverse": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
         "TextTitleColor": {

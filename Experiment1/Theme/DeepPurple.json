@@ -746,7 +746,7 @@
       },
       "Inverse": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
         "TextTitleColor": {
@@ -764,33 +764,33 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Inverse}",
+          "value": "{semantic.Color.Success.TextSubtle}",
           "type": "color"
         },
         "TextTitleColor": {
-          "value": "{semantic.Color.Text.Inverse}",
+          "value": "{semantic.Color.Success.TextSubtle}",
           "type": "color"
         },
         "TextSubTitleColor": {
-          "value": "{semantic.Color.Text.Soft}",
+          "value": "{semantic.Color.Success.TextSubtle}",
           "type": "color"
         }
       },
       "Disabled": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Background.Emphasis}",
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Inverse}",
+          "value": "{semantic.Color.Icon.Bold}",
           "type": "color"
         },
         "TextTitleColor": {
-          "value": "{semantic.Color.Text.Inverse}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
         "SubTitleColor": {
-          "value": "{semantic.Color.Text.Soft}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         }
       },
@@ -800,15 +800,15 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Inverse}",
+          "value": "{semantic.Color.Warning.IconSubtle}",
           "type": "color"
         },
         "TextTitleColor": {
-          "value": "{semantic.Color.Text.Inverse}",
+          "value": "{semantic.Color.Warning.TextSubtle}",
           "type": "color"
         },
         "TextSubTitleColor": {
-          "value": "{semantic.Color.Text.Soft}",
+          "value": "{semantic.Color.Warning.TextSubtle}",
           "type": "color"
         }
       },
@@ -818,15 +818,15 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Inverse}",
+          "value": "{semantic.Color.Danger.IconSubtle}",
           "type": "color"
         },
         "TextTitleColor": {
-          "value": "{semantic.Color.Text.Inverse}",
+          "value": "{semantic.Color.Danger.TextSubtle}",
           "type": "color"
         },
         "TextSubTitleColor": {
-          "value": "{semantic.Color.Text.Soft}",
+          "value": "{semantic.Color.Danger.TextSubtle}",
           "type": "color"
         }
       }
