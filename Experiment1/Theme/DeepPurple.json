@@ -860,8 +860,17 @@
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Success.BorderBold}",
-          "type": "color"
+          "value": "{semantic.Color.Neutral.Intense}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "srgb"
+              }
+            }
+          }
         }
       },
       "Warning": {
@@ -870,8 +879,17 @@
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Warning.BorderBold}",
-          "type": "color"
+          "value": "{semantic.Color.Neutral.Intense}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "srgb"
+              }
+            }
+          }
         }
       },
       "Info": {
@@ -880,17 +898,35 @@
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Info.BorderBold}",
-          "type": "color"
+          "value": "{semantic.Color.Neutral.Intense}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "srgb"
+              }
+            }
+          }
         }
       },
       "Danger": {
+        "SeparatorColor": {
+          "value": "{semantic.Color.Neutral.Intense}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "srgb"
+              }
+            }
+          }
+        },
         "BackgroundColor": {
           "value": "{semantic.Color.Surface.ElevatedLayer}",
-          "type": "color"
-        },
-        "SeparatorColor": {
-          "value": "{semantic.Color.Danger.BorderBold}",
           "type": "color"
         }
       }
