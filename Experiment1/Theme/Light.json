@@ -1,6 +1,30 @@
 {
   "semantic": {
     "Color": {
+      "Brand": {
+        "Primary": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.LightPurple.500}",
+          "type": "color"
+        }
+      },
+      "Surface": {
+        "AppBackground": {
+          "value": "{base.Color.Purple.100}",
+          "type": "color"
+        },
+        "PrimaryLayer": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "ElevatedLayer": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
       "Background": {
         "Brand": {
           "value": "{base.Color.Purple.500}",
@@ -24,94 +48,6 @@
         },
         "Inverse": {
           "value": "{semantic.Color.Neutral.Pure}",
-          "type": "color"
-        }
-      },
-      "Border": {
-        "Brand": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
-        },
-        "Emphasis": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "Moderate": {
-          "value": "{base.Color.Grey.400}",
-          "type": "color"
-        },
-        "Inverse": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Icon": {
-        "BrandPrimary": {
-          "value": "{base.Color.Purple.500}",
-          "type": "color"
-        },
-        "BrandSecondary": {
-          "value": "{base.Color.LightPurple.500}",
-          "type": "color"
-        },
-        "Bold": {
-          "value": "{base.Color.Grey.800}",
-          "type": "color"
-        },
-        "Emphasis": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "Inverse": {
-          "value": "{semantic.Color.Neutral.Pure}",
-          "type": "color"
-        }
-      },
-      "Text": {
-        "Brand": {
-          "value": "{base.Color.Purple.500}",
-          "type": "color"
-        },
-        "Primary": {
-          "value": "{base.Color.Grey.900}",
-          "type": "color"
-        },
-        "Secondary": {
-          "value": "{base.Color.Grey.700}",
-          "type": "color"
-        },
-        "Muted": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "Soft": {
-          "value": "{base.Color.Grey.100}",
-          "type": "color"
-        },
-        "Inverse": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Selection": {
-        "BackgroundBold": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "BackgroundSubtle": {
-          "value": "{base.Color.Green.50}",
-          "type": "color"
-        },
-        "Border": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "Text": {
-          "value": "{base.Color.Green.800}",
           "type": "color"
         }
       },
@@ -251,6 +187,134 @@
           "type": "color"
         }
       },
+      "Selection": {
+        "BackgroundBold": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "BackgroundSubtle": {
+          "value": "{base.Color.Green.50}",
+          "type": "color"
+        },
+        "Border": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{base.Color.Green.800}",
+          "type": "color"
+        }
+      },
+      "CTA": {
+        "Background": {
+          "value": "{semantic.Color.Background.Brand}",
+          "type": "color",
+          "description": "Primary CTA"
+        },
+        "Border": {
+          "value": "{semantic.Color.Border.Brand}",
+          "type": "color",
+          "description": "Used for Secondary CTA"
+        },
+        "Text": {
+          "value": "{semantic.Color.Text.Brand}",
+          "type": "color",
+          "description": "Used for secodary, tertiary and inverse CTA"
+        },
+        "Icon": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "type": "color",
+          "description": "Used for tertiary CTA"
+        }
+      },
+      "Disabled": {
+        "Background": {
+          "value": "{base.Color.Grey.300}",
+          "type": "color"
+        },
+        "Border": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Text": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        }
+      },
+      "Border": {
+        "Brand": {
+          "value": "{semantic.Color.Brand.Primary}",
+          "type": "color"
+        },
+        "Emphasis": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
+      "Icon": {
+        "BrandPrimary": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color"
+        },
+        "BrandSecondary": {
+          "value": "{base.Color.LightPurple.500}",
+          "type": "color"
+        },
+        "Bold": {
+          "value": "{base.Color.Grey.800}",
+          "type": "color"
+        },
+        "Emphasis": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{semantic.Color.Neutral.Pure}",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "Brand": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "{base.Color.Grey.900}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.Grey.700}",
+          "type": "color"
+        },
+        "Muted": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Soft": {
+          "value": "{base.Color.Grey.100}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        }
+      },
       "Neutral": {
         "Intense": {
           "value": "{base.Color.Neutral.Black}",
@@ -329,48 +393,6 @@
         },
         "Accent17": {
           "value": "{base.Color.Pink.600}",
-          "type": "color"
-        }
-      },
-      "Brand": {
-        "Primary": {
-          "value": "{base.Color.Purple.500}",
-          "type": "color"
-        },
-        "Secondary": {
-          "value": "{base.Color.LightPurple.500}",
-          "type": "color"
-        }
-      },
-      "Surface": {
-        "AppBackground": {
-          "value": "{base.Color.Purple.50}",
-          "type": "color"
-        },
-        "PrimaryLayer": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        },
-        "ElevatedLayer": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Disabled": {
-        "Background": {
-          "value": "{base.Color.Grey.300}",
-          "type": "color"
-        },
-        "Border": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "Text": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{base.Color.Grey.500}",
           "type": "color"
         }
       }

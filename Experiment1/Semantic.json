@@ -83,10 +83,6 @@
         "value": "{semantic.Size.24}",
         "type": "spacing"
       },
-      "32": {
-        "value": "{semantic.Size.32}",
-        "type": "spacing"
-      },
       "40": {
         "value": "{semantic.Size.40}",
         "type": "spacing"
