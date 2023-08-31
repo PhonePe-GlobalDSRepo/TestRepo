@@ -1121,6 +1121,22 @@
           }
         }
       }
+    },
+    "Checkbox": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Success.IconBold}",
+          "type": "color"
+        }
+      }
+    },
+    "RadioButton": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Success.IconBold}",
+          "type": "color"
+        }
+      }
     }
   }
 }
