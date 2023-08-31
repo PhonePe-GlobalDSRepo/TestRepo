@@ -724,6 +724,112 @@
         "value": "{semantic.Color.Text.Secondary}",
         "type": "color"
       }
+    },
+    "TitleBar": {
+      "Default": {
+        "BackgroundColor": {
+          "value": "{base.Color.Purple.800}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Inverse}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        }
+      },
+      "Inverse": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Bold}",
+          "type": "color"
+        }
+      },
+      "Success": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Success.BackgroundBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Inverse}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.Soft}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Background.Emphasis}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Inverse}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "SubTitleColor": {
+          "value": "{semantic.Color.Text.Soft}",
+          "type": "color"
+        }
+      },
+      "Warning": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Warning.BackgroundBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Inverse}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.Soft}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Danger.BackgroundBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Inverse}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.Soft}",
+          "type": "color"
+        }
+      }
     }
   }
 }
