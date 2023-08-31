@@ -78,7 +78,7 @@
           "type": "color"
         },
         "BorderBold": {
-          "value": "{base.Color.Green.800}",
+          "value": "{base.Color.Green.200}",
           "type": "color"
         },
         "BorderSubtle": {
@@ -849,6 +849,48 @@
         },
         "TextSubTitleColor": {
           "value": "{semantic.Color.Danger.TextSubtle}",
+          "type": "color"
+        }
+      }
+    },
+    "SectionMessage": {
+      "Success": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "type": "color"
+        },
+        "SeparatorColor": {
+          "value": "{semantic.Color.Success.BorderBold}",
+          "type": "color"
+        }
+      },
+      "Warning": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "type": "color"
+        },
+        "SeparatorColor": {
+          "value": "{semantic.Color.Warning.BorderBold}",
+          "type": "color"
+        }
+      },
+      "Info": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "type": "color"
+        },
+        "SeparatorColor": {
+          "value": "{semantic.Color.Info.BorderBold}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "type": "color"
+        },
+        "SeparatorColor": {
+          "value": "{semantic.Color.Danger.BorderBold}",
           "type": "color"
         }
       }
