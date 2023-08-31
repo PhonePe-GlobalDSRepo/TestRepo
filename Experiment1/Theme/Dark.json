@@ -707,15 +707,11 @@
     },
     "ProgressTracker": {
       "BackgroundColor": {
-        "value": "{semantic.Color.Background.Muted}",
-        "type": "color"
-      },
-      "ForegroundColor": {
-        "value": "{semantic.Color.Selection.BackgroundBold}",
+        "value": "{base.Color.DeepGrey.300}",
         "type": "color"
       },
       "TextActiveColor": {
-        "value": "{semantic.Color.Selection.Text}",
+        "value": "{base.Color.Green.300}",
         "type": "color"
       },
       "TextMutedColor": {
