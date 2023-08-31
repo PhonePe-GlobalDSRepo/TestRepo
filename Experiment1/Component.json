@@ -641,11 +641,11 @@
     },
     "Notes": {
       "IndicatorColor": {
-        "value": "{semantic.Color.Accent.Accent1}",
+        "value": "{semantic.Color.Accent.Accent17}",
         "type": "color"
       },
       "TextTitleColor": {
-        "value": "{semantic.Color.Accent.Accent1}",
+        "value": "{semantic.Color.Accent.Accent17}",
         "type": "color"
       },
       "TextBodyColor": {
