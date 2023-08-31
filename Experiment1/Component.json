@@ -743,7 +743,7 @@
     "Search": {
       "Default": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
         "BorderColor": {
@@ -760,12 +760,12 @@
         }
       },
       "Disabled": {
-        "BackgroundColor": {
+        "BorderColor": {
           "value": "{semantic.Color.Background.Pale}",
           "type": "color"
         },
-        "TextColor": {
-          "value": "{semantic.Color.Text.Secondary}",
+        "BackgroundColor": {
+          "value": "{semantic.Color.Background.Pale}",
           "type": "color"
         },
         "TextPlaceholderColor": {
@@ -779,7 +779,7 @@
       },
       "Active": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
         "IconBackgroundColor": {
