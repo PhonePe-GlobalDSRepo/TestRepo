@@ -1006,13 +1006,33 @@
     "Tags": {
       "Default": {
         "BackgroundColor06": {
-          "value": "{base.Color.DeepPurple.300}",
+          "value": "{base.Color.DeepGrey.500}",
+          "type": "color"
+        },
+        "TextColor01": {
+          "value": "{base.Color.Red.50}",
+          "type": "color"
+        },
+        "TextColor02": {
+          "value": "{base.Color.Green.50}",
+          "type": "color"
+        },
+        "TextColor03": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
+        },
+        "TextColor04": {
+          "value": "{base.Color.Blue.50}",
+          "type": "color"
+        },
+        "TextColor05": {
+          "value": "{base.Color.Pink.50}",
           "type": "color"
         }
       },
       "Disabled": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "value": "{base.Color.DeepGrey.500}",
           "type": "color"
         },
         "TextColor": {
