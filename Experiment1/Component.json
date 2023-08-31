@@ -464,35 +464,35 @@
           "type": "color"
         }
       },
-      "Prefilled Disabled": {
+      "PrefilledDisabled": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Background.Pale}",
+          "value": "{semantic.Color.Background.Muted}",
           "type": "color",
           "description": "Used for Adhaar and Card input fields. "
-        },
-        "TextLabelColor": {
-          "value": "{semantic.Color.Text.Muted}",
-          "type": "color"
         },
         "TextColor": {
           "value": "{semantic.Color.Disabled.Text}",
           "type": "color",
           "description": "Used only for Adhaar and Card inputs"
         },
-        "TextDescriptionColor": {
-          "value": "{semantic.Color.Text.Muted}",
-          "type": "color"
-        },
-        "IconActiveColor": {
+        "IconColor": {
           "value": "{semantic.Color.Icon.Emphasis}",
           "type": "color"
-        },
-        "IconDefaultColor": {
-          "value": "{semantic.Color.Icon.Emphasis}",
-          "type": "color"
-        },
-        "BorderColor": {
+        }
+      },
+      "PrefilledInactive": {
+        "BackgroundColor": {
           "value": "{semantic.Color.Background.Pale}",
+          "type": "color",
+          "description": "Used for Adhaar and Card input fields. "
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Disabled.Text}",
+          "type": "color",
+          "description": "Used only for Adhaar and Card inputs"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Emphasis}",
           "type": "color"
         }
       },
