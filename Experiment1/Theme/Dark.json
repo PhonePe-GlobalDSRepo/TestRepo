@@ -690,6 +690,38 @@
           }
         }
       }
+    },
+    "ProgressBar": {
+      "BackgroundColor": {
+        "value": "{base.Color.DeepGrey.300}",
+        "type": "color"
+      },
+      "TextActiveColor": {
+        "value": "{base.Color.Green.300}",
+        "type": "color"
+      },
+      "TextMutedColor": {
+        "value": "{semantic.Color.Text.Secondary}",
+        "type": "color"
+      }
+    },
+    "ProgressTracker": {
+      "BackgroundColor": {
+        "value": "{semantic.Color.Background.Muted}",
+        "type": "color"
+      },
+      "ForegroundColor": {
+        "value": "{semantic.Color.Selection.BackgroundBold}",
+        "type": "color"
+      },
+      "TextActiveColor": {
+        "value": "{semantic.Color.Selection.Text}",
+        "type": "color"
+      },
+      "TextMutedColor": {
+        "value": "{semantic.Color.Text.Secondary}",
+        "type": "color"
+      }
     }
   }
 }
