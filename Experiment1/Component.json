@@ -1342,26 +1342,6 @@
           "type": "color"
         }
       }
-    },
-    "VideoPlayer": {
-      "Active": {
-        "IconColor": {
-          "value": "{semantic.Color.Selection.Icon}",
-          "type": "color"
-        }
-      },
-      "Default": {
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Bold}",
-          "type": "color"
-        }
-      },
-      "Disabled": {
-        "IconColor": {
-          "value": "{semantic.Color.Disabled.Icon}",
-          "type": "color"
-        }
-      }
     }
   }
 }
