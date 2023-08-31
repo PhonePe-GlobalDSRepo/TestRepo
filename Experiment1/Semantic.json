@@ -734,6 +734,28 @@
           "type": "color"
         }
       },
+      "CTA": {
+        "Background": {
+          "value": "{semantic.Color.Background.Brand}",
+          "type": "color",
+          "description": "Primary CTA"
+        },
+        "Border": {
+          "value": "{semantic.Color.Border.Brand}",
+          "type": "color",
+          "description": "Used for Secondary CTA"
+        },
+        "Text": {
+          "value": "{semantic.Color.Text.Brand}",
+          "type": "color",
+          "description": "Used for secodary, tertiary and inverse CTA"
+        },
+        "Icon": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "type": "color",
+          "description": "Used for tertiary CTA"
+        }
+      },
       "Disabled": {
         "Background": {
           "value": "{base.Color.Grey.300}",
