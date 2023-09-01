@@ -397,7 +397,7 @@
             "y": "2",
             "blur": "2",
             "spread": "0",
-            "color": "{base.Color.Neutral.Black} rgba(0,0,0,0.04)",
+            "color": "rgba({base.Color.Neutral.Black},0.04)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -422,7 +422,7 @@
               "y": "0",
               "blur": "16",
               "spread": "0",
-              "color": "{base.Color.Neutral.Black} rgba(0,0,0,0.16)",
+              "color": "rgba({base.Color.Neutral.Black} ,0.16)",
               "type": "dropShadow"
             }
           ],
