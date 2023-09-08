@@ -240,6 +240,10 @@
       "16": {
         "value": "{base.Size.16}",
         "type": "borderRadius"
+      },
+      "100%": {
+        "value": "9999",
+        "type": "borderRadius"
       }
     },
     "BorderWidth": {
