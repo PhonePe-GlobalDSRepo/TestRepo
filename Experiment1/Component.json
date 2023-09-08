@@ -360,7 +360,7 @@
     },
     "FAB": {
       "BackgroundColor": {
-        "value": "{semantic.Color.Background.Brand}",
+        "value": "{semantic.Color.CTA.Background}",
         "type": "color"
       },
       "IconColor": {
