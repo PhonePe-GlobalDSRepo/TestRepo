@@ -389,7 +389,7 @@
           "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         },
-        "SoftGrey": {
+        "Soft": {
           "value": "{base.Color.DeepGrey.300}",
           "type": "color"
         },
