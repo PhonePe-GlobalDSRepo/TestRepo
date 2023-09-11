@@ -488,7 +488,7 @@
           "description": "Used only for Adhaar and Card inputs"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Emphasis}",
+          "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
         }
       },
@@ -504,7 +504,7 @@
           "description": "Used only for Adhaar and Card inputs"
         },
         "IconColor": {
-          "value": "{semantic.Color.Icon.Emphasis}",
+          "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
         }
       },
