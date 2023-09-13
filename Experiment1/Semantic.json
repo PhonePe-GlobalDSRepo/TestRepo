@@ -946,6 +946,14 @@
           "type": "color"
         }
       }
+    },
+    "Card": {
+      "value": {
+        "fill": "{semantic.Color.Surface.PrimaryLayer}",
+        "borderRadius": "{semantic.BorderRadius.12}",
+        "boxShadow": "{semantic.Elevation.Bottom.S}"
+      },
+      "type": "composition"
     }
   }
 }
