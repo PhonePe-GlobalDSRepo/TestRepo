@@ -597,7 +597,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color"
         }
       },
@@ -631,7 +631,7 @@
           "type": "color"
         },
         "IconSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color"
         }
       },
@@ -665,7 +665,7 @@
           "type": "color"
         },
         "IconSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color"
         }
       },
@@ -683,7 +683,7 @@
           "type": "color"
         },
         "TextSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color"
         },
         "BorderBold": {
@@ -699,7 +699,7 @@
           "type": "color"
         },
         "IconSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color"
         }
       },
@@ -717,7 +717,7 @@
           "type": "color"
         },
         "TextSubtle": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color"
         },
         "BorderBold": {
@@ -835,7 +835,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.Pure}",
           "type": "color"
         }
       },
@@ -866,11 +866,11 @@
         }
       },
       "Neutral": {
-        "Black": {
+        "Intense": {
           "value": "{base.Color.Neutral.Black}",
           "type": "color"
         },
-        "White": {
+        "Pure": {
           "value": "{base.Color.Neutral.White}",
           "type": "color"
         }
