@@ -708,7 +708,7 @@
             "modify": {
               "type": "alpha",
               "value": "0.7",
-              "space": "lch"
+              "space": "srgb"
             }
           }
         }
