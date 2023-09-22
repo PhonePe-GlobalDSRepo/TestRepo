@@ -699,21 +699,6 @@
         "type": "color"
       }
     },
-    "Overlay": {
-      "BgColor": {
-        "value": "{semantic.Color.Neutral.Black}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.7",
-              "space": "srgb"
-            }
-          }
-        }
-      }
-    },
     "ProgressBar": {
       "BackgroundColor": {
         "value": "{semantic.Color.Background.Muted}",

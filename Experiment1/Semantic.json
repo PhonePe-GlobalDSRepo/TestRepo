@@ -984,6 +984,13 @@
         "boxShadow": "{semantic.Elevation.Bottom.L}"
       },
       "type": "composition"
+    },
+    "Overlay": {
+      "value": {
+        "fill": "{semantic.Color.Neutral.Black}",
+        "opacity": "{semantic.Opacity.70%}"
+      },
+      "type": "composition"
     }
   }
 }
