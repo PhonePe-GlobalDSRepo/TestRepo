@@ -860,7 +860,7 @@
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Neutral.Black}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -879,7 +879,7 @@
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Neutral.Black}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -898,7 +898,7 @@
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Neutral.Black}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -912,8 +912,12 @@
         }
       },
       "Danger": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "type": "color"
+        },
         "SeparatorColor": {
-          "value": "{semantic.Color.Neutral.Black}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -924,10 +928,6 @@
               }
             }
           }
-        },
-        "BackgroundColor": {
-          "value": "{semantic.Color.Surface.ElevatedLayer}",
-          "type": "color"
         }
       }
     },
