@@ -967,6 +967,23 @@
         "boxShadow": "{semantic.Elevation.Bottom.S}"
       },
       "type": "composition"
+    },
+    "BottomSheet": {
+      "value": {
+        "fill": "{semantic.Color.Surface.ElevatedLayer}",
+        "borderRadiusTopLeft": "{semantic.BorderRadius.12}",
+        "borderRadiusTopRight": "{semantic.BorderRadius.12}",
+        "boxShadow": "{semantic.Elevation.Top.M}"
+      },
+      "type": "composition"
+    },
+    "DialogBox": {
+      "value": {
+        "fill": "{semantic.Color.Surface.ElevatedLayer}",
+        "borderRadius": "{semantic.BorderRadius.12}",
+        "boxShadow": "{semantic.Elevation.Bottom.L}"
+      },
+      "type": "composition"
     }
   }
 }
