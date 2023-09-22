@@ -30,6 +30,10 @@
           "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
+        "Soft": {
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color"
+        },
         "Pale": {
           "value": "{base.Color.DeepGrey.700}",
           "type": "color"

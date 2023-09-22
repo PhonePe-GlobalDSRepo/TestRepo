@@ -30,6 +30,10 @@
           "value": "{base.Color.Purple.500}",
           "type": "color"
         },
+        "Soft": {
+          "value": "{base.Color.Grey.100}",
+          "type": "color"
+        },
         "Pale": {
           "value": "{base.Color.Grey.200}",
           "type": "color"
