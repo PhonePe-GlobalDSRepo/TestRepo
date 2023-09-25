@@ -350,7 +350,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{semantic.Color.Neutral.White}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         }
       },
