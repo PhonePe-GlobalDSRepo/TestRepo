@@ -275,7 +275,7 @@
           "value": {
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Bold}",
-            "lineHeight": "{semantic.LineHeight.125%}",
+            "lineHeight": "{semantic.LineHeight.135%}",
             "fontSize": "{semantic.FontSize.12}",
             "letterSpacing": "{semantic.LetterSpacing.Loose}",
             "textCase": "{semantic.TextCase.Uppercase}"
