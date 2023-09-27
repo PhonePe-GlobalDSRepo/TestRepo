@@ -43,6 +43,13 @@
         "type": "color"
       }
     },
+    "BrandLogos": {
+      "BorderDefaultColor": {
+        "value": "{semantic.Color.Border.Moderate}",
+        "type": "color",
+        "$extensions": {}
+      }
+    },
     "BottomNavigationBar": {
       "BackgroundColor": {
         "value": "{semantic.Color.Surface.ElevatedLayer}",
