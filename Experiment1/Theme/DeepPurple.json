@@ -267,8 +267,7 @@
       "Selection": {
         "BackgroundBold": {
           "value": "{base.Color.Green.800}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         },
         "BackgroundSubtle": {
           "value": "{base.Color.Green.800}",

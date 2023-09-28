@@ -266,8 +266,7 @@
       "Selection": {
         "BackgroundBold": {
           "value": "{base.Color.Green.800}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         },
         "BackgroundSubtle": {
           "value": "{base.Color.Green.800}",
@@ -436,8 +435,7 @@
         "Accent4": {
           "value": "{base.Color.Yellow.200}",
           "type": "color",
-          "description": "Try not use this color",
-          "$extensions": {}
+          "description": "Try not use this color"
         },
         "Accent5": {
           "value": "{base.Color.Yellow.700}",
