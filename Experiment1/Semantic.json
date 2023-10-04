@@ -977,6 +977,8 @@
         "fill": "{semantic.Color.Surface.ElevatedLayer}",
         "borderRadiusTopLeft": "{semantic.BorderRadius.12}",
         "borderRadiusTopRight": "{semantic.BorderRadius.12}",
+        "borderRadiusBottomLeft": "{semantic.BorderRadius.0}",
+        "borderRadiusBottomRight": "{semantic.BorderRadius.0}",
         "boxShadow": "{semantic.Elevation.Top.M}"
       },
       "type": "composition"
