@@ -370,6 +370,10 @@
         "value": "70%",
         "type": "opacity",
         "description": "This opacity value is used for Overlay."
+      },
+      "100%": {
+        "value": "100%",
+        "type": "opacity"
       }
     },
     "Color": {
@@ -863,6 +867,14 @@
       "Uppercase": {
         "value": "uppercase",
         "type": "textCase"
+      }
+    }
+  },
+  "semantic": {
+    "Opacity": {
+      "100%": {
+        "value": "{base.Opacity.100%}",
+        "type": "opacity"
       }
     }
   }

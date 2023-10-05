@@ -157,6 +157,10 @@
       "70%": {
         "value": "{base.Opacity.70%}",
         "type": "opacity"
+      },
+      "100%": {
+        "value": "{base.Opacity.100%}",
+        "type": "opacity"
       }
     },
     "FontFamily": {
@@ -967,6 +971,7 @@
     "Card": {
       "value": {
         "fill": "{semantic.Color.Surface.PrimaryLayer}",
+        "opacity": "{semantic.Opacity.100%}",
         "borderRadius": "{semantic.BorderRadius.12}",
         "boxShadow": "{semantic.Elevation.Bottom.S}"
       },
@@ -975,6 +980,7 @@
     "BottomSheet": {
       "value": {
         "fill": "{semantic.Color.Surface.ElevatedLayer}",
+        "opacity": "{semantic.Opacity.100%}",
         "borderRadiusTopLeft": "{semantic.BorderRadius.12}",
         "borderRadiusTopRight": "{semantic.BorderRadius.12}",
         "borderRadiusBottomLeft": "{semantic.BorderRadius.0}",
@@ -986,6 +992,7 @@
     "DialogBox": {
       "value": {
         "fill": "{semantic.Color.Surface.ElevatedLayer}",
+        "opacity": "{semantic.Opacity.100%}",
         "borderRadius": "{semantic.BorderRadius.12}",
         "boxShadow": "{semantic.Elevation.Bottom.L}"
       },
