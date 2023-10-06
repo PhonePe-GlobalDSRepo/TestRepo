@@ -715,6 +715,40 @@
         }
       }
     },
+    "ChatBubble": {
+      "ImageOverlay": {
+        "value": "linear-gradient (315deg, rgba( {semantic.Color.Neutral.Black} ,0.4) 0%, rgba( {semantic.Color.Neutral.Black} ,0.01) 60%)",
+        "type": "color"
+      },
+      "SideIndicator": {
+        "value": "{semantic.Color.Accent.Accent6}",
+        "type": "color"
+      },
+      "BackgroundReceiverColor": {
+        "value": "{semantic.Color.Background.Inverse}",
+        "type": "color"
+      },
+      "BackgroundReceiverReplyColor": {
+        "value": "{semantic.Color.Background.Pale}",
+        "type": "color"
+      },
+      "BackgroundSenderColor": {
+        "value": "{semantic.Color.Accent.Accent16}",
+        "type": "color"
+      },
+      "BackgroundSenderReplyColor": {
+        "value": "{semantic.Color.Surface.AppBackground}",
+        "type": "color"
+      }
+    },
+    "Checkbox": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Success.IconBold}",
+          "type": "color"
+        }
+      }
+    },
     "ProgressBar": {
       "BackgroundColor": {
         "value": "{base.Color.DeepGrey.300}",
@@ -741,6 +775,14 @@
       "TextMutedColor": {
         "value": "{semantic.Color.Text.Secondary}",
         "type": "color"
+      }
+    },
+    "RadioButton": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Success.IconBold}",
+          "type": "color"
+        }
       }
     },
     "TitleBar": {
@@ -1109,22 +1151,6 @@
             "value": "{base.Color.DeepGrey.400}",
             "type": "color"
           }
-        }
-      }
-    },
-    "Checkbox": {
-      "Active": {
-        "IconColor": {
-          "value": "{semantic.Color.Success.IconBold}",
-          "type": "color"
-        }
-      }
-    },
-    "RadioButton": {
-      "Active": {
-        "IconColor": {
-          "value": "{semantic.Color.Success.IconBold}",
-          "type": "color"
         }
       }
     }
