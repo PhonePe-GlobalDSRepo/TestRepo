@@ -716,28 +716,20 @@
       }
     },
     "ChatBubble": {
-      "ImageOverlay": {
-        "value": "linear-gradient (315deg, rgba( {semantic.Color.Neutral.Black} ,0.4) 0%, rgba( {semantic.Color.Neutral.Black} ,0.01) 60%)",
-        "type": "color"
-      },
-      "SideIndicator": {
-        "value": "{semantic.Color.Accent.Accent6}",
-        "type": "color"
-      },
       "BackgroundReceiverColor": {
-        "value": "{semantic.Color.Background.Inverse}",
+        "value": "{base.Color.DeepGrey.700}",
         "type": "color"
       },
       "BackgroundReceiverReplyColor": {
-        "value": "{semantic.Color.Background.Pale}",
+        "value": "{base.Color.DeepGrey.800}",
         "type": "color"
       },
       "BackgroundSenderColor": {
-        "value": "{semantic.Color.Accent.Accent16}",
+        "value": "{base.Color.DeepGrey.600}",
         "type": "color"
       },
       "BackgroundSenderReplyColor": {
-        "value": "{semantic.Color.Surface.AppBackground}",
+        "value": "{base.Color.DeepGrey.700}",
         "type": "color"
       }
     },
