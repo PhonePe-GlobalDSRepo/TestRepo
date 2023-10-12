@@ -1108,19 +1108,19 @@
     "Tags": {
       "Default": {
         "BackgroundColor01": {
-          "value": "{base.Color.Red.800}",
+          "value": "{semantic.Color.Accent.Accent12}",
           "type": "color"
         },
         "BackgroundColor02": {
-          "value": "{base.Color.Green.800}",
+          "value": "{semantic.Color.Accent.Accent10}",
           "type": "color"
         },
         "BackgroundColor03": {
-          "value": "{base.Color.Orange.900}",
+          "value": "{semantic.Color.Accent.Accent6}",
           "type": "color"
         },
         "BackgroundColor04": {
-          "value": "{base.Color.Blue.700}",
+          "value": "{semantic.Color.Accent.Accent8}",
           "type": "color"
         },
         "BackgroundColor05": {
