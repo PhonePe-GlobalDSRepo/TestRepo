@@ -6,7 +6,7 @@
         "type": "textDecoration"
       },
       "Underline": {
-        "value": "underline",
+        "value": "{base.TextDecoration.Underline}",
         "type": "textDecoration"
       },
       "Strikethrough": {
@@ -247,7 +247,7 @@
             "fontSize": "{semantic.FontSize.16}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Roboto}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
           },
@@ -293,7 +293,7 @@
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Regular}",
             "lineHeight": "{semantic.LineHeight.135%}",
-            "fontSize": "{base.FontSize.16}",
+            "fontSize": "{semantic.FontSize.16}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
           },

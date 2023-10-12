@@ -304,7 +304,7 @@
         "type": "color"
       },
       "BackgroundSenderColor": {
-        "value": "{base.Color.LightPurple.300}",
+        "value": "{semantic.Color.Accent.Accent16}",
         "type": "color"
       },
       "BackgroundSenderReplyColor": {
