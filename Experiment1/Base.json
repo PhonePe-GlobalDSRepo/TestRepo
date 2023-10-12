@@ -869,13 +869,5 @@
         "type": "textCase"
       }
     }
-  },
-  "semantic": {
-    "Opacity": {
-      "100%": {
-        "value": "{base.Opacity.100%}",
-        "type": "opacity"
-      }
-    }
   }
 }

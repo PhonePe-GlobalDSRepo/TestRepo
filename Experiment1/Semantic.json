@@ -582,7 +582,7 @@
       },
       "Background": {
         "Brand": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "Soft": {
@@ -828,7 +828,7 @@
       },
       "Icon": {
         "BrandPrimary": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "BrandSecondary": {
@@ -850,7 +850,7 @@
       },
       "Text": {
         "Brand": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "Primary": {
