@@ -610,7 +610,7 @@
         "Primary": {
           "Active": {
             "BackgroundColor": {
-              "value": "{semantic.Color.Text.Primary}",
+              "value": "{base.Color.DeepGrey.100}",
               "type": "color"
             },
             "TextColor": {
@@ -816,7 +816,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Success.TextSubtle}",
+          "value": "{semantic.Color.Success.IconSubtle}",
           "type": "color"
         },
         "TextTitleColor": {
