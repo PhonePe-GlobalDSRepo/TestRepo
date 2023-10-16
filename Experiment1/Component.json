@@ -296,11 +296,11 @@
         "type": "color"
       },
       "BackgroundReceiverColor": {
-        "value": "{base.Color.Neutral.White}",
+        "value": "{semantic.Color.Neutral.White}",
         "type": "color"
       },
       "BackgroundReceiverReplyColor": {
-        "value": "{base.Color.Grey.200}",
+        "value": "{semantic.Color.Background.Pale}",
         "type": "color"
       },
       "BackgroundSenderColor": {
@@ -735,11 +735,11 @@
     },
     "Notes": {
       "IndicatorColor": {
-        "value": "{semantic.Color.Accent.Accent17}",
+        "value": "{semantic.Color.Accent.Accent1}",
         "type": "color"
       },
       "TextTitleColor": {
-        "value": "{semantic.Color.Accent.Accent17}",
+        "value": "{semantic.Color.Accent.Accent1}",
         "type": "color"
       },
       "TextBodyColor": {

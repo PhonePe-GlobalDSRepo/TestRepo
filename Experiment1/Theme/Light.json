@@ -396,7 +396,7 @@
           "type": "color"
         },
         "Accent17": {
-          "value": "{base.Color.Pink.600}",
+          "value": "{base.Color.Purple.300}",
           "type": "color"
         }
       }

@@ -532,7 +532,7 @@
           "type": "color"
         },
         "Accent17": {
-          "value": "{base.Color.Pink.300}",
+          "value": "{base.Color.Purple.300}",
           "type": "color"
         }
       }
@@ -1151,6 +1151,16 @@
             "type": "color"
           }
         }
+      }
+    },
+    "Notes": {
+      "IndicatorColor": {
+        "value": "{base.Color.Pink.300}",
+        "type": "color"
+      },
+      "TextTitleColor": {
+        "value": "{base.Color.Pink.300}",
+        "type": "color"
       }
     }
   }
