@@ -1276,7 +1276,7 @@
           "value": "{semantic.Color.Text.Inverse}",
           "type": "color"
         },
-        "SubTitleColor": {
+        "TextSubTitleColor": {
           "value": "{semantic.Color.Text.Soft}",
           "type": "color"
         }
