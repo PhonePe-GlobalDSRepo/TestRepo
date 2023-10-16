@@ -1385,7 +1385,7 @@
       }
     },
     "Tooltip": {
-      "BgColor": {
+      "BackgroundColor": {
         "value": "{semantic.Color.Background.Deep}",
         "type": "color"
       },
