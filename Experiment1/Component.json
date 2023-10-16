@@ -1005,10 +1005,6 @@
           "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "TextLinkColor": {
-          "value": "{semantic.Color.CTA.Text}",
-          "type": "color"
-        },
         "SeparatorColor": {
           "value": "{semantic.Color.Success.BorderSubtle}",
           "type": "color"
@@ -1033,10 +1029,6 @@
         },
         "TextBodyColor": {
           "value": "{semantic.Color.Text.Primary}",
-          "type": "color"
-        },
-        "TextLinkColor": {
-          "value": "{semantic.Color.CTA.Text}",
           "type": "color"
         },
         "SeparatorColor": {
@@ -1065,10 +1057,6 @@
           "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "TextLinkColor": {
-          "value": "{semantic.Color.CTA.Text}",
-          "type": "color"
-        },
         "SeparatorColor": {
           "value": "{semantic.Color.Info.BorderSubtle}",
           "type": "color"
@@ -1093,10 +1081,6 @@
         },
         "TextBodyColor": {
           "value": "{semantic.Color.Text.Primary}",
-          "type": "color"
-        },
-        "TextLinkColor": {
-          "value": "{semantic.Color.CTA.Text}",
           "type": "color"
         },
         "SeparatorColor": {
