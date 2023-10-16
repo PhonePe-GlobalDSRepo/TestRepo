@@ -535,6 +535,91 @@
           "type": "color"
         }
       }
+    },
+    "Elevation": {
+      "Top": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "Bottom": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "L": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "Center": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
     }
   },
   "component": {
