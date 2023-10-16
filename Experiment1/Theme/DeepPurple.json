@@ -526,14 +526,6 @@
         "Accent15": {
           "value": "{base.Color.DeepPurple.500}",
           "type": "color"
-        },
-        "Accent16": {
-          "value": "{base.Color.DeepPurple.400}",
-          "type": "color"
-        },
-        "Accent17": {
-          "value": "{base.Color.Purple.300}",
-          "type": "color"
         }
       }
     },
