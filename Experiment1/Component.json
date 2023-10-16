@@ -971,7 +971,7 @@
         "type": "color"
       },
       "TextLinkColor": {
-        "value": "{base.Color.Purple.300}",
+        "value": "{semantic.Color.Accent.Accent17}",
         "type": "color"
       },
       "TextColor": {
