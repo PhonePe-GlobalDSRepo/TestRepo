@@ -308,7 +308,7 @@
         "type": "color"
       },
       "BackgroundSenderReplyColor": {
-        "value": "{base.Color.Purple.100}",
+        "value": "{semantic.Color.Surface.AppBackground}",
         "type": "color"
       }
     },
