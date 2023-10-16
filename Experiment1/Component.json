@@ -503,7 +503,7 @@
           "type": "color"
         },
         "IconActionColor": {
-          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "value": "{semantic.Color.CTA.Icon}",
           "type": "color",
           "description": "Used for actionable icons which wil be placed on the right"
         },
@@ -642,7 +642,7 @@
           "type": "color"
         },
         "IconActionColor": {
-          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "value": "{semantic.Color.CTA.Icon}",
           "type": "color"
         },
         "BorderColor": {
@@ -684,7 +684,7 @@
           "type": "color"
         },
         "IconActionColor": {
-          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "value": "{semantic.Color.CTA.Icon}",
           "type": "color"
         }
       },
@@ -1006,7 +1006,7 @@
           "type": "color"
         },
         "TextLinkColor": {
-          "value": "{semantic.Color.Text.Brand}",
+          "value": "{semantic.Color.CTA.Text}",
           "type": "color"
         },
         "SeparatorColor": {
@@ -1036,7 +1036,7 @@
           "type": "color"
         },
         "TextLinkColor": {
-          "value": "{semantic.Color.Text.Brand}",
+          "value": "{semantic.Color.CTA.Text}",
           "type": "color"
         },
         "SeparatorColor": {
@@ -1066,7 +1066,7 @@
           "type": "color"
         },
         "TextLinkColor": {
-          "value": "{semantic.Color.Text.Brand}",
+          "value": "{semantic.Color.CTA.Text}",
           "type": "color"
         },
         "SeparatorColor": {
@@ -1096,7 +1096,7 @@
           "type": "color"
         },
         "TextLinkColor": {
-          "value": "{semantic.Color.Text.Brand}",
+          "value": "{semantic.Color.CTA.Text}",
           "type": "color"
         },
         "SeparatorColor": {
