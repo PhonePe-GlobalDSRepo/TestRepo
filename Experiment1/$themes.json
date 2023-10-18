@@ -7,9 +7,9 @@
       "Semantic": "source",
       "🔒 Base": "source",
       "🔒 Component": "source",
-      "🔒 Theme/Light": "enabled",
-      "🔒 Theme/Dark": "disabled",
-      "🔒 Theme/DeepPurple": "disabled"
+      "Theme/🔒 Light": "enabled",
+      "Theme/🔒 Dark": "disabled",
+      "Theme/🔒 DeepPurple": "disabled"
     },
     "group": "Theme"
   },
@@ -21,9 +21,9 @@
       "Semantic": "source",
       "🔒 Base": "source",
       "🔒 Component": "source",
-      "🔒 Theme/Light": "disabled",
-      "🔒 Theme/Dark": "enabled",
-      "🔒 Theme/DeepPurple": "disabled"
+      "Theme/🔒 Light": "disabled",
+      "Theme/🔒 Dark": "enabled",
+      "Theme/🔒 DeepPurple": "disabled"
     },
     "group": "Theme"
   },
@@ -35,9 +35,9 @@
       "Semantic": "source",
       "🔒 Base": "source",
       "🔒 Component": "source",
-      "🔒 Theme/Light": "disabled",
-      "🔒 Theme/Dark": "disabled",
-      "🔒 Theme/DeepPurple": "enabled"
+      "Theme/🔒 Light": "disabled",
+      "Theme/🔒 Dark": "disabled",
+      "Theme/🔒 DeepPurple": "enabled"
     },
     "group": "Theme"
   }
