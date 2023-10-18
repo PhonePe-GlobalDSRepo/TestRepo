@@ -252,15 +252,15 @@
     },
     "BorderWidth": {
       "Default": {
-        "value": "1",
+        "value": "{base.Size.1}",
         "type": "borderWidth"
       },
       "Medium": {
-        "value": "2",
+        "value": "{base.Size.2}",
         "type": "borderWidth"
       },
       "Heavy": {
-        "value": "4",
+        "value": "{base.Size.4}",
         "type": "borderWidth"
       }
     },
