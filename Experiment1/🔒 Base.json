@@ -183,6 +183,10 @@
         "value": "{base.Size.0}",
         "type": "spacing"
       },
+      "2": {
+        "value": "{base.Size.2}",
+        "type": "spacing"
+      },
       "4": {
         "value": "{base.Size.4}",
         "type": "spacing"

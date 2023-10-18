@@ -1,10 +1,10 @@
 {
   "tokenSetOrder": [
-    "Base",
+    "🔒 Base",
     "Semantic",
-    "Component",
-    "Theme/Light",
-    "Theme/Dark",
-    "Theme/DeepPurple"
+    "🔒 Component",
+    "🔒 Theme/Light",
+    "🔒 Theme/Dark",
+    "🔒 Theme/DeepPurple"
   ]
 }
