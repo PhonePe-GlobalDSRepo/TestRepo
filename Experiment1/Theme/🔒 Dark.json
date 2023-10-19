@@ -628,6 +628,12 @@
             }
           }
         }
+      },
+      "BorderInverseColor": {
+        "value": "{semantic.Color.Surface.PrimaryLayer}",
+        "type": "color",
+        "$extensions": {},
+        "description": "Applied only to Stack avatars"
       }
     },
     "BottomNavigationItem": {

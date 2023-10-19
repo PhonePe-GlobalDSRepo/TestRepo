@@ -25,18 +25,11 @@
         "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
       },
-      "BorderDefaultColor": {
-        "value": "{semantic.Color.Neutral.Black}",
+      "BorderInverseColor": {
+        "value": "{semantic.Color.Surface.PrimaryLayer}",
         "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.1",
-              "space": "srgb"
-            }
-          }
-        }
+        "$extensions": {},
+        "description": "Applied only to Stack avatars"
       },
       "BorderChildColor": {
         "value": "{semantic.Color.Border.Moderate}",
