@@ -192,7 +192,7 @@
       "Default": {
         "value": "{base.BorderWidth.Default}",
         "type": "borderWidth",
-        "description": "Used for default inpur fields,etc."
+        "description": "Used for default input fields,etc."
       },
       "Medium": {
         "value": "{base.BorderWidth.Medium}",
