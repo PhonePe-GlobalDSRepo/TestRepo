@@ -352,8 +352,7 @@
     "Opacity": {
       "0%": {
         "value": "0%",
-        "type": "opacity",
-        "description": "This opacity value is used for Item Separator."
+        "type": "opacity"
       },
       "5%": {
         "value": "5%",
