@@ -27,161 +27,98 @@
     "FontSize": {
       "8": {
         "value": "{base.FontSize.8}",
-        "type": "fontSizes",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "fontSizes"
       },
       "10": {
         "value": "{base.FontSize.10}",
-        "type": "fontSizes",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "fontSizes"
       },
       "12": {
         "value": "{base.FontSize.12}",
-        "type": "fontSizes",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "fontSizes"
       },
       "14": {
         "value": "{base.FontSize.14}",
-        "type": "fontSizes",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "fontSizes"
       },
       "16": {
         "value": "{base.FontSize.16}",
-        "type": "fontSizes",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "fontSizes"
       },
       "20": {
         "value": "{base.FontSize.20}",
-        "type": "fontSizes",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "fontSizes"
       },
       "24": {
         "value": "{base.FontSize.24}",
-        "type": "fontSizes",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "fontSizes"
       },
       "32": {
         "value": "{base.FontSize.32}",
-        "type": "fontSizes",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "fontSizes"
       }
     },
     "Spacing": {
       "0": {
         "value": "{base.Spacing.0}",
-        "type": "spacing",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "spacing"
       },
       "4": {
         "value": "{base.Spacing.4}",
-        "type": "spacing",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "spacing"
       },
       "8": {
         "value": "{base.Spacing.8}",
-        "type": "spacing",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "spacing"
       },
       "12": {
         "value": "{base.Spacing.12}",
-        "type": "spacing",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "spacing"
       },
       "16": {
         "value": "{base.Spacing.16}",
-        "type": "spacing",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "spacing"
       },
       "24": {
         "value": "{base.Spacing.24}",
-        "type": "spacing",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "spacing"
       },
       "40": {
         "value": "{base.Spacing.40}",
-        "type": "spacing",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "spacing"
       },
       "48": {
         "value": "{base.Spacing.48}",
-        "type": "spacing",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "spacing"
       },
       "56": {
         "value": "{base.Spacing.56}",
-        "type": "spacing",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "spacing"
       }
     },
     "BorderRadius": {
       "0": {
         "value": "{base.BorderRadius.0}",
         "type": "borderRadius",
-        "$extensions": {
+        "c": {
           "studio.tokens": {}
         }
       },
       "4": {
         "value": "{base.BorderRadius.4}",
-        "type": "borderRadius",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "borderRadius"
       },
       "8": {
         "value": "{base.BorderRadius.8}",
-        "type": "borderRadius",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "borderRadius"
       },
       "12": {
         "value": "{base.BorderRadius.12}",
-        "type": "borderRadius",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "borderRadius"
       },
       "16": {
         "value": "{base.BorderRadius.16}",
-        "type": "borderRadius",
-        "$extensions": {
-          "studio.tokens": {}
-        }
+        "type": "borderRadius"
       },
       "100%": {
         "value": "{base.BorderRadius.100%}",
