@@ -57,20 +57,7 @@
     "BottomNavigationBar": {
       "BackgroundColor": {
         "value": "{semantic.Color.Surface.ElevatedLayer}",
-        "type": "color",
-        "BorderDefaultColor": {
-          "value": "{semantic.Color.Neutral.Pure}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.1",
-                "space": "srgb"
-              }
-            }
-          }
-        }
+        "type": "color"
       }
     },
     "BottomNavigationItem": {
