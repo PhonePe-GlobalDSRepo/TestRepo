@@ -497,7 +497,7 @@
         "IconActionColor": {
           "value": "{semantic.Color.CTA.Icon}",
           "type": "color",
-          "description": "Used for actionable icons which wil be placed on the right"
+          "description": "Used for actionable icons which will be placed on the right"
         },
         "BorderColor": {
           "value": "{semantic.Color.Border.Emphasis}",
@@ -508,12 +508,12 @@
         "BackgroundColor": {
           "value": "{semantic.Color.Background.Muted}",
           "type": "color",
-          "description": "Used for Adhaar and Card input fields. "
+          "description": "Used for Aadhaar and Card input fields. "
         },
         "TextColor": {
           "value": "{semantic.Color.Text.Secondary}",
           "type": "color",
-          "description": "Used only for Adhaar and Card inputs"
+          "description": "Used only for Aadhaar and Card input fields"
         },
         "IconColor": {
           "value": "{semantic.Color.Icon.Bold}",
@@ -524,12 +524,12 @@
         "BackgroundColor": {
           "value": "{semantic.Color.Background.Muted}",
           "type": "color",
-          "description": "Used for Adhaar and Card input fields. "
+          "description": "Used for Aadhaar and Card input fields. "
         },
         "TextColor": {
           "value": "{semantic.Color.Disabled.Text}",
           "type": "color",
-          "description": "Used only for Adhaar and Card inputs"
+          "description": "Used only for Aadhaar and Card inputs"
         },
         "IconColor": {
           "value": "{semantic.Color.Icon.Emphasis}",
@@ -540,12 +540,12 @@
         "BackgroundColor": {
           "value": "{semantic.Color.Background.Muted}",
           "type": "color",
-          "description": "Used for Adhaar and Card input fields. "
+          "description": "Used for Aadhaar and Card input fields. "
         },
         "TextColor": {
           "value": "{semantic.Color.Text.Secondary}",
           "type": "color",
-          "description": "Used only for Adhaar and Card inputs"
+          "description": "Used only for Aadhaar and Card input fields"
         },
         "IconColor": {
           "value": "{semantic.Color.Icon.Emphasis}",
