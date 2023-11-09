@@ -966,7 +966,7 @@
         "Accent4": {
           "value": "{base.Color.Yellow.200}",
           "type": "color",
-          "description": "Try not use this color"
+          "description": "Try not to use this color"
         },
         "Accent5": {
           "value": "{base.Color.Yellow.50}",
