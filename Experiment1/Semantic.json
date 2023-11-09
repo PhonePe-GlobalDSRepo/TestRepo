@@ -99,10 +99,7 @@
     "BorderRadius": {
       "0": {
         "value": "{base.BorderRadius.0}",
-        "type": "borderRadius",
-        "c": {
-          "studio.tokens": {}
-        }
+        "type": "borderRadius"
       },
       "4": {
         "value": "{base.BorderRadius.4}",
