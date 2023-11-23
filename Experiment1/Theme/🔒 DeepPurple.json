@@ -930,7 +930,7 @@
           "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         },
-        "SubTitleColor": {
+        "TextSubTitleColor": {
           "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         }
