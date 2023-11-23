@@ -1207,29 +1207,17 @@
           "BackgroundColor": {
             "value": "{semantic.Color.Selection.BackgroundBold}",
             "type": "color"
-          },
-          "ForegroundColor": {
-            "value": "{base.Color.DeepPurple.50}",
-            "type": "color"
           }
         },
         "Default": {
           "BackgroundColor": {
             "value": "{semantic.Color.Background.Muted}",
             "type": "color"
-          },
-          "ForegroundColor": {
-            "value": "{base.Color.DeepPurple.50}",
-            "type": "color"
           }
         },
         "Disabled": {
           "BackgroundColor": {
             "value": "{semantic.Color.Disabled.Background}",
-            "type": "color"
-          },
-          "ForegroundColor": {
-            "value": "{base.Color.DeepPurple.200}",
             "type": "color"
           }
         }
