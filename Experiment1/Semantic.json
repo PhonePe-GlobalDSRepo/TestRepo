@@ -840,7 +840,7 @@
           "type": "color"
         },
         "Emphasis": {
-          "value": "{base.Color.Grey.500}",
+          "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         },
         "Inverse": {
