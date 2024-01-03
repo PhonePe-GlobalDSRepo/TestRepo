@@ -21,6 +21,10 @@
         "value": "{semantic.Color.Accent.Accent1}",
         "type": "color"
       },
+      "BackgroundChildColor": {
+        "value": "{semantic.Color.Surface.PrimaryLayer}",
+        "type": "color"
+      },
       "TextColor": {
         "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
