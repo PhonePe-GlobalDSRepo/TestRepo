@@ -164,7 +164,7 @@
       }
     },
     "FontFamily": {
-      "Roboto": {
+      "Default": {
         "value": "{base.FontFamily.Roboto}",
         "type": "fontFamilies"
       },
@@ -215,7 +215,7 @@
       "Heading": {
         "H1": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Bold}",
             "lineHeight": "{semantic.LineHeight.125%}",
             "fontSize": "{semantic.FontSize.32}",
@@ -226,7 +226,7 @@
         },
         "H2": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Bold}",
             "lineHeight": "{semantic.LineHeight.125%}",
             "fontSize": "{semantic.FontSize.24}",
@@ -239,7 +239,7 @@
           "value": {
             "fontSize": "{semantic.FontSize.20}",
             "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
@@ -251,7 +251,7 @@
             "fontSize": "{semantic.FontSize.16}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
           },
@@ -262,7 +262,7 @@
             "fontSize": "{semantic.FontSize.14}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
           },
@@ -275,13 +275,13 @@
             "fontSize": "{semantic.FontSize.12}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}",
-            "fontFamily": "{semantic.FontFamily.Roboto}"
+            "fontFamily": "{semantic.FontFamily.Default}"
           },
           "type": "typography"
         },
         "Overline": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Bold}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontSize": "{semantic.FontSize.12}",
@@ -294,7 +294,7 @@
       "Body": {
         "XL": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Regular}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontSize": "{semantic.FontSize.16}",
@@ -305,7 +305,7 @@
         },
         "L": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Regular}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontSize": "{semantic.FontSize.14}",
@@ -316,7 +316,7 @@
         },
         "M": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Regular}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontSize": "{semantic.FontSize.12}",
@@ -327,7 +327,7 @@
         },
         "S": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Regular}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontSize": "{semantic.FontSize.10}",
@@ -338,7 +338,7 @@
         },
         "XS": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Regular}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontSize": "{semantic.FontSize.8}",
@@ -351,7 +351,7 @@
       "Button": {
         "Large": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Bold}",
             "lineHeight": "{semantic.LineHeight.125%}",
             "fontSize": "{semantic.FontSize.16}",
@@ -362,7 +362,7 @@
         },
         "Default": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Bold}",
             "lineHeight": "{semantic.LineHeight.125%}",
             "fontSize": "{semantic.FontSize.12}",
@@ -375,7 +375,7 @@
       "Link": {
         "Default": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Bold}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontSize": "{semantic.FontSize.12}",

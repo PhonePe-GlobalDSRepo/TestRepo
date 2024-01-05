@@ -285,7 +285,8 @@
     "ChatBubble": {
       "ImageOverlay": {
         "value": "linear-gradient (315deg, rgba( {semantic.Color.Neutral.Black} ,0.4) 0%, rgba( {semantic.Color.Neutral.Black} ,0.01) 60%)",
-        "type": "color"
+        "type": "color",
+        "description": "gradient"
       },
       "SideIndicatorColor": {
         "value": "{semantic.Color.Accent.Accent6}",
