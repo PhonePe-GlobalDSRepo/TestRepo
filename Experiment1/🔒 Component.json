@@ -1391,5 +1391,47 @@
         "type": "color"
       }
     }
+  },
+  "InputField": {
+    "Default": {
+      "value": {
+        "height": "{semantic.Size.48}",
+        "fill": "{component.InputField.Default.BackgroundColor}",
+        "borderRadius": "{semantic.BorderRadius.8}",
+        "borderWidth": "{semantic.BorderWidth.Default}",
+        "borderColor": "{component.InputField.Default.BorderColor}"
+      },
+      "type": "composition"
+    },
+    "Active": {
+      "value": {
+        "height": "{semantic.Size.48}",
+        "fill": "{component.InputField.Active.BackgroundColor}",
+        "borderRadius": "{semantic.BorderRadius.8}",
+        "borderWidth": "{semantic.BorderWidth.Medium}",
+        "borderColor": "{component.InputField.Active.BorderColor}"
+      },
+      "type": "composition"
+    },
+    "Error": {
+      "value": {
+        "height": "{semantic.Size.48}",
+        "fill": "{component.InputField.Error.BackgroundColor}",
+        "borderRadius": "{semantic.BorderRadius.8}",
+        "borderWidth": "{semantic.BorderWidth.Medium}",
+        "borderColor": "{component.InputField.Error.BorderColor}"
+      },
+      "type": "composition"
+    },
+    "Disabled": {
+      "value": {
+        "height": "{semantic.Size.48}",
+        "fill": "{component.InputField.Disabled.BackgroundColor}",
+        "borderRadius": "{semantic.BorderRadius.8}",
+        "borderWidth": "{semantic.BorderWidth.Default}",
+        "borderColor": "{component.InputField.Disabled.BorderColor}"
+      },
+      "type": "composition"
+    }
   }
 }
