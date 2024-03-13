@@ -503,7 +503,7 @@
       },
       "PrefilledDefault": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Background.Muted}",
+          "value": "{semantic.Color.Background.Pale}",
           "type": "color",
           "description": "Used for Aadhaar and Card input fields. "
         },
