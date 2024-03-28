@@ -475,31 +475,14 @@
     },
     "InputField": {
       "Default": {
-        "TextLabelColor": {
-          "value": "{semantic.Color.Text.Primary}",
-          "type": "color"
+        "value": {
+          "height": "{semantic.Size.48}",
+          "fill": "{semantic.Color.Surface.PrimaryLayer}",
+          "borderRadius": "{semantic.BorderRadius.8}",
+          "borderWidth": "{semantic.BorderWidth.Default}",
+          "borderColor": "{semantic.Color.Border.Emphasis}"
         },
-        "TextPlaceholderColor": {
-          "value": "{semantic.Color.Text.Muted}",
-          "type": "color"
-        },
-        "TextDescriptionColor": {
-          "value": "{semantic.Color.Text.Secondary}",
-          "type": "color"
-        },
-        "TextColor": {
-          "value": "{semantic.Color.Text.Primary}",
-          "type": "color"
-        },
-        "IconDefaultColor": {
-          "value": "{semantic.Color.Icon.Bold}",
-          "type": "color"
-        },
-        "IconActionColor": {
-          "value": "{semantic.Color.CTA.Icon}",
-          "type": "color",
-          "description": "Used for actionable icons which will be placed on the right"
-        }
+        "type": "composition"
       },
       "PrefilledDefault": {
         "BackgroundColor": {
@@ -550,26 +533,14 @@
         }
       },
       "Disabled": {
-        "TextLabelColor": {
-          "value": "{semantic.Color.Disabled.Text}",
-          "type": "color"
+        "value": {
+          "height": "{semantic.Size.48}",
+          "fill": "{semantic.Color.Background.Pale}",
+          "borderRadius": "{semantic.BorderRadius.8}",
+          "borderWidth": "{semantic.BorderWidth.Default}",
+          "borderColor": "{semantic.Color.Background.Pale}"
         },
-        "TextPlaceholderColor": {
-          "value": "{semantic.Color.Disabled.Text}",
-          "type": "color"
-        },
-        "TextDescriptionColor": {
-          "value": "{semantic.Color.Disabled.Text}",
-          "type": "color"
-        },
-        "IconDefaultColor": {
-          "value": "{semantic.Color.Disabled.Icon}",
-          "type": "color"
-        },
-        "IconActionColor": {
-          "value": "{semantic.Color.Disabled.Icon}",
-          "type": "color"
-        }
+        "type": "composition"
       },
       "DisabledFilled": {
         "TextLabelColor": {
@@ -594,52 +565,24 @@
         }
       },
       "Active": {
-        "TextLabelColor": {
-          "value": "{semantic.Color.Text.Primary}",
-          "type": "color"
+        "value": {
+          "height": "{semantic.Size.48}",
+          "fill": "{semantic.Color.Surface.PrimaryLayer}",
+          "borderRadius": "{semantic.BorderRadius.8}",
+          "borderWidth": "{semantic.BorderWidth.Medium}",
+          "borderColor": "{semantic.Color.Border.Brand}"
         },
-        "TextColor": {
-          "value": "{semantic.Color.Text.Primary}",
-          "type": "color"
-        },
-        "TextDescriptionColor": {
-          "value": "{semantic.Color.Text.Secondary}",
-          "type": "color"
-        },
-        "IconDefaultColor": {
-          "value": "{semantic.Color.Icon.Bold}",
-          "type": "color"
-        },
-        "IconActionColor": {
-          "value": "{semantic.Color.CTA.Icon}",
-          "type": "color"
-        }
+        "type": "composition"
       },
       "Error": {
-        "TextLabelColor": {
-          "value": "{semantic.Color.Danger.TextBold}",
-          "type": "color"
+        "value": {
+          "height": "{semantic.Size.48}",
+          "fill": "{semantic.Color.Surface.PrimaryLayer}",
+          "borderRadius": "{semantic.BorderRadius.8}",
+          "borderWidth": "{semantic.BorderWidth.Medium}",
+          "borderColor": "{semantic.Color.Danger.BorderBold}"
         },
-        "TextColor": {
-          "value": "{semantic.Color.Text.Primary}",
-          "type": "color"
-        },
-        "TextDescriptionColor": {
-          "value": "{semantic.Color.Danger.TextBold}",
-          "type": "color"
-        },
-        "IconDefaultColor": {
-          "value": "{semantic.Color.Icon.Bold}",
-          "type": "color"
-        },
-        "IconDescriptionColor": {
-          "value": "{semantic.Color.Danger.IconBold}",
-          "type": "color"
-        },
-        "IconActionColor": {
-          "value": "{semantic.Color.CTA.Icon}",
-          "type": "color"
-        }
+        "type": "composition"
       },
       "Success": {
         "BackgroundColor": {
@@ -1346,48 +1289,6 @@
         "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
       }
-    }
-  },
-  "InputField": {
-    "Default": {
-      "value": {
-        "height": "{semantic.Size.48}",
-        "fill": "{semantic.Color.Surface.PrimaryLayer}",
-        "borderRadius": "{semantic.BorderRadius.8}",
-        "borderWidth": "{semantic.BorderWidth.Default}",
-        "borderColor": "{semantic.Color.Border.Emphasis}"
-      },
-      "type": "composition"
-    },
-    "Active": {
-      "value": {
-        "height": "{semantic.Size.48}",
-        "fill": "{semantic.Color.Surface.PrimaryLayer}",
-        "borderRadius": "{semantic.BorderRadius.8}",
-        "borderWidth": "{semantic.BorderWidth.Medium}",
-        "borderColor": "{semantic.Color.Border.Brand}"
-      },
-      "type": "composition"
-    },
-    "Error": {
-      "value": {
-        "height": "{semantic.Size.48}",
-        "fill": "{semantic.Color.Surface.PrimaryLayer}",
-        "borderRadius": "{semantic.BorderRadius.8}",
-        "borderWidth": "{semantic.BorderWidth.Medium}",
-        "borderColor": "{semantic.Color.Danger.BorderBold}"
-      },
-      "type": "composition"
-    },
-    "Disabled": {
-      "value": {
-        "height": "{semantic.Size.48}",
-        "fill": "{semantic.Color.Background.Pale}",
-        "borderRadius": "{semantic.BorderRadius.8}",
-        "borderWidth": "{semantic.BorderWidth.Default}",
-        "borderColor": "{semantic.Color.Background.Pale}"
-      },
-      "type": "composition"
     }
   }
 }
